@@ -1,13 +1,10 @@
 <x-app-layout>
     <x-slot name="header">
-
-
-
-
-        <h1 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-           История Храма
-        </h1>
-
+<div class="text-blue-950 py-12">
+        <div class="mt-4">
+            <div class="text-3xl"><span class="text-red-700 font-medium">И</span>стория Храма</div>
+        </div>
+        <!-- панировочные сухари -->
         <nav class="flex" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                 <li class="inline-flex items-center">
@@ -38,28 +35,18 @@
         </nav>
 
 
-        <!-- <div class="flex-1 mt-16 ">
+        <div class="flex-1 mt-8">
             <div class="relative h-screen w-full">
-                <img src="images/history.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover">
+                <img src="{{asset('images/history.jpg')}}" alt="Background Image" class="absolute inset-0 w-full h-full object-cover" />
             </div>
         </div>
-        -->
-
-        <div class="rounded-lg h-64 overflow-hidden">
-            <img alt="#" class="object-cover object-center h-full w-full" src="{{asset('images/history.jpg')}}"/>>
-        </div>
 
 
-
-        <div class="history">
-            <ul class="timeline timeline-vertical">
+        <div class="py-12">
+            <ul class="timeline timeline-vertical text-blue-950">
                 <li>
-                    <div class="timeline-start">1674</div>
-                    <div class="timeline-middle">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-                    </div>
-                    <div class="timeline-end timeline-box bg-blue-200">
-                        <h2>Крупчицкий монастырь</h2>
+                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100 text-justify">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">К</span>рупчицкий монастырь</div>
                         Во второй половине 17 века на землях бывшего имения
                         Нееловичи был основан Кармелитский католический монастырь. Первые пожертвования на монастырь
                         были выданы 24 мая 1674 года помещиком А.К.Асовским. В 1702 году завершено строительство всех
@@ -71,16 +58,20 @@
                         передали из Луцко–Брестской в Виленскую диоцезию. В 1800 году Виленский епископ Я.Н.Калаковский п
                         реобразовал монастырский костел в приходский.
                     </div>
+                    <div class="timeline-middle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <div class="timeline-end text-9xl">1674</div>
                     <hr/>
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1831</div>
+                    <div class="timeline-start text-9xl">1831</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2><div class="text-red-700">Ц</div>ерковь Александра Невского</h2>
+                    <div class="timeline-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">Ц</span>ерковь Александра Невского</div>
                         После подавления мятежа в 1831 году, на Полоцком соборе, состоявшемся в 1839 году, была расторгнута Уния.
                         Вспыхнувший мятеж в 1861-1863гг., во время которого имело место убиения некоторых православных священников,
                         подтолкнул российское правительство и начальника Западного Края Михаила Николаевича Муравьева (1796-1866) к
@@ -94,12 +85,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1882</div>
+                    <div class="timeline-end text-9xl">1882</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Строительство новой Церкви </h2>
+                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">С</span>троительство новой Церкви</div>
                         В Литовской Православной Консистории было принято решение строить новую церковь.
                         В октябре 1882года разработку проектно-сметной документации церкви на 375 человек поручили младшему инженеру А.Рэмеру.
                         В ноябре того же года он с настоятелем прихода Евстафием Маркевичем провели изыскательские работы по выбору участка под церковь,
@@ -115,12 +106,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1888</div>
+                    <div class="timeline-start text-9xl">1888</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Первые святыни в Крупчицах</h2>
+                    <div class="timeline-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">П</span>ервые святыни в Крупчицах</div>
                         Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря, здесь находились православные
                         культовые сооружения. В 1888 году при разборке монастырского фундамента были извлечены камни с высеченными на них православными крестами.
@@ -130,12 +121,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1894</div>
+                    <div class="timeline-end text-9xl">1894</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Освещение вновь построенной церкви</h2>
+                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">О</span>свещение вновь построенной церкви</div>
                         Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря, здесь находились православные
                         культовые сооружения. В 1888 году при разборке монастырского фундамента были извлечены камни с высеченными на них православными
@@ -152,12 +143,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1915</div>
+                    <div class="timeline-start text-9xl">1915</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>I-я Мировая война</h2>
+                    <div class="timeline-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">I-я </span>Мировая война</div>
                         Летом 1915 года нависла угроза оккупации края немецкими войсками. По приказу Верховного командования российской армии церковное
                         имущество вывозилось в Россию. Выполняя этот приказ о.Никанор с прихожанами собрали наиболее ценные церковные предметы. Уложили
                         их в сундук и 4 деревянные ящики и тремя подводами доставили на ст.Кобрин. Груз был адресован на ст. Снитово Полесской железной
@@ -172,12 +163,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1915</div>
+                    <div class="timeline-end text-9xl">1915</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Памятное событие</h2>
+                    <div class="timeline-start timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">П</span>амятное событие</div>
                         Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря,
                         здесь находились православные культовые сооружения. В 1888 году при разборЭта памятная доска была
@@ -185,22 +176,22 @@
                         была эвакуирована в Россию.ке монастырского фундамента были извлечены камни с высеченными на них
                         православными крестами. Эти камни уложены в фундамент строящейся церкви, за исключением одного,
                         оставленного как памятник.
-                        <div class="flex-1 mt-16 ">
+                        <!--<div class="flex-1 mt-16 ">
                             <div class="relative h-screen w-full">
-                                <img src="images//Suvorov.png" alt="Background Image" class="absolute inset-0 w-full h-full object-cover">
+                                <img src="images//Suvorov.png" alt="Background Image" class="absolute inset-0 w-100 h-100 object-cover relative h-screen w-full">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <hr/>
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1918</div>
+                    <div class="timeline-start text-9xl">1918</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Восстановление Православия в Западном крае</h2>
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">В</span>осстановление Православия в Западном крае</div>
                         В июне 1918 года о.Никанор с матушкой Олимпиадой возвращается из Речицы, в теперь родные, Крупчицы.
                         Здесь он увидел удручающую картину. Св.Владимировская церковь, некогда одна из лучших церквей
                         благочиния оказалась в запустении: замки с дверей сорваны, на колокольне окна выбиты, (во время
@@ -218,12 +209,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1925</div>
+                    <div class="timeline-end text-9xl">1925</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>В составе Полесской Епархии</h2>
+                    <div class="timeline-start timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">В </span>составе Полесской Епархии</div>
                         Противника Автокефалии Архиепископа Пинского и Новогрудского Пантелеимона (в миру Павел Степанович
                         Рожновский 1867-1950гг) польские власти лишили кафедры, отправили на покой и заточили в Жировичский монастырь.
                         12 июня 1922 года на освободившуюся кафедру назначили епископа Александра (в миру Николай Иванович Иноземцев
@@ -237,12 +228,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1939</div>
+                    <div class="timeline-start text-9xl">1939</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Св.Владимировская церковь 1938–1943гг</h2>
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">С</span>в.Владимировская церковь 1938–1943гг</div>
                         9 апреля 1939 года во время пасхального Богослужения в Крупчцкой церкви произошло такое событие. В церковь пришла
                         молодежь, находясь в притворе они курили, громко разговаривали, смеялись. Настоятель прихода Владимир Антипорович,
                         прервав Богослужение, с помощью прихожан удалил их из храма. После смены власти в сентябре того же года эта молодежь,
@@ -257,12 +248,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1943</div>
+                    <div class="timeline-end text-9xl">1943</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Крупчицкая церковь при Петре Калишевиче</h2>
+                    <div class="timeline-start timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">К</span>рупчицкая церковь при Петре Калишевиче</div>
                         После войны прихожане Св. Владимировской церкви с ее настоятелем о.Петром Калишевичем, несмотря на материальные
                         трудности, приобретали церковные предметы: в1949году приобрели иконы Святой Троицы, Рождества Христова, Успения
                         Пр. Богородицы, Крещения Господня каждая по 240 рублей. В1948-1950гг приобретены 4 ризы с подризниками, приобретен
@@ -278,12 +269,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1945</div>
+                    <div class="timeline-start text-9xl">1945</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Тяжелые времена для православных церквей</h2>
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">Т</span>яжелые времена для православных церквей</div>
                         В СССР и в восточных областях БССР гонения на церковь начались с установлением Советской власти. В западных областях
                         закрытие церквей и гонения на священнослужителей начались после Великой Отечественной войны. Пик закрытий
                         пришелся на шестидесятые годы 20-го столетия. За период с 1945 года по 1965 год в Брестской области было закрыто
@@ -299,12 +290,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1969</div>
+                    <div class="timeline-end text-9xl">1969</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Закрытие Крупчицкой Св.Владимировской церкви</h2>
+                    <div class="timeline-start timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">З</span>акрытие Крупчицкой Св.Владимировской церкви</div>
                         По воспоминаниям прихожан о. Петр говорил: «Я помру, и церковь закроют». Так и случилось: Петр Калишевич 6
                         мая 1969 года помирает от воспаления легких, а через несколько месяцев Жабинковский райисполком принимает
                         решение о закрытии Крупчицкой церкви, несмотря на то, что договором от 8 мая 1945 года тот же райисполком
@@ -321,12 +312,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1992</div>
+                    <div class="timeline-start text-9xl">1992</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Возрождение Святыни</h2>
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">В</span>озрождение Святыни</div>
                         Перестройка в СССР разрушила экономику, но для церквей наступило благоприятное время. На бывшем Крупчицком приходе
                         остались люди не равнодушные к своей церкви. Одним с таковых являлся Ярошук Владимир Евфимович. Еще в 1988году он
                         обращался в различные инстанции о передаче здания Крупчицкой церкви верующим.
@@ -342,35 +333,33 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">1993</div>
+                    <div class="timeline-end text-9xl">1993</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Закрытие Крупчицкой Св.Владимировской церкви</h2>
-                        По воспоминаниям прихожан о. Петр говорил: «Я помру, и церковь закроют». Так и случилось: Петр Калишевич 6
-                        мая 1969 года помирает от воспаления легких, а через несколько месяцев Жабинковский райисполком принимает
-                        решение о закрытии Крупчицкой церкви, несмотря на то, что договором от 8 мая 1945 года тот же райисполком
-                        передал прихожанам здание церкви в бессрочное пользование. Не дожидаясь утверждения документов по закрытию
-                        Крупчицкой Св.Владимировской церкви местные активисты принялись за ее разорение.
-                        В 1972 году церковный староста Ярошук Владимир Евфимович нашел в разоренной церкви
-                        опись Церковного имущества и опись имущества вывезенного в Россию в 1915 году, составленную о. Никанором Котовичем.
-                        Поруганное здание церкви власти отдали местному колхозу под амбар. Чтобы навечно стереть память о Крупчицкой церкви,
-                        о Крупчицком сражении, богоборческие власти. Уже разоренная, Св.Владимировская церковь для отдельных граждан являлась
-                        камнем преткновения. Житель д. Крупчицы, проходя мимо опустошенной церкви заметил дым, выходящий из окон церкви.
-                        По телефону он вызвал пожарных.
+                    <div class="timeline-start timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">В</span>осстановление Крупчицкой Св.Владимировской церкви</div>
+                        Первоочередной задачей было сбор средств на реставрацию. Необходимо было выполнить: 1.Замену негодной кровли.
+                        2. Изготовление и покрытие куполов с установкой крестов. 3.Устройство полов. 4.Ремонт штукатурки внутри и снаружи.
+                        5.Покрасочные работы. 6. Приобретение икон, церковной утвари и колоколов. Местные жители, бывшие прихожане, чьи души,
+                        истосковались без духовной пищи, начали сбор пожертвований. Пенсионеры Гавриил Куличик из д. Богданы и Федор Андреюк
+                        из д.Чижевщина жертвовали свой труд, работая на восстановлении святыни. Жабинковский РИК и торфобрикетный завод
+                        Гатча-Осовское на реставрацию церкви выделили по 5 тысяч рублей. Колхоз – агрофирма «Рогознянский» оказал помощь
+                        в распиловке лесоматериала. В то время еще действовала планово–распределительная система, поэтому возникали
+                        проблемы с приобретением материалов. Часть оцинкованной жести выделил райисполком, остальную жесть о. Иоанн
+                        скал в разных местах. О. Иоанн не только руководил строителями, но сам покрывал купола оцинкованной жестью.
                     </div>
                     <hr/>
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">2006</div>
+                    <div class="timeline-start text-9xl">2006</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Под звон колоколов</h2>
-                        В 2002 году настоятелем Св.Владимировской церкви назначен священник Анатолий  Пучинский. Не все было выполнено во время
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">П</span>од звон колоколов</div>
+                        В 2002 году настоятелем Св.Владимировской церкви назначен священник Анатолий Пучинский. Не все было выполнено во время
                         реставрации храма. Не было колоколов, недостаточно было церковной утвари. Отопление храма осуществлялось «печкой–буржуйкой»
                         с выведенной в окно трубой. Прилегающая территория не была благоустроена. Дорога к храму оставалась без какого-либо покрытия,
                         вся в рытвинах и ухабах. Эти проблемы и повышение благолепия храма пришлось решать о. Анатолию. На второй год службы им были
@@ -383,12 +372,12 @@
                 </li>
                 <li>
                     <hr/>
-                    <div class="timeline-start">2024</div>
+                    <div class="timeline-end text-9xl">2024</div>
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box">
-                        <h2>Архитектура церкви</h2>
+                    <div class="timeline-start timeline-box bg-blue-100">
+                        <div class="text-3xl"><span class="text-red-700 font-medium">А</span>рхитектура церкви</div>
                         В настоящее время Храм реставрируется и он становится еще лучше для своих прихожан.
                         Храм по плановому решению и объемно-пространственной композиции относится к типу кресто-купольных храмов с башней-колокольней
                         на главном фасаде. Основной храмовый объем имеет в плане форму креста. По продольной оси к нему пристроены:
@@ -411,17 +400,13 @@
                     </div>
                 </li>
             </ul>
+            <div class="flex justify-end p-4">
+                <button type="submit" class="transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-2 px-4 rounded hover:bg-blue-950">
+                    <a href="/fullstory">Подробная история Храма</a>
+                </button>
+            </div>
+
         </div>
-
-        <button type="submit">
-            <div class="bg-orange-400 text-white font-medium py-2 px-4 rounded hover:bg-purple-950">Подробная история Храма</div>
-            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M5 12h14"></path>
-                <path d="M12 5l7 7-7 7"></path>
-            </svg>
-        </button>
-
-
 
     </x-slot>
 </x-app-layout>

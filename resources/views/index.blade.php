@@ -2,6 +2,11 @@
 
     <x-slot name="header">
 
+
+
+
+
+<!--
         <div class="flex-1 mt-16 ">
             <div class="relative h-screen w-full">
                 <img src="images/glavnaya.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter blur-4px">
@@ -19,7 +24,7 @@
             <p class="textarea-lg text-white">Московского Патриарха</p>
         </div>
         </div>
-               <!-- анимация букв
+               анимация букв
                <div class="w-screen h-screen flex items-center justify-center">
 
                     <div class="max-w-7xl mx-auto text-center"
@@ -38,7 +43,7 @@
                         <h1 class="text-7xl font-white" x-text="text"></h1>
                     </div>
                 </div>
-        -->
+
 
 
         <div class="menu text-2xl p-10">
@@ -206,41 +211,8 @@
 
         <div class="overflow-x-auto">
             <table class="table">
-                <!-- head -->
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>Name</th>
-                    <th>Job</th>
-                    <th>Favorite Color</th>
-                </tr>
-                </thead>
-                <tbody>
-                <!-- row 1 -->
-                <tr>
-                    <th>1</th>
-                    <td>Cy Ganderton</td>
-                    <td>Quality Control Specialist</td>
-                    <td>Blue</td>
-                </tr>
-                <!-- row 2 -->
-                <tr class="hover">
-                    <th>2</th>
-                    <td>Hart Hagerty</td>
-                    <td>Desktop Support Technician</td>
-                    <td>Purple</td>
-                </tr>
-                <!-- row 3 -->
-                <tr>
-                    <th>3</th>
-                    <td>Brice Swyre</td>
-                    <td>Tax Accountant</td>
-                    <td>Red</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
 
+-->
     </x-slot>
 </x-app-layout>
 
