@@ -13,4 +13,10 @@ class BaseController extends Controller
         return view('index', compact('blogs'));
 
     }
+
+    public function getCookies(){
+        return view('cookies');
+
+    }
+
 }

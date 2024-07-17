@@ -22,6 +22,7 @@ class BlogController extends Controller
     public function getOne(Blog $blog)
     {
         $comments = Comment::orderBy('id', 'DESC')->where('blog_id', $blog->id)->get();
+       // $comments = Comment::orderBy('id', 'DESC')->where('model_id', $blog->id)->where('model_name', 'blog')->get();
         return view('blog', compact('blog', 'comments'));
     }
 
@@ -76,4 +77,11 @@ class BlogController extends Controller
         $comment->save();
         return redirect()->back();
     }
+
+    public function updateBlogText(BlogText $blog_text, Request $request)
+    {
+        $blog_text->update($request->all());
+        return redirect()->back();
+    }
+
 }

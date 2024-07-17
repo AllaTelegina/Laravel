@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="title_comments">
-                    <section class="w-full rounded-lg border-2 border-blue-300 p-4 my-8 mx-auto max-w-xl">
+                    <section class="w-full rounded-lg border-2 border-blue-500 p-4 my-8 mx-auto max-w-xl">
                         <h3 class="font-os text-lg font-bold text-purple-950">Comments</h3>
                         @foreach($comments as $comment)
                             <div class="border rounded-md p-3 ml-3 my-3">
@@ -86,12 +86,14 @@
 
 
                             <div class="mb-4">
-                                <label for="comment" class="block text-purple-950 font-medium">Comment</label>
-                                <textarea id="comment" name="body" class="border-2 border-blue-300 p-2 w-full rounded" required></textarea>
+                                <label for="comment" class="block text-blue-950 font-medium">Comment</label>
+                                <textarea id="comment" name="body" class="border-2 border-blue-500 p-2 w-full rounded" required></textarea>
                             </div>
 
                             <button type="submit"
-                                    class="bg-orange-400 text-white font-medium py-2 px-4 rounded hover:bg-purple-950">Post
+                                    class="transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                                    bg-orange-400 text-white font-medium py-2 px-4 rounded hover:bg-blue-950">
+                                Post
                                 Comment
                             </button>
                         </form>
