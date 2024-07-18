@@ -423,9 +423,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div>
-                                    COOKIE
-                                </div>
                                 </div>
                             @endif
 
