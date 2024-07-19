@@ -20,6 +20,8 @@ Route::middleware('lang')->group(function(){
     Route::get('cookies', [Controllers\BaseController::class, 'getCookies'])->name('cookies');
     Route::get('story', [Controllers\BaseController::class, 'getStory'])->name('story');
     Route::get('fullstory', [Controllers\BaseController::class, 'getFullstory'])->name('fullstory');
+    Route::get('aboutthetemple', [Controllers\BaseController::class, 'getAboutthetemple'])->name('aboutthetemple');
+    Route::get('schedule', [Controllers\BaseController::class, 'getSchedule'])->name('schedule');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
 

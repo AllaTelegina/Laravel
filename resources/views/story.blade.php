@@ -45,7 +45,7 @@
         <div class="py-12">
             <ul class="timeline timeline-vertical text-blue-950">
                 <li>
-                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100 text-justify">
+                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100 text-justify leading-relaxed">
                         <div class="text-3xl"><span class="text-red-700 font-medium">К</span>рупчицкий монастырь</div>
                         Во второй половине 17 века на землях бывшего имения
                         Нееловичи был основан Кармелитский католический монастырь. Первые пожертвования на монастырь
@@ -56,10 +56,13 @@
                         полководца А.В.Суворова (1730-1800) с повстанческой армией генерала Кароля Сераковского (1752-1820).
                         Во время сражения монастырь был сильно поврежден. В 1797году Указом Императора Павла 1-го монастырь
                         передали из Луцко–Брестской в Виленскую диоцезию. В 1800 году Виленский епископ Я.Н.Калаковский п
-                        реобразовал монастырский костел в приходский.
+                        реобразовал монастырский костел в приходский. <
                     </div>
                     <div class="timeline-middle">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                             class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000
+                             16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                                   clip-rule="evenodd"/></svg>
                     </div>
                     <div class="timeline-end text-9xl">1674</div>
                     <hr/>
@@ -407,6 +410,7 @@
             </div>
 
         </div>
+
 
     </x-slot>
 </x-app-layout>

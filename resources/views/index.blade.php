@@ -2,14 +2,13 @@
 
     <x-slot name="header">
 
-        <section class="text-white-700 body-font bg-blue-300">
+        <section class="bg-blue-300">
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <p class="mb-2 leading-relaxed">Приход храма</p>
                     <p class="mb-2 leading-relaxed">равноапостольного</p>
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white-900">КНЯЗЯ ВЛАДИМИРА
-                    </h1>
-                    <p class="mb-2 leading-relaxed">д.Чижевщина Брестской епархии</p>
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white-900">КНЯЗЯ ВЛАДИМИРА</h1>
+                    <p class="mb-2 leading-relaxed text-white-700">д.Чижевщина Брестской епархии</p>
                     <p class="mb-2 leading-relaxed">Белорусского Экзархата</p>
                     <p class="mb-2 leading-relaxed">Московского Патриарха</p>
                     <div class="flex justify-center">

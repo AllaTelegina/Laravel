@@ -29,4 +29,14 @@ class BaseController extends Controller
 
     }
 
+    public function getAboutthetemple(){
+        return view('aboutthetemple');
+
+    }
+
+    public function getSchedule(){
+        return view('schedule');
+
+    }
+
 }
