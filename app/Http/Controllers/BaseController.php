@@ -39,4 +39,9 @@ class BaseController extends Controller
 
     }
 
+    public function getNote(){
+        return view('note');
+
+    }
+
 }
