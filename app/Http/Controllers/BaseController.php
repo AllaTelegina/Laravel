@@ -44,4 +44,9 @@ class BaseController extends Controller
 
     }
 
+    public function getSacraments(){
+        return view('sacraments');
+
+    }
+
 }

@@ -23,6 +23,7 @@ Route::middleware('lang')->group(function(){
     Route::get('aboutthetemple', [Controllers\BaseController::class, 'getAboutthetemple'])->name('aboutthetemple');
     Route::get('schedule', [Controllers\BaseController::class, 'getSchedule'])->name('schedule');
     Route::get('note', [Controllers\BaseController::class, 'getNote'])->name('note');
+    Route::get('sacraments', [Controllers\BaseController::class, 'getSacraments'])->name('sacraments');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
 

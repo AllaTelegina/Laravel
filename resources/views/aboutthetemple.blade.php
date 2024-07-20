@@ -47,7 +47,7 @@
 
 
     <div class="card lg:card-side text-blue-950 shadow-xl bg-blue-200">
-            <figure>
+            <figure class="#">
                 <img
                     src="{{asset('images/temple.jpg')}}"
                     alt="Temple" />
@@ -65,11 +65,10 @@
                     духовном пути. Пусть ваш визит принесет вам мир, радость и благословение.
                     Добро пожаловать и благослови вас Бог!
                 </p>
-
             </div>
         </div>
     <div class="card lg:card-side shadow-xl bg-blue-200">
-        <figure>
+        <figure class="#">
             <img
                 src="{{asset('images/duhovenstvo.jpg')}}"
                 alt="Temple" />
@@ -86,12 +85,6 @@
             </p>
         </div>
     </div>
-
-
-
-
-
-
 
 
     <div class="card lg:card-side shadow-xl bg-blue-200">

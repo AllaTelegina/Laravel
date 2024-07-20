@@ -74,7 +74,7 @@
 
             <div class=" h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-200 rounded-lg">
                 <p class="m-4">Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя Владимира.
-                Здесь вы найдете информацию о регулярных и праздничных службах, которые проходят в нашем храме.
+                </br>Здесь вы найдете информацию о регулярных и праздничных службах, которые проходят в нашем храме.
                 Мы рады видеть вас на наших богослужениях и мероприятиях!
                 </p>
             </div>
@@ -93,10 +93,12 @@
                                 <span>Часы</span>
                             </div>
                             <div class="flex flex-col items-center">
-                                <span class="font-semibold">Литургия</span>
+                                <span class="font-semibold">9:30</span>
+                                <span>Литургия</span>
                             </div>
                             <div class="flex flex-col items-center">
-                                <span class="font-semibold">Молебен</span>
+                                <span class="font-semibold">11:00</span>
+                                <span>Молебень</span>
                                 <span>Вознесению Господню</span>
                             </div>
                         </div>
@@ -245,39 +247,45 @@
                         </div>
                     </div>
                 </div>
-                <div class="container px-10 py-24 mx-auto bg-blue-100 shadow-xl  shadow-blue-200 rounded-lg">
-                    <div class="container px-5 py-8 mx-auto justify-self-auto ">
-                        <p class="text-4xl">Другие мероприяния</p>
-                    </div>
+
 
                     <section class="text-blue-950 body-font">
 
                         <div class="container px-5 py-12 mx-auto">
+                            <div class="container px-10 py-24 mx-auto bg-blue-100 shadow-xl  shadow-blue-200 rounded-lg">
+                                <div class="container px-5 py-8 mx-auto justify-self-auto ">
+                                    <p class="text-4xl">Другие мероприяния</p>
+                                </div>
                             <div class="flex flex-wrap -mx-4 -my-8 bg-blue-100">
                                 <div class="py-8 px-4 lg:w-1/3">
                                     <div class="h-full flex items-start">
                                         <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
             <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">
-              <font style="vertical-align: inherit;">
-                <font style="vertical-align: inherit;">Июль</font>
-              </font>
+              <div style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">Сентябрь</span>
+              </div>
             </span>
                                             <span class="font-medium text-lg text-gray-800 title-font leading-none">
-              <font style="vertical-align: inherit;">
-                <font style="vertical-align: inherit;">18</font>
-              </font>
+              <div style="vertical-align: inherit;">
+                <div style="vertical-align: inherit;">28</div>
+              </div>
             </span>
                                         </div>
                                         <div class="flex-grow pl-6">
                                             <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">400 Ударов</font>
-                                                </font>
+                                                <div style="vertical-align: inherit;">
+                                                    <span style="vertical-align: inherit;">Чаепитие после службы</span>
+                                                </div>
                                             </h1>
                                             <p class="leading-relaxed mb-5">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Фотобудка fam kinfolk леггинсы холодного отжима sriracha микродозированный взъерошенный жилет jianbing.</font>
-                                                </font>
+                                                <div style="vertical-align: inherit;">
+                                                    <p style="vertical-align: inherit;">
+                                                        Приглашаем всех прихожан на традиционное
+                                                        чаепитие после службы, которое состоится в понедельник, 28 сентября,
+                                                        в 12:00. Это отличная возможность пообщаться и обсудить насущные вопросы
+                                                        в неформальной обстановке.
+                                                    </p>
+                                                </div>
                                             </p>
 
                                         </div>
@@ -287,26 +295,30 @@
                                     <div class="h-full flex items-start">
                                         <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
             <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">
-              <font style="vertical-align: inherit;">
-                <font style="vertical-align: inherit;">Июль</font>
-              </font>
+              <div style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">Сентябрь</span>
+              </div>
             </span>
                                             <span class="font-medium text-lg text-gray-800 title-font leading-none">
-              <font style="vertical-align: inherit;">
-                <font style="vertical-align: inherit;">18</font>
-              </font>
+              <div style="vertical-align: inherit;">
+                <div style="vertical-align: inherit;">29</div>
+              </div>
             </span>
                                         </div>
                                         <div class="flex-grow pl-6">
                                             <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
                                                 <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Падающие звезды</font>
+                                                    <font style="vertical-align: inherit;">Поздравление с днем рождения</font>
                                                 </font>
                                             </h1>
                                             <p class="leading-relaxed mb-5">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Фотобудка fam kinfolk леггинсы холодного отжима sriracha микродозированный взъерошенный жилет jianbing.</font>
-                                                </font>
+                                                <div style="vertical-align: inherit;">
+                                                    <p style="vertical-align: inherit;">В среду, 25 сентября, после
+                                                        утренней службы мы будем поздравлять наших прихожан, которые
+                                                        отмечают день рождения в этом месяце. Присоединяйтесь к нам,
+                                                        чтобы выразить свои теплые пожелания и поддержать именинников.
+                                                    </p>
+                                                </div>
                                             </p>
                                         </div>
                                     </div>
@@ -316,25 +328,30 @@
                                         <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
             <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">
               <div style="vertical-align: inherit;">
-                <div style="vertical-align: inherit;">Июль</div>
+                <div style="vertical-align: inherit;">Сентябрь</div>
               </div>
             </span>
                                             <span class="font-medium text-lg text-gray-800 title-font leading-none">
               <div style="vertical-align: inherit;">
-                <div style="vertical-align: inherit;">18</div>
+                <div style="vertical-align: inherit;">30</div>
               </div>
             </span>
                                         </div>
                                         <div class="flex-grow pl-6">
                                             <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
                                                 <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Нептун</font>
+                                                    <font style="vertical-align: inherit;">Подготовка храма к празднику</font>
                                                 </font>
                                             </h1>
                                             <p class="leading-relaxed mb-5">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Фотобудка fam kinfolk леггинсы холодного отжима sriracha микродозированный взъерошенный жилет jianbing.</font>
-                                                </font>
+                                                <div style="vertical-align: inherit;">
+                                                    <p style="vertical-align: inherit;">
+                                                        В субботу, 28 сентября, после утренней службы пройдет подготовка храма
+                                                        к предстоящему празднику. Нам потребуется помощь в уборке и украшении храма.
+                                                        Приглашаем всех желающих принять участие и внести свой вклад в создание
+                                                        праздничной атмосферы.
+                                                    </p>
+                                                </div>
                                             </p>
                                         </div>
                                     </div>
