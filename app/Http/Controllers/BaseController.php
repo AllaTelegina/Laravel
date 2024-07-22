@@ -49,4 +49,9 @@ class BaseController extends Controller
 
     }
 
+    public function getWeddingcalendar(){
+        return view('weddingcalendar');
+
+    }
+
 }

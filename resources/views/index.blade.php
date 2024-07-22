@@ -47,6 +47,295 @@
             </div>
         </div>
 
+
+        <div class="w-full p-2 m-2 bg-gray-100 rounded-lg shadow">
+            <div class = "flex flex-wrap justify-center" x-data = "genCalendar()" x-init="hozirgivaqt()" x-cloak >
+                <div class = "flex flex-wrap w-full h-12 p-1 m-1 text-xl font-bold bg-white rounded-lg shadow-lg">
+                    <p class ="w-1/3 p-1 text-center text-blue-900 shadow-md cursor-pointer hover:text-blue-600 hover:shadow-inner bg-gray-50 rounded-l-md" @click = "year-=1 "><svg xmlns="http://www.w3.org/2000/svg" class="block w-6 h-8 m-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+                        </svg></p>
+                    <p class ="w-1/3 p-1 text-center text-blue-900 shadow-md cursor-pointer hover:text-green-600 hover:shadow-inner bg-gray-50"   x-text ="year"></p>
+                    <p class ="w-1/3 p-1 text-center text-blue-900 shadow-md cursor-pointer hover:text-green-600 hover:shadow-inner bg-gray-50 rounded-r-md" @click = "year+=1 "><svg xmlns="http://www.w3.org/2000/svg" class="block w-6 h-8 m-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg></p>
+                </div>
+                <template x-for ="(month,index) in month_names">
+                    <div class="p-1 m-1 font-sans bg-white rounded shadow-md lg:w-72 w-80 bg-blend-luminosity bg-gradient-to-b from-blue-50 via-white to-blue-50">
+                        <p class="p-1 text-xl font-semibold text-center text-indigo-800" x-text = "month"></p>
+                        <div class="p-1 m-1">
+                            <div class="grid grid-cols-7 font-semibold text-blue-800 border-b-2">
+                                <template x-for = "days in day_names">
+                                    <div class="grid place-items-center" :class ="{'text-red-600': days == 'Ya'}">
+                                        <p x-text = "days"></p>
+                                    </div>
+                                </template>
+                            </div>
+                            <!-- calendar raqamlari bloki-->
+                            <div class="grid grid-cols-7 gap-1 font-semibold text-center text-gray-800 ">
+                                <template x-for = "kun in daysgenerater()[index]">
+                                    <div :class="{' ring-blue-400 ring-4 rounded-full': isbugun(kun,index) == true, 'text-red-600': isyakshanba(kun,index) == true , ' hover:bg-green-100': isbugun(kun,index) == false }" >
+                                        <p x-text="kun"></p>
+                                    </div>
+                                </template>
+                            </div>
+                            <!-- calendar raqamlari bloki oxiri-->
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <script>
+
+            function genCalendar(){
+
+                return {
+                    month_names : ['Yanvar','Fevral','Mart','Aprel','May','Iyun','Iyul','Avgust','Sentyabr','Oktyabr','Noyabr','Dekabr'],
+                    day_names : ['Du','Se','Ch','Pa','Ju','Sh','Ya'],
+                    year : '',
+                    days_of_month(){
+                        kabisa = (yearin) => {return (yearin % 4 === 0 && yearin % 100 !== 0 && yearin % 400 !== 0) || (yearin % 100 === 0 && yearin % 400 ===0)};
+                        fevral = (yearin) => {return kabisa(yearin) ? 29 : 28};
+                        return [31, fevral(this.year), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+                    },
+                    hafta(sol,ma) { let haftakuni =  new Date(sol,ma).getDay();
+                        switch (haftakuni) { // hafta kuni Dushanbadan boshlangani uchun hak)
+                            case 0:
+                                haftakuni = 6;
+                                break;
+                            case 1:
+                                haftakuni = 0;
+                                break;
+                            case 2:
+                                haftakuni = 1;
+                                break;
+                            case 3:
+                                haftakuni = 2;
+                                break;
+                            case 4:
+                                haftakuni = 3;
+                                break;
+                            case 5:
+                                haftakuni = 4;
+                                break;
+                            case 6:
+                                haftakuni = 5;
+                                break;
+                            default:
+                                haftakuni =  new Date(sol,ma).getDay()
+                                break;
+                        }
+                        return haftakuni;
+                    },
+                    daysgenerater() {
+                        let days = [];
+                        for (let k = 0; k < this.days_of_month().length; k++) {
+                            days.push([]);
+                            for (let i = 1; i <= this.days_of_month()[k]; i++) {
+                                if(days[k].length < this.hafta(this.year,k)) {
+                                    i-=i;
+                                    days[k].push('');
+                                    continue; };
+                                days[k].push(i);
+                            } }
+                        return days;
+                    },
+                    hozirgivaqt() {
+                        let today = new Date();
+                        this.year = today.getFullYear();
+                    },
+                    isbugun(kun,oy) {
+                        const today = new Date();
+                        const dayintable = new Date(this.year,oy,kun);
+                        return today.toDateString() === dayintable.toDateString() ? true : false;
+                    },
+                    isyakshanba(kun,oy) {
+                        const dayintable = new Date(this.year,oy,kun);
+                        return dayintable.getDay() == 0 ? true : false;
+                    }
+
+                }
+            }
+        </script>
+
+
+
+
+
+
+
+        <!-- component -->
+        <div class="flex flex-grow flex-col bg-white border-t border-b sm:rounded sm:border shadow overflow-hidden">
+
+            <div class="border-b">
+                <div class="flex justify-between pl-6 -mb-px">
+                    <h3 class="text-blue-dark py-4 font-normal text-lg">Vacation Settings</h3>
+                    <div class="flex">
+                    </div>
+                </div>
+            </div>
+
+            <!--  Календарь венчаний -->
+            <p>
+
+
+
+                Церемония венчания - это не только древняя и красивая традиция, но и важный шаг на пути к созданию прочной
+                и счастливой семьи. Иногда пары приходят к этому решению спустя годы, когда они окончательно убеждаются в
+                своих чувствах и намерении провести вместе всю жизнь.
+
+                Если вы посетили эту страницу, потому что уже готовы сделать этот серьезный шаг и планируете провести
+                венчание, первым делом вам нужно правильно выбрать дату. В этом вам поможет календарь венчаний.
+                Существуют определенные дни для проведения венчания в церкви. Для вашего
+                удобства Вы можете воспользоваться календарем венчаний. В нем вы узнаете, в какие дни согласно канонам
+                Православной Церкви можно проводить обряд венчания, а в какие нет.
+
+                Таинство Брака не совершается:
+
+                по вторникам, четвергам (накануне постных дней – среды и пятницы) и в субботу (накануне малой Пасхи – дня воскресного);
+                в Пасху, накануне двунадесятых и великих праздников. Венчание в дни двунадесятых праздников не запрещено, но нежелательно. День общего церковного великого праздника мы стремимся прожить вместе с Церковью, не заслоняя церковную радость своей малой личной радостью, личными нуждами;
+                накануне престольных храмовых праздников (в каждом храме они свои);
+                в Сырную седмицу, в продолжение Святок и Пасхальной (Светлой) седмицы. Венчание в предуготовительные к Великому посту недели и иные сплошные седмицы не запрещены, но нежелательны.
+                во время 4-х многодневных постов: Великого, Апостольского, Успенского и Рождественского;
+                в дни (и накануне) строгого однодневного поста: Усекновения главы Иоанна Предтечи – 11 сентября и Воздвижения Креста Господня – 27 сентября;
+                ночью.
+                Один из канонов византийского сборника «Алфавитная синтагма» Матфея Властаря (XIV в.) предписывает, что траур по почившим родственникам не является причиной для переноса заключения брака.
+                Исключения из этих правил могут быть сделаны только правящим архиереем. Если венчание уже совершено в день, когда это запрещено церковным Уставом, то это не делает таинство недействительным.
+
+
+                Таинству Брака должна предшествовать гражданская регистрация брака с целью юридического оформления ответственности вступающих в
+                брак и проверки отсутствия препятствий к нему.
+
+            </p>
+
+            <div class="flex px-2 py-2 -mb-px">
+                <div class="flex flex-wrap bg-white overflow-hidden">
+                    <div class="w-auto mx-3 my-3 border-solid border-grey-light rounded border shadow-sm">
+                        <div class="bg-grey-lighter px-2 py-2 border-solid border-grey-light border-b text-center">
+                            December 2018</div>
+                        <div class="">
+                            <table class="w-full">
+                                <tr class="border-b">
+                                    <th class="py-3 px-4">S</th>
+                                    <th class="py-3 px-4">M</th>
+                                    <th class="py-3 px-4">T</th>
+                                    <th class="py-3 px-4">W</th>
+                                    <th class="py-3 px-4">T</th>
+                                    <th class="py-3 px-4">F</th>
+                                    <th class="py-3 px-4">S</th>
+                                </tr>
+                                <tr>
+                                    <td></td><td></td><td></td><td></td><td></td><td></td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">1</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">2</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">3</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">4</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">5</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer bg-blue text-white">6</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer bg-blue text-white">7</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">8</td>
+                                </tr><tr>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">9</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">10</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">11</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">12</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">13</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">14</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">15</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">16</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">17</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">18</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">19</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">20</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">21</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">22</td>
+                                </tr><tr>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">23</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">24</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">25</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">26</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">27</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">28</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">29</td>
+                                </tr><tr>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">30</td>
+                                    <td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">31</td>
+                                    <td>
+                                    </td><td></td><td></td><td></td><td></td></tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="w-auto mx-3 my-3 border-solid border-grey-light rounded border shadow-sm">
+                        <div class="bg-grey-lighter px-2 py-2 border-solid border-grey-light border-b text-center">January 2019</div>
+                        <div class=""><table class="w-full"><tr class="border-b"><th class="py-3 px-4">S</th><th class="py-3 px-4">M</th><th class="py-3 px-4">T</th><th class="py-3 px-4">W</th><th class="py-3 px-4">T</th><th class="py-3 px-4">F</th><th class="py-3 px-4">S</th></tr><tr><td></td><td></td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">1</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">2</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">3</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">4</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">5</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">6</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">7</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">8</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">9</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">10</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">11</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">12</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">13</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">14</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">15</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">16</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">17</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">18</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">19</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">20</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">21</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">22</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">23</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">24</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">25</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">26</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">27</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">28</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">29</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">30</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">31</td><td></td><td></td></tr></table></div></div><div class="w-auto mx-3 my-3 border-solid border-grey-light rounded border shadow-sm"><div class="bg-grey-lighter px-2 py-2 border-solid border-grey-light border-b text-center">February 2019</div><div class=""><table class="w-full"><tr class="border-b"><th class="py-3 px-4">S</th><th class="py-3 px-4">M</th><th class="py-3 px-4">T</th><th class="py-3 px-4">W</th><th class="py-3 px-4">T</th><th class="py-3 px-4">F</th><th class="py-3 px-4">S</th></tr><tr><td></td><td></td><td></td><td></td><td></td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">1</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">2</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">3</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">4</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">5</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">6</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">7</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">8</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">9</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">10</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">11</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">12</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">13</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">14</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">15</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">16</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">17</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">18</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">19</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">20</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">21</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">22</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">23</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">24</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">25</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">26</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">27</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">28</td><td></td><td></td></tr></table></div></div><div class="w-auto mx-3 my-3 border-solid border-grey-light rounded border shadow-sm"><div class="bg-grey-lighter px-2 py-2 border-solid border-grey-light border-b text-center">March 2019</div><div class=""><table class="w-full"><tr class="border-b"><th class="py-3 px-4">S</th><th class="py-3 px-4">M</th><th class="py-3 px-4">T</th><th class="py-3 px-4">W</th><th class="py-3 px-4">T</th><th class="py-3 px-4">F</th><th class="py-3 px-4">S</th></tr><tr><td></td><td></td><td></td><td></td><td></td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">1</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">2</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">3</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">4</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">5</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">6</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">7</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">8</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">9</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">10</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">11</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">12</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">13</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">14</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">15</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">16</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">17</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">18</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">19</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">20</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">21</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">22</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">23</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">24</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">25</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">26</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">27</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">28</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">29</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">30</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">31</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></div></div><div class="w-auto mx-3 my-3 border-solid border-grey-light rounded border shadow-sm"><div class="bg-grey-lighter px-2 py-2 border-solid border-grey-light border-b text-center">April 2019</div><div class=""><table class="w-full"><tr class="border-b"><th class="py-3 px-4">S</th><th class="py-3 px-4">M</th><th class="py-3 px-4">T</th><th class="py-3 px-4">W</th><th class="py-3 px-4">T</th><th class="py-3 px-4">F</th><th class="py-3 px-4">S</th></tr><tr><td></td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">1</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">2</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">3</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">4</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">5</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">6</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">7</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">8</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">9</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">10</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">11</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">12</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">13</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">14</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">15</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">16</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">17</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">18</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">19</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">20</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">21</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">22</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">23</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">24</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">25</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">26</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">27</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">28</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">29</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">30</td><td></td><td></td><td></td><td></td></tr></table></div></div><div class="w-auto mx-3 my-3 border-solid border-grey-light rounded border shadow-sm"><div class="bg-grey-lighter px-2 py-2 border-solid border-grey-light border-b text-center">May 2019</div><div class=""><table class="w-full"><tr class="border-b"><th class="py-3 px-4">S</th><th class="py-3 px-4">M</th><th class="py-3 px-4">T</th><th class="py-3 px-4">W</th><th class="py-3 px-4">T</th><th class="py-3 px-4">F</th><th class="py-3 px-4">S</th></tr><tr><td></td><td></td><td></td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">1</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">2</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">3</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">4</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">5</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">6</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">7</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">8</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">9</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">10</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">11</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">12</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">13</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">14</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">15</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">16</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">17</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">18</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">19</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">20</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">21</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">22</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">23</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">24</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">25</td></tr><tr><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">26</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">27</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">28</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">29</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">30</td><td class="py-3 px-4 hover:bg-blue hover:text-white text-center cursor-pointer">31</td><td></td></tr></table></div></div></div></div></div>
+
+        <section class="text-gray-600 body-font relative">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-12">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+                </div>
+                <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                    <div class="flex flex-wrap -m-2">
+                        <div class="p-2 w-1/2">
+                            <div class="relative">
+                                <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                                <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                            </div>
+                        </div>
+                        <div class="p-2 w-1/2">
+                            <div class="relative">
+                                <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                                <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                            </div>
+                        </div>
+                        <div class="p-2 w-full">
+                            <div class="relative">
+                                <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                                <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                            </div>
+                        </div>
+                        <div class="p-2 w-full">
+                            <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                        </div>
+                        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                            <a class="text-indigo-500">example@email.com</a>
+                            <p class="leading-normal my-5">49 Smith St.
+                                <br>Saint Cloud, MN 56301
+                            </p>
+                            <span class="inline-flex">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>
+            </a>
+          </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!--
         <div class="flex-1 mt-16 ">
             <div class="relative h-screen w-full">

@@ -136,7 +136,7 @@
                         <div class="text-sm">Сентября</div>
                     </div>
                     <div class="bg-blue-100 flex-1 p-4 rounded-tr rounded-br">
-                        <div>
+                        <div class="text-center">
                             <span class="font-semibold">Неделя 4-я по Пятидесятнице </span>
                             <span class="font-semibold">Явление иконы Божией Матери "Казанская"</span>
                         </div>
@@ -307,9 +307,9 @@
                                         </div>
                                         <div class="flex-grow pl-6">
                                             <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Поздравление с днем рождения</font>
-                                                </font>
+                                                <div style="vertical-align: inherit;">
+                                                    <p style="vertical-align: inherit;">Поздравление с днем рождения</p>
+                                                </div>
                                             </h1>
                                             <p class="leading-relaxed mb-5">
                                                 <div style="vertical-align: inherit;">
