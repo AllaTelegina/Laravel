@@ -27,7 +27,27 @@
         </section>
 
 
-<!--
+        <div class="hero min-h-screen">
+            <img src="images/glavnaya1.jpg" />
+            <div class="hero-overlay bg-opacity-0"></div>
+            <div class="hero-content text-neutral-content text-left">
+                <div class="max-w-md">
+                    <p class="mb-5">
+                        Приход храма
+                        </br>равноапостольного
+                    </p>
+                    <h1 class="mb-5 text-5xl font-bold">КНЯЗЯ ВЛАДИМИРА</h1>
+                    <p class="mb-5">
+                        д.Чижевщина Брестской епархии
+                        </br>Белорусского Экзархата
+                        </br>Московского Патриарха
+                    </p>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+        <!--
         <div class="flex-1 mt-16 ">
             <div class="relative h-screen w-full">
                 <img src="images/glavnaya.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter blur-4px">

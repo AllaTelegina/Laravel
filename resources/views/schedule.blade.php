@@ -249,7 +249,7 @@
                 </div>
 
 
-                    <section class="text-blue-950 body-font">
+                    <div class="text-blue-950 body-font">
 
                         <div class="container px-5 py-12 mx-auto">
                             <div class="container px-10 py-24 mx-auto bg-blue-100 shadow-xl  shadow-blue-200 rounded-lg">
@@ -339,11 +339,11 @@
                                         </div>
                                         <div class="flex-grow pl-6">
                                             <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Подготовка храма к празднику</font>
-                                                </font>
+                                                <div style="vertical-align: inherit;">
+                                                    <p style="vertical-align: inherit;">Подготовка храма к празднику</p>
+                                                </div>
                                             </h1>
-                                            <p class="leading-relaxed mb-5">
+                                            <div class="leading-relaxed mb-5">
                                                 <div style="vertical-align: inherit;">
                                                     <p style="vertical-align: inherit;">
                                                         В субботу, 28 сентября, после утренней службы пройдет подготовка храма
@@ -352,21 +352,16 @@
                                                         праздничной атмосферы.
                                                     </p>
                                                 </div>
-                                            </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </div>
         </section>
-
-
-
-
-
 
 
 
