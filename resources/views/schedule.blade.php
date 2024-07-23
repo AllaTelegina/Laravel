@@ -2,7 +2,7 @@
     <x-slot name="header">
 
         <div class="mt-4 py-12">
-            <div class="text-3xl"><span class="text-red-600 font-medium">Р</span>асписание</div>
+            <div class="text-3xl"><span class="text-red-500 font-medium">Р</span>асписание</div>
         </div>
         <!-- панировочные сухари -->
         <nav class="flex" aria-label="Breadcrumb">
@@ -72,11 +72,15 @@
                 </div>
             </div>
 
-            <div class=" h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-200 rounded-lg">
-                <p class="m-4">Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя Владимира.
+            <div class="h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-200 rounded-lg">
+                <p class="m-8">Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя Владимира.
                 </br>Здесь вы найдете информацию о регулярных и праздничных службах, которые проходят в нашем храме.
                 Мы рады видеть вас на наших богослужениях и мероприятиях!
                 </p>
+            </div>
+
+            <div class="mt-2 h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-300 rounded-lg">
+                <span class="text-blue-950 text-2xl m-6">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
             </div>
 
             <div class="container mx-auto space-y-10">
@@ -136,10 +140,7 @@
                         <div class="text-sm">Сентября</div>
                     </div>
                     <div class="bg-blue-100 flex-1 p-4 rounded-tr rounded-br">
-                        <div class="text-center">
-                            <span class="font-semibold">Неделя 4-я по Пятидесятнице </span>
-                            <span class="font-semibold">Явление иконы Божией Матери "Казанская"</span>
-                        </div>
+
                         <div class="flex space-x-4">
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">9:00</span>
@@ -253,7 +254,7 @@
 
                         <div class="container px-5 py-12 mx-auto">
                             <div class="container px-10 py-24 mx-auto bg-blue-100 shadow-xl  shadow-blue-200 rounded-lg">
-                                <div class="container px-5 py-8 mx-auto justify-self-auto ">
+                                <div class="container px-5 py-8 mx-auto justify-self-auto text-center">
                                     <p class="text-4xl">Другие мероприяния</p>
                                 </div>
                             <div class="flex flex-wrap -mx-4 -my-8 bg-blue-100">
@@ -261,18 +262,19 @@
                                     <div class="h-full flex items-start">
                                         <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
             <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">
+
+            </span>
+                                            <span class="mr-4 font-medium text-lg text-gray-800 title-font leading-none flex flex-col items-center skeleton h-20 w w-20 bg-blue-200 place-content-center">
               <div style="vertical-align: inherit;">
                 <span style="vertical-align: inherit;">Сентябрь</span>
               </div>
-            </span>
-                                            <span class="font-medium text-lg text-gray-800 title-font leading-none">
-              <div style="vertical-align: inherit;">
+                                                <div style="vertical-align: inherit;">
                 <div style="vertical-align: inherit;">28</div>
               </div>
             </span>
                                         </div>
                                         <div class="flex-grow pl-6">
-                                            <h1 class="title-font text-xl font-medium text-gray-900 mb-3">
+                                            <h1 class="title-font text-xl font-medium text-blue-950 mb-3">
                                                 <div style="vertical-align: inherit;">
                                                     <span style="vertical-align: inherit;">Чаепитие после службы</span>
                                                 </div>
