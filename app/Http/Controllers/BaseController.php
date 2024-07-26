@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Article;
 use App\Models\Blog;
+use App\Utils\Calendar;
+
 
 class BaseController extends Controller
 {
@@ -51,6 +53,16 @@ class BaseController extends Controller
 
     public function getWeddingcalendar(){
         return view('weddingcalendar');
+
+    }
+
+    public function getNamecalendar(){
+        return view('namecalendar');
+
+    }
+
+    public function getBoris(){
+        return view('Boris');
 
     }
 

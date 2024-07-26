@@ -46,7 +46,7 @@
 
 
 
-    <div class="card lg:card-side text-blue-950 shadow-xl bg-blue-200">
+    <div class="card lg:card-side text-blue-950 shadow-xl bg-blue-100">
             <figure class="#">
                 <img
                     src="{{asset('images/temple.jpg')}}"
@@ -67,7 +67,7 @@
                 </p>
             </div>
         </div>
-    <div class="card lg:card-side shadow-xl bg-blue-200">
+    <div class="card lg:card-side shadow-xl bg-blue-100">
         <figure class="#">
             <img
                 src="{{asset('images/duhovenstvo.jpg')}}"
@@ -87,7 +87,7 @@
     </div>
 
 
-    <div class="card lg:card-side shadow-xl bg-blue-200">
+    <div class="card lg:card-side shadow-xl bg-blue-100">
         <figure>
             <img
                 src="{{asset('images/story.png')}}"
@@ -107,7 +107,7 @@
             </p>
         </div>
     </div>
-    <div class="card lg:card-side shadow-xl bg-blue-200">
+    <div class="card lg:card-side shadow-xl bg-blue-100">
         <figure>
             <img
                 src="{{asset('images/7.jpg')}}"

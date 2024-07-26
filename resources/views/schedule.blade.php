@@ -36,7 +36,7 @@
 
         <section class="text-blue-950  space-y-6 pt-8">
 
-            <div class="bg-blue-400  text-blue-950 text-center py-4 header-date">
+            <div class="bg-sky-600  text-blue-950 text-center py-4 header-date">
                 <div class="mt-2">
                     <span class="text-white text-6xl m-6">Сентябрь</span>
                 </div>
@@ -80,12 +80,12 @@
             </div>
 
             <div class="mt-2 h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-300 rounded-lg">
-                <span class="text-blue-950 text-2xl m-6">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
+                <span class="text-blue-950 text-2xl text-center m-6">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
             </div>
 
             <div class="container mx-auto space-y-10">
                 <div class="flex shadow-xl shadow-blue-200">
-                    <div class="bg-blue-400 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
+                    <div class="bg-sky-600 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
                         <div class="text-sm">Понедельник</div>
                         <div class="text-2xl">23</div>
                         <div class="text-sm">Сентября</div>
@@ -96,10 +96,12 @@
                                 <span class="font-semibold">9:00</span>
                                 <span>Часы</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">9:30</span>
                                 <span>Литургия</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">11:00</span>
                                 <span>Молебень</span>
@@ -122,9 +124,11 @@
                                 <span class="font-semibold">9:00</span>
                                 <span>Часы</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Литургия</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Молебен</span>
                                 <span>Вознесению Господню</span>
@@ -146,9 +150,11 @@
                                 <span class="font-semibold">9:00</span>
                                 <span>Часы</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Литургия</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Молебен</span>
                                 <span>Вознесению Господню</span>
@@ -169,9 +175,11 @@
                                 <span class="font-semibold">9:00</span>
                                 <span>Часы</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Литургия</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Молебен</span>
                                 <span>Вознесению Господню</span>
@@ -192,9 +200,11 @@
                                 <span class="font-semibold">9:00</span>
                                 <span>Часы</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Литургия</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Молебен</span>
                                 <span>Вознесению Господню</span>
@@ -215,9 +225,11 @@
                                 <span class="font-semibold">9:00</span>
                                 <span>Часы</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Литургия</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Молебен</span>
                                 <span>Вознесению Господню</span>
@@ -238,9 +250,11 @@
                                 <span class="font-semibold">9:00</span>
                                 <span>Часы</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Литургия</span>
                             </div>
+                            <div class="h-16 w-px bg-blue-950"></div>
                             <div class="flex flex-col items-center">
                                 <span class="font-semibold">Молебен</span>
                                 <span>Вознесению Господню</span>

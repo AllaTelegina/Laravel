@@ -25,6 +25,8 @@ Route::middleware('lang')->group(function(){
     Route::get('note', [Controllers\BaseController::class, 'getNote'])->name('note');
     Route::get('sacraments', [Controllers\BaseController::class, 'getSacraments'])->name('sacraments');
     Route::get('weddingcalendar', [Controllers\BaseController::class, 'getWeddingcalendar'])->name('weddingcalendar');
+    Route::get('namecalendar', [Controllers\BaseController::class, 'getNamecalendar'])->name('namecalendar');
+    Route::get('boris', [Controllers\BaseController::class, 'getBoris'])->name('boris');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
 

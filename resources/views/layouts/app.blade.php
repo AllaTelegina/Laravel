@@ -16,6 +16,8 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @stack('styles')
+        @stack('scripts')
     </head>
 
 
@@ -32,19 +34,18 @@
                                     <a class="py-[15px]" href="#">
                                         <img class="w-16 h-16" src="{{asset('images/logo.png')}}" />
                                     </a>
-                                    <div class="flex space-x-8 lg:hidden">
-                                        <a href="#">
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill="none" stroke-miterlimit="10" stroke-width="32" d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
-                                                <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path>
-                                            </svg>
-                                        </a>
-                                        <button @click="() => { menu = !menu; mobileLang = false}">
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"></path>
-                                            </svg>
-                                        </button>
-                                    </div>
+
+                                    <a href="#">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" stroke-miterlimit="10" stroke-width="32" d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
+                                            <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path>
+                                        </svg>
+                                    </a>
+                                    <button @click="() => { menu = !menu; mobileLang = false}">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"></path>
+                                        </svg>
+                                    </button>
 
                                     <div class="ml-[50px] hidden space-x-10 lg:block">
                                         <a class="border-primary text-primary border-b-2 py-[25px] text-sm font-medium" href="/index">Храм</a>
@@ -62,6 +63,14 @@
                                     <!--Ссылка на выход и кабинет пользователя-->
                                 @endguest
 
+                                <div class="hidden items-center lg:flex">
+                                    <a href="#">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" stroke-miterlimit="10" stroke-width="32" d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
+                                            <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path>
+                                        </svg>
+                                    </a>
+
                                     <!--ЯЗЫКИ -->
                                     <button class="ml-10 mr-5 flex items-center space-x-2"
                                         @click="desktopLang = !desktopLang">
@@ -72,11 +81,18 @@
                                     </button>
                                 </div>
                             </div>
-            </div>
-                        <div
+                         </div>
+                        <button
                             class="container fixed top-0 z-20 mx-auto mt-[80px] justify-end"
                             :class="desktopLang ? 'flex' : 'hidden'">
                             <div class="flex flex-col overflow-hidden rounded-[6px] shadow">
+                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
+                                    </svg>
+
+                                    <span class="text-sm uppercase">RU</span>
+                                </button>
                                 <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
                                     <span class="text-sm uppercase">BE</span>
                                 </button>
@@ -100,7 +116,7 @@
                                     <span class="text-sm uppercase">PL</span>
                                 </button>
                             </div>
-                        </div>
+                        </button>
                     </div>
 
                     <div class="shadow-sm lg:hidden fixed w-full z-10 bg-white top-0 mt-[74px] left-0" x-show="menu">
@@ -112,9 +128,23 @@
                             <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Новости</div></a>
                             <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Храм-часовня Целительница</div></a>
                             <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Детям</div></a>
+
+                            <button
+                                class="flex items-center justify-between container mx-auto px-5 py-4 hover:bg-zinc-100"
+                                @click="mobileLang = !mobileLang">
+
+
+                            </button>
+
                             <div
-                                class="relative container mx-auto"
+                                class="relative container mx-auto "
                                 x-show="mobileLang">
+                                <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
+                                    </svg>
+                                    <span class="uppercase text-sm">Ru</span>
+                                </button>
                                 <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
                                     <span class="uppercase text-sm">Be</span>
                                 </button>
@@ -138,46 +168,22 @@
                             </button>
                             </div>
                         </div>
-
                     </div>
-                    <label class="grid cursor-pointer place-items-center">
-                        <input
-                            type="checkbox"
-                            value="synthwave"
-                            class="toggle theme-controller bg-base-content col-span-2 col-start-1 row-start-1" />
-                        <svg
-                            class="stroke-base-100 fill-base-100 col-start-1 row-start-1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="14"
-                            height="14"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5" />
-                            <path
-                                d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
-                        </svg>
-                        <svg
-                            class="stroke-base-100 fill-base-100 col-start-2 row-start-1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="14"
-                            height="14"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
-                    </label>
                 </div>
-    </header>
 
-            <!-- Page Heading -->
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Page Heading -->
             @if (isset($header))
                 <header class="bg-white dark:bg-gray-800 shadow">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
@@ -189,7 +195,6 @@
             <!-- Page Content -->
             <main>
                 {{ $slot }}
-
             </main>
 
 
