@@ -62,8 +62,14 @@ class BaseController extends Controller
     }
 
     public function getBoris(){
-        return view('Boris');
+        return view('boris');
+
+    }
+
+    public function getTest(){
+        return view('test');
 
     }
 
 }
+
