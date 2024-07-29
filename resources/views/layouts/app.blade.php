@@ -25,10 +25,10 @@
         @resize.window="() => { menu = false; desktopLang = false; }"
     >
         <div class="relative flex justify-center">
-            <div class="shadow-sm fixed top-0 z-20 w-full bg-blue-100">
+            <div class="shadow-sm fixed top-0 z-20 w-full bg-blue-200">
                 <div class="container mx-auto flex justify-between">
                     <div class="lg:xp-0 flex w-full flex-row items-center justify-between px-5 lg:w-auto">
-                        <a class="py-[15px] p-4 bg-white rounded-full" href="/index">
+                        <a class="py-[15px] p-4 bg-white rounded-full" href="#">
                             <img class="w-16 h-16 shadow-xl shadow-blue-200" src="{{asset('images/logo.png')}}" />
                         </a>
                         <div class="flex space-x-8 lg:hidden">
@@ -61,7 +61,7 @@
                                     <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Об иконах</a>
                                 </div>
                             </div>
-                            <div class="relative group">
+                          <!--  <div class="relative group">
                             <a class="false py-[29px] text-sm" href="#">Прихожанам</a>
                                 <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
                                     <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Подать записку</a>
@@ -83,7 +83,7 @@
                             <a class="false py-[29px] text-sm" href="#">Спонсоры</a>
                         </div>
                     </div>
-
+-->
 
                     <div class="hidden items-center lg:flex">
                         @guest

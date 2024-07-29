@@ -71,5 +71,10 @@ class BaseController extends Controller
 
     }
 
+    public function getPrayers(){
+        return view('prayers');
+
+    }
+
 }
 

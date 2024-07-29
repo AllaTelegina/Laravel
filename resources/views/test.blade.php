@@ -2,14 +2,46 @@
 
     <x-slot name="header">
 
+        <div class="hero min-h-screen relative mt-12">
+            <a class="absolute m-4 mt-16 transform translate-x-4 translate-y-4 p-4 bg-white rounded-full sm:top-6 sm:left-6 md:top-8 md:left-8 lg:top-10 lg:left-10 p-2 sm:p-4" href="#" title="Логотип">
+                <img src="{{ asset('images/logo.png') }}" class="w-16 h-16" />
+            </a>
+            <img src="images/glavnaya1.jpg" class="w-full h-auto" />
+            <div class="hero-content text-white text-left absolute top-1/2 left-4 transform -translate-y-1/2 p-8 sm:p-12 md:p-16 lg:p-20">
+                <div class="max-w-md m-4">
+                    <p class="mb-5 text-sm sm:text-base md:text-lg lg:text-xl">
+                        Приход храма<br />
+                        равноапостольного
+                    </p>
+                    <h1 class="mb-5 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">КНЯЗЯ ВЛАДИМИРА</h1>
+                    <p class="mb-5 text-sm sm:text-base md:text-lg lg:text-xl">
+                        д.Чижевщина Брестской епархии<br />
+                        Белорусского Экзархата<br />
+                        Московского Патриарха
+                    </p>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+            </div>
+        </div>
 
-                        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="collapse bg-base-200"><font></font>
+            <input type="checkbox" class="peer" /> <font></font>
+            <div class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"><font></font>
+                Click me to show/hide content<font></font>
+            </div><font></font>
+            <div class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"> <font></font>
+                <p>hello</p><font></font>
+            </div><font></font>
+        </div>
+
+
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="flex-1 mt-16 ">
                 <div class="relative h-screen w-full">
                     <img src="images/glavnaya.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter blur-4px">
                     <div class="absolute inset-0 bg-black bg-opacity-0"></div>
                     <div class="relative absolute top-16 left-16">
-                        <a class="btn btn-ghost text-xl p-8" href="/navigation" title="Логотип">
+                        <a class="btn btn-ghost text-xl p-8" href="#" title="Логотип">
                             <img src="{{asset('images/logo.png')}}" class="w-20 h-20" />
                         </a>
                         <div class="">
@@ -469,7 +501,6 @@
           Feel free to play with this example if you're just learning, or trash it and
           start from scratch if you know enough to be dangerous. Have fun!
         -->
-
     </x-slot>
 
 </x-app-layout>
