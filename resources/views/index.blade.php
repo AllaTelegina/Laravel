@@ -5,7 +5,7 @@
 
         <section class="py-16">
             <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400">
-                <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/navigation" title="Логотип">
+                <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/index" title="Логотип">
                     <img src="{{asset('images/logo.png')}}" class="w-20 h-20" />
                 </a>
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center m-8">

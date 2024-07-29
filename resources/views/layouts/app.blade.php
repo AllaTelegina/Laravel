@@ -4,10 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
-
         <title>{{ config('app.name', 'Laravel') }}</title>
-
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
@@ -20,158 +17,211 @@
         @stack('scripts')
     </head>
 
-        <header class="dark:bg-gray-900 font-sans antialiased">
-            <div class="text-blue-950 body-font">
-                <div
-                    x-data="{ menu: false, desktopLang: false, mobileLang: false }"
-                    @click.outside="desktopLang = false"
-                    @resize.window="() => { menu = false; desktopLang = false; }">
-                    <div class="relative flex justify-center">
-                        <div class="shadow-sm fixed top-0 z-20 w-full bg-blue-200">
-                            <div class="container mx-auto flex justify-between">
-                                <div class="lg:xp-0 flex w-full flex-row items-center justify-between px-5 lg:w-auto">
-                                    <a class="py-[15px]" href="#">
-                                        <img class="w-16 h-16" src="{{asset('images/logo.png')}}" />
-                                    </a>
 
-                                    <a href="#">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="none" stroke-miterlimit="10" stroke-width="32" d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
-                                            <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path>
-                                        </svg>
-                                    </a>
-                                    <button @click="() => { menu = !menu; mobileLang = false}">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"></path>
-                                        </svg>
-                                    </button>
-
-                                    <div class="ml-[50px] hidden space-x-10 lg:block">
-                                        <a class="border-primary text-primary border-b-2 py-[25px] text-sm font-medium" href="/index">Храм</a>
-                                        <a class="false py-[29px] text-sm" href="#">Новости</a>
-                                        <a class="false py-[29px] text-sm" href="#">Прихожанам</a>
-                                        <a class="false py-[29px] text-sm" href="#">Православный календарь</a>
-                                        <a class="false py-[29px] text-sm" href="#">Храм-часовня Целительница</a>
-                                        <a class="false py-[29px] text-sm" href="#">Воскресная школа</a>
-                                        <a class="false py-[29px] text-sm" href="#">Спонсоры</a>
+<header>
+    <div
+        x-data="{ menu: false, desktopLang: false, mobileLang: false }"
+        @click.outside="desktopLang = false"
+        @resize.window="() => { menu = false; desktopLang = false; }"
+    >
+        <div class="relative flex justify-center">
+            <div class="shadow-sm fixed top-0 z-20 w-full bg-blue-100">
+                <div class="container mx-auto flex justify-between">
+                    <div class="lg:xp-0 flex w-full flex-row items-center justify-between px-5 lg:w-auto">
+                        <a class="py-[15px] p-4 bg-white rounded-full" href="/index">
+                            <img class="w-16 h-16 shadow-xl shadow-blue-200" src="{{asset('images/logo.png')}}" />
+                        </a>
+                        <div class="flex space-x-8 lg:hidden">
+                            <a href="#">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" stroke-miterlimit="10" stroke-width="32" d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
+                                    <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path>
+                                </svg>
+                            </a>
+                            <button @click="() => { menu = !menu; mobileLang = false}">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="ml-[50px] hidden space-x-10 lg:block">
+                            <div class="relative group">
+                            <a class="border-primary text-primary border-b-2 py-[25px] text-sm font-medium" href="/index">Храм</a>
+                                <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/aboutthetemple">О Храме</a>
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/story">История Храма</a>
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/schedule">Расписание</a>
+                                </div>
+                            </div>
+                            <div class="relative group">
+                                <a class="false py-[29px] text-sm" href="#">Новости</a>
+                                <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/#">Публикациии</a>
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Фотографии</a>
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Об иконах</a>
+                                </div>
+                            </div>
+                            <div class="relative group">
+                            <a class="false py-[29px] text-sm" href="#">Прихожанам</a>
+                                <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Подать записку</a>
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Таинства</a>
+                                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Молитвы</a>
+                                </div>
+                            </div>
+                                <div class="relative group">
+                            <a class="false py-[29px] text-sm" href="#">Православный календарь</a>
+                                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
+                                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/#">Календарь на год</a>
+                                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Календарь венчаний</a>
+                                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Календарь имени</a>
                                     </div>
                                 </div>
-                                @guest
-                                    <!--Ссылка на вход и регистрацию -->
-                                @else
-                                    <!--Ссылка на выход и кабинет пользователя-->
-                                @endguest
-
-                                    <!--ЯЗЫКИ -->
-                                    <button class="ml-10 mr-5 flex items-center space-x-2"
-                                        @click="desktopLang = !desktopLang">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
-                                        </svg>
-                                        <span class="text-sm uppercase">RU</span>
-                                    </button>
-                                </div>
-                            </div>
-                         </div>
-                        <button
-                            class="container fixed top-0 z-20 mx-auto mt-[80px] justify-end"
-                            :class="desktopLang ? 'flex' : 'hidden'">
-                            <div class="flex flex-col overflow-hidden rounded-[6px] shadow">
-                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
-                                    </svg>
-
-                                    <span class="text-sm uppercase">RU</span>
-                                </button>
-                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
-                                    <span class="text-sm uppercase">BE</span>
-                                </button>
-                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
-                                    <span class="text-sm uppercase">DE</span>
-                                </button>
-                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
-                                    <span class="text-sm uppercase">EN</span>
-                                </button>
-                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
-                                    <span class="text-sm uppercase">ES</span>
-                                </button>
-                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
-                                    <span class="text-sm uppercase">FR</span>
-                                </button>
-                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
-                                    <span class="text-sm uppercase">IT</span>
-                                </button>
-
-                                <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
-                                    <span class="text-sm uppercase">PL</span>
-                                </button>
-                            </div>
-                        </button>
-                    </div>
-
-                    <div class="shadow-sm lg:hidden fixed w-full z-10 bg-white top-0 mt-[74px] left-0" x-show="menu">
-                        <div class="flex flex-col lg:ml-10 lg:space-x-10 mt-[10px]">
-                            <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Храм</div></a>
-                            <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Прихожанам</div></a>
-                            <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Православный календарь</div></a>
-                            <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Церковная лавка</div></a>
-                            <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Новости</div></a>
-                            <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Храм-часовня Целительница</div></a>
-                            <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Детям</div></a>
-
-                            <button
-                                class="flex items-center justify-between container mx-auto px-5 py-4 hover:bg-zinc-100"
-                                @click="mobileLang = !mobileLang">
-
-
-                            </button>
-
-                            <div
-                                class="relative container mx-auto "
-                                x-show="mobileLang">
-                                <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
-                                    </svg>
-                                    <span class="uppercase text-sm">Ru</span>
-                                </button>
-                                <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
-                                    <span class="uppercase text-sm">Be</span>
-                                </button>
-                                <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
-                                    <span class="uppercase text-sm">De</span>
-                                </button>
-                            <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
-                                <span class="uppercase text-sm">En</span>
-                            </button>
-                            <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
-                                <span class="uppercase text-sm">Es</span>
-                            </button>
-                            <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
-                                <span class="uppercase text-sm">Fr</span>
-                            </button>
-                            <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
-                                <span class="uppercase text-sm">It</span>
-                            </button>
-                            <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
-                                <span class="uppercase text-sm">Pl</span>
-                            </button>
-                            </div>
+                            <a class="false py-[29px] text-sm" href="#">Духовная литература</a>
+                            <a class="false py-[29px] text-sm" href="#">Храм-часовня Целительница</a>
+                            <a class="false py-[29px] text-sm" href="#">Воскресная школа</a>
+                            <a class="false py-[29px] text-sm" href="#">Спонсоры</a>
                         </div>
                     </div>
+
+
+                    <div class="hidden items-center lg:flex">
+                        @guest
+                            <!--Ссылка на вход и регистрацию -->
+                        @else
+                            <!--Ссылка на выход и кабинет пользователя-->
+                        @endguest
+                        <button
+                            class="ml-10 mr-5 flex items-center space-x-2"
+                            @click="desktopLang = !desktopLang"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                            </svg>
+                            <span class="text-sm uppercase">RU</span>
+                        </button>
+                    </div>
                 </div>
+            </div>
 
-        </header>
+            <div
+                class="container fixed top-0 z-20 mx-auto mt-[80px] justify-end"
+                :class="desktopLang ? 'flex' : 'hidden'">
+                <div class="flex flex-col overflow-hidden rounded-[6px] shadow">
+                    <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                        <span class="text-sm uppercase">RU</span>
+                    </button>
+                    <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                        <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                            <span class="text-sm uppercase">BE</span>
+                        </button>
+                        <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                            <span class="text-sm uppercase">DE</span>
+                        </button>
+                        <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                            <span class="text-sm uppercase">EN</span>
+                        </button>
+                        <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                            <span class="text-sm uppercase">ES</span>
+                        </button>
+                        <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                            <span class="text-sm uppercase">FR</span>
+                        </button>
+                        <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                            <span class="text-sm uppercase">IT</span>
+                        </button>
+                        <button class="hover:bg-zinc-100 flex items-center space-x-2 bg-white py-3 px-5">
+                            <span class="text-sm uppercase">PL</span>
+                        </button>
+                    </button>
+                </div>
+            </div>
+        </div>
 
 
-
-
-
-
-
-
-
+        <div class="shadow-sm lg:hidden fixed w-full z-10 bg-white top-0 mt-[74px] left-0" x-show="menu">
+            <div class="flex flex-col lg:ml-10 lg:space-x-10 mt-[10px]">
+                <div class="relative group">
+                <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Храм</div></a>
+                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="/aboutthetemple">О Храме</a>
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#story">История Храма</a>
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="schedule">Расписание</a>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Новости</div></a>
+                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Публикациии</a>
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Фотографии</a>
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Об иконах</a>
+                    </div>
+                </div>
+                <div class="relative group">
+                <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Прихожанам</div></a>
+                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Подать записку</a>
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Таинства</a>
+                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Молитвы</a>
+                    </div>
+                </div>
+                <div class="relative group">
+                <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Православный календарь</div></a>
+                <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
+                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Календарь на год</a>
+                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Календарь венчаний</a>
+                    <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">Календарь имени</a>
+                </div>
+            </div>
+                    <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Духовная литература</div></a>
+                <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Храм-часовня Целительница</div></a>
+                <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Воскресная школа</div></a>
+                <a class="text-sm" href="#"><div class="container mx-auto px-5 py-4 hover:bg-zinc-100">Спонсоры</div></a>
+                <button
+                    class="flex items-center justify-between container mx-auto px-5 py-4 hover:bg-zinc-100"
+                    @click="mobileLang = !mobileLang"
+                >
+                    <div class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                        </svg>
+                        <span class="uppercase text-sm">Ru</span>
+                    </div>
+                </button>
+                <div
+                    class="relative container mx-auto"
+                    x-show="mobileLang"
+                >
+                    <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                        <span class="uppercase text-sm">Ru</span>
+                        <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                            <span class="uppercase text-sm">Be</span>
+                        </button>
+                        <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                            <span class="uppercase text-sm">De</span>
+                        </button>
+                        <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                            <span class="uppercase text-sm">En</span>
+                        </button>
+                        <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                            <span class="uppercase text-sm">Es</span>
+                        </button>
+                        <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                            <span class="uppercase text-sm">Fr</span>
+                        </button>
+                        <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                            <span class="uppercase text-sm">It</span>
+                        </button>
+                        <button class="flex items-center py-3 px-10 space-x-2 bg-white hover:bg-zinc-100 w-full">
+                            <span class="uppercase text-sm">Pl</span>
+                        </button>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
 
 
     <!-- Page Heading -->
@@ -189,9 +239,7 @@
             </main>
 
 
-
             <footer class="footer bg-blue-200 text-base-content p-10">
-
                 <nav>
                     <h6 class="footer-title">Контакты</h6>
                     <a class="link link-hover">
@@ -352,68 +400,65 @@
                         </a>
                         </div>
                 </nav>
-            </footer>
 
-
-                            @if(!isset($_COOKIE['close']))
-                                <div>
-                                    <div class="fixed left-0 bottom-0 z-40 " x-data="{cookies: true}" x-init='$watch("cookies",
+                @if(!isset($_COOKIE['close']))
+                    <div>
+                        <div class="fixed left-0 bottom-0 z-40 " x-data="{cookies: true}" x-init='$watch("cookies",
                                     o => !o && window.setTimeout(() => (cookies = true), 1000)); setTimeout(() => cookies = true, 1500)'
-                                         @keydown.window.escape="cookies = false">
-                                        <!-- Advise -->
-                                        <div x-show="cookies" class="fixed sm:left-4 bottom-20 rounded-lg bg-white shadow-2xl w-full sm:w-1/2 xl:w-1/4 max-w-[450px] overflow-hidden"
-                                             style="display: none;"
-                                             x-transition:enter="transition ease-in duration-200"
-                                             x-transition:enter-start="opacity-0 transform -translate-x-40"
-                                             x-transition:enter-end="opacity-100 transform translate-x-0"
-                                             x-transition:leave="transition ease-in duration-200"
-                                             x-transition:leave-start="opacity-100 transform translate-x-0"
-                                             x-transition:leave-end="opacity-0 transform -translate-x-40">
+                             @keydown.window.escape="cookies = false">
+                            <!-- Advise -->
+                            <div x-show="cookies" class="fixed sm:left-4 bottom-20 rounded-lg bg-white shadow-2xl w-full sm:w-1/2 xl:w-1/4 max-w-[450px] overflow-hidden"
+                                 style="display: none;"
+                                 x-transition:enter="transition ease-in duration-200"
+                                 x-transition:enter-start="opacity-0 transform -translate-x-40"
+                                 x-transition:enter-end="opacity-100 transform translate-x-0"
+                                 x-transition:leave="transition ease-in duration-200"
+                                 x-transition:leave-start="opacity-100 transform translate-x-0"
+                                 x-transition:leave-end="opacity-0 transform -translate-x-40">
 
-                                            <!-- Text -->
-                                            <div class="">
-                                                <div class="relative overflow-hidden px-8 pt-8">
-                                                    <div width="80" height="77" class="absolute -top-10 -right-10 text-yellow-500">
-                                                        <svg width="120" height="119" viewBox="0 0 120 119" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path opacity="0.3"
-                                                                  d="M6.38128 49.1539C3.20326 32.893 13.809 17.1346 30.0699 13.9566L70.3846 6.07751C86.6455 2.89948 102.404 13.5052 105.582 29.7661L113.461 70.0808C116.639 86.3417 106.033 102.1 89.7724 105.278L49.4577 113.157C33.1968 116.335 17.4384 105.729 14.2604 89.4686L6.38128 49.1539Z"
-                                                                  fill="currentColor"/>
-                                                        </svg>
-                                                    </div>
-                                                    <div class="text-2xl flex flex-col pb-4">
-                                                        <small></small>
-                                                        <span class="text-3xl font-bold">Благословенного дня !</span>
-                                                    </div>
-                                                    <div class="pb-4">
-                                                        <p>Мы используем файлы cookie и другие технологии отслеживания для повышения вашего удобства
-                                                            при просмотре информации на нашем сайте, показа вам персонализированного контента и
-                                                            адресных рекламных объявлений, а также анализа трафика на нашем сайте и понимания того,
-                                                            откуда на наш сайт приходят посетители. Более подробную информацию о файлах cookie вы
-                                                            можете найти в нашей
-                                                            <a href="/cookies" class="link-warning link-hover">
-                                                                Политике
-                                                            </a>
-                                                            в области файлов cookie.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Boutons -->
-                                            <div class="w-full flex justify-center items-center border-t border-solid border-gray-200">
-                                                <a href="/cookie/close" class="border-r border-gray-200 flex-1 px-4 py-3 text-gray-500 hover:text-white hover:bg-orange-400 duration-150">
-                                                    Нет, спасибо!
+                                <!-- Text -->
+                                <div class="">
+                                    <div class="relative overflow-hidden px-8 pt-8">
+                                        <div width="80" height="77" class="absolute -top-10 -right-10 text-yellow-500">
+                                            <svg width="120" height="119" viewBox="0 0 120 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.3"
+                                                      d="M6.38128 49.1539C3.20326 32.893 13.809 17.1346 30.0699 13.9566L70.3846 6.07751C86.6455 2.89948 102.404 13.5052 105.582 29.7661L113.461 70.0808C116.639 86.3417 106.033 102.1 89.7724 105.278L49.4577 113.157C33.1968 116.335 17.4384 105.729 14.2604 89.4686L6.38128 49.1539Z"
+                                                      fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div class="text-2xl flex flex-col pb-4">
+                                            <small></small>
+                                            <span class="text-2xl font-bold">Благословенного дня !</span>
+                                        </div>
+                                        <div class="pb-4">
+                                            <p>Мы используем файлы <span class="text-xl">cookie</span> и другие технологии отслеживания для повышения вашего удобства
+                                                при просмотре информации на нашем сайте, показа вам персонализированного контента и
+                                                адресных рекламных объявлений, а также анализа трафика на нашем сайте и понимания того,
+                                                откуда на наш сайт приходят посетители. Более подробную информацию о файлах cookie вы
+                                                можете найти в нашей
+                                                <a href="/cookies" class="link-warning link-hover">
+                                                    Политике
                                                 </a>
-                                                <a href="/cookie/close" class="flex-1 px-4 py-3 text-gray-500 hover:text-white hover:bg-blue-950 duration-150">
-                                                    Конечно!
-                                                </a>
-                                            </div>
+                                                в области файлов cookie.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                            @endif
 
+                                <!-- Boutons -->
+                                <div class="w-full flex justify-center items-center border-t border-solid border-gray-200">
+                                    <a href="/cookie/close" class="border-r border-gray-200 flex-1 px-4 py-3 text-gray-500 hover:text-white hover:bg-orange-400 duration-150">
+                                        Нет, спасибо!
+                                    </a>
+                                    <a href="/cookie/close" class="flex-1 px-4 py-3 text-gray-500 hover:text-white hover:bg-blue-950 duration-150">
+                                        Конечно!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endif
+            </footer>
     </body>
-
 
 </html>
