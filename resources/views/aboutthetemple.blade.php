@@ -1,9 +1,9 @@
 <x-app-layout>
     <x-slot name="header">
 
-<section class="pt-14 space-y-6">
+<section class="mt-32 space-y-6">
 
-    <div class="mt-4">
+    <div class="mt-8">
         <div class="text-3xl"><span class="text-red-700 font-medium">О </span>Храме</div>
     </div>
     <!-- панировочные сухари -->
@@ -36,7 +36,7 @@
         </ol>
     </nav>
 
-    <div class="flex-1 mt-8">
+    <div class="flex mt-8">
         <div class="relative h-screen w-full">
             <img src="{{asset('images/we.jpg')}}" alt="Background Image" class="absolute inset-0 w-full h-full object-cover" />
         </div>

@@ -3,8 +3,8 @@
     <x-slot name="header">
 
 
-        <section class="py-12">
-            <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-36">
+        <section class="mt-40 container px-5 mx-auto">
+            <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-8">
                 <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="#" title="Логотип">
                     <img src="{{asset('images/logo.png')}}" class="w-20 h-20" />
                 </a>
@@ -28,55 +28,57 @@
             </div>
         </section>
 
-        <div class="flex justify-center space-x-4 text-center pt-2">
-        <div>
-            <div class="w-fool flex items-center space-x-4 flex-col md:flex-row md:space-x-16">
-                <div class="skeleton h-32 w-1/3 bg-blue-200 place-content-center text-sm">
-                    <div>
-                    <span>23</span>
-                    <span>ПН</span>
-                    </div>
-                    <span class="">9:00</span>
-                    <span>Часы</span>
-                    <span class="">9:30</span>
-                    <span>Литургия</span>
-                    <span class="">11:00</span>
-                    <span>Молебень</span>
-                    <span>Вознесению Господню</span>
-                </div>
-                <div class="skeleton h-32 w-1/3 bg-blue-200 place-content-center text-sm">
-                    <div>
-                        <span>24</span>
-                        <span>ВТ</span>
-                    </div>
-                    <span class="">9:00</span>
-                    <span>Часы</span>
-                    <span class="">9:30</span>
-                    <span>Литургия</span>
-                    <span class="">11:00</span>
-                    <span>Молебень</span>
-                    <span>Вознесению Господню</span>
-                </div>
-                </div>
-                <div class="skeleton h-32 w-1/3 bg-blue-200 place-content-center text-sm">
-                    <div>
-                        <span>25</span>
-                        <span>СР</span>
-                    </div>
-                    <span class="">9:00</span>
-                    <span>Часы</span>
-                    <span class="">9:30</span>
-                    <span>Литургия</span>
-                    <span class="">11:00</span>
-                    <span>Молебень</span>
-                    <span>Вознесению Господню</span>
-                </div>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 mt-8 mx-auto">
+                <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                            <div class="skeleton w-full p-5 bg-blue-200 place-content-center text-sm">
+                                <div class="text-centre">
+                                    <span>23</span>
+                                    <span>ПН</span>
+                                </div>
+                                <span class="">9:00</span>
+                                <span>Часы</span>
+                                <span class="">9:30</span>
+                                <span>Литургия</span>
+                                <span class="">11:00</span>
+                                <span>Молебень</span>
+                                <span>Вознесению Господню</span>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                            <div class="skeleton w-full p-5 bg-blue-200 place-content-center text-sm">
+                                <div class="text-centre">
+                                    <span>24</span>
+                                    <span>ВТ</span>
+                                </div>
+                                <span class="">9:00</span>
+                                <span>Часы</span>
+                                <span class="">9:30</span>
+                                <span>Литургия</span>
+                                <span class="">11:00</span>
+                                <span>Молебень</span>
+                                <span>Вознесению Господню</span>
+                            </div>
+                        </div>
+                        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                            <div class="skeleton w-full p-5 bg-blue-200 place-content-center text-sm">
+                                <div class="text-centre">
+                                    <span>25</span>
+                                    <span>СР</span>
+                                </div>
+                                <span class="">9:00</span>
+                                <span>Часы</span>
+                                <span class="">9:30</span>
+                                <span>Литургия</span>
+                                <span class="">11:00</span>
+                                <span>Молебень</span>
+                                <span>Вознесению Господню</span>
+                            </div>
+                        </div>
                 </div>
             </div>
-        </div>
-
-
-
+        </section>
 
         <section class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
@@ -94,7 +96,6 @@
                         <p class="text-base leading-relaxed mt-2">
                {{$blog->description_small}}
                         </p>
-
                         <div class="flex items-center flex-wrap ">
                             <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                 <a href="{{asset('blog/'.$blog->id)}}">Узнать больше</a>
@@ -109,7 +110,7 @@
                   <circle cx="12" cy="12" r="3"></circle>
                 </svg>
                 <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">1,2 тыс.</font>
+                  <font style="vertical-align: inherit;">{{\App\Models\Look::where('page', '/blog/'.$blog->id)->count()}}</font>
                 </font>
               </span>
                                 <span class="text-gray-400 inline-flex items-center leading-none text-sm">

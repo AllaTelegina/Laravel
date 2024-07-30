@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <div class="text-blue-950 py-12">
-            <div class="mt-4">
+            <div class="mt-20">
                 <div class="text-3xl"><span class="text-red-700 font-medium">К</span>алендарь Имени</div>
             </div>
             <!-- панировочные сухари -->
@@ -34,7 +34,7 @@
                 </ol>
             </nav>
 
-            <div class="bg-blue-400  text-white text-center py-4 header-date rounded-3xl">
+            <div class="bg-blue-400  text-white text-center mt-8 header-date rounded-3xl">
                 <div class="mt-2">
                     <span class="text-white text-4xl m-6">Выбор имени по церковному календарю</span>
                 </div>
@@ -96,11 +96,12 @@
 
             </div>
 
+            <div id="january">
             <div class="mt-4 mb-6 px-8">
                 <div class="container mx-auto shadow-xl shadow-gray-300">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
-                            <h3 id="january" class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Январь</h3>
+                            <h3  class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Январь</h3>
                             <p>1 января: Илья, Вонифатий, Пров, Арис, Полиеввкт, Тимофей, Григорий</p>
                             <p>2 января: Игнатий, Иоанн, Филогоний, Даниил, Антоний</p>
                             <p>3 января: Иулиания, Петр, Михаил, Сергий, Никита, Леонтий, Прокопий, Фемистоклей, Филарет,</p>
@@ -135,6 +136,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
 
             <div class="mt-4 mb-6 px-8">

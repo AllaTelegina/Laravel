@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Blog;
 use App\Models\BlogText;
+use App\Models\Look;
 use App\Models\BlogTextPicture;
 use App\Actions\Imag;
 use Illuminate\Support\Facades\Auth;
@@ -21,9 +22,14 @@ class BlogController extends Controller
 
     public function getOne(Blog $blog)
     {
+        $look = new Look;
+        $look -> page = $_SERVER['REQUEST_URI'];
+        $look -> ip = $_SERVER['REMOTE_ADDR'];
+        $look -> save();
+        $lookpage = Look::where('page', $_SERVER['REQUEST_URI'])->count();
         $comments = Comment::orderBy('id', 'DESC')->where('blog_id', $blog->id)->get();
        // $comments = Comment::orderBy('id', 'DESC')->where('model_id', $blog->id)->where('model_name', 'blog')->get();
-        return view('blog', compact('blog', 'comments'));
+        return view('blog', compact('blog', 'comments', 'lookpage'));
     }
 
     public function postBlogText(Blog $blog, Request $request)

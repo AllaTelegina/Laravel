@@ -49,4 +49,5 @@
             </x-primary-button>
         </div>
     </form>
+    <a class="" href="/login">Логин</a>
 </x-guest-layout>
