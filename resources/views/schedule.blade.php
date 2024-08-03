@@ -36,7 +36,7 @@
 
         <section class="text-blue-950  space-y-6 pt-8">
 
-            <div class="bg-sky-600  text-blue-950 text-center py-4 header-date">
+            <div class="bg-blue-400  text-blue-950 text-center py-4 header-date rounded-3xl">
                 <div class="mt-2">
                     <span class="text-white text-6xl m-6">Сентябрь</span>
                 </div>
@@ -73,14 +73,17 @@
             </div>
 
             <div class="h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-200 rounded-lg">
-                <p class="m-8">Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя Владимира.
-                </br>Здесь вы найдете информацию о регулярных и праздничных службах, которые проходят в нашем храме.
+                <p class="mb-2 leading-relaxed text-xl text-center">
+                    Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя Владимира
+                </p>
+                <p class="py-4 px-4 text-center">
+                Здесь вы найдете информацию о регулярных и праздничных службах, которые проходят в нашем храме.
                 Мы рады видеть вас на наших богослужениях и мероприятиях!
                 </p>
             </div>
 
-            <div class="mt-2 h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-300 rounded-lg">
-                <span class="text-blue-950 text-2xl text-center m-6">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
+            <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-blue-100 shadow-2xl shadow-gray-300 rounded-lg">
+                <span class="text-blue-950 text-2xl ">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
             </div>
 
             <div class="container mx-auto space-y-10">
@@ -264,49 +267,43 @@
                 </div>
 
 
-                    <div class="text-blue-950 body-font">
-
-                        <div class="container px-5 py-12 mx-auto">
-                            <div class="container px-10 py-24 mx-auto bg-blue-100 shadow-xl  shadow-blue-200 rounded-lg">
+                            <div class="container px-10 py-12 mx-auto bg-blue-100 shadow-xl shadow-blue-200 rounded-lg text-blue-950 body-font">
                                 <div class="container px-5 py-8 mx-auto justify-self-auto text-center">
                                     <p class="text-4xl">Другие мероприяния</p>
                                 </div>
                             <div class="flex flex-wrap -mx-4 -my-8 bg-blue-100">
+
+
                                 <div class="py-8 px-4 lg:w-1/3">
                                     <div class="h-full flex items-start">
                                         <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
             <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">
-
-            </span>
-                                            <span class="mr-4 font-medium text-lg text-gray-800 title-font leading-none flex flex-col items-center skeleton h-20 w w-20 bg-blue-200 place-content-center">
               <div style="vertical-align: inherit;">
                 <span style="vertical-align: inherit;">Сентябрь</span>
               </div>
-                                                <div style="vertical-align: inherit;">
+            </span>
+                                            <span class="font-medium text-lg text-gray-800 title-font leading-none">
+              <div style="vertical-align: inherit;">
                 <div style="vertical-align: inherit;">28</div>
               </div>
             </span>
                                         </div>
                                         <div class="flex-grow pl-6">
                                             <h1 class="title-font text-xl font-medium text-blue-950 mb-3">
-                                                <div style="vertical-align: inherit;">
                                                     <span style="vertical-align: inherit;">Чаепитие после службы</span>
-                                                </div>
                                             </h1>
-                                            <p class="leading-relaxed mb-5">
-                                                <div style="vertical-align: inherit;">
-                                                    <p style="vertical-align: inherit;">
+                                            <div class="leading-relaxed mb-5">
+                                                    <p>
                                                         Приглашаем всех прихожан на традиционное
                                                         чаепитие после службы, которое состоится в понедельник, 28 сентября,
                                                         в 12:00. Это отличная возможность пообщаться и обсудить насущные вопросы
                                                         в неформальной обстановке.
                                                     </p>
                                                 </div>
-                                            </p>
-
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="py-8 px-4 lg:w-1/3">
                                     <div class="h-full flex items-start">
                                         <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
@@ -375,8 +372,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </section>
 
 

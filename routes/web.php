@@ -28,6 +28,8 @@ Route::middleware('lang')->group(function(){
     Route::get('namecalendar', [Controllers\BaseController::class, 'getNamecalendar'])->name('namecalendar');
     Route::get('boris', [Controllers\BaseController::class, 'getBoris'])->name('boris');
     Route::get('prayers', [Controllers\BaseController::class, 'getPrayers'])->name('prayers');
+    Route::get('foto', [Controllers\BaseController::class, 'getFoto'])->name('foto');
+    Route::get('publications', [Controllers\BaseController::class, 'getPublications'])->name('publications');
     Route::get('test', [Controllers\BaseController::class, 'getTest'])->name('test');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);

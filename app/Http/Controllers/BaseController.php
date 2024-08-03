@@ -76,5 +76,16 @@ class BaseController extends Controller
 
     }
 
+    public function getFoto(){
+        return view('foto');
+
+    }
+
+    public function getPublications(){
+        return view('publications');
+
+    }
+
+
 }
 

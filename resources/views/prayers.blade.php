@@ -39,7 +39,7 @@
 
 <section class="py-4">
             <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-36">
-                <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="#" title="Логотип">
+                <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/" title="Логотип">
                     <img src="{{asset('images/logo.png')}}" class="w-20 h-20" />
                 </a>
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center m-8">
@@ -120,6 +120,19 @@
                                 <rect opacity="0.8" x="21.0403" y="7.24176" width="2.6302" height="17.0963" rx="1.3151" transform="rotate(89.4121 21.0403 7.24176)" fill="#407BB4"/>
                                 <rect x="10.521" y="1.32382" width="3.9453" height="38.7954" rx="1.97265" fill="#407BB4"/>
                             </svg>
+                            <span class="text-2xl">Молитвы об упокоении</span>
+                        </a>
+                        <a href="#" class="mb-4 flex items-center space-x-2 leading-relaxed">
+                            <svg width="25" height="41" viewBox="0 0 25 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="11.1779" y="1.98136" width="2.6302" height="37.4803" rx="1.3151" stroke="white" stroke-width="2.6302"/>
+                                <rect x="0.98963" y="-0.983027" width="1.97265" height="23.0142" rx="0.986325" transform="matrix(0.00335685 -0.999994 0.999994 0.00333804 1.96933 17.8491)" stroke="white" stroke-width="1.97265"/>
+                                <rect width="2.6302" height="23.6718" rx="1.3151" transform="matrix(0.00335685 -0.999994 0.999994 0.00333804 0.657715 17.1049)" fill="#407BB4"/>
+                                <rect opacity="0.8" x="21.3941" y="30.062" width="1.97265" height="17.7538" rx="0.986325" transform="rotate(107.371 21.3941 30.062)" stroke="white" stroke-width="1.97265"/>
+                                <rect opacity="0.8" x="21.6445" y="29.8348" width="2.6302" height="18.4114" rx="1.3151" transform="rotate(107.371 21.6445 29.8348)" fill="#407BB4"/>
+                                <rect opacity="0.8" x="20.7218" y="7.58059" width="1.97265" height="16.4387" rx="0.986325" transform="rotate(89.4121 20.7218 7.58059)" stroke="white" stroke-width="1.97265"/>
+                                <rect opacity="0.8" x="21.0403" y="7.24176" width="2.6302" height="17.0963" rx="1.3151" transform="rotate(89.4121 21.0403 7.24176)" fill="#407BB4"/>
+                                <rect x="10.521" y="1.32382" width="3.9453" height="38.7954" rx="1.97265" fill="#407BB4"/>
+                            </svg>
                             <span class="text-2xl">Молитвы разные</span>
                         </a>
                     </div>
@@ -149,6 +162,241 @@
                     </div>
                 </div>
             </div>
+
+
+тест 1
+
+            <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+                <h2 id="accordion-color-heading-1">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
+                        <span>What is Flowbite?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+                    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                    </div>
+                </div>
+                <h2 id="accordion-color-heading-2">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
+                        <span>Is there a Figma file available?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+                    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                    </div>
+                </div>
+                <h2 id="accordion-color-heading-3">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
+                        <span>What are the differences between Flowbite and Tailwind UI?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                        <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+                            <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+                            <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            тест 2
+
+
+
+
+            <div id="accordion-nested-parent" data-accordion="collapse">
+                <h2 id="accordion-collapse-heading-1">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                        <span>What is Flowbite?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+                    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                        <p class="mb-4 text-gray-500 dark:text-gray-400">What are the differences between Flowbite and Tailwind UI?</p>
+                        <!-- Nested accordion -->
+                        <div id="accordion-nested-collapse" data-accordion="collapse">
+                            <h2 id="accordion-nested-collapse-heading-1">
+                                <button type="button" class="flex items-center justify-between w-full p-5 rounded-t-xl font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-nested-collapse-body-1" aria-expanded="false" aria-controls="accordion-nested-collapse-body-1">
+                                    <span>Open source</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-nested-collapse-body-1" class="hidden" aria-labelledby="accordion-nested-collapse-heading-1">
+                                <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                                    <p class="text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product.</p>
+                                </div>
+                            </div>
+                            <h2 id="accordion-nested-collapse-heading-2">
+                                <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-nested-collapse-body-2" aria-expanded="false" aria-controls="accordion-nested-collapse-body-2">
+                                    <span>Architecture</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-nested-collapse-body-2" class="hidden" aria-labelledby="accordion-nested-collapse-heading-2">
+                                <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                                    <p class="text-gray-500 dark:text-gray-400">Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+                                </div>
+                            </div>
+                            <h2 id="accordion-nested-collapse-heading-3">
+                                <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-nested-collapse-body-3" aria-expanded="false" aria-controls="accordion-nested-collapse-body-3">
+                                    <span>Can I use both?</span>
+                                    <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                    </svg>
+                                </button>
+                            </h2>
+                            <div id="accordion-nested-collapse-body-3" class="hidden" aria-labelledby="accordion-nested-collapse-heading-3">
+                                <div class="p-5 border border-gray-200 dark:border-gray-700">
+                                    <p class="mb-2 text-gray-500 dark:text-gray-400">We actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+                                    <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                                    <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+                                        <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+                                        <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End: Nested accordion -->
+                    </div>
+                </div>
+                <h2 id="accordion-collapse-heading-2">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+                        <span>Is there a Figma file available?</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+                    <div class="p-5 border border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+                        <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                    </div>
+                </div>
+            </div>
+
+тест 3
+
+
+            <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+                <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                    <div class="max-w-2xl mx-auto text-center">
+                        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+                            Explore Common Questions
+                        </h2>
+                    </div>
+                    <div class="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
+                        <div
+                            class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+                            <button type="button" id="question1" data-state="closed" class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+                                <span class="flex text-lg font-semibold text-black">How can I get started?</span>
+                                <svg id="arrow1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                     class="w-6 h-6 text-gray-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div id="answer1" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+                                <p>Getting started is easy! Sign up for an account, and you'll have access to our platform's
+                                    features. No credit card required for the initial signup.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+                            <button type="button" id="question2" data-state="closed" class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+                                <span class="flex text-lg font-semibold text-black">What is the pricing structure?</span>
+                                <svg id="arrow2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                     class="w-6 h-6 text-gray-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div id="answer2" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+                                <p>Our pricing structure is flexible. We offer both free and paid plans. You can choose the one
+                                    that
+                                    suits your needs and budget.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+                            <button type="button" id="question3" data-state="closed" class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+                                <span class="flex text-lg font-semibold text-black">What kind of support do you provide?</span>
+                                <svg id="arrow3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                     class="w-6 h-6 text-gray-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div id="answer3" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+                                <p>We offer comprehensive customer support. You can reach out to our support team through
+                                    various
+                                    channels, including email, chat, and a knowledge base.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+                            <button type="button" id="question4" data-state="closed" class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+                                <span class="flex text-lg font-semibold text-black">Can I cancel my subscription anytime?</span>
+                                <svg id="arrow4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                     class="w-6 h-6 text-gray-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div id="answer4" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+                                <p>Yes, you can cancel your subscription at any time without any hidden fees. We believe in
+                                    providing a hassle-free experience for our users.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center text-gray-600 textbase mt-9">
+                        Still have questions?
+                        <span class="cursor-pointer font-medium text-tertiary transition-all duration-200 hover:text-tertiary focus:text-tertiary hover-underline">Contact
+                our support
+            </span>
+                    </p>
+                </div>
+                <script>
+                    // JavaScript to toggle the answers and rotate the arrows
+                    document.querySelectorAll('[id^="question"]').forEach(function(button, index) {
+                        button.addEventListener('click', function() {
+                            var answer = document.getElementById('answer' + (index + 1));
+                            var arrow = document.getElementById('arrow' + (index + 1));
+
+                            if (answer.style.display === 'none' || answer.style.display === '') {
+                                answer.style.display = 'block';
+                                arrow.style.transform = 'rotate(0deg)';
+                            } else {
+                                answer.style.display = 'none';
+                                arrow.style.transform = 'rotate(-180deg)';
+                            }
+                        });
+                    });
+                </script>
+            </section>
 
 
             <div class="mt-4 mb-6 px-8">
@@ -999,6 +1247,103 @@
 
                                 О великий угодниче Божий, равноапостольный княже Владимире! Призри на немощи наши и умоли Премилосердаго Царя Небеснаго, да не прогневается на ны зело и да не погубит нас со беззаконьми нашими, но да помилует и спасет нас по милости Своей, да всадит в сердца наша покаяние и спасительный страх Божий, да просветит Своею благодатию ум наш, во еже оставити нам стези нечестия и на путь спасения обратитися, неуклонно же заповеди Божия творити и уставы Святыя Церкве соблюдати. Моли, благосерде, Человеколюбца Бога, да явит нам великую милость Свою: да избавит нас от смертоносных болезней и от всякаго зла, да сохранит и спасет рабов Божиих (имена) от всех козней и наветов вражиих и да все мы сподобимся с тобою вечнаго блаженства, хваляще и превозносяще Бога во веки веков.
 
+                                Святому благоверному князю Александру Невскому
+                                Скорый помощниче всех усердно к тебе прибегающих и теплый наш пред Господом предстателю, святый благоверный великий княже Александре! Призри милостиво на мя недостойнаго, многими беззаконии непотребна себе сотворшаго раба твоего (имя), к раце мощей твоих (ко святей иконе твоей) ныне притекающа и из глубины сердца к тебе взывающа. Ты в житии твоем ревнитель и защитник православный веры был еси: и нас в ней теплыми твоими к Богу молитвами непоколебимы утверди. Ты великое возложенное на тя служение тщательно проходил еси: и нас твоею помощию пребывати коегождо, в неже призван есть, настави. Ты, победив полки супостата, от пределов Российских того отгнал еси: и на нас ополчающихся всех видимых и невидимых врагов низложи. Ты, оставив тленный венец царства земнаго, избрал еси безмолвное житие, и ныне праведно венцем нетленным увенчанный на небесех царствуеши: исходатайствуй и нам, смиренно молим тя, житие тихое и безмятежное, и к вечному Царствию шествие неуклонное твоим предстательством устрой нам. Предстоя же со всеми святыми престолу Божию, молися о всех православных христианех, да сохранит их Господь Бог Своею благодатию в мире, здравии, долгоденствии и всяком благополучии в должайшая лета, да присно славим и благословим Бога в Троице Святей славимаго, Отца и Сына и Святаго Духа, ныне и присно и во веки веков.
+
+                                Молитва пред иконой Божией Матери «Целительница»
+                                Тропарь, глас 4-й
+
+                                Яко Пресветлая Звездо, просия Божественными чудесы святый Твой образ Целительнице. Подаждь убо и нам, Богородице Марие, исцеление недугов душевных и телесных, спасение и велию милость.
+
+                                Молитва
+
+                                Приими, о, Всеблагословенная и Всемощная Госпоже Владычице Богородице Дево, сия молитвы, со слезами Тебе ныне приносимыя от нас, недостойных раб Твоих, ко Твоему цельбоносному образу пение возсылающих со умилением, яко Тебе Самой зде сущей и внемлющей молению нашему. По коемуждо бо прошению исполнение твориши, скорби облегчаеши, немощным здравие даруеши, разслабленныя и недужныя исцеляеши, от бесных бесы прогоняеши, обидимыя от обид избавлявши, прокаженныя очищаеши и малыя дети милуеши; еще же, Госпоже Владычице Богородице, и от уз и темниц свобождаеши и всякия многоразличныя страсти врачуеши: вся бо суть возможна ходатайством Твоим к Сыну Твоему, Христу Богу нашему. О Всепетая Мати, Пресвятая Богородице! Не престай молитися о нас недостойных рабах Твоих, славящих Тя и почитающих Тя, и поклоняющихся со умилением Пречистому образу Твоему, и надежду имущих невозвратну и веру несумненну к Тебе, Приснодеве Преславней и Непорочней, ныне и присно и во веки веков. Аминь.
+
+
+
+                                Молитва пред иконой Божией Матери «Умиление»
+                                Приими, всеблагомощная, Пречистая Госпоже Владычице Богородительнице, сия честные дары, Тебе единей прикладныя, от нас, недостойных рабов Твоих: от всех родов избранная, всех тварей небесных и земных высшая явльшаяся, понеже бо Тебе ради бысть Господь Сил с нами, и Тобою Сына Божия познахом и сподобихомся святаго Тела Его и пречистыя Крове Его; темже блаженна еси в родех родов, Богоблаженная, Херувимов светлейши и Серафимов честнейши сущая. И ныне, всепетая Пресвятая Богородице, не престай молящися о нас, недостойных рабех Твоих, еже избавитися нам от всякаго совета лукаваго и всякаго обстояния и сохранитися нам неврежденным от всякаго ядовитаго прилога диавольскаго; но даже до конца молитвами Твоими неосужденных нас соблюди, яко да Твоим заступлением и помощию спасаеми, славу, хвалу, благодарение и поклонение за вся в Троице Единому Богу и всех Создателю возсылаем, ныне и присно, и во веки веков. Аминь.
+
+
+                                Молитва пред иконой Божией Матери «Умягчение злых сердец»
+                                О многострадальная Мати Божия, Превысшая всех дщерей земли, по чистоте Своей и по множеству страданий, Тобою на земли перенесенных, приими многоболезненныя воздыхания наша и сохрани нас под кровом Твоея милости. Иного бо прибежища и теплаго предстательства разве Тебе не вемы, но, яко дерзновение имущая ко Иже из Тебе рожденному, помози и спаси ны молитвами Своими, да непреткновенно достигнем Царствия Небеснаго, идеже со всеми святыми будем воспевать в Троице Единому Богу ныне и присно, и во веки веков. Аминь.
+
+
+                                Молитва пред иконой Божией Матери "Казанская"
+                                Благословление на вступление в брак
+                                Тропарь, глас 4-й
+
+                                Заступнице усердная, Мати Господа Вышняго! За всех моли́ши Сына Твоего, Христа Бога нашего, и всем твориши спастися, в державный Твой покров прибегающим. Всех нас заступи, о Госпоже, Царице и Владычице, иже в напастех и в скорбех и в болезнех, обремененных грехми многими, предстоящих и молящихся Тебе умиленною душею и сокрушенным сердцем пред Пречистым Твоим образом со слезами, и невозвратно надежду имущих на Тя избавления всех зол. Всем полезная даруй и вся спаси, Богородице Дево: Ты бо еси Божественный покров рабом Твоим.
+
+                                Кондак, глас 8-й
+
+                                Притецем, людие, к тихому сему и доброму пристанищу, скорой Помощнице, готовому и теплому спасению, покрову Девы; ускорим на молитву и потщимся на покаяние: источает бо нам неоскудныя милости Пречистая Богородица, предваряет на помощь и избавляет от великих бед и зол благонравныя и богобоящияся рабы Своя.
+
+                                Молитва
+
+                                О Пречистая Владычице Богородице, Царице небеси и земли, вышшая Ангел и Архангел и всея твари честнейшая, чистая Дево Марие, миру благая помощнице и всем людем утверждение и во всяких нуждах избавление! Призри и ныне, Госпоже Всемилостивая, на рабы Твоя, Тебе умиленною душею и сокрушенным сердцем молящияся, со слезами к Тебе припадающия пречистому и цельбоносному образу Твоему, и помощи и заступления Твоего просящия. О Всемилостивая и Премилосердая Дево Богородице чтимая! Воззри, Госпоже, на люди Твоя: мы бо, грешнии, не имамы иныя помощи, разве Тебе и от Тебя рождшагося Христа Бога нашего. Ты еси заступница и предстательница наша, Ты еси обидимым защищение. Скорбящим радование, сирым прибежище, вдовам хранительница, девам слава, плачущим веселие, больным посещение, немощным исцеление, грешным спасение. Сего ради, о Богомати, к Тебе прибегаем и на Твой пречистый образ с превечным на руку Твоею держимым младенцем, Господем нашим Иисусом Христом взирающе, умиленное пение Тебе приносим и вопием: помилуй нас, Мати Божия, и прошение наше исполни, вся бо суть возможна ходатайству Твоему: яко Тебе слава подобает ныне и присно и во веки веков. Аминь.
+
+
+                                Молитва пред иконой Божией Матери «Скоропослушница»
+                                Тропарь, глас 4-й
+
+                                К Богородице притецем сущии в бедах, и святей иконе Ея ныне припадем, с верою зовуще из глубины души: скоро наше услыши моление, Дево, яко Скоропослушница нарекшаяся, Тебе бо ради раби Твои в нужду готовую помощницу имамы.
+
+                                Кондак, глас 8-й
+
+                                В море житейстем обуреваемии, треволнению подпадаем страстей и искушений. Подаждь убо нам, Госпоже, руку помощи, якоже Петрови Сын Твой, и ускори от бед избавити ны, да зовем Ти: радуйся, всеблагая Скоропослушнице.
+
+                                Молитва
+
+                                Преблагословенная Владычице, Приснодево Богородице, Бога Слова паче всякаго слова на спасение наше рождшая, и благодать Его преизобильно паче всех приявшая, море явльшаяся Божественных дарований и чудес приснотекущая река, изливающая благость всем, с верою к Тебе прибегающим! Чудотворному Твоему образу припадающе, молимся Тебе, всещедрей Матери человеколюбиваго Владыки: удиви на нас пребогатыя милости Твоя и прошения наша, приносимая Тебе, Скоропослушнице, ускори исполнити все, еже на пользу во утешение и спасение коемуждо устрояющи. Посети, Преблагая, рабы Твоя благодатию Твоей, подаждь недугующим цельбу и совершенное здравие, обуреваемым тишину, плененным свободу, и различными образы страждущих утеши. Избави, Всемилостивая Госпоже, всяк град и страну от глада, язвы, труса, потопа, огня, меча и иныя казни временныя и вечныя, Матерним Твоим дерзновением отвращающи гнев Божий; и душевнаго разслабления, обуревания страстей и грехопадений свободи рабы Твоя, яко да непреткновенно во всяком благочестии поживше в сем веце, и в будущем вечных благ сподобимся благодатию и человеколюбием Сына Твоего и Бога, Емуже подобает всякая слава, честь и поклонение со Безначальным Его Отцем и Пресвятым Духом, ныне и присно и во веки веков. Аминь.
+
+                                Молитва пред иконой Божией Матери «Феодоровская»
+                                Тропарь, глас 4-й
+
+                                Пришествием честныя Твоея иконы, Богоотроковице, обрадованный днесь, богохранимый град Кострома, якоже древний Израиль к кивоту завета, притекает ко изображению лица Твоего и воплотившагося от Тебе Бога нашего, да Твоим Матерним к нему предстательством присно ходатайствуеши всем под сень крова Твоего прибегающим мир и велию милость.
+
+                                Кондак, глас 1-й
+
+                                Взбранней Воеводе, Пренепорочней Деве Богородице, Заступнице нашей и Предстательству христиан непостыдному, явлением чудныя иконы Своея радование подавшей земле Российстей и вся верныя чада Церкве просветившей, благодарение усердно приносим Ти, Богородице, и припадающе пречудному образу Твоему, умильно глаголем. Спаси, Госпоже, и помилуй рабы Твоя, зовущия: Радуйся, Матерь Божия, Предстательнице и Заступнице наша усердная.
+
+                                Молитва
+
+                                К кому воззову, Владычице, к кому прибегну в печали моей; к кому принесу слезы и воздыхания моя, аще не к Тебе, Царице Небеси и земли: кто исторгнет мя от тины грехов и беззаконий, аще не Ты, о Мати Живота, Заступнице и Прибежище рода человеческаго. Услыши стенание мое, утеши мя и помилуй в горести моей, защити в бедах и напастях, избави от озлоблений и скорбей, и всяких недугов, и болезней, от враг видимых и невидимых, умири вражду стужающих мне, да избавлен буду от клеветы и злобы человеческия; такожде от своея ми плоти гнусных обычаев свободи мя. Укрый мя под сению милости Твоея, да обрящу покой и радость и от грехов очищение. Твоему Матернему заступлению себе вручаю; буди мне Мати и надеждо, покров, и помощь, и заступление, радость и утешение, и скорая во всем Помощнице. О чудная Владычице! Всяк притекает к Тебе, без Твоея всесильныя помощи не отходит; сего ради и аз недостойный к Тебе прибегаю, да избавлен буду от внезапныя и лютыя смерти, скрежета зубнаго и вечнаго мучения. Небесное же Царствие получити сподоблюся и Тебе во умилении сердца реку: Радуйся, Мати Божия, Предстательница и Заступница наша усердная, во веки веков. Аминь.
+
+                                Молитва пред иконой Божией Матери «Прибавление ума»
+                                Тропарь, глас 4-й
+
+                                О Преславная Мати Христа Бога нашего, благих Подателя, милостию Своею всю вселенную сохрани, даруй нам, рабом Твоим, премудрость и разум, светом Сына Твоего души наша просвети, едина Всепетая, от Херувим и Серафим славимая.
+
+                                Кондак, глас 2-й
+
+                                Яко Единицы умом нас просвещающую, хвалим Тя, Пречистая, Мати Разума, всю вселенную держащаго, Красото мира видимаго и невидимаго, лучами жизни нас озаряющая.
+
+                                Молитва
+
+                                О Пресвятая Дево! Ты — Невеста Бога Отца и Матерь Божественнаго Его Сына Иисуса Христа! Ты — Царица Ангелов и спасение людей, обличительница грешников и наказательница богоотступников. Помилуй и нас, тяжко согрешивших и не исполнивших заповедей Божиих, нарушивших обеты крещения и обеты монашества и многие другие, которые обещали исполнять. Когда Дух Святый отступил от царя Саула, тогда боязнь и уныние напали на него и тьма отчаяния и безрадостное состояние души мучили его. Теперь и мы за грехи наши все лишились благодати Духа Святаго. Ум осуетился суетою помышлений, забвение о Боге омрачило души наша, и теперь теснят сердце всякаго рода печали, скорби, болезни, ненависть, зло, вражда, мстительность, злорадство и прочие грехи. И, не имея радости и утешения, зовем к Тебе, Мати Бога нашего Иисуса Христа, да умолиши Сына Твоего простить нам все наши согрешения и послать к нам Духа Утешителя, как послал Он Его на апостолов, да утешенные и просвещенные Им воспоим Тебе благодарственную песнь: радуйся Пресвятая Богородице, ко спасению прибавившая нам ума. Аминь.
+
+                                Молитва ко Пресвятой Богородице
+                                Милосердия двери отверзи нам, Благословенная Богородице, надеющиися на Тя, да не погибнем, но да избавимся Тобою от бед, Ты бо еси спасение рода христианскаго. Радуйся, Едина Пречистая Мати Единаго Создателя, Господа, Бога и Спаса нашего, Иисуса Христа! Буди ми Ходатаица в день страшнаго испытания, егда предстану Престолу Нелицемернаго Судии, яко да огненнаго прещения муки избавлюся молитвами Твоими, Едина Благословенная. Пресвятая Богородице, спаси нас!
+
+                                Святителю Николаю Чудотворцу
+                                Добавить в  Любимые закладки
+
+                                О, всесвятый Николае, угодниче преизрядный Господень, теплый наш заступниче, и везде в скорбех скорый помощниче! Помози мне грешному и унылому в настоящем сем житии, умоли Господа Бога даровати ми оставление всех моих грехов, елико согреших от юности моея, во всем житии моем, делом, словом, помышлением и всеми моими чувствы; и во исходе души моея помози ми окаянному, умоли Господа Бога, всея твари Содетеля, избавити мя воздушных мытарств и вечного мучения: да всегда прославляю Отца и Сына и Святаго Духа, и твое милостивное предстательство, ныне и присно и во веки веков. Аминь.
+
+
+
+                                Тропарь, глас 4
+                                Правило веры и образ кротости, воздержания учителя яви тя стаду твоему яже вещей истина; сего ради стяжал еси смирением высокая, нищетою богатая, отче священноначальниче Николае, моли Христа Бога спастися душам нашим.
+
+
+
+                                Кондак, глас 3
+                                В Мирех, святе, священнодействитель показался еси: Христово бо, преподобне, Евангелие исполнив, положил душу твою о людех твоих, и спасл еси неповинныя от смерти; сего ради освятился еси, яко великий таинник Божия благодати.
+
+
+
+
 
 
                                 Святому апостолу и евангелисту Иоанну Богослову
@@ -1027,6 +1372,173 @@
                                 Молитва третья
                                 О преблаженне святителю Спиридоне! Умоли благосердие Человеколюбца Бога, да не осудит нас по беззаконием нашим, но да сотворит с нами по милости Своей. Испроси нам, рабам Божиим (имена), у Христа и Бога нашего мирное и безмятежное житие, здравие душевное и телесное. Избави нас от всяких бед душевных и телесных, от всех томлений и диавольских наветов. Поминай нас у престола Вседержителя и умоли Господа, да подаст многих наших грехов прощение, безбедное и мирное житие, да дарует нам, кончины же живота непостыдныя и мирныя и блаженства вечнаго в будущем веце сподобит нас, да непрестанно возсылаем славу и благодарение Отцу и Сыну и Духу Святому, ныне и присно и во веки веков.
 
+
+                                Преподобному Сергию Радонежскому
+                                О священная главо, преподобне и богоносне отче наш Сергие, молитвою твоею, и верою и любовию, яже к Богу, и чистотою сердца, еще на земли во обитель Пресвятыя Троицы душу твою устроивый, и ангельскаго общения и Пресвятыя Богородицы посещения сподобивыйся, и дар чудодейственныя благодати приемый, по отшествии же твоем от земных наипаче к Богу приближивыйся и небесныя силы приобщивыйся, но от нас духом любве твоея не отступивый, и честныя твоя мощи, яко сосуд благодати полный и преизливающийся, нам оставивый! Велие имея дерзновение ко Всемилостивому Владыце, моли спасти рабы Его, сущей в тебе благодати Его верующия и к тебе с любовию притекающия. Испроси нам от Великодаровитаго Бога нашего всякий дар, всем и коемуждо благопотребен: веры непорочны соблюдение, градов наших утверждение, мира умирение, от глада и пагубы избавление, от нашествия иноплеменных сохранение, скорбящим утешение, недугующим исцеление, падшим возставление, заблуждающим на путь истины и спасения возвращение, подвизающимся укрепление, благоделающим в делех благих преспеяние и благословение, младенцем воспитание, юным наставление, неведущим вразумление, сиротам и вдовицам заступление, отходящим от сего временнаго жития к вечному благое уготовление и напутствие, отшедшим блаженное упокоение, и вся ны споспешествующими твоими молитвами сподоби в день Страшнаго Суда шуия части избавитися, десныя же страны общники быти и блаженный оный глас Владыки Христа услышати: «Приидите, благословеннии Отца Моего, наследуйте уготованное вам Царствие от сложения мира». Аминь.
+
+                                Великомученику Георгию Победоносцу
+                                Святый, славный и всехвальный великомучениче Христов Георгие! Собраннии во храме твоем и пред иконою твоею святою покланяющиися людие молим тя, известный желания нашего ходатаю: моли с нами и о нас умоляемаго от Своего благосердия Бога, да милостиво услышит нас, просящих Его благостыню (имена), и не оставит вся наша ко спасению и житию нужная прошения, и да укрепит же данною тебе благодатию во бранех православное воинство, и силы возстающих враг наших да низложит, да постыдятся и посрамятся, и дерзость их да сокрушится, и да уведят, яко мы имамы Божественную помощь: и всем в скорби и обстоянии сущим многомощное яви твое заступление: умоли Господа Бога, всея твари Создателя, избавити нас от вечнаго мучения, да всегда прославляем Отца и Сына и Святаго Духа, и твое исповедуем предстательство, ныне и присно и во веки веков.
+                                Великомученику Георгию Победоносцу
+                                Тропарь, глас 4-й
+
+                                Яко пленных свободитель, и нищих защититель, немощствующих врач, православных поборниче, победоносче великомучениче Георгие, моли Христа Бога спастися душам нашим.
+
+                                Кондак, глас 4-й
+
+                                Возделан от Бога, показался еси благочестия делатель честнейший, добродетелей рукояти собра в себе: сеяв бо в слезах, веселием жнеши: страдальчествовав же кровию, Христа приял еси: и молитвами, святе, твоими всем подаеши прегрешений прощение.
+
+                                Молитва
+
+                                Святый, славный и всехвальный великомучениче Христов Георгие! Собраннии во храме твоем и перед иконою твоею святою покланяющиися людие, молим тя, известный желания нашего ходатаю: моли с нами и о нас умоляемаго от Своего благоутробия Бога, да милостивно услышит нас, просящих Его благостыню, и не оставит вся наша ко спасению и житию нуждная прошения, и да укрепит же данною тебе благодатию во бранех православное воинство, разрушит силы возстающих враг, да постыдятся и посрамятся, и дерзость их да сокрушится, и да уведят, яко мы имамы божественную помощь; и всем в скорби и обстоянии сущим многомощное яви твое заступление. Умоли Господа Бога, всея твари Создателя, избавити нас от вечнаго мучения, да всегда прославляем Отца и Сына и Святаго Духа, и твое исповедуем предстательство, ныне и присно и во веки веков. Аминь.
+
+
+                                Благоверному князю Петру и княгине Февронии, Муромским чудотворцам
+                                О велиции угодницы Божии и предивнии чудотворцы, благовернии княже Петре и княгине Февроние, града Мурома предстателие и хранителие, и о всех нас усерднии ко Господу молитвенницы! К вам прибегаем и вам с упованием крепким молимся: вознесите о нас, грешных, святыя молитвы ваша ко Господу Богу, и испросите у благости Его вся благопотребная душам и телесем нашим: веру праву, надежду благу, любовь нелицемерну, благочестие непоколебимо, в добрых делех преуспеяние, мира умирение, земли плодоносие, воздуха благорастворение, телесем здравие и душам спасение. Исходатайствуйте у Царя Небеснаго Церкви Святей и всей державе Российстей мир, тишину и благоустроение, и всем нам житие благополучное и добрую христианскую кончину. Оградите Отечество ваше и вся грады Российския от всякаго зла; и вся правоверныя люди, к вам приходящия и святым мощем вашим поклоняющиеся, осените благодатным действом богоприятных молитв ваших, и вся прошения их во благо исполните. Ей, чудотворцы святии! Не презрите молитв наших, со умилением вам днесь возносимых, но будите о нас приснии предстателие ко Господу, и сподобите нас помощию вашею спасение вечное улучити и Царствие Небесное унаследовати: да славословим неизреченное человеколюбие Отца и Сына и Святаго Духа, в Троице покланяемаго Бога, во веки веков. Аминь.
+
+                                Великомученику и целителю Пантелеимону
+                                Тропарь, глас 3
+
+                                Страстоте́рпче святы́й и целе́бниче Пантелеи́моне, / моли́ Ми́лостивого Бо́га, / да прегреше́ний оставле́ние // пода́ст душа́м на́шим.
+
+                                Кондак, глас 5
+
+                                Подража́тель сый Ми́лостиваго, / и исцеле́ний благода́ть от Него́ прие́м,/ страстоте́рпче и му́чениче Христа́ Бо́га, / моли́твами твои́ми душе́вныя на́ша неду́ги исцели́, / отгоня́ при́сно борца́ собла́зны от вопию́щих ве́рно: // спаси́ ны, Го́споди.
+
+                                Величание
+
+                                Велича́ем тя, / святы́й великому́чениче Пантелеи́моне, / и чтим честна́я страда́ния твоя́, // я́же за Христа́ претерпе́л еси́.
+
+                                Моли́тва первая
+
+                                О вели́кий Христо́в уго́дниче и пресла́вный целе́бниче, великому́чениче Пантелеи́моне! Душе́ю на Небеси́ Престо́лу Бо́жию предстоя́й и триипоста́сныя Его́ сла́вы наслажда́яйся, те́лом же и ли́ком святы́м на земли́ в Боже́ственных хра́мех почива́яй и да́нною ти свы́ше благода́тию разли́чная чудеса́ источа́яй, при́зри ми́лостивным твои́м о́ком на предстоя́щия лю́ди, честне́й твое́й иконе уми́льно моля́щияся и прося́щия от тебе́ целе́бныя по́мощи и заступле́ния: простри́ ко Го́споду Бо́гу на́шему те́плыя твоя́ моли́твы и испроси́ душа́м на́шим оставле́ние согреше́ний. Се бо мы, за беззако́ния на́ша не сме́юще возвести́ о́че́са́ на́ша к высоте́ небе́сней, ниже́ во́зне́сти́ глас моле́бный к Его́ в Божестве́ непристу́пней сла́ве, се́рдцем сокруше́нным и ду́хом смире́нным тебе́, хода́тая ми́лостива ко Влады́це и моли́твенника за ны, гре́шныя, призыва́ем, я́ко ты прия́л еси́ благода́ть от Него́ неду́ги отгоня́ти и стра́сти исцеля́ти. Тебе́ у́бо про́сим: не пре́зри нас, недосто́йных, моля́щихся тебе́ и твое́й по́мощи тре́бующих. Бу́ди нам в печа́лех уте́шитель, в неду́зех лю́тых стра́ждущим врач, напа́ствуемым ско́рый покрови́тель, очесе́м неду́гующим прозре́ния да́тель, ссу́щим и младе́нцем в боле́знех гото́вейший предста́тель и исцели́тель: исхода́тайствуй всем вся, я́же ко спасе́нию поле́зная, я́ко да твои́ми ко Го́споду Бо́гу моли́твами получи́вше благода́ть и ми́лость, просла́вим всех благи́х Исто́чника и Даропода́теля Бо́га, Еди́наго в Тро́ице Святе́й сла́вимаго Отца́ и Сы́на и Свята́го Ду́ха, ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+
+                                Моли́тва вторая
+
+                                О, святы́й великому́чениче и цели́телю Пантелеи́моне, Бо́га ми́лостиваго подража́телю! При́зри благосе́рдием и услы́ши нас, гре́шных, пред святою твое́ю ико́ною усе́рдне моля́щихся, испроси́ нам у Го́спода Бо́га, Ему́же со а́нгелы предстоиши на небеси́, оставле́ние грехо́в и прегреше́ний на́ших: исцели́ боле́зни душе́вныя и теле́сныя рабо́в Бо́жиих, ны́не поминаемых, зде предстоя́щих и всех христиа́н правосла́вных к твоему́ заступле́нию притека́ющих: се бо, грех на́ших ра́ди, лю́те одержимы есмы мно́гими неду́ги и не и́мамы по́мощи и утеше́ния: к тебе́ же прибега́ем, я́ко дадеся ти благода́ть молитися за ны и целити всяк неду́г и вся́ку боле́знь: да́руй у́бо всем нам святы́ми моли́твами твои́ми здра́вие и бла́гомощие ду́ши и те́ла, преспеяние ве́ры и благоче́стия и вся к житию вре́менному и ко спасе́нию потре́бная, я́ко да сподобившеся тобо́ю вели́ких и богатых ми́лостей, просла́вим тя и Пода́теля всех благ, ди́внаго во святы́х Бо́га на́шего, Отца́ и Сы́на и Свята́го Ду́ха. Ами́нь.
+
+                                Моли́тва третья
+
+                                О, пресла́вный мучениче и до́блий во́ине Небе́снаго Царя́, Пантелеи́моне всеблаже́нне, милостиваго Бо́га преизрядный подража́телю, и́же Христа́ на земли́ дерзнове́нно исповедав и многообразныя за Него́ му́ки претерпев, неувядаемый прия́л еси́ вене́ц на небеси́, иде́же ве́чнаго наслажда́ешися блаже́нства и со дерзновением Престо́лу Трисо́лнечнаго Божества́ предстоиши! К твоему́ христоподражательному сострада́нию по Бо́зе прибега́ем вси мы гре́шнии и всеусе́рдно мо́лим тя, те́плаго засту́пника и предстателя на́шего: не престай призирати на нас, су́щих в нуждех и ско́рбных обстоя́ниих, и твое́ю молитвенною по́мощию и цельбоподательною си́лою избавляй нас при́сно от лю́тых зол, всегубительства и вся́кия ины́я беды́ и боле́зни. Ты бо прия́л еси́, свя́те, неоскудную благода́ть исцеле́ний от Спа́са на́шего Иису́са Христа́ за твердую твою́ к Нему́ ве́ру, при чистом и непорочном житии, запечатленную му́ченичеством и многопобе́дною твое́ю кончиною, в нейже по данней ти благода́ти и наименован от Христа́ Пантелеи́моном, ми́лости тезоимени́тым, милующим всех притека́ющих к тебе́ в ско́рбех и боле́знех. Сего́ ра́ди ве́дуще тя милостиваго ко всем помо́щника и исцелителя, с ве́рою взыва́ем к тебе́, услы́ши нас и богоприятным хода́тайством твои́м подавай нам вся благопотребная в житии сем и нужная к ве́чному спасе́нию. Му́ченическим же дерзновением твои́м умоли́ милостиваго Бо́га, да помилует нас, гре́шных и недосто́йных, по велицей ми́лости Свое́й, да изба́вит от тру́са, пото́па, огня́, меча́ и вся́каго пра́веднаго гнева и преще́ния, благовре́менне подвизая нас к очистительному и умилостивительному во гресе́х на́ших покаянию, ра́ди мно́жества щедро́т Свои́х, да пода́ст всем нам безбе́дное, ти́хое и богоугодное житие́, и всех нас от враго́в, ви́димых и неви́димых, да сохрани́т благода́тию Свое́ю и непобедимым ополче́нием а́нгел Свои́х, и́миже ограждаеми и наставляеми да поживем в веце сем в покая́нии, чистоте́ и в творении богоугодных дел; да сподо́бимся твои́м те́плым предста́тельством христианскую кончи́ну улучити безболе́зненну, ми́рну, непостыдну, избавитися от ко́зней воздушных князей тьмы и от ве́чныя му́ки и быти насле́дниками безконе́чнаго, всеблаже́ннаго ца́рствия. Ей, уго́дниче Бо́жий! Не престай молитися за ны, гре́шныя, да твои́м хода́тайством вре́менных и ве́чных бед избавлени, велича́ем тебе́, засту́пника на́шего и моли́твенника, и вечно прославляем общаго Влады́ку и Го́спода на́шего Иису́са Христа́, Ему́же подоба́ет всякая сла́ва, честь и поклоне́ние со Безнача́льным Его́ Отце́м и Пресвятым Ду́хом, ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+
+
+
+
+
+
+                                Молитвы об упокоении
+
+                                Чин литии, совершаемой мирянином дома и на кладбище
+                                Моли́твами святы́х оте́ц на́ших, Го́споди Иису́се Христе́, Бо́же наш, поми́луй нас. Ами́нь.
+
+                                Сла́ва Тебе́, Бо́же наш, сла́ва Тебе́.
+
+                                Святы́й Бо́же, Святы́й Кре́пкий, Святы́й Безсме́ртный, поми́луй нас. (Трижды)
+
+                                Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+
+                                Пресвята́я Тро́ице, поми́луй нас; Го́споди, очи́сти грехи́ на́ша; Влады́ко, прости́ беззако́ния на́ша; Святы́й, посети́ и исцели́ не́мощи на́ша, и́мене Твоего́ ра́ди.
+
+                                Го́споди, поми́луй. (Трижды)
+
+                                Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+
+                                Отче наш, Иже еси́ на небесе́х! Да святи́тся и́мя Твое́, да прии́дет Ца́рствие Твое́, да бу́дет во́ля Твоя́, я́ко на небеси́ и на земли́. Хлеб наш насу́щный даждь нам днесь; и оста́ви нам до́лги на́ша, я́коже и мы оставля́ем должнико́м на́шим; и не введи́ нас во искуше́ние, но изба́ви нас от лука́ваго.
+
+                                Го́споди, поми́луй. (12 раз)
+
+                                Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+
+                                Прииди́те, поклони́мся Царе́ви на́шему Бо́гу.
+
+                                Прииди́те, поклони́мся и припаде́м Христу́, Царе́ви на́шему Бо́гу.
+
+                                Прииди́те, поклони́мся и припаде́м Самому́ Христу́, Царе́ви и Бо́гу на́шему.
+
+                                Псалом 90
+
+                                Живы́й в по́мощи Вы́шняго, в кро́ве Бо́га Небе́снаго водвори́тся. Рече́т Го́сподеви: Засту́пник мой еси́, и Прибе́жище мое́, Бог мой, и упова́ю на Него́. Яко Той изба́вит тя от се́ти ло́вчи и от словесе́ мяте́жна, плещма́ Свои́ма осени́т тя, и под криле́ Его́ наде́ешися: ору́жием обы́дет тя и́стина Его́. Не убои́шися от стра́ха нощна́го, от стре́лы летя́щия во дни, от ве́щи во тьме преходя́щия, от сря́ща и бе́са полу́деннаго. Паде́т от страны́ твоея́ ты́сяща, и тма одесну́ю тебе́, к тебе́ же не прибли́жится: оба́че очи́ма твои́ма смо́триши, и воздая́ние гре́шников у́зриши. Яко Ты, Го́споди, упова́ние мое́, Вы́шняго положи́л еси́ прибе́жище твое́. Не прии́дет к тебе́ зло, и ра́на не прибли́жится телеси́ твоему́. Яко а́нгелом Свои́м запове́сть о тебе́, сохрани́ти тя во всех путе́х твои́х. На рука́х во́змут тя, да не когда́ преткне́ши о ка́мень ногу́ твою́. На а́спида и васили́ска насту́пиши, и попере́ши льва и зми́я. Яко на Мя упова́, и изба́влю и; покры́ю и, я́ко позна́ и́мя Мое́. Воззове́т ко Мне, и услы́шу его́; с ним есмь в ско́рби, изму́ его́, и просла́влю его́; долгото́ю дний испо́лню его́, и явлю́ ему́ спасе́ние Мое́.
+
+                                Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+
+                                Аллилу́иа, аллилу́иа, аллилу́иа, сла́ва Тебе́, Бо́же. (Трижды)
+
+                                Тропарь, глас 4-й:
+
+                                Со ду́хи пра́ведных сконча́вшихся, ду́шу раба́ Твоего́, Спа́се, упоко́й, сохраня́я ю во блаже́нной жи́зни, я́же у Тебе́, Человеколю́бче.
+
+                                В поко́ищи Твое́м, Го́споди, иде́же вси святи́и Твои́ упокоева́ются, упоко́й и ду́шу раба́ Твоего́, я́ко Еди́н еси́ Человеколю́бец.
+
+                                Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху.
+
+                                Ты еси́ Бог, соше́дый во ад, и у́зы окова́нных разреши́мый, Сам и ду́шу раба́ Твоего́ упоко́й.
+
+                                И ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+
+                                Еди́на Чи́стая и Непоро́чная Де́во, Бо́га без се́мени ро́ждшая, моли́ спасти́ся душе́ его́.
+
+                                Седален, глас 5-й:
+
+                                Поко́й, Спа́се наш, с пра́ведными раба́ Твоего́, и сего́ всели́ во дворы́ Твоя́, я́коже есть пи́сано, презира́я, я́ко Благ, прегреше́ния его́ во́льная и нево́льная, и вся я́же в ве́дении и не в ве́дении, Человеколю́бче.
+
+                                Кондак, глас 8-й:
+
+                                Со святы́ми упоко́й, Христе́, ду́шу раба́ Твоего́, иде́же несть боле́знь, ни печа́ль, ни воздыха́ние, но жизнь безконе́чная.
+
+                                Икос:
+
+                                Сам Еди́н еси́ Безсме́ртный, сотвори́вый и созда́вый челове́ка, земни́и у́бо от земли́ созда́хомся, и в зе́млю ту́южде по́йдем, я́коже повеле́л еси́, Созда́вый мя и реки́й ми: я́ко земля́ еси́, и в зе́млю отъи́деши, а́може вси челове́цы по́йдем, надгро́бное рыда́ние творя́ще песнь: аллилу́иа, аллилу́иа, аллилу́иа.
+
+                                Досто́йно есть я́ко вои́стинну блажи́ти Тя, Богоро́дицу, Приснобла́же́нную и Пренепоро́чную и Ма́терь Бо́га на́шего. Честне́йшую Херуви́м и сла́внейшую без сравне́ния Серафи́м, без истле́ния Бо́га Сло́ва ро́ждшую, су́щую Богоро́дицу Тя велича́ем.
+
+                                Сла́ва Отцу́ и Сы́ну и Свято́му Ду́ху, и ны́не и при́сно и во ве́ки веко́в. Ами́нь.
+
+                                Го́споди, поми́луй. (Трижды) Благослови́.
+
+                                Моли́твами святы́х оте́ц на́ших, Го́споди Иису́се Христе́, Бо́же наш, поми́луй нас. Ами́нь.
+
+                                Во блаже́нном успе́нии ве́чный поко́й пода́ждь, Го́споди, усо́пшему рабу́ Твоему́ (имя), и сотвори́ ему́ ве́чную па́мять.
+
+                                Ве́чная па́мять. (Трижды)
+
+                                Душа́ его́ во благи́х водвори́тся, и па́мять его́ в род и род.
+
+
+                                Молитвы о усопших
+                                Молитва за всякого усопшего
+
+                                Помяни, Господи Боже наш, в вере и надежди живота вечнаго преставльшагося раба Твоего, брата нашего (имя), яко Благ и Человеколюбец, отпущаяй грехи и потребляяй неправды, ослаби, остави и прости вся вольная его согрешения и невольная, избави его вечныя муки и огня геенскаго, и даруй ему причастие и наслаждение вечных Твоих благих, уготованных любящым Тя: аще бо и согреши, но не отступи от Тебе, и несумненно во Отца и Сына и Святаго Духа, Бога Тя в Троице славимаго, верова, и Единицу в Троице и Троицу в Единстве православно даже до последняго своего издыхания исповеда. Темже милостив тому буди, и веру яже в Тя вместо дел вмени, и со святыми Твоими яко Щедр упокой: несть бо человека, иже поживет и не согрешит. Но Ты Един еси кроме всякаго греха, и правда Твоя правда во веки, и Ты еси Един Бог милостей и щедрот, и человеколюбия, и Тебе славу возсылаем, Отцу и Сыну и Святому Духу, ныне и присно и во веки веков. Аминь.
+
+                                Короткая молитва об усопшем
+
+                                Упокой, Господи, души усопших раб Твоих: родителей моих, сродников, благодетелей (имена), и всех православных христиан, и прости им вся согрешения вольная и невольная, и даруй им Царствие Небесное.
+
+                                Молитва родителей за умерших детей
+
+                                Господи Иисусе Христе, Боже наш, Владыко живота и смерти, Утешителю скорбящих! С сокрушенным и умиленным сердцем прибегаю к Тебе и молюся Ти: помяни. Господи, во Царствии Твоем усопшаго раба Твоего, чадо мое (имя), и сотвори ему вечную память. Ты, Владыко живота и смерти, даровал еси мне чадо сие. Твоей же благой и премудрой воле изволися и отъяти е у мене. Буди благословенно имя Твое, Господи. Молю Тя, Судие неба и земли, безконечною любовию Твоею к нам, грешным, прости усопшему чаду моему вся согрешения его, вольная и невольная, яже словом, яже делом, яже ведением и неведением. Прости, Милостиве, и наша родительская согрешения, да не пребудут они на чадех наших: вем, яко множицею согрешихом пред Тобою, множицею не соблюдохом, не сотворихом, якоже заповедал еси нам. Аще же усопшее чадо наше, нашея или своея ради вины, бяше в житии сем, работая миру и плоти своея, и не паче Тебе, Господу и Богу своему: аще возлюби прелести мира сего, а не паче Слово Твое и заповеди Твоя, аще предавшеся сластем житейским, а не паче сокрушению о гресех своих, и в невоздержании бдение, пост и молитву забвению предавше — молю Тя усердно, прости, преблагий Отче, чаду моему вся таковыя прегрешения его, прости и ослаби, аще и ино злое сотвори в житии сем. Христе Иисусе! Ты воскресил еси дщерь Иаира по вере и молитве отца ея. Ты исцелил еси дщерь жены-хананеянки по вере и прошению матери ея: услыши убо и молитву мою, не презри и моления моего о чаде моем. Прости, Господи, прости вся согрешения его и, простив и очистив душу его, изми муки вечныя и всели со всеми святыми Твоими, от века благоугодившими Тебе, идеже несть болезнь, ни печаль, ни воздыхание, но жизнь безконечная: яко несть человек, иже жив будет и не согрешит, но Ты Един еси кроме всякаго греха: да егда имаши судити мирови, услышит чадо мое превожделенный глас Твой: приидите, благословенные Отца Моего, и наследуйте уготованное вам Царствие от сложения мира. Яко Ты еси Отец милостей и щедрот. Ты живот и воскрешение наше, и Тебе славу возсылаем со Отцем и Святым Духом, ныне и присно и во веки веков. Аминь.
+
+                                Молитва детей об усопших родителях
+
+                                Господи, Иисусе Христе, Боже наш! Ты — сирых хранитель, скорбящих прибежище и плачущих утешитель. Прибегаю к тебе аз, сирый, стеня и плача, и молюся Тебе: услыши моление мое и не отврати лица Твоего от воздыханий сердца моего и от слез очей моих. Молюся Тебе, милосердый Господи, утоли скорбь мою о разлучении с родившим и воспитавшим мя родителем моим (имя); душу же его, яко отшедшую к Тебе с истинною верою в Тя и с твердою надеждою на Твое человеколюбие и милость, приими в Царство Твое Небесное. Преклоняюсь пред Твоею святою волею, еюже отъят бысть у мене, и прошу Тя, не отыми точию от него милости и благосердия Твоего. Вем, Господи, яко Ты Судия мира сего, грехи и нечестия отцев наказуеши в детях, внуках и правнуках даже до третьяго и четвертого рода: но и милуеши отцев за молитвы и добродетели чад их, внуков и правнуков. С сокрушением и умилением сердца молю Тя, милостивый Судие, не наказуй вечным наказанием усопшаго незабвеннаго для мене раба Твоего, родителя моего (имя), но отпусти ему вся согрешения его вольная и невольная, словом и делом, ведением и неведением сотворенная им в житии его зде на земле, и по милосердию и человеколюбию Твоему, молитв ради Пречистыя Богородицы и всех святых, помилуй его и вечныя муки избави. Ты, милосердый Отче отцев и чад! Даруй мне, во вся дни жизни моея, до последняго издыхания моего, не преставати памятовати о усопшем родителе моем в молитвах своих, и умоляти Тя, праведнаго Судию, да вчиниши его в месте светле, в месте прохладне и в месте покойне, со всеми святыми, отнюду же отбеже всяка болезнь, печаль и воздыхание. Милостиве Господи! Приими днесь о рабе Твоем (имя) теплую молитву мою сию и воздай ему воздаянием Твоим за труды и попечения воспитания моего в вере и христианском благочестии, яко научившему мя первее всего ведети Тя, своего Господа, в благоговении молитися Тебе, на Тебе Единаго уповати в бедах, скорбех и болезнех и хранити заповеди Твоя; за благопопечение его о моем духовном преуспеянии, за тепле приносимыя им о мне моления пред Тобою и за все дары, им испрошенные мне от Тебе, воздай ему Своею милостию, Своими небесными благами и радостями в вечном Царствии Твоем. Ты бо еси Бог милостей и щедрот и человеколюбия, Ты покой и радость верных рабов Твоих, и Тебе славу возсылаем со Отцем и Святым Духом, и ныне и присно и во веки веков. Аминь.
+
+                                Молитвы об усопшем муже
+
+                                Христе Иисусе, Господи и Вседержителю! Ты плачущих утешение, сирых и вдовиц заступление. Ты рекл еси: призови Мя в день скорби твоея, и изму тя. Во дни скорби своея прибегаю к Тебе аз и молюся Ти: не отврати лица Твоего от мене и услыши моление мое, приносимое Тебе со слезами. Ты, Господи Владыко всяческих, благоволил еси сочетати мя с единым из рабов Твоих, во еже быти нам едино тело и един дух; Ты дал еси мне сего раба, яко сожителя и защитника. Твоей же благой и премудрой воле изволися отъяти от мене сего раба Твоего и оставити мя едину. Преклоняюся пред сею Твоею волею и к Тебе прибегаю во дни скорби моея: утоли печаль мою о разлучении с рабом Твоим, другом моим. Аще отъял еси его от мене, не отыми от мене Своея милости. Яко же некогда приял еси вдовицы две лепты, тако приими и сие моление мое. Помяни, Господи, душу усопшего раба Твоего (имя), прости ему все согрешения его, вольная и невольная, аще словом, аще делом, аще ведением и неведением, не погуби его со беззаконми его и не предаждь вечной муке, но по велицей милости Твоей и по множеству щедрот Твоих ослаби и прости вся согрешения его и вчини его со святыми Твоими, идеже несть болезнь, ни печаль, ни воздыхание, но жизнь безконечная. Молю и прошу Тя, Господи, даруй ми во вся дни жизни моея не преставати молитися о усопшем рабе Твоем, и даже до исхода моего просити у Тебе, Судии всего мира, оставления всех согрешений его и вселения его в Небесные обители, яже еси уготовал любящим Тя. Яко аще бо и согреши, но не отступи от Тебе, и несумненно Отца и Сына и Святаго Духа православно даже допоследняго своего издыхания исповеда; тем же веру его, яже в Тя, вместо дел ему вмени: яко несть человек, иже жив будет и не согрешит, Ты един кроме греха, и правда Твоя – правда во веки. Верую, Господи, и исповедую, яко Ты услышиши моление мое и не отвратиши лица Твоего от мене. Видя вдовицу, зельне плачущу, умилосердився, сына ея, на погребение несома, воскресил еси: тако умилосердився, утиши и скорбь мою. Яко же отверзл еси рабу Твоему Феофилу, отшедшему к Тебе, двери милосердия Твоего и простил еси ему прегрешения его по молитвам Святыя Церкве Твоея, внемля молитвам и милостыням супруги его: сице и аз молю Тя, приими мое моление о рабе Твоем и введи его в жизнь вечную. Яко Ты еси упование наше. Ты еси Бог, еже миловати и спасати, и Тебе славу возсылаем со Отцем и Святым Духом. Аминь.
+
+                                Молитвы об усопшей жене
+
+                                Христе Иисусе, Господи и Вседержителю! В сокрушении и умилении сердца моего молюся Тебе: упокой, Господи, душу усопшия рабы Твоея (имя), в Небеснем Царствии Твоем. Владыко Вседержителю! Ты благословил еси супружесткий союз мужа и жены, егда рекл еси: не добро быти человеку единому, сотворим ему помощника по нему. Ты освятил еси союз сей во образ духовнаго союза Христа с Церковию. Верую, Господи, и исповедую, яко ты благословил еси сочетати и мене сим святым союзом с единою из рабынь Твоих. Твоей же благой и премудрой воле изволися отъяти у мене сию рабу Твою, юже дал еси мне, яко помощницу и сопутницу жизни моея. Преклоняюся пред сею Твоею волею, и молюся Ти от всего сердца моего, приими моление мое сие о рабе Твоей (имя), и прости ей, аще согреши словом, делом, помышлением, ведением и неведением; аще земное возлюби паче небеснаго; аще о одежде и украшении тела своего печеся паче, неже о просвещении одеяния души своея; или аще небреже о чадех своих; аще преогорчи кого словом или делом; аще поропта в сердце своем на ближняго своего или осуди кого или ино что от таковых злых содела. Вся сия прости ей, яко благий и человеколюбивый: яко несть человек, иже жив будет и не согрешит. Не вниди в суд с рабою Твоею, яко созданием Твоим, не осуди ю по грехом ея на вечныя муки, но пощади и помилуй по велицей милости Твоей. Молю и прошу Тя, Господи, сил даруй ми по вся дни жизни моея не преставая молитися о усопшей рабе Твоей, и даже до кончины живота моего просити ей у Тебе, Судии всего мира, оставления согрешений ея. Да яко же Ты, Боже, положил еси на главу ея венец от камене честна, венчая ю зде на земли; тако увенчай ю вечною Твоею славою в Небеснем Царствии Твоем, со всеми святыми, тамо ликующими, да вкупе с ними вечно воспевает всесвятое имя Твое с Отцем и Святым Духом. Аминь.
+
+                                Молитва об умершем некрещеным, св. мученику Уару
+
+                                О, святый мучениче Уаре досточудный, ревностию по Владыце Христу разжигаем, Небеснаго Царя пред мучителем исповедал еси, и ныне Церковь почитает тя, яко прославляемаго от Владыки Христа славою Небесною, Иже дарова тебе благодать великаго к Нему дерзновения, и ныне предстоиши Ему со Ангелы, и в вышних ликуеши, и зриши ясно Святую Троицу, и светом Безначальнаго Сияния наслаждаешися: воспомяни и наших сродников томление, умерших в нечестии, приими наше прошение, и якоже Клеопатрин род неверный молитвами твоими от вечных мук свободил еси, тако воспомяни елицы противобожне погребенныя, умершия некрещенными (имена), потщися испросити оным от вечныя тьмы избавление, да вси едиными усты и единем сердцем восхвалим Премилосерднаго Творца во веки веков. Аминь.
+
+                                Молитва о новопреставленном усопшем
+
+                                Помяни, Господи Боже наш, в вере и надежди живота вечнаго новопреставленного раба Твоего (имя), и яко благ и человеколюбец, отпущаяй грехи и потребляяй неправды, ослаби, остави и прости вся вольная его согрешения и невольная, возставляя его во святое второе пришествие Твое в причастие вечных Твоих благ, ихже ради в Тя Единаго верова, истиннаго Бога и Человеколюбца. Яко Ты еси воскресение и живот, и покой рабу Твоему, имярек, Христе Боже наш. И Тебе славу возсылаем, со безначальным Твоим Отцем и с Пресвятым Духом, ныне и присно и во веки веков, аминь.
+
+                                Молитва Богородице об усопших
+
+                                Пресвятая Владычице Богородице! К Тебе прибегаем, Заступнице наша: Ты бо скорая еси помощница, наша ходатаица у Бога неусыпающая! Наипаче же молим Тя в час сей: помози новопреставленному рабу Твоему (имя) прейти страшный и неведомый оный путь; молим Тя, Владычице мира, силою Твоею отжени от движимой страхом души его страшныя силы темных духов, да смятутся и посрамятся пред Тобою; свободи ю от истязания воздушных мытарей, разори советы их и низложи их, яко зломыслящих врагов. Буди ей, о Всемилостивая Госпоже Богородице, заступницею и защитницею от воздушного князя тьмы, мучителя и страшных путей стоятеля; молим Тя, Пресвятая Богородице, ризою Твоею честною Защити ю, да тако безбоязненно и невозбранно прейдет от земли на небо. Молим Тя, Заступнице наша, заступи за раба Твоего Матерним Твоим у Господа дерзновением; молим Тя, Помоще наша, помози ему, имущему судитися еще прежде онаго Страшнаго судилища, помози убо оправдатися пред Богом, яко Творцем неба и земли, и умоли Единороднаго Сына Твоего, Господа Бога и Спаса нашего Иисуса Христа, да упокоит усопшаго в недрах Авраама с праведными и всеми святыми. Аминь.
 
 
                             </div>
@@ -1145,6 +1657,7 @@
             </div>
 
         </section>
+
 
     </x-slot>
 </x-app-layout>

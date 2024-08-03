@@ -20,17 +20,17 @@
 
 
 <div class="fixed z-50 top-0 w-full">
-<a href="#" class="float-left pl-36">
+<a href="/" class="float-left pl-36">
     <img class="w-16 h-16 shadow-xl shadow-blue-200" src="{{asset('images/logo.png')}}"/>
     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
 </a>
 
-<nav class="bg-blue-100 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+<nav class="bg-blue-100 border-gray-200 dark:bg-gray-900 dark:border-gray-700 text-blue-950">
 
     <div class="float-right md:float-none max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
         <button data-collapse-toggle="navbar-dropdown" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-blue-950 rounded-lg md:hidden hover:bg-blue-100
                 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                 aria-controls="navbar-dropdown" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
@@ -40,11 +40,11 @@
             </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse
+            <ul class="flex flex-col font-normal p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse
              md:flex-row md:mt-0 md:border-0 md:bg-blue-100 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
                     <button id="templateNavbarLink" data-dropdown-toggle="templateNavbar"
-                            class="р-5 flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
+                            class="р-5 flex items-center justify-between w-full py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent
                              md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white
                              dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                         Храм
@@ -64,7 +64,7 @@
                                     Храме</a>
                             </li>
                             <li>
-                                <a href="story"
+                                <a href="/story"
                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">История
                                     Храма</a>
                             </li>
@@ -76,7 +76,7 @@
                     </div>
                 </li>
                 <li>
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="h-5 flex items-center justify-between w-full py-2 px-3 text-gray-900
+                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="h-5 flex items-center justify-between w-full py-2 px-3
                         rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500
                          dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                         Новости
@@ -108,7 +108,9 @@
                 </li>
                 <li>
                     <button id="noteNavbarLink" data-dropdown-toggle="noteNavbar"
-                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
+                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100
+                             md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white
+                             md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                         Прихожанам
                         <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 10 6">
@@ -126,7 +128,7 @@
                                     записку</a>
                             </li>
                             <li>
-                                <a href="/schedule"
+                                <a href="/sacraments"
                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Таинства</a>
                             </li>
                             <li>
@@ -210,7 +212,6 @@
                         </form>
                     @endguest
                 </div>
-
             </ul>
         </div>
     </div>
@@ -220,6 +221,7 @@
 
 <!-- Page Heading -->
 @if (isset($header))
+
     <header class="bg-white dark:bg-gray-800 shadow">
         <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
             {{ $header }}
@@ -232,7 +234,42 @@
     {{ $slot }}
 </main>
 
-
+<!-- Форма обратной связи -->
+<section class="body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-8  text-blue-950">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">Остались вопросы ?</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed">Напишите нам, будем рады ответить Вам!</p>
+        </div>
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+                <div class="p-2 w-1/2">
+                    <div class="relative">
+                        <label for="name" class="leading-7 text-sm text-gray-600">Имя</label>
+                        <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                </div>
+                <div class="p-2 w-1/2">
+                    <div class="relative">
+                        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                        <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                </div>
+                <div class="p-2 w-full">
+                    <div class="relative">
+                        <label for="message" class="leading-7 text-sm text-gray-600">Сообщение</label>
+                        <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                    </div>
+                </div>
+                <div class="p-2 w-full">
+                    <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-blue-950">
+                        <a href="#">Отправить</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <footer class="footer bg-blue-200 text-base-content p-10">
     <nav>
         <h6 class="footer-title">Контакты</h6>
@@ -409,6 +446,21 @@
             </a>
         </div>
     </nav>
+
+    <aside class="fixed z-50 flex items-center justify-center px-5 py-3 text-white bg-sky-600 border-b-blue-900 rounded-lg bottom-4 right-4">
+
+        <a href="#" class="text-xl font-medium hover:opacity-75">
+           Помочь Храму
+        </a>
+
+        <button onClick="return this.parentNode.remove()" class="p-1 ml-3 rounded bg-white/20 hover:bg-white/10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd"
+                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                      clipRule="evenodd" />
+            </svg>
+        </button>
+    </aside>
 
     @if(!isset($_COOKIE['close']))
         <div>
