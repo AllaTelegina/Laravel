@@ -164,12 +164,11 @@
             </div>
 
 
-тест 1
-
+            <section class="container mx-auto shadow-xl shadow-gray-300">
             <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
                 <h2 id="accordion-color-heading-1">
                     <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
-                        <span>What is Flowbite?</span>
+                        <span>Начало</span>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                         </svg>
@@ -177,13 +176,45 @@
                 </h2>
                 <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
                     <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                        <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            Востав от сна, прежде всякого другого дела, стань благоговейно, представляя себя пред Всевидящим Богом, и, совершая крестное знамение, произнеси:
+
+                            <p class="py-2">Во и́мя Отцá, и Сы́на, и Святáго Ду́ха. Ами́нь.<p>
+
+                            <p class="font-semibold py-2">Молитва мытаря</p>
+                            (Евангелие от Луки, глава 18, стих 13)
+
+                            Бóже, ми́лостив бу́ди мне грéшному. (Поклон)
+
+                            <p class="font-semibold py-2">Молитва предначинательная</p>
+                            Гóсподи Иису́се Христé, Сы́не Бóжий, моли́тв рáди Пречи́стыя Твоея́ Мáтере и всех святы́х, поми́луй нас. Ами́нь.
+
+                            Слáва Тебé, Бóже наш, слáва Тебé.
+
+                            <p class="font-semibold py-2">Молитва Святому Духу</p>
+                            Царю́ Небéсный, Утéшителю, Ду́ше и́стины, И́же вездé сый и вся исполня́яй, Сокрóвище благи́х и жи́зни Подáтелю,
+                            прииди́ и всели́ся в ны, и очи́сти ны от вся́кия сквéрны, и спаси́, Блáже, ду́ши нáша[1].
+
+                        <p class="font-semibold py-2">Трисвятое</p>
+                            Святы́й Бóже, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас. (Читается трижды,
+                            с крестным знамением и поясным поклоном.)
+
+                            Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.
+
+                        <p class="font-semibold py-2">Молитва ко Пресвятой Троице</p>
+                            Пресвятáя Трóице, поми́луй нас; Гóсподи, очи́сти грехи́ нáша; Влады́ко,
+                            прости́ беззакóния нáша; Святы́й, посети́ и исцели́ нéмощи нáша, и́мене Твоегó рáди.
+
+                            Го́споди поми́луй (трижды).
+
+                            Слáва, и ны́не.</p>
+                        <!--<p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                    -->
                     </div>
                 </div>
                 <h2 id="accordion-color-heading-2">
                     <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
-                        <span>Is there a Figma file available?</span>
+                        <span>Продолжение</span>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                         </svg>
@@ -191,13 +222,41 @@
                 </h2>
                 <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
                     <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+                        <p class="mb-2 text-blue-950 dark:text-gray-400">
+                        <p class="font-semibold py-2">Молитва Господня</p>
+                            Óтче наш, И́же еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Цáрствие Твоé, да бу́дет вóля Твоя́,
+                            я́ко на небеси́ и на земли́. Хлеб наш насу́щный дáждь нам днесь; и остáви нам дóлги нáша, я́коже и
+                            мы оставля́ем должникóм нáшим; и не введи́ нас во искушéние, но избáви нас от лукáваго.
+
+                        <p class="font-semibold py-2">Тропари Троичные</p>
+                            Востáвше от сна, припáдаем Ти, Блáже, и áнгельскую песнь вопиéм Ти, Си́льне: Свят, Свят, Свят еси́, Бóже, Б
+                            огорóдицею поми́луй нас.
+
+                        <p class="py-2">Слава: От одрá и сна воздви́гл мя еси́, Гóсподи, ум мой просвети́ и сéрдце, и устнé мои́ отвéрзи, во éже пéти Тя,
+                            Святáя Трóице: Свят, Свят, Свят еси́, Бóже, Богорóдицею поми́луй нас.</p>
+
+                        <p class="py-2"> И ныне: Внезáпно Судия́ прии́дет, и коегóждо дея́ния обнажáтся, но стрáхом зовéм[3] в полу́нощи:
+                            Свят, Свят, Свят еси́, Бóже, Богорóдицею поми́луй нас.</p>
+
+                        <p class="py-2">Гóсподи поми́луй (12 раз).</p>
+
+                        <p class="font-semibold py-2">Молитва ко Пресвятой Троице</p>
+                            От сна востáв, благодарю́ Тя, Святáя Трóице, я́ко мнóгия рáди Твоея́ блáгости и долготерпéния не прогнéвался еси́
+                            на мя, лени́ваго и грéшнаго, нижé погуби́л мя еси́ со беззакóньми мои́ми; но человеколю́бствовал еси́ обы́чно и в
+                            нечáянии лежáщаго воздви́гл мя еси́, во éже у́треневати и славослóвити держáву Твою́. И ны́не просвети́ мои́ óчи
+                            мы́сленныя, отвéрзи моя́ устá поучáтися словесéм Твои́м, и разумéти зáповеди Твоя́, и твори́ти вóлю Твою́, и пéти
+                            Тя во исповéдании сердéчнем, и воспевáти всесвятоé и́мя Твоé, Отцá и Сы́на и Святáго Ду́ха, ны́не и при́сно и во вéки векóв. Ами́нь.
+
+                        <p class="py-2">Прииди́те, поклони́мся Царéви нáшему Бо́гу. (Поклон) Прииди́те, поклони́мся и припадéм Христу́, Царéви нáшему Бóгу.
+                            (Поклон) Прииди́те, поклони́мся и припадéм Самому́ Христу́, Царéви и Бóгу нáшему. (Поклон)
+                        </p>
+                        </p>
                         <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
                     </div>
                 </div>
                 <h2 id="accordion-color-heading-3">
                     <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
-                        <span>What are the differences between Flowbite and Tailwind UI?</span>
+                        <span>Псалом 50</span>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                         </svg>
@@ -205,8 +264,21 @@
                 </h2>
                 <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
                     <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            Поми́луй мя, Бóже, по вели́цей ми́лости Твоéй, и по мнóжеству щедрóт Твои́х очи́сти беззакóние моé. Наипáче омы́й мя
+                            от беззакóния моегó, и от грехá моегó очи́сти мя; я́ко беззакóние моé аз знáю, и грех мой прéдо мно́ю есть вы́ну.
+                            Тебé еди́ному согреши́х и лукáвое пред Тобóю сотвори́х; я́ко да оправди́шися во словесéх Твои́х, и победи́ши внегдá суди́ти Ти.
+                            Се бо в беззакóниих зачáт есмь, и во гресéх роди́ мя мáти моя́. Се бо и́стину возлюби́л еси́; безвéстная и тáйная прему́дрости
+                            Твоея́ яви́л ми еси́. Окропи́ши мя иссóпом, и очи́щуся; омы́еши мя, и пáче снéга убелю́ся. Слу́ху моему́ дáси рáдость и весéлие;
+                            возрáдуются кóсти смирéнныя. Отврати́ лицé Твоé от грех мои́х и вся беззакóния моя́ очи́сти. Сéрдце чи́сто сози́жди во мне,
+                            Бóже, и дух прав обнови́ во утрóбе моéй. Не отвéржи менé от лицá Твоегó и Ду́ха Твоегó Святáго не отыми́ от менé. Воздáждь
+                            ми рáдость спасéния Твоегó и Ду́хом Влады́чним утверди́ мя. Научу́ беззакóнныя путéм Твои́м, и нечести́вии к Тебé обратя́тся.
+                            Избáви мя от кровéй, Бóже, Бóже спасéния моегó; возрáдуется язы́к мой прáвде Твоéй. Гóсподи, устнé мои́ отвéрзеши,
+                            и устá моя́ возвестя́т хвалу́ Твою́. Я́ко áще бы восхотéл еси́ жéртвы, дал бых у́бо: всесожжéния не благоволи́ши́. Жéртва
+                            Бóгу дух сокрушéн; сéрдце сокрушéнно и смирéнно Бог не уничижи́т. Ублажи́, Гóсподи, благоволéнием Твои́м Сиóна,
+                            и да сози́ждутся стéны Иерусали́мския. Тогдá благоволи́ши жéртву прáвды, возношéние и всесожегáемая; тогдá возложáт
+                            на олтáрь Твой тельцы́.
+                        </p>
                         <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
                         <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
                             <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
@@ -214,17 +286,304 @@
                         </ul>
                     </div>
                 </div>
+
+
+
+                <h2 id="accordion-color-heading-4">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200
+                    focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-color-body-4" aria-expanded="false" aria-controls="accordion-color-body-4">
+                        <span>Символ веры</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-4">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            Вéрую во еди́наго Бóга Отцá, Вседержи́теля, Творцá нéбу и земли́, ви́димым же всем и неви́димым. И во еди́наго
+                            Го́спода Иису́са Христа́, Сы́на Бо́жия, Единоро́днаго, И́же от Отца́ рожде́ннаго пре́жде всех век; Све́та от Све́та,
+                            Бо́га и́стинна от Бо́га и́стинна, рожде́нна, несотворе́нна, единосу́щна Отцу́, И́мже вся бы́ша. Нас рáди человéк
+                            и нáшего рáди спасéния сшéдшаго с небéс и воплоти́вшагося от Ду́ха Свя́та и Мари́и Дéвы, и вочеловéчшася.
+                            Распя́таго же за ны при Понти́йстем Пилáте, и страдáвша, и погребéнна. И воскрéсшаго в трéтий день
+                            по Писáнием. И возшéдшаго на небесá, и седя́ща одесну́ю Отцá. И пáки гряду́щаго со слáвою суди́ти живы́м
+                            и мéртвым, Егóже Цáрствию не бу́дет концá. И в Ду́ха Святáго, Гóспода, Животворя́щаго, И́же от Отцá исходя́щаго,
+                            И́же со Отцéм и Сы́ном спокланя́ема и сслáвима, глагóлавшаго прорóки. Во еди́ну Святу́ю Собóрную и Апóстольскую
+                            Цéрковь. Исповéдую еди́но крещéние во оставлéние грехóв. Чáю воскресéния мéртвых, и жи́зни бу́дущаго вéка.
+                            Ами́нь.
+                        </p>
+                        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                        <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
+                            <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+                            <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <h2 id="accordion-color-heading-5">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-color-body-5" aria-expanded="false" aria-controls="accordion-color-body-5">
+                        <span>Молитвы святого Макария Великого</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-5" class="hidden" aria-labelledby="accordion-color-heading-5">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:texли́же сотвt-gray-400">
+                        <p class="font-semibold py-2">Молитва 1-я, святого Макария Великого</p>
+                        <p class="py-2">Бóже, очи́сти мя грéшнаго, я́ко никоори́х благóе пред Тобою; но избáви мя от лукáваго, и да бу́дет
+                            во мне вóля Твоя́, да неосуждéнно отвéрзу устá моя́ недостóйная и восхвалю́ и́мя Твоé святóе,
+                            Отцá и Сы́на и Святáго Ду́ха, ны́не и при́сно и во вéки векóв. Ами́нь.</p>
+
+                        <p class="font-semibold py-2">Молитва 2-я, того же святого</p>
+                        <p class="py-2">От сна востáв, полу́нощную песнь приношу́ Ти, Спáсе, и припáдая вопию́ Ти: не даждь ми усну́ти во
+                            грехо́вней смéрти, но ущéдри мя, распны́йся во́лею, и лежáщаго мя в лéности ускори́в возстáви,
+                            и спаси́ мя в предстоя́нии и моли́тве, и по сне нощнéм возсия́й ми день безгрéшен, Христé Бóже, и спаси́ мя.</p>
+
+                        <p class="font-semibold py-2">Молитва 3-я, того же святого</p>
+                        <p class="py-2">К Тебé, Влады́ко Человеколю́бче, от сна востáв прибегáю, и на делá Твоя́ подвизáюся милосéрдием
+                            Твои́м, и молю́ся Тебé: помози́ ми на вся́кое врéмя, во вся́кой вéщи, и избáви мя от вся́кия мирски́я
+                            злы́я вéщи и диáвольскаго поспешéния, и спаси́ мя, и введи́ в Цáрство Твоé вéчное. Ты бо еси́ мой
+                            Сотвори́тель и вся́кому блáгу Промы́сленник и Подáтель, о Тебé же все уповáние моé, и Тебé слáву
+                            возсылáю, ны́не и при́сно и во вéки векóв. Ами́нь.</p>
+
+                        <p class="font-semibold py-2">Молитва 4-я, того же святого</p>
+                        <p class="py-2">Гóсподи, И́же мнóгою Твоéю блáгостию и вели́кими щедрóтами Твои́ми дал еси́ мне, рабу́ Твоéму,
+                            мимошéдшее врéмя но́щи сея́ без напáсти прейти́ от вся́каго злá проти́вна; Ты Сам, Влады́ко,
+                            вся́ческих Твóрче, сподóби мя и́стинным Твои́м свéтом и просвещéнным сéрдцем твори́ти вóлю
+                            Твою́, ны́не и при́сно и во вéки векóв. Ами́нь.</p>
+                        </p>
+                    </div>
+                </div>
+
+
+                <h2 id="accordion-color-heading-6">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-color-body-6" aria-expanded="false" aria-controls="accordion-color-body-6">
+                        <span>Молитвы святого Василия Великого</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-6" class="hidden" aria-labelledby="accordion-color-heading-6">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:texли́же сотвt-gray-400">
+                        <p class="font-semibold py-2">Молитва 5-я, того же святого</p>
+                        <p class="py-2">
+                            Гóсподи Вседержи́телю, Бóже сил и вся́кия плóти, в вы́шних живы́й и на смирéнныя призирáяй,
+                            сердцá же и утрóбы испыту́яй и сокровéнная человéков я́ве предвéдый, Безначáльный и
+                            Присноу́щный Свéте, у Негó же несть пременéние, или́ преложéния осенéние; Сам, Безсмéртный Царю́,
+                            приими́ молéния нáша, я́же в настоя́щее врéмя, на мнóжество Твои́х щедрóт дерзáюще, от сквéрных к
+                            Тебé устéн твори́м, и остáви нам прегрешéния нáша, я́же дéлом, и слóвом, и мы́слию, вéдением,
+                            или невéдением согрешéнная нáми; и очи́сти ны от вся́кия сквéрны плóти и ду́ха. И дáруй нам
+                            бóдренным сéрдцем и трéзвенною мы́слию всю́ настоя́щаго жития́ нощь прейти́, ожидáющим пришéствия
+                            свéтлаго и явлéннаго дне Единорóднаго Твоегó Сы́на, Гóспода и Бóга и Спáса нáшего Иису́са Христá,
+                            в óньже со слáвою Судия́ всех прии́дет, кому́ждо отдáти по дéлом его; да не пáдше и облени́вшеся,
+                            но бóдрствующе и воздви́жени в дéлание обря́щемся готóви, в рáдость и Божéственный чертóг слáвы
+                            Егó совни́дем, идéже прáзднующих глас непрестáнный, и неизречéнная слáдость зря́щих Твоегó лицá
+                            добрóту неизречéнную. Ты бо еси́ и́стинный Свет, просвещáяй и освящáяй вся́ческая, и Тя поéт вся
+                            тварь во вéки векóв. Ами́нь.</p>
+
+                        <p class="font-semibold py-2">Молитва 6-я, того же святого</p>
+                        <p class="py-2">
+                            Тя благослови́м, вы́шний Бóже и Гóсподи ми́лости, творя́щаго при́сно с нáми вели́кая же и неизслéдованная,
+                            слáвная же и ужáсная, и́хже несть числá, подáвшаго нам сон во упокоéние нéмощи нáшея, и ослаблéние
+                            трудóв многотру́дныя плóти. Благодари́м Тя, я́ко не погуби́л еси́ нас со беззакóньми нáшими, но
+                            человеколю́бствовал еси́ обы́чно, и в нечáянии лежáщия ны воздви́гл еси́, во éже славослóвити держáву
+                            Твою́. Тéмже мóлим безмéрную Твою́ блáгость, просвети́ нáша мы́сли, очесá, и ум наш от тя́жкаго сна
+                            лéности возстáви: отвéрзи нáша устá, и испóлни я Твоегó хвалéния, я́ко да возмóжем непоколéблемо
+                            пéти же и исповéдатися Тебé, во всех, и от всех слáвимому Бóгу, Безначáльному Отцу́ со Единорóдным
+                            Твои́м Сы́ном и Всесвяты́м и Благи́м и Животворя́щим Твои́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.</p>
+                        </p>
+                    </div>
+                </div>
+                <h2 id="accordion-color-heading-7">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-color-body-7" aria-expanded="false" aria-controls="accordion-color-body-7">
+                        <span>Молитва к Пресвятой Богородице</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-7" class="hidden" aria-labelledby="accordion-color-heading-7">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:texли́же сотвt-gray-400">
+                        <p class="font-semibold py-2">Молитва 7-я, ко Пресвятой Богородице</p>
+                        <p class="py-2">
+                            Воспевáю благодáть Твою́, Влады́чице, молю́ Тя, ум мой облагодати́. Ступáти прáво мя настáви,
+                            путéм Христóвых зáповедей. Бдéти к пéсни укрепи́, уны́ния сон отгоня́ющи. Свя́зана плени́цами грехопадéний,
+                            мольбáми Твои́ми разреши́, Богоневéсто. В нощи́ мя и во дни сохраня́й, борю́щих враг избавля́ющи мя.
+                            Жизнодáтеля Бóга рóждшая, умерщвлéна мя страстьми́ оживи́. Я́же Свет невечéрний рóждшая,
+                            ду́шу мою́ ослéпшую просвети́. О, ди́вная Влады́чня палáто, дом Ду́ха Божéственна менé сотвори́.
+                            Врачá рóждшая, уврачу́й души́ моея́ многолéтныя стрáсти. Волну́ющася житéйскою бу́рею, ко стези́
+                            мя покая́ния напрáви. Избáви мя огня́ вéчнующаго, и чéрвия же злáго, и тáртара. Да мя не яви́ши
+                            бесóм рáдование, и́же мнóгим грехóм пови́нника. Нóва сотвори́ мя, обетшáвшаго нечу́вственными,
+                            Пренепорóчная, согрешéнии. Стрáнна му́ки вся́кия покажи́ мя, и всех Влады́ку умоли́. Небéсная
+                            ми улучи́ти весéлия, со всéми святы́ми, сподóби. Пресвятáя Дéво, услы́ши глас непотрéбнаго
+                            рабá Твоегó. Струю́ давáй мне слезáм, Пречи́стая, души́ моея́ сквéрну очищáющи. Стенáния от
+                            сéрдца приношу́ Ти непрестáнно, усéрдствуй, Влады́чице. Молéбную слу́жбу мою́ приими́, и Бóгу
+                            благоутрóбному принеси́. Превы́шшая Áнгел, мирскáго мя превы́шша сли́тия сотвори́. Светонóсная
+                            Сéне небéсная, духóвную благодáть во мне напрáви. Ру́це воздéю и устнé к похвалéнию,
+                            осквернéны сквéрною, Всенепорóчная. Душетлéнных мя пáкостей избáви, Христá прилéжно
+                            умоля́ющи; Ему́же честь и поклонéние подобáет, ны́не и при́сно и во вéки векóв, ами́нь.</p>
+                        </p>
+                    </div>
+                </div>
+                <h2 id="accordion-color-heading-8">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-color-body-8" aria-expanded="false" aria-controls="accordion-color-body-8">
+                        <span> Молитва Господу нашему Иисусу Христу</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-8" class="hidden" aria-labelledby="accordion-color-heading-8">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:texли́же сотвt-gray-400">
+                        <p class="font-semibold py-2"> Молитва 8-я, Господу нашему Иисусу Христу</p>
+                        <p class="py-2">
+                            Многоми́лостиве и Всеми́лостиве Бóже мой, Гóсподи Иису́се Христé, мнóгия рáди любвé сшел и
+                            воплоти́лся еси́, я́ко да спасéши всех. И пáки, Спáсе, спаси́ мя по благодáти, молю́ Тя; áще
+                            бо от дел спасéши мя, несть се благодáть и дар, но долг пáче. Ей, мнóгий в щедрóтах и
+                            неизречéнный в ми́лости! Вéруяй бо в Мя, рекл еси́, о Христé мой, жив бу́дет и не у́зрит
+                            смéрти во вéки. Áще у́бо вéра, я́же в Тя, спасáет отчáянныя, се вéрую, спаси́ мя, я́ко Бог
+                            мой еси́ Ты и Создáтель. Вéра же вмéсто дел да вмени́тся мне, Бóже мой, не обря́щеши бо
+                            дел отню́д оправдáющих мя. Но та вéра моя́ да довлéет вмéсто всех, та да отвещáет,
+                            та да оправди́т мя, та да покáжет мя причáстника слáвы Твоея́ вéчныя. Да не у́бо
+                            похи́тит мя сатанá, и похвáлится, Слóве, éже оттóргнути мя от Твоея́ руки́ и огрáды;
+                            но или́ хощу́, спаси́ мя, или́ не хощу́, Христé Спáсе мой, предвари́ скóро, скóро,
+                            погибóх: Ты бо еси́ Бог мой от чрéва мáтере моея́. Сподóби мя, Гóсподи, ны́не возлюби́ти
+                            Тя, я́коже возлюби́х иногдá той сáмый грех; и пáки порабóтати Тебé без лéности тóщно,
+                            я́коже порабóтах прéжде сатанé льсти́вому. Наипáче же порабóтаю Тебé, Гóсподу и Бóгу
+                            моему́ Иису́су Христу́, во вся дни животá моегó, ны́не и при́сно и во вéки векóв, ами́нь.</p>
+                        </p>
+                    </div>
+                </div>
+                <h2 id="accordion-color-heading-9">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-color-body-9" aria-expanded="false" aria-controls="accordion-color-body-9">
+                        <span>Молитва к Ангелу Хранителю</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-9" class="hidden" aria-labelledby="accordion-color-heading-9">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:texли́же сотвt-gray-400">
+                        <p class="font-semibold py-2">Молитва 9-я, к Ангелу Хранителю</p>
+                        <p class="py-2">
+                            Святы́й Áнгеле, предстоя́й окая́нной моéй души́ и стрáстной моéй жи́зни, не остáви менé
+                            грéшнаго, нижé отступи́ от менé за невоздержáние моé. Не даждь мéста лукáвому дéмону
+                            обладáти мнóю, наси́льством смéртнаго сегó телесé; укрепи́ бéдствующую и худу́ю мою́
+                            ру́ку и настáви мя на путь спасéния. Ей, святы́й Áнгеле Бóжий, храни́телю и покрови́телю
+                            окая́нныя моея́ души́ и тéла, вся мне прости́, ели́кими тя оскорби́х во вся дни животá моегó,
+                            и áще что согреши́х в прешéдшую нощь сию́, покры́й мя в настоя́щий день, и сохрани́ мя от
+                            вся́каго искушéния проти́внаго, да ни в кóем гресé прогнéваю Бóга, и моли́ся за мя ко
+                            Гóсподу, да утверди́т мя в стрáсе Своéм, и достóйна покáжет мя раба Своея́ блáгости. Ами́нь.</p>
+                        </p>
+                    </div>
+                </div>
+                <h2 id="accordion-color-heading-10">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-color-body-10" aria-expanded="false" aria-controls="accordion-color-body-10">
+                        <span>Молитва 10-я, ко Пресвятой Богородице</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-10" class="hidden" aria-labelledby="accordion-color-heading-">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:texли́же сотвt-gray-400">
+                        <p class="font-semibold py-2"> Молитва 10-я, ко Пресвятой Богородице</p>
+                        <p class="py-2">
+                            Пресвятáя Влады́чице моя́ Богорóдице, святы́ми Твои́ми и всеси́льными мольбáми отжени́ от менé
+                            смирéннаго и окая́ннаго рабá Твоегó уны́ние, забвéние, неразу́мие, нерадéние, и вся сквéрная,
+                            лукáвая и ху́льная помышлéния от окая́ннаго моегó сéрдца и от помрачéннаго умá моегó; и погаси́
+                            плáмень страстéй мои́х, я́ко нищ есмь и окая́нен. И избáви мя от мнóгих и лю́тых воспоминáний
+                            и предприя́тий и от всех дéйств злых свободи́ мя. Я́ко благословéна еси́ от всех родóв, и
+                            слáвится пречестнóе и́мя Твоé во вéки векóв. Ами́нь.</p>
+                        </p>
+                    </div>
+                </div>
+                <h2 id="accordion-color-heading-11">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                            data-accordion-target="#accordion-color-body-11" aria-expanded="false" aria-controls="accordion-color-body-11">
+                        <span>Окончание молитв</span>
+                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                        </svg>
+                    </button>
+                </h2>
+                <div id="accordion-color-body-11" class="hidden" aria-labelledby="accordion-color-heading-11">
+                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                        <p class="mb-2 text-gray-500 dark:texли́же сотвt-gray-400">
+                        <p class="font-semibold py-2">Молитвенное призывание святого, имя которого носишь</p>
+                        <p class="py-2">
+                            Моли́ Бóга о мне, святы́й угóдниче Бóжий (имя), я́ко аз усéрдно к тебé прибегáю, скóрому
+                            помóщнику и моли́твеннику о душé моéй.</p>
+
+                        <p class="font-semibold py-2">Песнь Пресвятой Богородицео</p>
+                        <p class="py-2">
+                            Богорóдице Дéво, рáдуйся, Благодáтная Мари́е, Госпóдь с Тобóю; благословéна Ты в женáх
+                            и благословéн плод чрéва Твоегó, я́ко Спáса родилá еси́ душ нáших.</p>
+
+                        <p class="font-semibold py-2">Тропарь Кресту и молитва за Отечество</p>
+                        <p class="py-2">
+                            Спаси́, Гóсподи, лю́ди Твоя́, и благослови́ достояние Твоé, побéды правослáвным христиáном
+                            на сопроти́вныя дáруя, и Твоé сохраняя Крестóм Твои́м жи́тельство.</p>
+
+                        <p class="font-semibold py-2">Молитва о Живых</p>
+                        <p class="py-2">
+                            Спаси́, Гóсподи, и поми́луй отцá моего́ духо́внаго (имя), роди́телей мои́х (имена),
+                            срóдников (имена), начáльников, настáвников, благодéтелей (имена их) и всех правослáвных христиáн.</p>
+                        <p class="font-semibold py-2">Молитва о усопших</p>
+                        <p class="py-2">
+                            Упокóй, Гóсподи, ду́ши усóпших раб Твои́х: роди́телей мои́х, срóдников, благодéтелей (имена их),
+                            и всех правослáвных христиáн, и прости́ им вся согрешéния вóльная и невóльная, и дáруй им Цáрствие Небéсное.</p>
+                        </p>
+                        <p class="font-semibold py-2">Окончание молитв</p>
+                        <p class="py-2">
+                            Достóйно есть я́ко вои́стинну блажи́ти Тя Богорóдицу, Присноблажéнную и Пренепорóчную и Мáтерь Бóга нáшего.
+                            Честнéйшую Херуви́м и славнéйшую без сравнéния Серафи́м, без истлéния Бóга Слóва рóждшую, су́щую Богорóдицу
+                            Тя величáем[1].</p>
+
+                        <p class="py-2">Слáва, и ны́не:</p>
+
+                        <p class="py-2">Гóсподи поми́луй (трижды).</p>
+
+                        <p class="py-2">Гóсподи Иису́се Христé, Сы́не Бóжий, моли́тв рáди Пречи́стыя Твоея́ Мáтере, преподóбных и богонóсных отéц нáших
+                            и всех святы́х поми́луй нас. Ами́нь.</p>
+                        </p>
+                    </div>
+                </div>
             </div>
+        </section>
 
-
-            тест 2
+            <!-- тест 2
 
 
 
 
             <div id="accordion-nested-parent" data-accordion="collapse">
                 <h2 id="accordion-collapse-heading-1">
-                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-blue-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                         <span>What is Flowbite?</span>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -236,7 +595,7 @@
                         <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
                         <p class="mb-2 text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
                         <p class="mb-4 text-gray-500 dark:text-gray-400">What are the differences between Flowbite and Tailwind UI?</p>
-                        <!-- Nested accordion -->
+
                         <div id="accordion-nested-collapse" data-accordion="collapse">
                             <h2 id="accordion-nested-collapse-heading-1">
                                 <button type="button" class="flex items-center justify-between w-full p-5 rounded-t-xl font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-nested-collapse-body-1" aria-expanded="false" aria-controls="accordion-nested-collapse-body-1">
@@ -283,7 +642,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End: Nested accordion -->
+
                     </div>
                 </div>
                 <h2 id="accordion-collapse-heading-2">
@@ -300,9 +659,9 @@
                         <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
                     </div>
                 </div>
-            </div>
+            </div>  -->
 
-тест 3
+<!--тест 3
 
 
             <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
@@ -399,126 +758,7 @@
             </section>
 
 
-            <div class="mt-4 mb-6 px-8">
-                <div class="container mx-auto shadow-xl shadow-gray-300">
-                    <div class="py-8 flex justify-center rounded-xl bg-blue-100">
-                        <div class="my-2 grid gap-6 px-4">
-                            <h3 id="january" class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Начало</h3>
-<div>
-
-    Востав от сна, прежде всякого другого дела, стань благоговейно, представляя себя пред Всевидящим Богом, и, совершая крестное знамение, произнеси:
-
-    Во и́мя Отцá, и Сы́на, и Святáго Ду́ха. Ами́нь.
-
-    Затем немного подожди, пока все чувства твои не придут в тишину и мысли твои не оставят все земное, и тогда произноси следующие молитвы, без поспешности и со вниманием сердечным:
-
-    Молитва мытаря
-    (Евангелие от Луки, глава 18, стих 13)
-
-    Бóже, ми́лостив бу́ди мне грéшному. (Поклон)
-
-    Молитва предначинательная
-    Гóсподи Иису́се Христé, Сы́не Бóжий, моли́тв рáди Пречи́стыя Твоея́ Мáтере и всех святы́х, поми́луй нас. Ами́нь.
-
-    Слáва Тебé, Бóже наш, слáва Тебé.
-
-    Молитва Святому Духу
-    Царю́ Небéсный, Утéшителю, Ду́ше и́стины, И́же вездé сый и вся исполня́яй, Сокрóвище благи́х и жи́зни Подáтелю, прииди́ и всели́ся в ны, и очи́сти ны от вся́кия сквéрны, и спаси́, Блáже, ду́ши нáша[1].
-
-    Трисвятое
-    Святы́й Бóже, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас. (Читается трижды, с крестным знамением и поясным поклоном.)
-
-    Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.
-
-    Молитва ко Пресвятой Троице
-    Пресвятáя Трóице, поми́луй нас; Гóсподи, очи́сти грехи́ нáша; Влады́ко, прости́ беззакóния нáша; Святы́й, посети́ и исцели́ нéмощи нáша, и́мене Твоегó рáди.
-
-    Го́споди поми́луй (трижды).
-
-    Слáва, и ны́не[2].
-
-    Молитва Господня
-    Óтче наш, И́же еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Цáрствие Твоé, да бу́дет вóля Твоя́, я́ко на небеси́ и на земли́. Хлеб наш насу́щный дáждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм нáшим; и не введи́ нас во искушéние, но избáви нас от лукáваго.
-
-    Тропари Троичные
-    Востáвше от сна, припáдаем Ти, Блáже, и áнгельскую песнь вопиéм Ти, Си́льне: Свят, Свят, Свят еси́, Бóже, Богорóдицею поми́луй нас.
-
-    Слава: От одрá и сна воздви́гл мя еси́, Гóсподи, ум мой просвети́ и сéрдце, и устнé мои́ отвéрзи, во éже пéти Тя, Святáя Трóице: Свят, Свят, Свят еси́, Бóже, Богорóдицею поми́луй нас.
-
-    И ныне: Внезáпно Судия́ прии́дет, и коегóждо дея́ния обнажáтся, но стрáхом зовéм[3] в полу́нощи: Свят, Свят, Свят еси́, Бóже, Богорóдицею поми́луй нас.
-
-    Гóсподи поми́луй (12 раз).
-
-    Молитва ко Пресвятой Троице
-    От сна востáв, благодарю́ Тя, Святáя Трóице, я́ко мнóгия рáди Твоея́ блáгости и долготерпéния не прогнéвался еси́ на мя, лени́ваго и грéшнаго, нижé погуби́л мя еси́ со беззакóньми мои́ми; но человеколю́бствовал еси́ обы́чно и в нечáянии лежáщаго воздви́гл мя еси́, во éже у́треневати и славослóвити держáву Твою́. И ны́не просвети́ мои́ óчи мы́сленныя, отвéрзи моя́ устá поучáтися словесéм Твои́м, и разумéти зáповеди Твоя́, и твори́ти вóлю Твою́, и пéти Тя во исповéдании сердéчнем, и воспевáти всесвятоé и́мя Твоé, Отцá и Сы́на и Святáго Ду́ха, ны́не и при́сно и во вéки векóв. Ами́нь.
-
-    Прииди́те, поклони́мся Царéви нáшему Бо́гу. (Поклон) Прииди́те, поклони́мся и припадéм Христу́, Царéви нáшему Бóгу. (Поклон) Прииди́те, поклони́мся и припадéм Самому́ Христу́, Царéви и Бóгу нáшему. (Поклон)
-
-    Псалом 50
-    Поми́луй мя, Бóже, по вели́цей ми́лости Твоéй, и по мнóжеству щедрóт Твои́х очи́сти беззакóние моé. Наипáче омы́й мя от беззакóния моегó, и от грехá моегó очи́сти мя; я́ко беззакóние моé аз знáю, и грех мой прéдо мно́ю есть вы́ну. Тебé еди́ному согреши́х и лукáвое пред Тобóю сотвори́х; я́ко да оправди́шися во словесéх Твои́х, и победи́ши внегдá суди́ти Ти. Се бо в беззакóниих зачáт есмь, и во гресéх роди́ мя мáти моя́. Се бо и́стину возлюби́л еси́; безвéстная и тáйная прему́дрости Твоея́ яви́л ми еси́. Окропи́ши мя иссóпом, и очи́щуся; омы́еши мя, и пáче снéга убелю́ся. Слу́ху моему́ дáси рáдость и весéлие; возрáдуются кóсти смирéнныя. Отврати́ лицé Твоé от грех мои́х и вся беззакóния моя́ очи́сти. Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй. Не отвéржи менé от лицá Твоегó и Ду́ха Твоегó Святáго не отыми́ от менé. Воздáждь ми рáдость спасéния Твоегó и Ду́хом Влады́чним утверди́ мя. Научу́ беззакóнныя путéм Твои́м, и нечести́вии к Тебé обратя́тся. Избáви мя от кровéй, Бóже, Бóже спасéния моегó; возрáдуется язы́к мой прáвде Твоéй. Гóсподи, устнé мои́ отвéрзеши, и устá моя́ возвестя́т хвалу́ Твою́. Я́ко áще бы восхотéл еси́ жéртвы, дал бых у́бо: всесожжéния не благоволи́ши́. Жéртва Бóгу дух сокрушéн; сéрдце сокрушéнно и смирéнно Бог не уничижи́т. Ублажи́, Гóсподи, благоволéнием Твои́м Сиóна, и да сози́ждутся стéны Иерусали́мския. Тогдá благоволи́ши жéртву прáвды, возношéние и всесожегáемая; тогдá возложáт на олтáрь Твой тельцы́.
-
-    Символ веры
-    1Вéрую во еди́наго Бóга Отцá, Вседержи́теля, 2Творцá нéбу и земли́, ви́димым же всем и неви́димым. 3И во еди́наго Го́спода Иису́са Христа́, Сы́на Бо́жия, Единоро́днаго, И́же от Отца́ рожде́ннаго пре́жде всех век; Све́та от Све́та, Бо́га и́стинна от Бо́га и́стинна, рожде́нна, несотворе́нна, единосу́щна Отцу́, И́мже вся бы́ша. Нас рáди человéк и нáшего рáди спасéния сшéдшаго с небéс и воплоти́вшагося от Ду́ха Свя́та и Мари́и Дéвы, и вочеловéчшася. 4Распя́таго же за ны при Понти́йстем Пилáте, и страдáвша, и погребéнна. 5И воскрéсшаго в трéтий день по Писáнием. 6И возшéдшаго на небесá, и седя́ща одесну́ю Отцá. 7И пáки гряду́щаго со слáвою суди́ти живы́м и мéртвым, Егóже Цáрствию не бу́дет концá. 8И в Ду́ха Святáго, Гóспода, Животворя́щаго, И́же от Отцá исходя́щаго, И́же со Отцéм и Сы́ном спокланя́ема и сслáвима, глагóлавшаго прорóки. 9Во еди́ну Святу́ю Собóрную и Апóстольскую Цéрковь. 10Исповéдую еди́но крещéние во оставлéние грехóв. 11Чáю воскресéния мéртвых, 12и жи́зни бу́дущаго вéка. Ами́нь.
-
-    Молитва 1-я, святого Макария Великого
-    Бóже, очи́сти мя грéшнаго, я́ко николи́же сотвори́х благóе пред Тобою; но избáви мя от лукáваго, и да бу́дет во мне вóля Твоя́, да неосуждéнно отвéрзу устá моя́ недостóйная и восхвалю́ и́мя Твоé святóе, Отцá и Сы́на и Святáго Ду́ха, ны́не и при́сно и во вéки векóв. Ами́нь.
-
-    Молитва 2-я, того же святого
-    От сна востáв, полу́нощную песнь приношу́ Ти, Спáсе, и припáдая вопию́ Ти: не даждь ми усну́ти во грехо́вней смéрти, но ущéдри мя, распны́йся во́лею, и лежáщаго мя в лéности ускори́в возстáви, и спаси́ мя в предстоя́нии и моли́тве, и по сне нощнéм возсия́й ми день безгрéшен, Христé Бóже, и спаси́ мя.
-
-    Молитва 3-я, того же святого
-    К Тебé, Влады́ко Человеколю́бче, от сна востáв прибегáю, и на делá Твоя́ подвизáюся милосéрдием Твои́м, и молю́ся Тебé: помози́ ми на вся́кое врéмя, во вся́кой вéщи, и избáви мя от вся́кия мирски́я злы́я вéщи и диáвольскаго поспешéния, и спаси́ мя, и введи́ в Цáрство Твоé вéчное. Ты бо еси́ мой Сотвори́тель и вся́кому блáгу Промы́сленник и Подáтель, о Тебé же все уповáние моé, и Тебé слáву возсылáю, ны́не и при́сно и во вéки векóв. Ами́нь.
-
-    Молитва 4-я, того же святого
-    Гóсподи, И́же мнóгою Твоéю блáгостию и вели́кими щедрóтами Твои́ми дал еси́ мне, рабу́ Твоéму, мимошéдшее врéмя но́щи сея́ без напáсти прейти́ от вся́каго злá проти́вна; Ты Сам, Влады́ко, вся́ческих Твóрче, сподóби мя и́стинным Твои́м свéтом и просвещéнным сéрдцем твори́ти вóлю Твою́, ны́не и при́сно и во вéки векóв. Ами́нь.
-
-    Молитва 5-я, святого Василия Великого
-    Гóсподи Вседержи́телю, Бóже сил и вся́кия плóти, в вы́шних живы́й и на смирéнныя призирáяй, сердцá же и утрóбы испыту́яй и сокровéнная человéков я́ве предвéдый, Безначáльный и Присноу́щный Свéте, у Негó же несть пременéние, или́ преложéния осенéние; Сам, Безсмéртный Царю́, приими́ молéния нáша, я́же в настоя́щее врéмя, на мнóжество Твои́х щедрóт дерзáюще, от сквéрных к Тебé устéн твори́м, и остáви нам прегрешéния нáша, я́же дéлом, и слóвом, и мы́слию, вéдением, или невéдением согрешéнная нáми; и очи́сти ны от вся́кия сквéрны плóти и ду́ха. И дáруй нам бóдренным сéрдцем и трéзвенною мы́слию всю́ настоя́щаго жития́ нощь прейти́, ожидáющим пришéствия свéтлаго и явлéннаго дне Единорóднаго Твоегó Сы́на, Гóспода и Бóга и Спáса нáшего Иису́са Христá, в óньже со слáвою Судия́ всех прии́дет, кому́ждо отдáти по дéлом его; да не пáдше и облени́вшеся, но бóдрствующе и воздви́жени в дéлание обря́щемся готóви, в рáдость и Божéственный чертóг слáвы Егó совни́дем, идéже прáзднующих глас непрестáнный, и неизречéнная слáдость зря́щих Твоегó лицá добрóту неизречéнную. Ты бо еси́ и́стинный Свет, просвещáяй и освящáяй вся́ческая, и Тя поéт вся тварь во вéки векóв. Ами́нь.
-
-    Молитва 6-я, того же святого
-    Тя благослови́м, вы́шний Бóже и Гóсподи ми́лости, творя́щаго при́сно с нáми вели́кая же и неизслéдованная, слáвная же и ужáсная, и́хже несть числá, подáвшаго нам сон во упокоéние нéмощи нáшея, и ослаблéние трудóв многотру́дныя плóти. Благодари́м Тя, я́ко не погуби́л еси́ нас со беззакóньми нáшими, но человеколю́бствовал еси́ обы́чно, и в нечáянии лежáщия ны воздви́гл еси́, во éже славослóвити держáву Твою́. Тéмже мóлим безмéрную Твою́ блáгость, просвети́ нáша мы́сли, очесá, и ум наш от тя́жкаго сна лéности возстáви: отвéрзи нáша устá, и испóлни я Твоегó хвалéния, я́ко да возмóжем непоколéблемо пéти же и исповéдатися Тебé, во всех, и от всех слáвимому Бóгу, Безначáльному Отцу́ со Единорóдным Твои́м Сы́ном и Всесвяты́м и Благи́м и Животворя́щим Твои́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
-
-    Молитва 7-я, ко Пресвятой Богородице
-    Воспевáю благодáть Твою́, Влады́чице, молю́ Тя, ум мой облагодати́. Ступáти прáво мя настáви, путéм Христóвых зáповедей. Бдéти к пéсни укрепи́, уны́ния сон отгоня́ющи. Свя́зана плени́цами грехопадéний, мольбáми Твои́ми разреши́, Богоневéсто. В нощи́ мя и во дни сохраня́й, борю́щих враг избавля́ющи мя. Жизнодáтеля Бóга рóждшая, умерщвлéна мя страстьми́ оживи́. Я́же Свет невечéрний рóждшая, ду́шу мою́ ослéпшую просвети́. О, ди́вная Влады́чня палáто, дом Ду́ха Божéственна менé сотвори́. Врачá рóждшая, уврачу́й души́ моея́ многолéтныя стрáсти. Волну́ющася житéйскою бу́рею, ко стези́ мя покая́ния напрáви. Избáви мя огня́ вéчнующаго, и чéрвия же злáго, и тáртара. Да мя не яви́ши бесóм рáдование, и́же мнóгим грехóм пови́нника. Нóва сотвори́ мя, обетшáвшаго нечу́вственными, Пренепорóчная, согрешéнии. Стрáнна му́ки вся́кия покажи́ мя, и всех Влады́ку умоли́. Небéсная ми улучи́ти весéлия, со всéми святы́ми, сподóби. Пресвятáя Дéво, услы́ши глас непотрéбнаго рабá Твоегó. Струю́ давáй мне слезáм, Пречи́стая, души́ моея́ сквéрну очищáющи. Стенáния от сéрдца приношу́ Ти непрестáнно, усéрдствуй, Влады́чице. Молéбную слу́жбу мою́ приими́, и Бóгу благоутрóбному принеси́. Превы́шшая Áнгел, мирскáго мя превы́шша сли́тия сотвори́. Светонóсная Сéне небéсная, духóвную благодáть во мне напрáви. Ру́це воздéю и устнé к похвалéнию, осквернéны сквéрною, Всенепорóчная. Душетлéнных мя пáкостей избáви, Христá прилéжно умоля́ющи; Ему́же честь и поклонéние подобáет, ны́не и при́сно и во вéки векóв, ами́нь.
-
-    Молитва 8-я, Господу нашему Иисусу Христу
-    Многоми́лостиве и Всеми́лостиве Бóже мой, Гóсподи Иису́се Христé, мнóгия рáди любвé сшел и воплоти́лся еси́, я́ко да спасéши всех. И пáки, Спáсе, спаси́ мя по благодáти, молю́ Тя; áще бо от дел спасéши мя, несть се благодáть и дар, но долг пáче. Ей, мнóгий в щедрóтах и неизречéнный в ми́лости! Вéруяй бо в Мя, рекл еси́, о Христé мой, жив бу́дет и не у́зрит смéрти во вéки. Áще у́бо вéра, я́же в Тя, спасáет отчáянныя, се вéрую, спаси́ мя, я́ко Бог мой еси́ Ты и Создáтель. Вéра же вмéсто дел да вмени́тся мне, Бóже мой, не обря́щеши бо дел отню́д оправдáющих мя. Но та вéра моя́ да довлéет вмéсто всех, та да отвещáет, та да оправди́т мя, та да покáжет мя причáстника слáвы Твоея́ вéчныя. Да не у́бо похи́тит мя сатанá, и похвáлится, Слóве, éже оттóргнути мя от Твоея́ руки́ и огрáды; но или́ хощу́, спаси́ мя, или́ не хощу́, Христé Спáсе мой, предвари́ скóро, скóро, погибóх: Ты бо еси́ Бог мой от чрéва мáтере моея́. Сподóби мя, Гóсподи, ны́не возлюби́ти Тя, я́коже возлюби́х иногдá той сáмый грех; и пáки порабóтати Тебé без лéности тóщно, я́коже порабóтах прéжде сатанé льсти́вому. Наипáче же порабóтаю Тебé, Гóсподу и Бóгу моему́ Иису́су Христу́, во вся дни животá моегó, ны́не и при́сно и во вéки векóв, ами́нь.
-
-    Молитва 9-я, к Ангелу Хранителю
-    Святы́й Áнгеле, предстоя́й окая́нной моéй души́ и стрáстной моéй жи́зни, не остáви менé грéшнаго, нижé отступи́ от менé за невоздержáние моé. Не даждь мéста лукáвому дéмону обладáти мнóю, наси́льством смéртнаго сегó телесé; укрепи́ бéдствующую и худу́ю мою́ ру́ку и настáви мя на путь спасéния. Ей, святы́й Áнгеле Бóжий, храни́телю и покрови́телю окая́нныя моея́ души́ и тéла, вся мне прости́, ели́кими тя оскорби́х во вся дни животá моегó, и áще что согреши́х в прешéдшую нощь сию́, покры́й мя в настоя́щий день, и сохрани́ мя от вся́каго искушéния проти́внаго, да ни в кóем гресé прогнéваю Бóга, и моли́ся за мя ко Гóсподу, да утверди́т мя в стрáсе Своéм, и достóйна покáжет мя раба Своея́ блáгости. Ами́нь.
-
-    Молитва 10-я, ко Пресвятой Богородице
-    Пресвятáя Влады́чице моя́ Богорóдице, святы́ми Твои́ми и всеси́льными мольбáми отжени́ от менé смирéннаго и окая́ннаго рабá Твоегó уны́ние, забвéние, неразу́мие, нерадéние, и вся сквéрная, лукáвая и ху́льная помышлéния от окая́ннаго моегó сéрдца и от помрачéннаго умá моегó; и погаси́ плáмень страстéй мои́х, я́ко нищ есмь и окая́нен. И избáви мя от мнóгих и лю́тых воспоминáний и предприя́тий и от всех дéйств злых свободи́ мя. Я́ко благословéна еси́ от всех родóв, и слáвится пречестнóе и́мя Твоé во вéки векóв. Ами́нь.
-
-    Молитвенное призывание святого, имя которого носишь
-    Моли́ Бóга о мне, святы́й угóдниче Бóжий (имя), я́ко аз усéрдно к тебé прибегáю, скóрому помóщнику и моли́твеннику о душé моéй.
-
-    Песнь Пресвятой Богородице
-    Богорóдице Дéво, рáдуйся, Благодáтная Мари́е, Госпóдь с Тобóю; благословéна Ты в женáх и благословéн плод чрéва Твоегó, я́ко Спáса родилá еси́ душ нáших.
-
-    Тропарь Кресту и молитва за Отечество
-    Спаси́, Гóсподи, лю́ди Твоя́, и благослови́ достояние Твоé, побéды правослáвным христиáном на сопроти́вныя дáруя, и Твоé сохраняя Крестóм Твои́м жи́тельство.
-
-    Молитва о Живых
-    Спаси́, Гóсподи, и поми́луй отцá моего́ духо́внаго (имя), роди́телей мои́х (имена), срóдников (имена), начáльников, настáвников, благодéтелей (имена их) и всех правослáвных христиáн.
-
-    Молитва о усопших
-    Упокóй, Гóсподи, ду́ши усóпших раб Твои́х: роди́телей мои́х, срóдников, благодéтелей (имена их), и всех правослáвных христиáн, и прости́ им вся согрешéния вóльная и невóльная, и дáруй им Цáрствие Небéсное.
-
-    Окончание молитв
-    Достóйно есть я́ко вои́стинну блажи́ти Тя Богорóдицу, Присноблажéнную и Пренепорóчную и Мáтерь Бóга нáшего. Честнéйшую Херуви́м и славнéйшую без сравнéния Серафи́м, без истлéния Бóга Слóва рóждшую, су́щую Богорóдицу Тя величáем[1].
-
-    Слáва, и ны́не:
-
-    Гóсподи поми́луй (трижды).
-
-    Гóсподи Иису́се Христé, Сы́не Бóжий, моли́тв рáди Пречи́стыя Твоея́ Мáтере, преподóбных и богонóсных отéц нáших и всех святы́х поми́луй нас. Ами́нь.
-</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+          -->
 
             <div class="pt-12">
                 <div class="relative w-full h-96">
@@ -540,130 +780,467 @@
                 </div>
             </div>
 
-            <div class="mt-4 mb-6 px-8">
-                <div class="container mx-auto shadow-xl shadow-gray-300">
-                    <div class="py-8 flex justify-center rounded-xl bg-blue-100">
-                        <div class="my-2 grid gap-6 px-4">
-                            <h3 id="january" class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Начальные молитвы</h3>
-<div>
 
-    Во и́мя Отцá, и Сы́на, и Святáго Ду́ха. Ами́нь.
+            <section class="container mx-auto shadow-xl shadow-gray-300">
+                <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+                    <h2 id="accordion-color-heading-12">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium
+                        rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl
+                        focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400
+                        hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-12" aria-expanded="true" aria-controls="accordion-color-body-12">
+                            <span>Начальные молитвы</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-12" class="hidden" aria-labelledby="accordion-color-heading-12">
+                        <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="py-2">Во и́мя Отцá, и Сы́на, и Святáго Ду́ха. Ами́нь.</p>
 
-    Го́споди Иису́се Христé, Сы́не Бóжий, моли́тв рáди Пречи́стыя Твоея́ Мáтере, преподóбных и богонóсных отéц нáших и всех святы́х, поми́луй нас. Ами́нь.
+                            <p class="py-2">Го́споди Иису́се Христé, Сы́не Бóжий, моли́тв рáди Пречи́стыя Твоея́ Мáтере, преподóбных и богонóсных отéц нáших и всех святы́х, поми́луй нас. Ами́нь.</p>
 
-    Слáва Тебé, Бóже наш, слáва Тебé.
+                            <p class="py-2">Слáва Тебé, Бóже наш, слáва Тебé.</p>
 
-    Царю́ Небéсный, Утéшителю, Ду́ше и́стины, И́же вездé сый и вся исполня́яй, Сокрóвище благи́х и жи́зни Подáтелю, прииди́ и всели́ся в ны, и очи́сти ны от вся́кия сквéрны, и спаси́, Блáже, ду́ши нáша.
+                            <p class="py-2">Царю́ Небéсный, Утéшителю, Ду́ше и́стины, И́же вездé сый и вся исполня́яй, Сокрóвище благи́х и жи́зни Подáтелю,
+                                прииди́ и всели́ся в ны, и очи́сти ны от вся́кия сквéрны, и спаси́, Блáже, ду́ши нáша.</p>
 
-    Святы́й Бóже, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас (трижды).
+                            <p class="py-2">Святы́й Бóже, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас (трижды).</p>
 
-    Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.
+                            <p class="py-2">Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.</p>
 
-    Пресвятáя Трóице, поми́луй нас; Гóсподи, очи́сти грехи́ нáша; Влады́ко, прости́ беззакóния нáша; Святы́й, посети́ и исцели́ нéмощи нáша, и́менé Твоегó рáди.
+                            <p class="py-2">Пресвятáя Трóице, поми́луй нас; Гóсподи, очи́сти грехи́ нáша; Влады́ко, прости́ беззакóния нáша; Святы́й,
+                                посети́ и исцели́ нéмощи нáша, и́менé Твоегó рáди.</p>
 
-    Гóсподи поми́луй (трижды).
+                            <p class="py-2">Гóсподи поми́луй (трижды).</p>
 
-    Слáва, и ны́не:
+                            <p class="py-2">Слáва, и ны́не:</p>
 
-    Óтче наш, И́же еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Царствие Твоé, да бу́дет во́ля Твоя, я́ко на небеси́ и на земли́. Хлеб наш насу́щный даждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм нáшим; и не введи́ нас во искушéние, но избáви нас от лукáваго.
+                            <p class="py-2">Óтче наш, И́же еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Царствие Твоé, да бу́дет во́ля Твоя, я́ко на небеси́
+                                и на земли́. Хлеб наш насу́щный даждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм нáшим;
+                                и не введи́ нас во искушéние, но избáви нас от лукáваго.</p>
 
-    Тропари
+                            <p class="font-semibold py-2">Тропари</p>
 
-    Поми́луй нас, Гóсподи, поми́луй нас; вся́каго бо отвéта недоумéюще, сию́ Ти моли́тву я́ко Влады́це грéшнии принóсим: поми́луй нас.
+                            <p class="py-2">Поми́луй нас, Гóсподи, поми́луй нас; вся́каго бо отвéта недоумéюще, сию́ Ти моли́тву я́ко Влады́це грéшнии принóсим: поми́луй нас.</p>
 
-    Слава: Гóсподи, поми́луй нас, на Тя бо уповáхом; не прогнéвайся на ны зелó, нижé помяни́ беззакóний нáших, но при́зри и ны́не я́ко благоутрóбен, и избáви ны от враг нáших; Ты бо еси́ Бог наш, и мы лю́дие Твои́, вси делá руку́ Твоéю, и и́мя Твоé призывáем.
+                            <p class="py-2">Слава: Гóсподи, поми́луй нас, на Тя бо уповáхом; не прогнéвайся на ны зелó, нижé помяни́ беззакóний нáших,
+                                но при́зри и ны́не я́ко благоутрóбен, и избáви ны от враг нáших; Ты бо еси́ Бог наш, и мы лю́дие Твои́, вси делá руку́ Твоéю, и и́мя Твоé призывáем.</p>
 
-    И ныне: Милосéрдия двéри отвéрзи нам, благословéнная Богорóдице, надéющиися на Тя да не поги́бнем, но да избáвимся Тобóю от бед: Ты бо еси́ спасéние рóда христиáнскаго.
+                            <p class="py-2">И ныне: Милосéрдия двéри отвéрзи нам, благословéнная Богорóдице, надéющиися на Тя да не поги́бнем, но да избáвимся
+                                Тобóю от бед: Ты бо еси́ спасéние рóда христиáнскаго.</p>
 
-    Гóсподи поми́луй (12 раз).
+                            <p class="py-2">Гóсподи поми́луй (12 раз).</p>
+                            <!--<p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                        -->
 
-    Молитва 1-я, святого Макария Великого, к Богу Отцу
-    Бóже вéчный и Царю́ вся́каго создáния, сподóбивый мя дáже в час сей доспéти, прости́ ми грехи́, я́же сотвори́х в сей день дéлом, слóвом и помышлéнием, и очи́сти, Гóсподи, смирéнную мою́ ду́шу от вся́кия сквéрны плóти и ду́ха. И даждь ми, Гóсподи, в нощи́ сей сон прейти́ в ми́ре, да востáв от смирéннаго ми лóжа, благоугожду́ пресвятóму и́мени Твоéму, во вся дни животá моегó, и поперу́ борю́щия мя враги́ плотски́я и безпло́тныя. И избáви мя, Го́споди, от помышлéний су́етных, оскверня́ющих мя, и пóхотей лукáвых. Я́ко Твоé есть Цáрство и си́ла и слáва, Отцá и Сы́на и Святáго Ду́ха, ны́не и при́сно и во вéки векóв. Ами́нь.
+                        </div>
+                    </div>
+                    <h2 id="accordion-color-heading-13">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0
+                        border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100
+                        dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-13" aria-expanded="false" aria-controls="accordion-color-body-13">
+                            <span>Молитва 1-я, святого Макария Великого, к Богу Отцу</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-13" class="hidden" aria-labelledby="accordion-color-heading-13">
+                        <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                            <p class="py-2">
+                                Бóже вéчный и Царю́ вся́каго создáния, сподóбивый мя дáже в час сей доспéти, прости́ ми грехи́, я́же сотвори́х в сей день дéлом,
+                                слóвом и помышлéнием, и очи́сти, Гóсподи, смирéнную мою́ ду́шу от вся́кия сквéрны плóти и ду́ха. И даждь ми, Гóсподи, в нощи́ сей
+                                сон прейти́ в ми́ре, да востáв от смирéннаго ми лóжа, благоугожду́ пресвятóму и́мени Твоéму, во вся дни животá моегó, и поперу́
+                                борю́щия мя враги́ плотски́я и безпло́тныя. И избáви мя, Го́споди, от помышлéний су́етных, оскверня́ющих мя, и пóхотей лукáвых.
+                                Я́ко Твоé есть Цáрство и си́ла и слáва, Отцá и Сы́на и Святáго Ду́ха, ны́не и при́сно и во вéки векóв. Ами́нь.</p>
+                            </p>
+                        </div>
+                    </div>
 
-    Молитва 2-я, святого Антиоха, ко Господу нашему Иисусу Христу
-    Вседержи́телю, Слóво Óтчее, Сам совершéн сый, Иису́се Христé, мнóгаго рáди милосéрдия Твоегó никогдáже отлучáйся менé, рабá Твоегó, но всегдá во мне почивáй. Иису́се, дóбрый Пáстырю Твои́х овéц, не предáждь менé крамолé змии́не, и желáнию сатанину́ не остáви менé, я́ко сéмя тли во мне есть. Ты у́бо, Гóсподи Бóже покланя́емый, Царю́ Святы́й, Иису́се Христé, спя́ща мя сохрани́ немерцáющим свéтом, Ду́хом Твои́м Святы́м, И́мже освятил еси́ Твоя́ ученики́. Даждь, Гóсподи, и мне, недостóйному рабу́ Твоéму, спасéние Твоé на лóжи моéм: просвети́ ум мой свéтом рáзума Святáго Евáнгелия Твоегó, ду́шу любóвию Крестá Твоегó, сéрдце чистотóю словесé Твоегó, тéло моé Твоéю стрáстию безстрáстною, мы́сль мою́ Твои́м смирéнием сохрани́, и воздви́гни мя во врéмя подóбно на Твоé славослóвие. Я́ко препрослáвлен еси́ со Безначáльным Твои́м Отцéм и с Пресвяты́м Ду́хом во вéки. Ами́нь.
 
-    Молитва 3-я, ко Пресвятому Духу
-    Гóсподи, Царю́ Небéсный, Утéшителю, Д́у́ше и́стины, умилосéрдися и поми́луй мя грéшнаго рабá Твоегó, и отпусти́ ми недостóйному, и прости́ вся, ели́ка Ти согреши́х днесь я́ко человéк, пáче же и не я́ко человéк, но и горéе скотá, вóльныя моя́ грехи́ и невóльныя, вéдомыя и невéдомыя: я́же от ю́ности и от нау́ки злы, и я́же суть от нáгльства и уны́ния. Áще и́менем Твои́м кля́хся, или́ похули́х é в помышлéнии моéм; или́ когó укори́х; или́ оклеветáх когó гнéвом мои́м, или́ опечáлих, или́ о чем прогнéвахся; или солгáх, или безгóдно спах, или нищ прии́де ко мне, и презрéх его; или брáта моего́ опечáлих, или́ свáдих, или́ когó осуди́х; или́ развеличáхся, или́ разгордéхся, или разгнéвахся; или́ стоя́щу ми на моли́тве, ум мой о лукáвствии ми́ра сегó подви́жеся, или́ развращéние помы́слих; или́ объядóхся, или́ опи́хся, или́ без умá смея́хся; или́ лукáвое помы́слих, или́ добрóту чу́ждую ви́дев, и тою́ уя́звен бых сéрдцем; или́ неподóбная глагóлах, или́ греху́ брáта моегó посмея́хся, моя́ же суть безчи́сленная согрешéния; или́ о моли́тве не ради́х, или́ и́но что содéях лукáвое, не по́мню, та бо вся и бóльша сих содéях. Поми́луй мя, Твóрче мой Влады́ко, уны́лаго и недостóйнаго рабá Твоегó, и остáви ми, и отпусти́, и прости́ мя, я́ко Благ и Человеколю́бец, да с ми́ром ля́гу, усну́ и почи́ю, блу́дный, грéшный и окая́нный аз, и поклоню́ся, и воспою́, и прослáвлю пречестнóе и́мя Твоé со Отцéм и Единорóдным Егó Сы́ном, ны́не и при́сно и во вéки. Ами́нь.
+                    <h2 id="accordion-color-heading-14">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                         focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-14" aria-expanded="false" aria-controls="accordion-color-body-14">
+                            <span>Молитва 2-я, святого Антиоха, ко Господу нашему Иисусу Христу</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-14" class="hidden" aria-labelledby="accordion-color-heading-14">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                Вседержи́телю, Слóво Óтчее, Сам совершéн сый, Иису́се Христé, мнóгаго рáди милосéрдия Твоегó никогдáже отлучáйся менé, рабá
+                                Твоегó, но всегдá во мне почивáй. Иису́се, дóбрый Пáстырю Твои́х овéц, не предáждь менé крамолé змии́не, и желáнию сатанину́
+                                не остáви менé, я́ко сéмя тли во мне есть. Ты у́бо, Гóсподи Бóже покланя́емый, Царю́ Святы́й, Иису́се Христé, спя́ща мя сохрани́
+                                немерцáющим свéтом, Ду́хом Твои́м Святы́м, И́мже освятил еси́ Твоя́ ученики́. Даждь, Гóсподи, и мне, недостóйному рабу́ Твоéму,
+                                спасéние Твоé на лóжи моéм: просвети́ ум мой свéтом рáзума Святáго Евáнгелия Твоегó, ду́шу любóвию Крестá Твоегó, сéрдце
+                                чистотóю словесé Твоегó, тéло моé Твоéю стрáстию безстрáстною, мы́сль мою́ Твои́м смирéнием сохрани́, и воздви́гни мя во врéмя
+                                подóбно на Твоé славослóвие. Я́ко препрослáвлен еси́ со Безначáльным Твои́м Отцéм и с Пресвяты́м Ду́хом во вéки. Ами́нь.
+                            </p>
+                        </div>
+                    </div>
 
-    Молитва 4-я, святого Макария Великого
-    Что Ти принесу́, или́ что Ти воздáм, великодарови́тый Безсмéртный Царю́, щéдре и человеколю́бче Гóсподи, я́ко леня́щася менé на Твоé угождéние, и ничтóже блáго сотвóрша, привéл еси́ на конéц мимошéдшаго дне сегó, обращéние и спасéние души́ моéй стрóя? Ми́лостив ми бу́ди грéшному и обнажéнному вся́каго дéла блáга, возстáви пáдшую мою́ ду́шу, оскверни́вшуюся в безмéрных согрешéниих, и отыми́ от менé весь помы́сл лукáвый ви́димаго сегó жития́. Прости́ моя́ согрешéния, еди́не Безгрéшне, я́же Ти согреши́х в сей день, вéдением и невéдением, слóвом, и дéлом, и помышлéнием, и всéми мои́ми чу́вствы. Ты Сам, покрывáя, сохрани́ мя от вся́каго сопроти́внаго обстоя́ния Божéственною Твоéю влáстию, и неизречéнным человеколю́бием, и си́лою. Очи́сти, Бóже, очи́сти мнóжество грехóв мои́х. Благоволи́, Гóсподи, избáвити мя от сéти лукáваго, и спаси́ стрáстную мою́ ду́шу, и осéни мя свéтом лицá Твоегó, егдá прии́деши во слáве, и неосуждéнна ны́не сном усну́ти сотвори́, и без мечтáния, и несмущéн помы́сл рабá Твоегó соблюди́, и всю сатанину́ дéтель отжени́ от менé, и просвети́ ми разу́мныя óчи сердéчныя, да не усну́ в смерть. И посли́ ми Áнгела ми́рна, храни́теля и настáвника ду́ши и тéлу моему́, да избáвит мя от враг мои́х; да востáв со одрá моегó, принесу́ Ти благодáрственныя мольбы́. Ей, Гóсподи, услы́ши мя грéшнаго и у́богаго рабá Твоегó, изволéнием и сóвестию; дáруй ми востáвшу словесéм Твои́м поучи́тися, и уны́ние бесóвское далéче от менé отгнáно бы́ти сотвори́ Твои́ми Áнгелы; да благословлю́ и́мя Твоé святóе, и прослáвлю, и слáвлю Пречи́стую Богорóдицу Мари́ю, ю́же дал еси́ нам грéшным заступлéние, и приими́ Сию́ моля́щуюся за ны; вем бо, я́ко подрáжает Твоé человеколю́бие, и моля́щися не престаéт. Тоя́ заступлéнием, и Честнáго Крестá знáмением, и всех святы́х Твои́х рáди, у́богую ду́шу мою́ соблюди́, Иису́се Христé Бóже наш, я́ко Свят еси́, и препрослáвлен во вéки. Ами́нь.
 
-    Молитва 5-я
-    Гóсподи Бóже наш, éже согреши́х во дни сем слóвом, дéлом и помышлéнием, я́ко Благ и Человеколю́бец прости́ ми. Ми́рен сон и безмятéжен дáруй ми. Áнгела Твоегó храни́теля посли́, покрывáюща и соблюдáюща мя от вся́каго зла, я́ко Ты еси́ Храни́тель душáм и телесéм нáшим, и Тебé слáву возсылáем, Отцу́ и Сы́ну и Святóму Ду́ху, ны́не и при́сно и во вéки векóв. Ами́нь.
 
-    Молитва 6-я
-    Гóсподи Бóже наш, в Негóже вéровахом, и Егóже и́мя пáче вся́каго и́менé призывáем, даждь нам, ко сну отходя́щим, ослáбу души́ и тéлу, и соблюди́ нас от вся́каго мечтáния, и тéмныя слáсти кромé; устáви стремлéние страстéй, угаси́ разжжéния востáния телéснаго. Даждь нам целому́дренне пожи́ти дéлы и словесы́; да добродéтельное жи́тельство восприéмлюще, обетовáнных не отпадéм благи́х Твои́х, я́ко Благословéн еси́ во вéки. Ами́нь.
+                    <h2 id="accordion-color-heading-15">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200
+                    focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-15" aria-expanded="false" aria-controls="accordion-color-body-15">
+                            <span>Молитва 3-я, ко Пресвятому Духу</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-15" class="hidden" aria-labelledby="accordion-color-heading-15">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                Гóсподи, Царю́ Небéсный, Утéшителю, Д́у́ше и́стины, умилосéрдися и поми́луй мя грéшнаго рабá Твоегó, и отпусти́ ми недостóйному,
+                                и прости́ вся, ели́ка Ти согреши́х днесь я́ко человéк, пáче же и не я́ко человéк, но и горéе скотá, вóльныя моя́ грехи́ и невóльныя,
+                                вéдомыя и невéдомыя: я́же от ю́ности и от нау́ки злы, и я́же суть от нáгльства и уны́ния. Áще и́менем Твои́м кля́хся, или́ похули́х é
+                                в помышлéнии моéм; или́ когó укори́х; или́ оклеветáх когó гнéвом мои́м, или́ опечáлих, или́ о чем прогнéвахся; или солгáх, или
+                                безгóдно спах, или нищ прии́де ко мне, и презрéх его; или брáта моего́ опечáлих, или́ свáдих, или́ когó осуди́х; или́ развеличáхся,
+                                или́ разгордéхся, или разгнéвахся; или́ стоя́щу ми на моли́тве, ум мой о лукáвствии ми́ра сегó подви́жеся, или́ развращéние помы́слих;
+                                или́ объядóхся, или́ опи́хся, или́ без умá смея́хся; или́ лукáвое помы́слих, или́ добрóту чу́ждую ви́дев, и тою́ уя́звен бых сéрдцем;
+                                или́ неподóбная глагóлах, или́ греху́ брáта моегó посмея́хся, моя́ же суть безчи́сленная согрешéния; или́ о моли́тве не ради́х, или́
+                                и́но что содéях лукáвое, не по́мню, та бо вся и бóльша сих содéях. Поми́луй мя, Твóрче мой Влады́ко, уны́лаго и недостóйнаго рабá
+                                Твоегó, и остáви ми, и отпусти́, и прости́ мя, я́ко Благ и Человеколю́бец, да с ми́ром ля́гу, усну́ и почи́ю, блу́дный, грéшный и
+                                окая́нный аз, и поклоню́ся, и воспою́, и прослáвлю пречестнóе и́мя Твоé со Отцéм и Единорóдным Егó Сы́ном, ны́не и при́сно и во вéки. Ами́нь.
+                            </p>
+                        </div>
+                    </div>
 
-    Молитва 7-я, святого Иоанна Златоуста (24 молитвы, по числу часов дня и ночи)
-    1Гóсподи, не лиши́ менé небéсных Твои́х благ. 2Гóсподи, избáви мя вéчных мук. 3Гóсподи, умóм ли или́ помышлéнием, слóвом или дéлом согреши́х, прости́ мя. 4Гóсподи, избáви мя вся́каго невéдения и забвéния, и малоду́шия, и окаменéннаго нечу́вствия. 5Гóсподи, избáви мя от вся́каго искушéния. 6Гóсподи, просвети́ моé сéрдце, éже помрачи́ лукáвое похотéние. 7Гóсподи, аз я́ко человéк согреши́х, Ты же, я́ко Бог Щедр, поми́луй мя, ви́дя нéмощь души́ моея́. 8Гóсподи, посли́ благодáть Твою́ в пóмощь мне, да прослáвлю и́мя Твоé святóе. 9Гóсподи Иису́се Христé, напиши́ мя рабá Твоегó в кни́зе живóтней и дáруй ми конéц благи́й. 10Гóсподи Бóже мой, áще и ничтóже благо сотвори́х пред Тобóю, но даждь ми по благодáти Твоéй положи́ти начáло блáгое. 11Гóсподи, окропи́ в сéрдце моéм росу́ благодáти Твоея́. 12Гóсподи небесé и земли́, помяни́ мя грéшнаго рабá Твоегó, сту́днаго и нечи́стаго, во Цáрствии Твоéм. Ами́нь.
 
-    1Гóсподи, в покая́нии приими́ мя. 2Гóсподи, не остáви менé. 3Гóсподи, не введи́ менé в напáсть. 4Гóсподи, даждь ми мы́сль блáгу. 5Гóсподи, даждь ми слéзы, и пáмять смéртную, и умилéние. 6Гóсподи, даждь ми пóмысл исповéдания грехóв мои́х. 7Гóсподи, даждь ми смирéние, целому́дрие и послушáние. 8Гóсподи, даждь ми терпéние, великоду́шие и крóтость. 9Гóсподи, всели́ в мя кóрень благи́х, страх Твой в сéрдце моé. 10Гóсподи, сподóби мя люби́ти Тя от всея́ души́ моея́, и помышлéния и твори́ти во всем вóлю Твою́. 11Гóсподи, покрый мя от человéк нéкоторых, и бесóв, и страстéй, и от вся́кия ины́я неподóбныя вéщи. 12Гóсподи, веси́, я́ко твори́ши, я́коже Ты вóлиши, да бу́дет вóля Твоя́ и во мне грéшнем, я́ко Благословéн еси́ во вéки. Ами́нь.
+                    <h2 id="accordion-color-heading-16">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-16" aria-expanded="false" aria-controls="accordion-color-body-16">
+                            <span>Молитва 3-я, ко Пресвятому Духу</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-16" class="hidden" aria-labelledby="accordion-color-heading-16">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="py-2">
+                                Гóсподи, Царю́ Небéсный, Утéшителю, Д́у́ше и́стины, умилосéрдися и поми́луй мя грéшнаго рабá Твоегó, и отпусти́ ми недостóйному,
+                                и прости́ вся, ели́ка Ти согреши́х днесь я́ко человéк, пáче же и не я́ко человéк, но и горéе скотá, вóльныя моя́ грехи́ и невóльныя,
+                                вéдомыя и невéдомыя: я́же от ю́ности и от нау́ки злы, и я́же суть от нáгльства и уны́ния. Áще и́менем Твои́м кля́хся, или́ похули́х é
+                                в помышлéнии моéм; или́ когó укори́х; или́ оклеветáх когó гнéвом мои́м, или́ опечáлих, или́ о чем прогнéвахся; или солгáх, или
+                                безгóдно спах, или нищ прии́де ко мне, и презрéх его; или брáта моего́ опечáлих, или́ свáдих, или́ когó осуди́х; или́ развеличáхся,
+                                или́ разгордéхся, или разгнéвахся; или́ стоя́щу ми на моли́тве, ум мой о лукáвствии ми́ра сегó подви́жеся, или́ развращéние помы́слих;
+                                или́ объядóхся, или́ опи́хся, или́ без умá смея́хся; или́ лукáвое помы́слих, или́ добрóту чу́ждую ви́дев, и тою́ уя́звен бых сéрдцем;
+                                или́ неподóбная глагóлах, или́ греху́ брáта моегó посмея́хся, моя́ же суть безчи́сленная согрешéния; или́ о моли́тве не ради́х, или́
+                                и́но что содéях лукáвое, не по́мню, та бо вся и бóльша сих содéях. Поми́луй мя, Твóрче мой Влады́ко, уны́лаго и недостóйнаго рабá
+                                Твоегó, и остáви ми, и отпусти́, и прости́ мя, я́ко Благ и Человеколю́бец, да с ми́ром ля́гу, усну́ и почи́ю, блу́дный, грéшный и
+                                окая́нный аз, и поклоню́ся, и воспою́, и прослáвлю пречестнóе и́мя Твоé со Отцéм и Единорóдным Егó Сы́ном, ны́не и при́сно и во вéки. Ами́нь.</p>
+                            </p>
+                        </div>
+                    </div>
 
-    Молитва 8-я, нашему Иисусу Христу
-    Гóсподи Иису́се Христé, Сы́не Бóжий, рáди честнéйшия Мáтере Твоея́, и безплóтных Твои́х Áнгел, Проро́ка же и Предтéчи и Крести́теля Твоегó, богоглагóливых же апóстол, свéтлых и добропобéдных му́ченик, преподóбных и богонóсных отéц, и всех святы́х моли́твами, избáви мя настоя́щаго обстоя́ния бесóвскаго. Ей, Гóсподи мой Твóрче, не хотя́й смéрти грéшнаго, но я́коже обрати́тися и жи́ву бы́ти ему́, даждь и мне обращéние окая́нному и недостóйному; изми́ мя от уст пáгубнаго зми́я, зия́ющаго пожрéти мя и свести́ во ад жи́ва. Ей, Гóсподи мой, утешéние моé, И́же менé рáди окая́ннаго в тлéнную плоть оболки́йся, истóргни мя от окая́нства, и утешéние подáждь души́ моéй окая́нней. Всади́ в сéрдце моé твори́ти Твоя́ повелéния, и остáвити лукáвая дея́ния, и получи́ти блажéнства Твоя́: на Тя бо, Гóсподи, уповáх, спаси́ мя.
 
-    Молитва 9-я, ко Пресвятой Богородице, Петра Студийского
-    К Тебé Пречи́стей Бóжией Мáтери аз окая́нный припáдая молю́ся: веси́, Цари́це, я́ко безпрестáни согрешáю и прогневля́ю Сы́на Твоегó и Бóга моегó, и многажды áще кáюся, лож пред Бóгом обретáюся, и кáюся трепещá: не ужéли Госпóдь порази́т мя, и по часé пáки тáяжде творю́; вéдущи сия́, Влады́чице моя́ Госпожé Богорóдице, молю́, да поми́луеши, да укрепи́ши, и благáя твори́ти да подáси ми. Веси́ бо, Влады́чице моя́ Богорóдице, я́ко отню́д и́мам в нéнависти злáя моя́ делá, и всéю мы́слию люблю́ закóн Бóга моегó; но не вем, Госпожé Пречи́стая, отку́ду я́же ненави́жду, та и люблю́, а благáя преступáю. Не попущáй, Пречи́стая, вóли моéй совершáтися, не угóдна бо есть, но да бу́дет вóля Сы́на Твоегó и Бóга моегó: да мя спасéт, и вразуми́т, и подáст благодáть Святáго Ду́ха, да бых аз отсéле престáл сквернодéйства, и прóчее пожи́л бых в повелéнии Сы́на Твоегó, Ему́же подобáет вся́кая слáва, честь и держáва, со Безначáльным Егó Отцéм и Пресвяты́м и Благи́м и Животворя́щим Егó Ду́хом, ны́не и при́сно и во вéки векóв, ами́нь.
+                    <h2 id="accordion-color-heading-17">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-17" aria-expanded="false" aria-controls="accordion-color-body-17">
+                            <span> Молитва 4-я, святого Макария Великого</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-17" class="hidden" aria-labelledby="accordion-color-heading-17">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="py-2">
+                                Что Ти принесу́, или́ что Ти воздáм, великодарови́тый Безсмéртный Царю́, щéдре и человеколю́бче Гóсподи, я́ко леня́щася менé на Твоé
+                                угождéние, и ничтóже блáго сотвóрша, привéл еси́ на конéц мимошéдшаго дне сегó, обращéние и спасéние души́ моéй стрóя? Ми́лостив
+                                ми бу́ди грéшному и обнажéнному вся́каго дéла блáга, возстáви пáдшую мою́ ду́шу, оскверни́вшуюся в безмéрных согрешéниих, и отыми́
+                                от менé весь помы́сл лукáвый ви́димаго сегó жития́. Прости́ моя́ согрешéния, еди́не Безгрéшне, я́же Ти согреши́х в сей день, вéдением
+                                и невéдением, слóвом, и дéлом, и помышлéнием, и всéми мои́ми чу́вствы. Ты Сам, покрывáя, сохрани́ мя от вся́каго сопроти́внаго
+                                обстоя́ния Божéственною Твоéю влáстию, и неизречéнным человеколю́бием, и си́лою. Очи́сти, Бóже, очи́сти мнóжество грехóв мои́х.
+                                Благоволи́, Гóсподи, избáвити мя от сéти лукáваго, и спаси́ стрáстную мою́ ду́шу, и осéни мя свéтом лицá Твоегó, егдá прии́деши
+                                во слáве, и неосуждéнна ны́не сном усну́ти сотвори́, и без мечтáния, и несмущéн помы́сл рабá Твоегó соблюди́, и всю сатанину́
+                                дéтель отжени́ от менé, и просвети́ ми разу́мныя óчи сердéчныя, да не усну́ в смерть. И посли́ ми Áнгела ми́рна, храни́теля
+                                и настáвника ду́ши и тéлу моему́, да избáвит мя от враг мои́х; да востáв со одрá моегó, принесу́ Ти благодáрственныя мольбы́.
+                                Ей, Гóсподи, услы́ши мя грéшнаго и у́богаго рабá Твоегó, изволéнием и сóвестию; дáруй ми востáвшу словесéм Твои́м поучи́тися,
+                                и уны́ние бесóвское далéче от менé отгнáно бы́ти сотвори́ Твои́ми Áнгелы; да благословлю́ и́мя Твоé святóе, и прослáвлю, и
+                                слáвлю Пречи́стую Богорóдицу Мари́ю, ю́же дал еси́ нам грéшным заступлéние, и приими́ Сию́ моля́щуюся за ны; вем бо, я́ко
+                                подрáжает Твоé человеколю́бие, и моля́щися не престаéт. Тоя́ заступлéнием, и Честнáго Крестá знáмением, и всех святы́х
+                                Твои́х рáди, у́богую ду́шу мою́ соблюди́, Иису́се Христé Бóже наш, я́ко Свят еси́, и препрослáвлен во вéки. Ами́нь..</p>
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-color-heading-18">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-18" aria-expanded="false" aria-controls="accordion-color-body-18">
+                            <span>Молитва 5-я 6-я</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-18" class="hidden" aria-labelledby="accordion-color-heading-18">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="font-semibold py-2"> Молитва 5-я</p>
+                            <p class="py-2">Гóсподи Бóже наш, éже согреши́х во дни сем слóвом, дéлом и помышлéнием, я́ко Благ и Человеколю́бец прости́ ми. Ми́рен сон и
+                                безмятéжен дáруй ми. Áнгела Твоегó храни́теля посли́, покрывáюща и соблюдáюща мя от вся́каго зла, я́ко Ты еси́ Храни́тель
+                                душáм и телесéм нáшим, и Тебé слáву возсылáем, Отцу́ и Сы́ну и Святóму Ду́ху, ны́не и при́сно и во вéки векóв. Ами́нь.</p>
 
-    Молитва 10-я, ко Пресвятой Богородице
-    Благáго Царя́ благáя Мáти, Пречи́стая и Благословéнная Богорóдице Мари́е, ми́лость Сы́на Твоегó и Бóга нáшего излéй на стрáстную мою́ ду́шу и Твои́ми моли́твами настáви мя на дея́ния благáя, да прóчее врéмя животá моегó без порóка прейду́ и Тобóю рай да обря́щу, Богорóдице Дéво, еди́на Чи́стая и Благословéнная.
+                            <p class="font-semibold py-2">Молитва 6-я</p>
+                            <p class="py-2">Гóсподи Бóже наш, в Негóже вéровахом, и Егóже и́мя пáче вся́каго и́менé призывáем, даждь нам, ко сну отходя́щим, ослáбу
+                                души́ и тéлу, и соблюди́ нас от вся́каго мечтáния, и тéмныя слáсти кромé; устáви стремлéние страстéй, угаси́ разжжéния
+                                востáния телéснаго. Даждь нам целому́дренне пожи́ти дéлы и словесы́; да добродéтельное жи́тельство восприéмлюще,
+                                обетовáнных не отпадéм благи́х Твои́х, я́ко Благословéн еси́ во вéки. Ами́нь.</p>
+                            </p>
+                        </div>
+                    </div>
 
-    Молитва 11-я, ко святому Ангелу Хранителю
-    Áнгеле Христóв, храни́телю мой святы́й и покрови́телю души́ и тéла моегó, вся ми прости́, ели́ка согреши́х во днéшний день, и от вся́каго лукáвствия проти́внаго ми врáга избáви мя, да ни в кóемже гресé прогнéваю Бóга моегó; но моли́ за мя грéшнаго и недостóйнаго рабá, я́ко да достóйна мя покáжеши блáгости и ми́лости Всесвяты́я Трóицы и Мáтере Гóспода моегó Иису́са Христá и всех святы́х. Ами́нь.
+                    <h2 id="accordion-color-heading-19">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                                focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-19" aria-expanded="false" aria-controls="accordion-color-body-19">
+                            <span>Молитва 7-я, святого Иоанна Златоуста</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-19" class="hidden" aria-labelledby="accordion-color-heading-19">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="py-2">
+                                 (24 молитвы, по числу часов дня и ночи)
+                                Гóсподи, не лиши́ менé небéсных Твои́х благ. Гóсподи, избáви мя вéчных мук. Гóсподи, умóм ли или́ помышлéнием,
+                                слóвом или дéлом согреши́х, прости́ мя. Гóсподи, избáви мя вся́каго невéдения и забвéния, и малоду́шия, и окаменéннаго
+                                нечу́вствия. Гóсподи, избáви мя от вся́каго искушéния. Гóсподи, просвети́ моé сéрдце, éже помрачи́ лукáвое похотéние.
+                                Гóсподи, аз я́ко человéк согреши́х, Ты же, я́ко Бог Щедр, поми́луй мя, ви́дя нéмощь души́ моея́. Гóсподи, посли́ благодáть
+                                Твою́ в пóмощь мне, да прослáвлю и́мя Твоé святóе. Гóсподи Иису́се Христé, напиши́ мя рабá Твоегó в кни́зе живóтней и
+                                дáруй ми конéц благи́й. Гóсподи Бóже мой, áще и ничтóже благо сотвори́х пред Тобóю, но даждь ми по благодáти Твоéй
+                                положи́ти начáло блáгое. Гóсподи, окропи́ в сéрдце моéм росу́ благодáти Твоея́. Гóсподи небесé и земли́, помяни́ мя
+                                грéшнаго рабá Твоегó, сту́днаго и нечи́стаго, во Цáрствии Твоéм. Ами́нь.</p>
+                            <p class="py-2">Гóсподи, в покая́нии приими́ мя. Гóсподи, не остáви менé. Гóсподи, не введи́ менé в напáсть. Гóсподи, даждь ми мы́сль
+                            блáгу. Гóсподи, даждь ми слéзы, и пáмять смéртную, и умилéние. Гóсподи, даждь ми пóмысл исповéдания грехóв мои́х.
+                            Гóсподи, даждь ми смирéние, целому́дрие и послушáние. Гóсподи, даждь ми терпéние, великоду́шие и крóтость. Гóсподи,
+                            всели́ в мя кóрень благи́х, страх Твой в сéрдце моé. Гóсподи, сподóби мя люби́ти Тя от всея́ души́ моея́, и помышлéния и
+                            твори́ти во всем вóлю Твою́. Гóсподи, покрый мя от человéк нéкоторых, и бесóв, и страстéй, и от вся́кия ины́я неподóбныя
+                            вéщи. Гóсподи, веси́, я́ко твори́ши, я́коже Ты вóлиши, да бу́дет вóля Твоя́ и во мне грéшнем, я́ко Благословéн еси́ во вéки. Ами́нь.</p>
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-color-heading-20">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-20" aria-expanded="false" aria-controls="accordion-color-body-20">
+                            <span> Молитва 8-я, нашему Иисусу Христу</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-20" class="hidden" aria-labelledby="accordion-color-heading-20">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="py-2">
+                                Гóсподи Иису́се Христé, Сы́не Бóжий, рáди честнéйшия Мáтере Твоея́, и безплóтных Твои́х Áнгел, Проро́ка же и Предтéчи и
+                                Крести́теля Твоегó, богоглагóливых же апóстол, свéтлых и добропобéдных му́ченик, преподóбных и богонóсных отéц, и
+                                всех святы́х моли́твами, избáви мя настоя́щаго обстоя́ния бесóвскаго. Ей, Гóсподи мой Твóрче, не хотя́й смéрти грéшнаго,
+                                но я́коже обрати́тися и жи́ву бы́ти ему́, даждь и мне обращéние окая́нному и недостóйному; изми́ мя от уст пáгубнаго зми́я,
+                                зия́ющаго пожрéти мя и свести́ во ад жи́ва. Ей, Гóсподи мой, утешéние моé, И́же менé рáди окая́ннаго в тлéнную плоть
+                                оболки́йся, истóргни мя от окая́нства, и утешéние подáждь души́ моéй окая́нней. Всади́ в сéрдце моé твори́ти Твоя́ повелéния,
+                                и остáвити лукáвая дея́ния, и получи́ти блажéнства Твоя́: на Тя бо, Гóсподи, уповáх, спаси́ мя.</p>
+                            </p>
+                        </div>
+                    </div>
 
-    Кондак Богородице
-    Взбрáнной Воевóде победи́тельная, я́ко избáвльшеся от злых, благодáрственная воспису́ем Ти раби́ Твои́, Богорóдице, но я́ко иму́щая держáву непобеди́мую, от вся́ких нас бед свободи́, да зовéм Ти́: рáдуйся, Невéсто Неневéстная.
+                    <h2 id="accordion-color-heading-21">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-21" aria-expanded="false" aria-controls="accordion-color-body-21">
+                            <span> Молитва 9-я, ко Пресвятой Богородице, Петра Студийского</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-21" class="hidden" aria-labelledby="accordion-color-heading-21">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="py-2">
+                                К Тебé Пречи́стей Бóжией Мáтери аз окая́нный припáдая молю́ся: веси́, Цари́це, я́ко безпрестáни согрешáю и прогневля́ю Сы́на
+                                Твоегó и Бóга моегó, и многажды áще кáюся, лож пред Бóгом обретáюся, и кáюся трепещá: не ужéли Госпóдь порази́т мя,
+                                и по часé пáки тáяжде творю́; вéдущи сия́, Влады́чице моя́ Госпожé Богорóдице, молю́, да поми́луеши, да укрепи́ши, и благáя
+                                твори́ти да подáси ми. Веси́ бо, Влады́чице моя́ Богорóдице, я́ко отню́д и́мам в нéнависти злáя моя́ делá, и всéю мы́слию люблю́
+                                закóн Бóга моегó; но не вем, Госпожé Пречи́стая, отку́ду я́же ненави́жду, та и люблю́, а благáя преступáю. Не попущáй,
+                                Пречи́стая, вóли моéй совершáтися, не угóдна бо есть, но да бу́дет вóля Сы́на Твоегó и Бóга моегó: да мя спасéт, и
+                                вразуми́т, и подáст благодáть Святáго Ду́ха, да бых аз отсéле престáл сквернодéйства, и прóчее пожи́л бых в повелéнии
+                                Сы́на Твоегó, Ему́же подобáет вся́кая слáва, честь и держáва, со Безначáльным Егó Отцéм и Пресвяты́м и Благи́м и
+                                Животворя́щим Егó Ду́хом, ны́не и при́сно и во вéки векóв, ами́нь.</p>
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-color-heading-22">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                                focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-22" aria-expanded="false" aria-controls="accordion-color-body-22">
+                            <span>Молитва 10-я, 11-я</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-22" class="hidden" aria-labelledby="accordion-color-heading-22">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="font-semibold py-2">Молитва 10-я, ко Пресвятой Богородице</p>
+                            <p class="py-2">
+                                Благáго Царя́ благáя Мáти, Пречи́стая и Благословéнная Богорóдице Мари́е, ми́лость Сы́на Твоегó и Бóга нáшего излéй на
+                                стрáстную мою́ ду́шу и Твои́ми моли́твами настáви мя на дея́ния благáя, да прóчее врéмя животá моегó без порóка прейду́
+                                и Тобóю рай да обря́щу, Богорóдице Дéво, еди́на Чи́стая и Благословéнная.</p>
+                            <p class="font-semibold py-2">Молитва 11-я, ко святому Ангелу Хранителю</p>
+                            <p class="py-2">
+                                Áнгеле Христóв, храни́телю мой святы́й и покрови́телю души́ и тéла моегó, вся ми прости́, ели́ка согреши́х во днéшний день,
+                                и от вся́каго лукáвствия проти́внаго ми врáга избáви мя, да ни в кóемже гресé прогнéваю Бóга моегó; но моли́ за мя
+                                грéшнаго и недостóйнаго рабá, я́ко да достóйна мя покáжеши блáгости и ми́лости Всесвяты́я Трóицы и Мáтере Гóспода
+                                моегó Иису́са Христá и всех святы́х. Ами́нь..</p>
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-color-heading-23">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                                focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-23" aria-expanded="false" aria-controls="accordion-color-body-23">
+                            <span>Кондак Богородице</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-23" class="hidden" aria-labelledby="accordion-color-heading-23">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="font-semibold py-2">Молитва 10-я, ко Пресвятой Богородице</p>
+                            <p class="py-2">
+                                Взбрáнной Воевóде победи́тельная, я́ко избáвльшеся от злых, благодáрственная воспису́ем Ти раби́ Твои́, Богорóдице, но я́ко
+                                иму́щая держáву непобеди́мую, от вся́ких нас бед свободи́, да зовéм Ти́: рáдуйся, Невéсто Неневéстная.</p>
 
-    Преслáвная Приснодéво, Мати́ Христá Бóга, принеси́ нáшу моли́тву Сы́ну Твоему́ и Бóгу нáшему, да спасéт Тобóю ду́ши нáша.
+                            <p class="py-2">Преслáвная Приснодéво, Мати́ Христá Бóга, принеси́ нáшу моли́тву Сы́ну Твоему́ и Бóгу нáшему, да спасéт Тобóю ду́ши нáша.</p>
 
-    Все уповáние моé на Тя возлагáю, Мáтии Бóжия, сохрани́ мя под крóвом Твои́м.
+                            <p class="py-2">Все уповáние моé на Тя возлагáю, Мáтии Бóжия, сохрани́ мя под крóвом Твои́м.</p>
 
-    Богорóдице Дéво, не прéзри менé грéшнаго, трéбующа Твоея́ пóмощи и Твоегó заступлéния, на Тя бо уповá душá моя́, и поми́луй мя.
+                            <p class="py-2">Богорóдице Дéво, не прéзри менé грéшнаго, трéбующа Твоея́ пóмощи и Твоегó заступлéния, на Тя бо уповá душá моя́, и поми́луй мя.</p>
+                            <p class="font-semibold py-2">Молитва святого Иоанна Дамаскина</p>
+                            <p class="py-2">
+                                Молитва святого Иоанна Дамаскина, которую, показывая на постель твою, говори:
+                                Влады́ко Человеколю́бче, не ужéли мне одр сей гроб бу́дет, или́ ещé окая́нную мою́ ду́шу просвети́ши днем? Се ми гроб предлежи́т,
+                                се ми смерть предстои́т. Судá Твоегó, Гóсподи, бою́ся и му́ки безконéчныя, злóе же творя́ не престаю́: Тебé Гóспода Бóга моегó
+                                всегдá прогневля́ю, и Пречи́стую Твою́ Мáтерь, и вся Небéсныя Си́лы, и святáго Áнгела, храни́теля моегó. Вем у́бо, Гóсподи, я́ко
+                                недостóин есмь человеколю́бия Твоегó, но достóин есмь вся́каго осуждéния и му́ки. Но, Гóсподи, или́ хощу́, или́ не хощу́, спаси́
+                                мя. Áще бо прáведника спасéши, ничтóже вéлие; и áще чи́стаго поми́луеши, ничто́же ди́вно: досто́йни бо суть ми́лости Твоея́.
+                                Но на мне грéшнем удиви́ ми́лость Твою́: о сем яви́ человеколю́бие Твоé, да не одолéет моя́ злóба Твоéй неизглагóланней
+                                блáгости и милосéрдию: и я́коже хóщеши, устрóй о мне вещь.</p>
+                            <p class="py-2">И хотя лечь на постель, говори сии тропари:
+                            Просвети́ óчи мои́, Христé Бóже, да не когдá усну́ в смерть, да не когдá речéт враг мой: укрепи́хся на негó.</p>
 
-    Молитва святого Иоанникия Великого
-    Уповáние моé Отéц, прибéжище моé Сын, покрóв мой Дух Святы́й: Трóице Святáя, слáва Тебé.
+                            <p class="py-2">Слава: Засту́пник души́ моея́ бу́ди, Бо́же, я́ко посредé хожду́ сетéй мнóгих; избáви мя от них и спаси́ мя, Блáже, я́ко Человеколю́бец.</p>
 
-    Достóйно есть я́ко вои́стинну блажи́ти Тя, Богорóдицу, Присноблажéнную и Пренепорóчную и Мáтерь Бóга нáшего. Честнéйшую Херуви́м и славнéйшую без сравнéния Серафи́м, без истлéния Бóга Слóва рóждшую, су́щую Богорóдицу Тя величáем.
+                            <p class="py-2">И ныне: Преслáвную Бóжию Мáтерь, и святы́х Áнгел Святéйшую, немóлчно воспои́м сéрдцем и усты́, Богорóдицу Сию́ исповéдающе,
+                            я́ко вои́стинну рóждшую нам Бóга воплощéнна, и моля́щуюся непрестáнно о душáх нáших.</p>
+                            <p class="font-semibold py-2">Молитва святого Иоанникия Великого</p>
+                            <p class="py-2">Уповáние моé Отéц, прибéжище моé Сын, покрóв мой Дух Святы́й: Трóице Святáя, слáва Тебé.</p>
 
-    Слáва, и ны́не:
+                            <p class="py-2">Достóйно есть я́ко вои́стинну блажи́ти Тя, Богорóдицу, Присноблажéнную и Пренепорóчную и Мáтерь Бóга нáшего. Честнéйшую
+                            Херуви́м и славнéйшую без сравнéния Серафи́м, без истлéния Бóга Слóва рóждшую, су́щую Богорóдицу Тя величáем.</p>
 
-    Гóсподи поми́луй (трижды).
+                            <p class="py-2">Слáва, и ны́не:</p>
 
-    Гóсподи Иису́се Христé, Сы́не Бóжий, моли́тв рáди Пречи́стыя Твоея́ Мáтере, преподóбных и богонóсных отéц нáших и всех святы́х, поми́луй нас. Ами́нь.
+                            <p class="py-2">Гóсподи поми́луй (трижды).</p>
 
-    Молитва святого Иоанна Дамаскина, которую, показывая на постель твою, говори:
-    Влады́ко Человеколю́бче, не ужéли мне одр сей гроб бу́дет, или́ ещé окая́нную мою́ ду́шу просвети́ши днем? Се ми гроб предлежи́т, се ми смерть предстои́т. Судá Твоегó, Гóсподи, бою́ся и му́ки безконéчныя, злóе же творя́ не престаю́: Тебé Гóспода Бóга моегó всегдá прогневля́ю, и Пречи́стую Твою́ Мáтерь, и вся Небéсныя Си́лы, и святáго Áнгела, храни́теля моегó. Вем у́бо, Гóсподи, я́ко недостóин есмь человеколю́бия Твоегó, но достóин есмь вся́каго осуждéния и му́ки. Но, Гóсподи, или́ хощу́, или́ не хощу́, спаси́ мя. Áще бо прáведника спасéши, ничтóже вéлие; и áще чи́стаго поми́луеши, ничто́же ди́вно: досто́йни бо суть ми́лости Твоея́. Но на мне грéшнем удиви́ ми́лость Твою́: о сем яви́ человеколю́бие Твоé, да не одолéет моя́ злóба Твоéй неизглагóланней блáгости и милосéрдию: и я́коже хóщеши, устрóй о мне вещь.
+                            <p class="py-2">Гóсподи Иису́се Христé, Сы́не Бóжий, моли́тв рáди Пречи́стыя Твоея́ Мáтере, преподóбных и богонóсных отéц нáших и всех святы́х, поми́луй нас. Ами́нь.</p>
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-color-heading-24">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                                focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-24" aria-expanded="false" aria-controls="accordion-color-body-24">
+                            <span>Окончание молитв</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-24" class="hidden" aria-labelledby="accordion-color-heading-24">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="font-semibold py-2">Молитва Честному Кресту</p>
+                            <p class="py-2">
+                                Также целуй крест твой, и знаменуй крестом место твое от головы до ног, также и со всех сторон, и говори молитву Честнóму Кресту:</p>
 
-    И хотя лечь на постель, говори сии тропари:
-    Просвети́ óчи мои́, Христé Бóже, да не когдá усну́ в смерть, да не когдá речéт враг мой: укрепи́хся на негó.
+                            <p class="py-2">  Да воскрéснет Бог, и расточáтся врази́ Его́, и да бежáт от лицá Егó ненави́дящии Егó. Я́ко исчезáет дым, да исчéзнут; я́ко
+                                тáет воск от лицá огня́, тáко да поги́бнут бéси от лицá лю́бящих Бóга и знáменующихся крéстным знáмением, и в весéлии
+                                глагóлющих: рáдуйся, Пречестны́й и Животворя́щий Крéсте Госпóдень, прогоня́яй бéсы си́лою на тебé пропя́таго Гóспода нáшего
+                                Иису́са Христá, во ад сшéдшаго и попрáвшаго си́лу диáволю, и даровáвшаго нам тебé Крест Свой Честны́й на прогнáние вся́каго
+                                супостáта. О, Пречестны́й и Животворя́щий Крéсте Госпóдень! Помогáй ми со Святóю Госпожéю Дéвою Богорóдицею и со всéми
+                                святы́ми во вéки. Ами́нь.</p>
 
-    Слава: Засту́пник души́ моея́ бу́ди, Бо́же, я́ко посредé хожду́ сетéй мнóгих; избáви мя от них и спаси́ мя, Блáже, я́ко Человеколю́бец.
+                            <p class="py-2"> Или кратко:</p>
 
-    И ныне: Преслáвную Бóжию Мáтерь, и святы́х Áнгел Святéйшую, немóлчно воспои́м сéрдцем и усты́, Богорóдицу Сию́ исповéдающе, я́ко вои́стинну рóждшую нам Бóга воплощéнна, и моля́щуюся непрестáнно о душáх нáших.
+                            <p class="py-2"> Огрáди мя, Гóсподи, си́лою Честнáго и Животворя́щаго Твоегó Крестá, и сохрани́ мя от вся́каго зла.</p>
 
-    Молитва Честному Кресту
-    Также целуй крест твой, и знаменуй крестом место твое от головы до ног, также и со всех сторон, и говори молитву Честнóму Кресту:
+                            <p class="py-2"> Также, вместо прощения:
+                                Ослáби, остáви, прости́, Бóже, прегрешéния нáша, вóльная и невóльная, я́же в слóве и в дéле, я́же в вéдении и не в вéдении,
+                                я́же во дни и в нощи́, я́же во умé и в помышлéнии: вся нам прости́, я́ко Благ и Человеколю́бец.</p>
 
-    Да воскрéснет Бог, и расточáтся врази́ Его́, и да бежáт от лицá Егó ненави́дящии Егó. Я́ко исчезáет дым, да исчéзнут; я́ко тáет воск от лицá огня́, тáко да поги́бнут бéси от лицá лю́бящих Бóга и знáменующихся крéстным знáмением, и в весéлии глагóлющих: рáдуйся, Пречестны́й и Животворя́щий Крéсте Госпóдень, прогоня́яй бéсы си́лою на тебé пропя́таго Гóспода нáшего Иису́са Христá, во ад сшéдшаго и попрáвшаго си́лу диáволю, и даровáвшаго нам тебé Крест Свой Честны́й на прогнáние вся́каго супостáта. О, Пречестны́й и Животворя́щий Крéсте Госпóдень! Помогáй ми со Святóю Госпожéю Дéвою Богорóдицею и со всéми святы́ми во вéки. Ами́нь.
-
-    Или кратко:
-
-    Огрáди мя, Гóсподи, си́лою Честнáго и Животворя́щаго Твоегó Крестá, и сохрани́ мя от вся́каго зла.
-
-    Также, вместо прощения:
-    Ослáби, остáви, прости́, Бóже, прегрешéния нáша, вóльная и невóльная, я́же в слóве и в дéле, я́же в вéдении и не в вéдении, я́же во дни и в нощи́, я́же во умé и в помышлéнии: вся нам прости́, я́ко Благ и Человеколю́бец.
-
-    Молитва
-    Ненави́дящих и оби́дящих нас прости́, Гóсподи Человеколю́бче. Благотворя́щим благосотвори́. Брáтиям и срóдником нáшим дáруй я́же ко спасéнию прошéния и жизнь вéчную. В нéмощех су́щия посети́ и исцелéние дáруй. И́же на мóри упрáви. Путешéствующим спутешéствуй. Служáщим и ми́лующим нас грехóв оставлéние дáруй. Заповéдавших нам недостóйным моли́тися о них поми́луй по вели́цей Твоéй ми́лости. Помяни́, Гóсподи, прéжде усóпших отéц и брáтий нáших и упóкой их, идéже присещáет свет лицá Твоегó. Помяни́, Гóсподи, брáтий нáших пленéнных и избáви я от вся́каго обстоя́ния. Помяни́, Гóсподи, плодонося́щих и добродéлающих во Святы́х Твои́х Цéрквах, и даждь им я́же ко спасéнию прошéния и жизнь вéчную. Помяни́, Гóсподи, и нас, смирéнных и грéшных и недостóйных раб Твои́х, и просвети́ наш ум свéтом рáзума Твоегó, и настáви нас на стезю́ зáповедей Твои́х, моли́твами Пречи́стыя Влады́чицы нáшея Богорóдицы и Приснодéвы Мари́и и всех Твои́х святы́х: я́ко Благословéн еси́ во вéки векóв. Ами́нь.
-
-    Исповедание грехов повседневное
-    Исповéдаю Тебé Гóсподу Бóгу моему́ и Творцу́, во Святéй Трóице Еди́ному, слáвимому и покланя́емому, Отцу́ и Сы́ну и Святóму Ду́ху, вся моя́ грехи, я́же содéях во вся дни животá моегó, и на вся́кий час, и в настоя́щее врéмя, и в прешéдшия дни и нóщи, дéлом, слóвом, помышлéнием, объядéнием, пия́нством, тайноядéнием, празднослóвием, уны́нием, лéностию, прекослóвием, непослушáнием, оклеветáнием, осуждéнием, небрежéнием, самолю́бием, многостяжáнием, хищéнием, неправдоглагóланием, скверноприбы́тчеством, мшелои́мством, ревновáнием, зáвистию, гнéвом, памятозлóбием, нéнавистию, лихои́мством и всéми мои́ми чу́вствы: зрéнием, слу́хом, обоня́нием, вку́сом, осязáнием и прóчими мои́ми грехи́, душéвными вку́пе и телéсными, и́миже Тебé Бóга моегó и Творцá прогнéвах, и бли́жняго моегó онепрáвдовах: о сих жалéя, ви́нна себé Тебé Бóгу моему́ представля́ю, и имéю вóлю кáятися: тóчию, Гóсподи Бóже мой, помози́ ми, со слезáми смирéнно молю́ Тя: прешéдшая же согрешéния моя́ милосéрдием Твои́м прости́ ми, и разреши́ от всех сих, я́же изглагóлах пред Тобóю, я́ко Благ и Человеколю́бец.
-</div>
+                            <p class="font-semibold py-2">Молитва</p>
+                                Ненави́дящих и оби́дящих нас прости́, Гóсподи Человеколю́бче. Благотворя́щим благосотвори́. Брáтиям и срóдником нáшим дáруй
+                                я́же ко спасéнию прошéния и жизнь вéчную. В нéмощех су́щия посети́ и исцелéние дáруй. И́же на мóри упрáви. Путешéствующим
+                                спутешéствуй. Служáщим и ми́лующим нас грехóв оставлéние дáруй. Заповéдавших нам недостóйным моли́тися о них поми́луй по
+                                вели́цей Твоéй ми́лости. Помяни́, Гóсподи, прéжде усóпших отéц и брáтий нáших и упóкой их, идéже присещáет свет лицá Твоегó.
+                                Помяни́, Гóсподи, брáтий нáших пленéнных и избáви я от вся́каго обстоя́ния. Помяни́, Гóсподи, плодонося́щих и добродéлающих во
+                                Святы́х Твои́х Цéрквах, и даждь им я́же ко спасéнию прошéния и жизнь вéчную. Помяни́, Гóсподи, и нас, смирéнных и грéшных и
+                                недостóйных раб Твои́х, и просвети́ наш ум свéтом рáзума Твоегó, и настáви нас на стезю́ зáповедей Твои́х, моли́твами Пречи́стыя
+                                Влады́чицы нáшея Богорóдицы и Приснодéвы Мари́и и всех Твои́х святы́х: я́ко Благословéн еси́ во вéки векóв. Ами́нь.</p>
+                            </p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-color-heading-25">
+                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                data-accordion-target="#accordion-color-body-25" aria-expanded="false" aria-controls="accordion-color-body-25">
+                            <span>Исповедание грехов повседневное</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-color-body-25" class="hidden" aria-labelledby="accordion-color-heading-25">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                            <p class="py-2">
+                                Исповéдаю Тебé Гóсподу Бóгу моему́ и Творцу́, во Святéй Трóице Еди́ному, слáвимому и покланя́емому, Отцу́ и Сы́ну и Святóму
+                                Ду́ху, вся моя́ грехи, я́же содéях во вся дни животá моегó, и на вся́кий час, и в настоя́щее врéмя, и в прешéдшия дни и
+                                нóщи, дéлом, слóвом, помышлéнием, объядéнием, пия́нством, тайноядéнием, празднослóвием, уны́нием, лéностию, прекослóвием,
+                                непослушáнием, оклеветáнием, осуждéнием, небрежéнием, самолю́бием, многостяжáнием, хищéнием, неправдоглагóланием,
+                                скверноприбы́тчеством, мшелои́мством, ревновáнием, зáвистию, гнéвом, памятозлóбием, нéнавистию, лихои́мством и всéми
+                                мои́ми чу́вствы: зрéнием, слу́хом, обоня́нием, вку́сом, осязáнием и прóчими мои́ми грехи́, душéвными вку́пе и телéсными,
+                                и́миже Тебé Бóга моегó и Творцá прогнéвах, и бли́жняго моегó онепрáвдовах: о сих жалéя, ви́нна себé Тебé Бóгу моему́
+                                представля́ю, и имéю вóлю кáятися: тóчию, Гóсподи Бóже мой, помози́ ми, со слезáми смирéнно молю́ Тя: прешéдшая же
+                                согрешéния моя́ милосéрдием Твои́м прости́ ми, и разреши́ от всех сих, я́же изглагóлах пред Тобóю, я́ко Благ и Человеколю́бец.</p>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
 
 
 
@@ -689,292 +1266,568 @@
                 </div>
             </div>
 
-            <div class="mt-4 mb-6 px-8">
-                <div class="container mx-auto shadow-xl shadow-gray-300">
-                    <div class="py-8 flex justify-center rounded-xl bg-blue-100">
-                        <div class="my-2 grid gap-6 px-4">
-                            <h3 id="january" class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Последование ко Святому Причащению</h3>
-<div>
-    Последование ко Святому Причащению
-    Моли́твами святы́х отéц нáших, Гóсподи Иису́се Христé Бóже наш, поми́луй нас. Ами́нь.
 
-    Царю́ Небéсный, Утéшителю, Ду́ше и́стины, Иже вездé сый и вся исполня́яй, Сокрóвище благи́х и жи́зни Подáтелю, прииди́ и всели́ся в ны, и очи́сти ны от вся́кия сквéрны, и спаси́, Блáже, ду́ши нáша.
 
-    Святы́й Бóже, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас. (Трижды)
 
-    Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.
+                            <section class="container mx-auto shadow-xl shadow-gray-300">
+                                <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+                                    <h2 id="accordion-color-heading-26">
+                                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium
+                        rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl
+                        focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400
+                        hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-26" aria-expanded="true" aria-controls="accordion-color-body-26">
+                                            <span>Последование ко Святому Причащению</span>
+                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                    <div id="accordion-color-body-26" class="hidden" aria-labelledby="accordion-color-heading-26">
+                                        <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                            <p class="py-2">Моли́твами святы́х отéц нáших, Гóсподи Иису́се Христé Бóже наш, поми́луй нас. Ами́нь.</p>
+                                            <p class="py-2">Царю́ Небéсный, Утéшителю, Ду́ше и́стины, Иже вездé сый и вся исполня́яй, Сокрóвище благи́х и жи́зни Подáтелю,
+                                            прииди́ и всели́ся в ны, и очи́сти ны от вся́кия сквéрны, и спаси́, Блáже, ду́ши нáша.</p>
+
+                                            <p class="py-2">Святы́й Бóже, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас. (Трижды)</p>
+
+                                            <p class="py-2">Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.</p>
+
+                                            <p class="py-2">Пресвятáя Трóице, поми́луй нас; Гóсподи, очи́сти грехи́ нáша; Влады́ко, прости́ беззакóния нáша;
+                                                Святы́й, посети́ и исцели́ нéмощи нáша, и́менé Твоегó рáди.</p>
+
+                                            <p class="py-2">Гóсподи поми́луй. (Трижды)</p>
+
+                                            <p class="py-2">Слáва, и ны́не:</p>
+
+                                            <p class="py-2">Отче наш, Иже еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Цáрствие Твоé, да бу́дет вóля Твоя́, я́ко на небеси́ и на земли́. Хлеб наш
+                                            насу́щный даждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм на́шим; и не введи́ нас во искушéние, но избáви нас от лукáваго.</p>
+
+                                            <p class="py-2">Гóсподи поми́луй. (12раз)</p>
+
+                                            <p class="py-2">Прииди́те, поклони́мся Царéви нáшему Бóгу. (Поклон)</p>
+
+                                            <p class="py-2">Прииди́те, поклони́мся и припадéм Христу́, Царéви нáшему Бóгу. (Поклон)</p>
+
+                                            <p class="py-2">Прииди́те, поклони́мся и припадéм Самому́ Христу́, Царéви и Бóгу нáшему. (Поклон)</p>
+                                           </p>
+                                        </div>
+                                        </div>
+                                    <h2 id="accordion-color-heading-27">
+                                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                         focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                                data-accordion-target="#accordion-color-body-27" aria-expanded="false" aria-controls="accordion-color-body-27">
+                                            <span>Псалом 22, 23, 115, 50, Тропари глас-8-й</span>
+                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                    <div id="accordion-color-body-27" class="hidden" aria-labelledby="accordion-color-heading-27">
+                                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                            <p class="font-semibold py-2">Псалом 22</p>
+
+                                            <p class="py-2">Госпóдь пасéт мя, и ничтóже мя лиши́т. На мéсте злáчне, тáмо всéли мя, на водé покóйне воспитá мя. Ду́шу мою́ обрати́,
+                                                настáви мя на стези́ прáвды, и́мене рáди Своегó. Аще бо и пойду́ посредé сéни смéртныя, не убою́ся зла, я́ко Ты со мнóю
+                                                еси́, жезл Твой и пáлица Твоя́, та мя утéшиста. Уготóвал еси́ прéдо мнóю трапéзу сопроти́в стужáющым мне, умасти́л еси́
+                                                елéом главу́ мою́, и чáша Твоя́ упоявáющи мя, я́ко держáвна. И ми́лость Твоя́ поженéт мя вся дни животá моегó, и éже
+                                                всели́ти ми ся в дом Госпóдень, в долготу́ дний.</p>
 
-    Пресвятáя Трóице, поми́луй нас; Гóсподи, очи́сти грехи́ нáша; Влады́ко, прости́ беззакóния нáша; Святы́й, посети́ и исцели́ нéмощи нáша, и́менé Твоегó рáди.
+                                            <p class="font-semibold py-2">Псалом 23</p>
 
-    Гóсподи поми́луй. (Трижды)
+                                            <p class="py-2">Госпóдня земля́, и исполнéние ея́, вселéнная и вси живу́щии на ней. Той на моря́х основáл ю́ есть, и на рекáх уготóвал ю́
+                                                есть. Кто взы́дет на гóру Госпóдню? Или́ кто стáнет на мéсте святéм Егó? Непови́нен рукáма, и чист сéрдцем, и́же не прия́т
+                                                всу́е ду́шу свою́, и не кля́тся лéстию и́скреннему своему́. Сей прии́мет благословéние от Гóспода, и ми́лостыню от Бóга Спáса
+                                                своегó. Сей род и́щущих Гóспода, и́щущих лицé Бо́га Иáковля. Возми́те вратá кня́зи вáша, и возми́теся вратá вéчная, и вни́дет
+                                                Царь слáвы. Кто есть сей Царь слáвы? Госпóдь крéпок и си́лен, Госпóдь си́лен в брáни. Возми́те вратá кня́зи вáша, и
+                                                возми́теся врáта вéчная, и вни́дет Царь слáвы. Кто есть сей Царь слáвы? Госпóдь сил, Той есть Царь слáвы.</p>
 
-    Слáва, и ны́не:
+                                            <p class="font-semibold py-2">Псалом 115</p>
 
-    Отче наш, Иже еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Цáрствие Твоé, да бу́дет вóля Твоя́, я́ко на небеси́ и на земли́. Хлеб наш насу́щный даждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм на́шим; и не введи́ нас во искушéние, но избáви нас от лукáваго.
+                                            <p class="py-2">Вéровах, тéмже возглагóлах, аз же смири́хся зелó. Аз же рех во изступлéнии моéм: всяк человéк ложь. Что воздáм
+                                                Гóсподеви о всех, я́же воздадé ми? Чáшу спасéния прииму́ и и́мя Госпóдне призову́, моли́твы моя́ Гóсподеви воздáм пред
+                                                всéми людьми́ Егó. Честнá пред Гóсподем смерть преподóбных Егó. О, Гóсподи, аз раб Твой, аз раб Твой, и сын рабы́ни
+                                                Твоея́; растерзáл еси́ у́зы моя́. Тебé пожру́ жéртву хвалы́, и во и́мя Госпóдне призову́. Моли́твы моя́ Гóсподеви воздáм пред
+                                                всéми людьми́ Егó, во дворéх дóму Госпóдня, посредé тебé, Иерусали́ме.</p>
 
-    Гóсподи поми́луй. (12раз)
+                                            <p class="py-2">Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.</p>
 
-    Прииди́те, поклони́мся Царéви нáшему Бóгу. (Поклон)
+                                            <p class="py-2">Аллилу́иа, аллилу́иа, аллилу́иа, слава Тебе, Боже. (Трижды с поклонами)</p>
 
-    Прииди́те, поклони́мся и припадéм Христу́, Царéви нáшему Бóгу. (Поклон)
+                                            <p class="font-semibold py-2">Тропари, глас 8-й</p>
 
-    Прииди́те, поклони́мся и припадéм Самому́ Христу́, Царéви и Бóгу нáшему. (Поклон)
+                                            <p class="py-2">Беззакóния моя́ прéзри, Гóсподи, от Дéвы рождéйся, и сéрдце моé очи́сти, храм то творя́ пречи́стому Твоему́ Тéлу и Крóви,
+                                                нижé отри́ни менé от Твоегó лицá, без числá имéяй вéлию ми́лость.</p>
 
-    Псалом 22
+                                            <p class="py-2">Слава: Во причáстие святы́нь Твои́х кáко дерзну́, недостóйный? Аще бо дерзну́ к Тебé приступи́ти с достóйными, хитóн мя
+                                                обличáет, я́ко несть вечéрний, и осуждéние исходáтайствую многогрéшной души́ моéй. Очи́сти, Гóсподи, сквéрну души́ моея́,
+                                                и спаси́ мя, я́ко Человеколю́бец.</p>
 
-    Госпóдь пасéт мя, и ничтóже мя лиши́т. На мéсте злáчне, тáмо всéли мя, на водé покóйне воспитá мя. Ду́шу мою́ обрати́, настáви мя на стези́ прáвды, и́мене рáди Своегó. Аще бо и пойду́ посредé сéни смéртныя, не убою́ся зла, я́ко Ты со мнóю еси́, жезл Твой и пáлица Твоя́, та мя утéшиста. Уготóвал еси́ прéдо мнóю трапéзу сопроти́в стужáющым мне, умасти́л еси́ елéом главу́ мою́, и чáша Твоя́ упоявáющи мя, я́ко держáвна. И ми́лость Твоя́ поженéт мя вся дни животá моегó, и éже всели́ти ми ся в дом Госпóдень, в долготу́ дний.
+                                            <p class="py-2">И ныне: Мнóгая мнóжества мои́х, Богорóдице, прегрешéний, к Тебé прибегóх, Чи́стая, спасéния трéбуя: посети́ немощству́ющую
+                                                мою́ ду́шу, и моли́ Сы́на Твоегó и Бóга нáшего, дáти ми оставлéние, я́же содéях лю́тых, еди́на Благословéнная.</p>
 
-    Псалом 23
+                                                [Во святую же Четыредесятницу:
 
-    Госпóдня земля́, и исполнéние ея́, вселéнная и вси живу́щии на ней. Той на моря́х основáл ю́ есть, и на рекáх уготóвал ю́ есть. Кто взы́дет на гóру Госпóдню? Или́ кто стáнет на мéсте святéм Егó? Непови́нен рукáма, и чист сéрдцем, и́же не прия́т всу́е ду́шу свою́, и не кля́тся лéстию и́скреннему своему́. Сей прии́мет благословéние от Гóспода, и ми́лостыню от Бóга Спáса своегó. Сей род и́щущих Гóспода, и́щущих лицé Бо́га Иáковля. Возми́те вратá кня́зи вáша, и возми́теся вратá вéчная, и вни́дет Царь слáвы. Кто есть сей Царь слáвы? Госпóдь крéпок и си́лен, Госпóдь си́лен в брáни. Возми́те вратá кня́зи вáша, и возми́теся врáта вéчная, и вни́дет Царь слáвы. Кто есть сей Царь слáвы? Госпóдь сил, Той есть Царь слáвы.
+                                            <p class="py-2">Егдá слáвнии ученицы́ на умовéнии вéчери просвещáхуся, тогдá Иу́да злочести́вый сребролю́бием неду́говав омрачáшеся, и
+                                                беззакóнным судия́м Тебé прáведнаго Судию́ предаéт. Ви́ждь, имéний рачи́телю, сих ради́ удавлéние употреби́вша: бежи́
+                                                несы́тыя души́, Учи́телю таковáя дерзну́вшия. Иже о всех благи́й Гóсподи, слáва Тебé.]</p>
 
-    Псалом 115
+                                            <p class="font-semibold py-2">Псалом 50</p>
 
-    Вéровах, тéмже возглагóлах, аз же смири́хся зелó. Аз же рех во изступлéнии моéм: всяк человéк ложь. Что воздáм Гóсподеви о всех, я́же воздадé ми? Чáшу спасéния прииму́ и и́мя Госпóдне призову́, моли́твы моя́ Гóсподеви воздáм пред всéми людьми́ Егó. Честнá пред Гóсподем смерть преподóбных Егó. О, Гóсподи, аз раб Твой, аз раб Твой, и сын рабы́ни Твоея́; растерзáл еси́ у́зы моя́. Тебé пожру́ жéртву хвалы́, и во и́мя Госпóдне призову́. Моли́твы моя́ Гóсподеви воздáм пред всéми людьми́ Егó, во дворéх дóму Госпóдня, посредé тебé, Иерусали́ме.
+                                            <p class="py-2">Поми́луй мя, Бóже, по вели́цей ми́лости Твоéй, и по мнóжеству щедрóт Твои́х очи́сти беззакóние моé. Наипáче омы́й мя от
+                                                беззакóния моегó, и от грехá моегó очи́сти мя; я́ко беззакóние моé аз знáю, и грех мой прéдо мнóю есть вы́ну. Тебé
+                                                еди́ному согреши́х и лукáвое пред Тобóю сотвори́х; я́ко да оправди́шися во словесéх Твои́х, и победи́ши внегдá суди́ти Ти.
+                                                Се бо в беззакóниих зачáт есмь, и во гресéх роди́ мя мáти моя́. Се бо и́стину возлюби́л еси́; безвéстная и тáйная
+                                                прему́дрости Твоея́ яви́л ми еси́. Окропи́ши мя иссóпом, и очи́щуся; омы́еши мя, и пáче снéга убелю́ся. Слу́ху моему́ дáси
+                                                рáдость и весéлие; возрáдуются кóсти смирéнныя. Отврати́ лицé Твоé от грех мои́х и вся беззакóния моя́ очи́сти.
+                                                Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй. Не отвéржи менé от лицá Твоегó и Ду́ха
+                                                Твоегó Святáго не отыми́ от менé. Воздáждь ми рáдость спасéния Твоегó и Ду́хом Влады́чним утверди́ мя. Научу́
+                                                беззакóнныя путéм Твои́м, и нечести́вии к Тебé обратя́тся. Избáви мя от кровéй, Бóже, Бóже спасéния моегó; возрáдуется
+                                                язы́к мой прáвде Твоéй. Гóсподи, устнé мои́ отвéрзеши, и устá моя́ возвестя́т хвалу́ Твою́. Яко áще бы восхотéл еси́
+                                                жéртвы, дал бых у́бо: всесожжéния не благоволи́ши. Жéртва Бóгу дух сокрушéн; сéрдце сокрушéнно и смирéнно Бог
+                                                не уничижи́т. Ублажи́, Гóсподи, благоволéнием Твои́м Сиóна, и да сози́ждутся стéны Иерусали́мския. Тогдá благоволи́ши
+                                                жéртву прáвды, возношéние и всесожегáемая; тогдá возложáт на олтáрь Твои́ тельцы́.</p>
+                                            <p class="font-semibold py-2">
+                                        </div>
+                                    </div>
+                                    <h2 id="accordion-color-heading-28">
+                                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                                data-accordion-target="#accordion-color-body-28" aria-expanded="false" aria-controls="accordion-color-body-28">
+                                            <span>Канон, глас 2-й</span>
+                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                    <div id="accordion-color-body-28" class="hidden" aria-labelledby="accordion-color-heading-28">
+                                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                            <p class="py-2">
+                                            <p class="font-semibold py-2">Песнь 1</p>
 
-    Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.
+                                            <p class="py-2">Ирмос: Гряди́те, лю́дие, пои́м песнь Христу́ Бóгу, раздéльшему мóре, и настáвльшему лю́ди, я́же изведé из рабóты еги́петския, я́ко прослáвися.
 
-    Аллилу́иа, аллилу́иа, аллилу́иа, слава Тебе, Боже. (Трижды с поклонами)
+                                                Припев: Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
 
-    Тропари, глас 8-й
+                                                Хлеб животá вéчнующаго да бу́дет ми Тéло Твоé Святóе, благоутрóбне Гóсподи, и Честнáя Кровь, и неду́г многообрáзных исцелéние.
 
-    Беззакóния моя́ прéзри, Гóсподи, от Дéвы рождéйся, и сéрдце моé очи́сти, храм то творя́ пречи́стому Твоему́ Тéлу и Крóви, нижé отри́ни менé от Твоегó лицá, без числá имéяй вéлию ми́лость.
+                                                Припев: Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
 
-    Слава: Во причáстие святы́нь Твои́х кáко дерзну́, недостóйный? Аще бо дерзну́ к Тебé приступи́ти с достóйными, хитóн мя обличáет, я́ко несть вечéрний, и осуждéние исходáтайствую многогрéшной души́ моéй. Очи́сти, Гóсподи, сквéрну души́ моея́, и спаси́ мя, я́ко Человеколю́бец.
+                                                Осквернéн дéлы безмéстными окая́нный, Твоегó Пречи́стаго Тéла и Божéственныя Крóве недостóин есмь, Христé, причащéния, егóже мя сподóби.
 
-    И ныне: Мнóгая мнóжества мои́х, Богорóдице, прегрешéний, к Тебé прибегóх, Чи́стая, спасéния трéбуя: посети́ немощству́ющую мою́ ду́шу, и моли́ Сы́на Твоегó и Бóга нáшего, дáти ми оставлéние, я́же содéях лю́тых, еди́на Благословéнная.
+                                                Припев: Пресвятáя Богорóдице, спаси́ нас.
 
-    [Во святую же Четыредесятницу:
+                                                Богородичен: Земле благáя, благословéнная Богоневéсто, клас прозя́бшая неорáнный и спаси́тельный ми́ру, сподóби мя сей яду́ща спасти́ся.</p>
 
-    Егдá слáвнии ученицы́ на умовéнии вéчери просвещáхуся, тогдá Иу́да злочести́вый сребролю́бием неду́говав омрачáшеся, и беззакóнным судия́м Тебé прáведнаго Судию́ предаéт. Ви́ждь, имéний рачи́телю, сих ради́ удавлéние употреби́вша: бежи́ несы́тыя души́, Учи́телю таковáя дерзну́вшия. Иже о всех благи́й Гóсподи, слáва Тебé.]
+                                            <p class="font-semibold py-2">Песнь 3</p>
 
-    Псалом 50
+                                            <p class="py-2">Ирмос: На кáмени мя вéры утверди́в, разшири́л ecи́ устá моя́ на враги́ моя́. Возвесели́ бо ся дух мой, внегдá пéти: несть свят, я́коже Бог наш, и несть прáведен пáче Тебé, Гóсподи.
 
-    Поми́луй мя, Бóже, по вели́цей ми́лости Твоéй, и по мнóжеству щедрóт Твои́х очи́сти беззакóние моé. Наипáче омы́й мя от беззакóния моегó, и от грехá моегó очи́сти мя; я́ко беззакóние моé аз знáю, и грех мой прéдо мнóю есть вы́ну. Тебé еди́ному согреши́х и лукáвое пред Тобóю сотвори́х; я́ко да оправди́шися во словесéх Твои́х, и победи́ши внегдá суди́ти Ти. Се бо в беззакóниих зачáт есмь, и во гресéх роди́ мя мáти моя́. Се бо и́стину возлюби́л еси́; безвéстная и тáйная прему́дрости Твоея́ яви́л ми еси́. Окропи́ши мя иссóпом, и очи́щуся; омы́еши мя, и пáче снéга убелю́ся. Слу́ху моему́ дáси рáдость и весéлие; возрáдуются кóсти смирéнныя. Отврати́ лицé Твоé от грех мои́х и вся беззакóния моя́ очи́сти. Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй. Не отвéржи менé от лицá Твоегó и Ду́ха Твоегó Святáго не отыми́ от менé. Воздáждь ми рáдость спасéния Твоегó и Ду́хом Влады́чним утверди́ мя. Научу́ беззакóнныя путéм Твои́м, и нечести́вии к Тебé обратя́тся. Избáви мя от кровéй, Бóже, Бóже спасéния моегó; возрáдуется язы́к мой прáвде Твоéй. Гóсподи, устнé мои́ отвéрзеши, и устá моя́ возвестя́т хвалу́ Твою́. Яко áще бы восхотéл еси́ жéртвы, дал бых у́бо: всесожжéния не благоволи́ши. Жéртва Бóгу дух сокрушéн; сéрдце сокрушéнно и смирéнно Бог не уничижи́т. Ублажи́, Гóсподи, благоволéнием Твои́м Сиóна, и да сози́ждутся стéны Иерусали́мския. Тогдá благоволи́ши жéртву прáвды, возношéние и всесожегáемая; тогдá возложáт на олтáрь Твои́ тельцы́.
+                                                Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
 
-    Канон, глас 2-й
+                                                Слéзныя ми подáждь, Христé, кáпли, сквéрну сéрдца моегó очищáющия: я́ко да благóю сóвестию очи́щен, вéрою прихожду́ и стрáхом, Влады́ко, ко причащéнию Божéственных даро́в Твои́х.
 
-    Песнь 1
+                                                Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
 
-    Ирмос: Гряди́те, лю́дие, пои́м песнь Христу́ Бóгу, раздéльшему мóре, и настáвльшему лю́ди, я́же изведé из рабóты еги́петския, я́ко прослáвися.
+                                                Во оставлéние да бу́дет ми прегрешéний Пречи́стое Тéло Твоé, и Божéственная Кровь, Ду́ха же Святáго общéние, и в жизнь вéчную, Человеколю́бче, и страстéй и скорбéй отчуждéние.
 
-    Припев: Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
+                                                Пресвятáя Богорóдице, спаси́ нас.
 
-    Хлеб животá вéчнующаго да бу́дет ми Тéло Твоé Святóе, благоутрóбне Гóсподи, и Честнáя Кровь, и неду́г многообрáзных исцелéние.
+                                                Богородичен: Хлéба живóтнаго Трапéза Пресвятáя, свы́ше ми́лости рáди сшéдшаго, и ми́рови нóвый живóт даю́щаго, и менé ны́не сподóби недостóйнаго,
+                                                со стрáхом вкуси́ти сегó, и жи́ву бы́ти.</p>
 
-    Припев: Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
+                                            <p class="font-semibold py-2">Песнь 4</p>
 
-    Осквернéн дéлы безмéстными окая́нный, Твоегó Пречи́стаго Тéла и Божéственныя Крóве недостóин есмь, Христé, причащéния, егóже мя сподóби.
+                                            <p class="py-2">Ирмос: Пришéл еси́ от Дéвы, не ходáтай, ни Ангел, но Сам, Гóсподи, воплóщься, и спасл еси́ всегó мя человéка. Тем зову́ Ти: слáва си́ле Твоéй, Гóсподи.
 
-    Припев: Пресвятáя Богорóдице, спаси́ нас.
+                                                Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
 
-    Богородичен: Земле благáя, благословéнная Богоневéсто, клас прозя́бшая неорáнный и спаси́тельный ми́ру, сподóби мя сей яду́ща спасти́ся.
+                                                Восхотéл еси́, нас рáди воплóщься, Многоми́лостиве, заклáн бы́ти я́ко овчá, грех рáди человéческих: тéмже молю́ Тя, и моя́ очи́сти согрешéния.
 
-    Песнь 3
+                                                Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
 
-    Ирмос: На кáмени мя вéры утверди́в, разшири́л ecи́ устá моя́ на враги́ моя́. Возвесели́ бо ся дух мой, внегдá пéти: несть свят, я́коже Бог наш, и несть прáведен пáче Тебé, Гóсподи.
+                                                Исцели́ души́ моея́ я́звы, Гóсподи, и всегó освяти́: и сподóби, Влады́ко, я́ко да причащу́ся тáйныя Твоея́ Божéственныя вéчери, окая́нный.
 
-    Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
+                                                Пресвятáя Богорóдице, спаси́ нас.
 
-    Слéзныя ми подáждь, Христé, кáпли, сквéрну сéрдца моегó очищáющия: я́ко да благóю сóвестию очи́щен, вéрою прихожду́ и стрáхом, Влады́ко, ко причащéнию Божéственных даро́в Твои́х.
+                                                Богородичен: Уми́лостиви и мне Су́щаго от утрóбы Твоея́, Влады́чице, и соблюди́ мя несквéрна рабá Твоегó и непорóчна,
+                                                я́ко да приéм у́мнаго би́сера, освящу́ся.</p>
 
-    Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
+                                            <p class="font-semibold py-2">Песнь 5</p>
 
-    Во оставлéние да бу́дет ми прегрешéний Пречи́стое Тéло Твоé, и Божéственная Кровь, Ду́ха же Святáго общéние, и в жизнь вéчную, Человеколю́бче, и страстéй и скорбéй отчуждéние.
+                                            <p class="py-2">Ирмос: Свéта подáтелю и векóв Твóрче, Гóсподи, во свéте Твои́х повелéний настáви нас; рáзве бо Тебé инóго бóга не знáем.
 
-    Пресвятáя Богорóдице, спаси́ нас.
+                                                Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
 
-    Богородичен: Хлéба живóтнаго Трапéза Пресвятáя, свы́ше ми́лости рáди сшéдшаго, и ми́рови нóвый живóт даю́щаго, и менé ны́не сподóби недостóйнаго, со стрáхом вкуси́ти сегó, и жи́ву бы́ти.
+                                                Якоже предрéкл еси́, Христé, да бу́дет у́бо худóму рабу́ Твоéму, и во мне пребу́ди, я́коже обещáлся еси́: се бо Тéло Твоé ям Божéственное, и пию́ Кровь Твою́.
 
-    Песнь 4
+                                                Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
 
-    Ирмос: Пришéл еси́ от Дéвы, не ходáтай, ни Ангел, но Сам, Гóсподи, воплóщься, и спасл еси́ всегó мя человéка. Тем зову́ Ти: слáва си́ле Твоéй, Гóсподи.
+                                                Слóве Бóжий и Бóже, угль Тéла Твоегó да бу́дет мне помрачéнному в просвещéние, и очищéние осквернéнной души́ моéй Кровь Твоя́.
 
-    Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
+                                                Пресвятáя Богорóдице, спаси́ нас.
 
-    Восхотéл еси́, нас рáди воплóщься, Многоми́лостиве, заклáн бы́ти я́ко овчá, грех рáди человéческих: тéмже молю́ Тя, и моя́ очи́сти согрешéния.
+                                                Богородичен: Мари́е, Мáти Бóжия, благоухáния честнóе селéние, Твои́ми моли́твами сосу́д мя избрáнный содéлай, я́ко да освящéний причащу́ся Сы́на Твоего́.</p>
 
-    Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
+                                            <p class="font-semibold py-2">Песнь 6</p>
 
-    Исцели́ души́ моея́ я́звы, Гóсподи, и всегó освяти́: и сподóби, Влады́ко, я́ко да причащу́ся тáйныя Твоея́ Божéственныя вéчери, окая́нный.
+                                            <p class="py-2">Ирмос: В бéздне грехóвней валя́яся, неизслéдную милосéрдия Твоегó призывáю бéздну: от тли, Бóже, мя возведи́.
 
-    Пресвятáя Богорóдице, спаси́ нас.
+                                                Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
 
-    Богородичен: Уми́лостиви и мне Су́щаго от утрóбы Твоея́, Влады́чице, и соблюди́ мя несквéрна рабá Твоегó и непорóчна, я́ко да приéм у́мнаго би́сера, освящу́ся.
+                                                Ум, ду́шу и сéрдце освяти́, Спáсе, и тéло моé, и сподóби неосуждéнно, Влады́ко, к стрáшным Тáйнам приступи́ти.
 
-    Песнь 5
+                                                Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
 
-    Ирмос: Свéта подáтелю и векóв Твóрче, Гóсподи, во свéте Твои́х повелéний настáви нас; рáзве бо Тебé инóго бóга не знáем.
+                                                Да бых устрани́лся от страстéй, и Твоея́ благодáти имéл бы приложéние, животá же утверждéние, причащéнием Святы́х, Христé, Тáин Твои́х.
 
-    Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
+                                                Пресвятáя Богорóдице, спаси́ нас.
 
-    Якоже предрéкл еси́, Христé, да бу́дет у́бо худóму рабу́ Твоéму, и во мне пребу́ди, я́коже обещáлся еси́: се бо Тéло Твоé ям Божéственное, и пию́ Кровь Твою́.
+                                                Богородичен: Бóжие, Бóже, Слóво Святóе, всегó мя освяти́, ны́не приходя́щаго к Божéственным Твои́м Тáйнам, Святы́я Мáтере Твоея́ мольбáми.</p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <h2 id="accordion-color-heading-29">
+                                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                                data-accordion-target="#accordion-color-body-29" aria-expanded="false" aria-controls="accordion-color-body-29">
+                                            <span>Кондак глас 2-й, Песнь 7, 8, 9 и стихи</span>
+                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                    <div id="accordion-color-body-29" class="hidden" aria-labelledby="accordion-color-heading-29">
+                                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                            <p class="font-semibold py-2">Кондак, глас 2-й</p>
 
-    Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
+                                            <p class="py-2">Хлеб, Христé, взя́ти не прéзри мя, Тéло Твоé, и Божéственную Твою́ ны́не Кровь, пречи́стых, Влады́ко, и стрáшных Твои́х
+                                                Тáин причасти́тися окая́ннаго, да не бу́дет ми в суд, да бу́дет же ми в живóт вéчный и безсмéртный.</p>
 
-    Слóве Бóжий и Бóже, угль Тéла Твоегó да бу́дет мне помрачéнному в просвещéние, и очищéние осквернéнной души́ моéй Кровь Твоя́.
+                                            <p class="font-semibold py-2">Песнь 7</p>
 
-    Пресвятáя Богорóдице, спаси́ нас.
+                                            <p class="py-2">Ирмос: Тéлу златóму прему́дрыя дéти не послужи́ша, и в плáмень сáми поидóша, и бóги их обругáша, среди́ плáмене
+                                                возопи́ша, и ороси́ я́ Ангел: услы́шася уже уст вáших моли́тва.</p>
 
-    Богородичен: Мари́е, Мáти Бóжия, благоухáния честнóе селéние, Твои́ми моли́твами сосу́д мя избрáнный содéлай, я́ко да освящéний причащу́ся Сы́на Твоего́.
+                                            <p class="py-2">Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.</p>
 
-    Песнь 6
+                                            <p class="py-2">Истóчник благи́х, причащéние, Христé, безсмéртных Твои́х ны́не Тáинств да бу́дет ми свет, и живóт, и безстрáстие, и к
+                                                преспея́нию же и умножéнию добродéтели Божéственнейшия ходатáйственно, еди́не Блáже, я́ко да слáвлю Тя.</p>
 
-    Ирмос: В бéздне грехóвней валя́яся, неизслéдную милосéрдия Твоегó призывáю бéздну: от тли, Бóже, мя возведи́.
+                                            <p class="py-2">Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.</p>
 
-    Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
+                                            <p class="py-2">Да избáвлюся от страстéй, и врагóв, и ну́жды, и вся́кия скóрби, трéпетом и любóвию со благоговéнием, Человеколю́бче,
+                                                приступáяй ны́не к Твои́м безсмéртным и Божéственным Тáйнам, и пéти Тебé сподóби: благословéн еси́, Гóсподи, Бóже отéц нáших.</p>
 
-    Ум, ду́шу и сéрдце освяти́, Спáсе, и тéло моé, и сподóби неосуждéнно, Влады́ко, к стрáшным Тáйнам приступи́ти.
+                                            <p class="py-2">Пресвятáя Богорóдице, спаси́ нас.</p>
 
-    Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
+                                            <p class="py-2">Богородичен: Спáса Христá рóждшая пáче ума, Богоблагодáтная, молю́ Тя ны́не, раб Твой, Чи́стую нечи́стыи́: хотя́щаго мя
+                                                ны́не к пречи́стым Тáйнам приступи́ти, очи́сти всегó от сквéрны плóти и ду́ха.</p>
 
-    Да бых устрани́лся от страстéй, и Твоея́ благодáти имéл бы приложéние, животá же утверждéние, причащéнием Святы́х, Христé, Тáин Твои́х.
+                                            <p class="font-semibold py-2">Песнь 8</p>
 
-    Пресвятáя Богорóдице, спаси́ нас.
+                                            <p class="py-2">Ирмос: В пещь óгненную ко отрокóм еврéйским снизшéдшаго, и плáмень в рóсу прелóжшаго Бóга, пóйте делá,
+                                                я́ко Гóспода, и превозноси́те во вся вéки.</p>
 
-    Богородичен: Бóжие, Бóже, Слóво Святóе, всегó мя освяти́, ны́не приходя́щаго к Божéственным Твои́м Тáйнам, Святы́я Мáтере Твоея́ мольбáми.
+                                            <p class="py-2">Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.</p>
 
-    Кондак, глас 2-й
+                                            <p class="py-2">Небéсных, и стрáшных, и святы́х Твои́х, Христé, ны́не Тáин, и Божéственныя Твоея́ и тáйныя вéчери óбщника бы́ти и менé
+                                                сподóби отчáяннаго, Бóже Спáсе мой.</p>
 
-    Хлеб, Христé, взя́ти не прéзри мя, Тéло Твоé, и Божéственную Твою́ ны́не Кровь, пречи́стых, Влады́ко, и стрáшных Твои́х Тáин причасти́тися окая́ннаго, да не бу́дет ми в суд, да бу́дет же ми в живóт вéчный и безсмéртный.
+                                            <p class="py-2">Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.</p>
 
-    Песнь 7
+                                            <p class="py-2">Под Твоé прибéг благоутрóбие, Блáже, со стрáхом зову́ Ти: во мне пребу́ди, Спáсе, и аз, я́коже рекл еси́, в Тебé; се
+                                                бо дерзáя на ми́лость Твою́, ям Тéло Твоé, и пию́ Кровь Твою́.</p>
 
-    Ирмос: Тéлу златóму прему́дрыя дéти не послужи́ша, и в плáмень сáми поидóша, и бóги их обругáша, среди́ плáмене возопи́ша, и ороси́ я́ Ангел: услы́шася уже уст вáших моли́тва.
+                                            <p class="py-2">Припев: Пресвятáя Трóице, Бóже наш, слáва Тебé.</p>
 
-    Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
+                                            <p class="py-2">Троичен: Трепещу́, приéмля огнь, да не опалю́ся я́ко воск и я́ко травá; óле стрáшнаго тáинства! óле благоутрóбия
+                                                Бóжия! Кáко Божéственнаго
+                                                Тéла и Крóве брéние причащáюся, и нетлéнен сотворя́юся?</p>
 
-    Истóчник благи́х, причащéние, Христé, безсмéртных Твои́х ны́не Тáинств да бу́дет ми свет, и живóт, и безстрáстие, и к преспея́нию же и умножéнию добродéтели Божéственнейшия ходатáйственно, еди́не Блáже, я́ко да слáвлю Тя.
+                                            <p class="font-semibold py-2">Песнь 9</p>
 
-    Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
+                                            <p class="py-2">Ирмос: Безначáльна Роди́теля Сын, Бог и Госпóдь, воплóщься от Дéвы нам яви́ся, омрачéнная просвети́ти, собрáти
+                                                расточéнная: тем всепéтую Богорóдицу величáем.</p>
 
-    Да избáвлюся от страстéй, и врагóв, и ну́жды, и вся́кия скóрби, трéпетом и любóвию со благоговéнием, Человеколю́бче, приступáяй ны́не к Твои́м безсмéртным и Божéственным Тáйнам, и пéти Тебé сподóби: благословéн еси́, Гóсподи, Бóже отéц нáших.
+                                            <p class="py-2">Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.</p>
 
-    Пресвятáя Богорóдице, спаси́ нас.
+                                            <p class="py-2">Христóс есть, вкуси́те и ви́дите: Госпóдь нас рáди, по нам бо дрéвле бы́вый, еди́ною Себé принéс,
+                                                я́ко приношéние Отцу́ Своему́, при́сно закаля́ется, освящáяй причащáющияся.</p>
 
-    Богородичен: Спáса Христá рóждшая пáче ума, Богоблагодáтная, молю́ Тя ны́не, раб Твой, Чи́стую нечи́стыи́: хотя́щаго мя ны́не к пречи́стым Тáйнам приступи́ти, очи́сти всегó от сквéрны плóти и ду́ха.
+                                            <p class="py-2">Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.</p>
 
-    Песнь 8
+                                            <p class="py-2">Душéю и тéлом да освящу́ся, Влады́ко, да просвещу́ся, да спасу́ся, да бу́ду дом Твой причащéнием
+                                                свящéнных Тáин, живу́щаго Тя имéя в себé со Отцéм и Ду́хом, Благодéтелю Многоми́лостиве.</p>
 
-    Ирмос: В пещь óгненную ко отрокóм еврéйским снизшéдшаго, и плáмень в рóсу прелóжшаго Бóга, пóйте делá, я́ко Гóспода, и превозноси́те во вся вéки.
+                                            <p class="py-2">Припев: Воздáждь ми рáдость спасéния Твоегó и Ду́хом Влады́чним утверди́ мя.</p>
 
-    Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
+                                            <p class="py-2">Якоже огнь да бу́дет ми, и я́ко свет, Тéло Твоé и Кровь, Спáсе мой, пречестнáя, опаля́я грехóвное
+                                                веществó, сжигáя же страстéй тéрние, и всегó мя просвещáя, покланя́тися Божеству́ Твоéму.</p>
 
-    Небéсных, и стрáшных, и святы́х Твои́х, Христé, ны́не Тáин, и Божéственныя Твоея́ и тáйныя вéчери óбщника бы́ти и менé сподóби отчáяннаго, Бóже Спáсе мой.
+                                            <p class="py-2">Пресвятáя Богорóдице, спаси́ нас.</p>
 
-    Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
+                                            <p class="py-2">Богородичен: Бог воплóтися от чи́стых кровéй Твои́х; тéмже вся́кий род поéт Тя, Влады́чице, у́мная
+                                                же мнóжества слáвят, я́ко Тобóю я́ве узрéша всéми Влады́чествующаго, осуществовáвшагося человéчеством.</p>
 
-    Под Твоé прибéг благоутрóбие, Блáже, со стрáхом зову́ Ти: во мне пребу́ди, Спáсе, и аз, я́коже рекл еси́, в Тебé; се бо дерзáя на ми́лость Твою́, ям Тéло Твоé, и пию́ Кровь Твою́.
+                                            <p class="py-2">Достóйно есть я́ко вои́стинну блажи́ти Тя Богорóдицу, Присноблажéнную и Пренепорóчную и Мáтерь Бо́га нáшего. Честнéйшую
+                                                Херуви́м и слáвнейшую без сравнéния Серафи́м, без истлéния Бóга Слóва рóждшую, су́щую Богорóдицу Тя величáем.</p>
 
-    Припев: Пресвятáя Трóице, Бóже наш, слáва Тебé.
+                                            <p class="py-2">Святы́й Бóже, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас. (Трижды)</p>
 
-    Троичен: Трепещу́, приéмля огнь, да не опалю́ся я́ко воск и я́ко травá; óле стрáшнаго тáинства! óле благоутрóбия Бóжия! Кáко Божéственнаго Тéла и Крóве брéние причащáюся, и нетлéнен сотворя́юся?
+                                            <p class="py-2">Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.</p>
 
-    Песнь 9
+                                            <p class="py-2">Пресвятáя Трóице, поми́луй нас; Гóсподи, очи́сти грехи́ нáша; Влады́ко, прости́ беззакóния нáша; Святы́й, посети́ и
+                                                исцели́ нéмощи нáша, и́мене Твоегó рáди.</p>
 
-    Ирмос: Безначáльна Роди́теля Сын, Бог и Госпóдь, воплóщься от Дéвы нам яви́ся, омрачéнная просвети́ти, собрáти расточéнная: тем всепéтую Богорóдицу величáем.
+                                            <p class="py-2">Го́споди поми́луй. (Трижды)</p>
 
-    Сéрдце чи́сто сози́жди во мне, Бóже, и дух прав обнови́ во утрóбе моéй.
+                                            <p class="font-semibold py-2">Слава, и ны́не:</p>
 
-    Христóс есть, вкуси́те и ви́дите: Госпóдь нас рáди, по нам бо дрéвле бы́вый, еди́ною Себé принéс, я́ко приношéние Отцу́ Своему́, при́сно закаля́ется, освящáяй причащáющияся.
+                                            <p class="py-2">Отче наш, Иже еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Цáрствие Твоé, да бу́дет вóля Твоя́, я́ко на небеси́ и на
+                                                земли́. Хлеб наш насу́щный даждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм нáшим; и не
+                                                введи́ нас во искушéние, но избáви нас от лукáваго.</p>
 
-    Не отвéржи менé от лицá Твоегó, и Ду́ха Твоегó Святáго не отыми́ от менé.
+                                            <p class="py-2">Тропарь дня, или праздника. Если неделя, тропарь воскресный по гласу. Если же нет, настоящие тропари, глас 6-й:</p>
 
-    Душéю и тéлом да освящу́ся, Влады́ко, да просвещу́ся, да спасу́ся, да бу́ду дом Твой причащéнием свящéнных Тáин, живу́щаго Тя имéя в себé со Отцéм и Ду́хом, Благодéтелю Многоми́лостиве.
+                                            <p class="py-2">Поми́луй нас, Гóсподи, поми́луй нас; вся́каго бо отвéта недоумéюще, сию́ Ти моли́тву, я́ко Влады́це, грéшнии принóсим:
+                                                поми́луй нас.</p>
 
-    Припев: Воздáждь ми рáдость спасéния Твоегó и Ду́хом Влады́чним утверди́ мя.
+                                            <p class="py-2">Слава: Гóсподи, поми́луй нас, на Тя бо уповáхом; не прогнéвайся на ны зелó, нижé помяни́ беззакóний нáших, но при́зри и
+                                                ны́не я́ко благоутрóбен, и избáви ны от враг нáших. Ты бо еси́ Бог наш, и мы лю́дие Твои́, вси делá руку́ Твоéю, и и́мя Твоé
+                                                призывáем.</p>
 
-    Якоже огнь да бу́дет ми, и я́ко свет, Тéло Твоé и Кровь, Спáсе мой, пречестнáя, опаля́я грехóвное веществó, сжигáя же страстéй тéрние, и всегó мя просвещáя, покланя́тися Божеству́ Твоéму.
+                                            <p class="py-2">И ныне: Милосéрдия двéри отвéрзи нам, благословéнная Богоро́дице, надéющиися на Тя да не поги́бнем, но да избáвимся
+                                                Тобóю от бед: Ты бо еси́ спасéние рóда христиáнскаго.</p>
 
-    Пресвятáя Богорóдице, спаси́ нас.
+                                            <p class="py-2">Гóсподи поми́луй. (40 раз) И поклоны, сколько хочешь.</p>
 
-    Богородичен: Бог воплóтися от чи́стых кровéй Твои́х; тéмже вся́кий род поéт Тя, Влады́чице, у́мная же мнóжества слáвят, я́ко Тобóю я́ве узрéша всéми Влады́чествующаго, осуществовáвшагося человéчеством.
+                                            <p class="font-semibold py-2"> И стихи:</p>
 
-    Достóйно есть я́ко вои́стинну блажи́ти Тя Богорóдицу, Присноблажéнную и Пренепорóчную и Мáтерь Бо́га нáшего. Честнéйшую Херуви́м и слáвнейшую без сравнéния Серафи́м, без истлéния Бóга Слóва рóждшую, су́щую Богорóдицу Тя величáем.
+                                            <p class="py-2">Хотя́ я́сти, человéче, Тéло Влады́чне,</br>
 
-    Святы́й Бóже, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас. (Трижды)
+                                                Стрáхом приступи́, да не опали́шися: огнь бо есть.</br>
 
-    Слáва Отцу́ и Сы́ну и Святóму Ду́ху, и ны́не и при́сно и во вéки векóв. Ами́нь.
+                                                Божéственную же пия́ Кровь ко общéнию,</br>
 
-    Пресвятáя Трóице, поми́луй нас; Гóсподи, очи́сти грехи́ нáша; Влады́ко, прости́ беззакóния нáша; Святы́й, посети́ и исцели́ нéмощи нáша, и́мене Твоегó рáди.
+                                                Пéрвее примири́ся тя опечáлившим.</br>
 
-    Го́споди поми́луй. (Трижды)
+                                                Тáже дерзáя, тáинственное брáшно яждь.</br>
 
-    Слáва, и ны́не:
+                                                Прéжде причáстия стрáшныя жéртвы,</br>
 
-    Отче наш, Иже еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Цáрствие Твоé, да бу́дет вóля Твоя́, я́ко на небеси́ и на земли́. Хлеб наш насу́щный даждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм нáшим; и не введи́ нас во искушéние, но избáви нас от лукáваго.
+                                                Животворя́щаго Тéла Влады́чня,</br>
 
-    Тропарь дня, или праздника. Если неделя, тропарь воскресный по гласу. Если же нет, настоящие тропари, глас 6-й:
+                                                Сим помоли́ся óбразом со трéпетом:</p>
+                                                </p>
+                                        </div>
+                                    </div>
+                                    
 
-    Поми́луй нас, Гóсподи, поми́луй нас; вся́каго бо отвéта недоумéюще, сию́ Ти моли́тву, я́ко Влады́це, грéшнии принóсим: поми́луй нас.
+                                    <h2 id="accordion-color-heading-29">
+                                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                                data-accordion-target="#accordion-color-body-29" aria-expanded="false" aria-controls="accordion-color-body-29">
+                                            <span>Исповедание грехов повседневное</span>
+                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                    <div id="accordion-color-body-29" class="hidden" aria-labelledby="accordion-color-heading-29">
+                                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                            <p class="py-2">
+                                            </p>
+                                            </p>
+                                        </div>
+                                    </div>
 
-    Слава: Гóсподи, поми́луй нас, на Тя бо уповáхом; не прогнéвайся на ны зелó, нижé помяни́ беззакóний нáших, но при́зри и ны́не я́ко благоутрóбен, и избáви ны от враг нáших. Ты бо еси́ Бог наш, и мы лю́дие Твои́, вси делá руку́ Твоéю, и и́мя Твоé призывáем.
 
-    И ныне: Милосéрдия двéри отвéрзи нам, благословéнная Богоро́дице, надéющиися на Тя да не поги́бнем, но да избáвимся Тобóю от бед: Ты бо еси́ спасéние рóда христиáнскаго.
+                                    <h2 id="accordion-color-heading-29">
+                                        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4
+                    focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800 gap-3"
+                                                data-accordion-target="#accordion-color-body-29" aria-expanded="false" aria-controls="accordion-color-body-29">
+                                            <span></span>
+                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                    <div id="accordion-color-body-29" class="hidden" aria-labelledby="accordion-color-heading-29">
+                                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                                            <p class="mb-2 text-gray-500 dark:text-gray-400">
+                                            <p class="py-2">
 
-    Гóсподи поми́луй. (40 раз) И поклоны, сколько хочешь.
+                                            </p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
 
-    И стихи:
 
-    Хотя́ я́сти, человéче, Тéло Влады́чне,
+                            <div>
 
-    Стрáхом приступи́, да не опали́шися: огнь бо есть.
 
-    Божéственную же пия́ Кровь ко общéнию,
 
-    Пéрвее примири́ся тя опечáлившим.
-
-    Тáже дерзáя, тáинственное брáшно яждь.
-
-    Прéжде причáстия стрáшныя жéртвы,
-
-    Животворя́щаго Тéла Влады́чня,
-
-    Сим помоли́ся óбразом со трéпетом:
 
     Молитва Василия Великого, 1-я
 
-    Влады́ко Гóсподи Иису́се Христé, Бóже наш, истóчниче жи́зни и безсмéртия, всея́ твáри ви́димыя и неви́димыя Содéтелю, безначáльнаго Отцá соприсносу́щный Сы́не и собезначáльный, премнóгия рáди блáгости в послéдния дни в плоть оболки́йся, и распны́йся, и погребы́йся за ны неблагодáрныя и злонрáвныя, и Твоéю крóвию обнови́вый растлéвшее грехóм естествó нáше, Сам, Безсмéртный Царю́, приими́ и моé грéшнаго покая́ние, и приклони́ у́хо Твоé мне, и услы́ши глагóлы моя́. Согреши́х бо, Гóсподи, согреши́х на нéбо и пред Тобóю, и несмь достóин воззрéти на высóту слáвы Твоея́: прогнéвах бо Твою́ блáгость, Твоя́ зáповеди преступи́в, и не послу́шав Твои́х повелéний. Но Ты, Гóсподи, незлóбив сый, долготерпели́в же и многоми́лостив, не предáл еси́ мя поги́бнути со беззакóньми мои́ми, моегó вся́чески ожидáя обращéния. Ты бо рекл еси́, Человеколю́бче, прорóком Твои́м: я́ко хотéнием не хощу́ смéрти грéшника, но éже обрати́тися и жи́ву бы́ти ему́. Не хóщеши бо, Влады́ко, создáния Твоéю руку́ погуби́ти, нижé благоволи́ши о поги́бели человéчестей, но хóщеши всем спасти́ся, и в рáзум и́стины приити́. Тéмже и аз, áще и недостóин есмь небесé и земли́, и сея́ приврéменныя жи́зни, всегó себé повину́в греху́, и сластéм порабóтив, и Твой оскверни́в óбраз; но творéние и создáние Твоé быв, не отчаявáю своегó спасéния окая́нный, на Твоé же безмéрное благоутрóбие дерзáя, прихожду́. Приими́ у́бо и менé, Человеколю́бче Гóсподи, я́коже блудни́цу, я́ко разбóйника, я́ко мытаря́ и я́ко блу́днаго, и возми́ моé тя́жкое брéмя грехóв, грех взéмляй ми́ра, и нéмощи человéческия исцеля́яй, труждáющияся и обременéнныя к Себé призывáяй и упокоевáяй, не пришéдый призвáти прáведныя, но грéшныя на покая́ние. И очи́сти мя от вся́кия сквéрны плóти и ду́ха, и научи́ мя совершáти святы́ню во стрáсе Твоéм: я́ко да чи́стым свéдением сóвести моея́, святы́нь Твои́х часть приéмля, соединю́ся святóму Тéлу Твоему́ и Крóви, и имéю Тебé во мне живу́ща и пребывáюща, со Отцéм и Святы́м Твои́м Ду́хом. Ей, Гóсподи Иису́се Христé, Бóже мой, и да не в суд ми бу́дет причáстие пречи́стых и животворя́щих Тáин Твои́х, нижé да нéмощен бу́ду душéю же и тéлом, от éже недостóйне тем причащáтися, но даждь ми, дáже до конéчнаго моегó издыхáния, неосуждéнно восприимáти часть святы́нь Твои́х, в Ду́ха Святáго общéние, в напу́тие животá вéчнаго, и во благоприя́тен отвéт на Стрáшнем Суди́щи Твоéм: я́ко да и аз со всéми избрáнными Твои́ми óбщник бу́ду нетлéнных Твои́х благ, я́же уготóвал еси́ лю́бящим Тя, Гóсподи, в ни́хже препрослáвлен еси́ во вéки. Ами́нь.
+    Влады́ко Гóсподи Иису́се Христé, Бóже наш, истóчниче жи́зни и безсмéртия, всея́ твáри ви́димыя и неви́димыя Содéтелю,
+    безначáльнаго Отцá соприсносу́щный Сы́не и собезначáльный, премнóгия рáди блáгости в послéдния дни в плоть оболки́йся,
+    и распны́йся, и погребы́йся за ны неблагодáрныя и злонрáвныя, и Твоéю крóвию обнови́вый растлéвшее грехóм естествó
+    нáше, Сам, Безсмéртный Царю́, приими́ и моé грéшнаго покая́ние, и приклони́ у́хо Твоé мне, и услы́ши глагóлы моя́. Согреши́х
+    бо, Гóсподи, согреши́х на нéбо и пред Тобóю, и несмь достóин воззрéти на высóту слáвы Твоея́: прогнéвах бо Твою́ блáгость,
+    Твоя́ зáповеди преступи́в, и не послу́шав Твои́х повелéний. Но Ты, Гóсподи, незлóбив сый, долготерпели́в же и многоми́лостив,
+    не предáл еси́ мя поги́бнути со беззакóньми мои́ми, моегó вся́чески ожидáя обращéния. Ты бо рекл еси́, Человеколю́бче,
+    прорóком Твои́м: я́ко хотéнием не хощу́ смéрти грéшника, но éже обрати́тися и жи́ву бы́ти ему́. Не хóщеши бо, Влады́ко,
+    создáния Твоéю руку́ погуби́ти, нижé благоволи́ши о поги́бели человéчестей, но хóщеши всем спасти́ся, и в рáзум и́стины
+    приити́. Тéмже и аз, áще и недостóин есмь небесé и земли́, и сея́ приврéменныя жи́зни, всегó себé повину́в греху́, и
+    сластéм порабóтив, и Твой оскверни́в óбраз; но творéние и создáние Твоé быв, не отчаявáю своегó спасéния окая́нный,
+    на Твоé же безмéрное благоутрóбие дерзáя, прихожду́. Приими́ у́бо и менé, Человеколю́бче Гóсподи, я́коже блудни́цу, я́ко
+    разбóйника, я́ко мытаря́ и я́ко блу́днаго, и возми́ моé тя́жкое брéмя грехóв, грех взéмляй ми́ра, и нéмощи человéческия
+    исцеля́яй, труждáющияся и обременéнныя к Себé призывáяй и упокоевáяй, не пришéдый призвáти прáведныя, но грéшныя
+    на покая́ние. И очи́сти мя от вся́кия сквéрны плóти и ду́ха, и научи́ мя совершáти святы́ню во стрáсе Твоéм: я́ко да
+    чи́стым свéдением сóвести моея́, святы́нь Твои́х часть приéмля, соединю́ся святóму Тéлу Твоему́ и Крóви, и имéю Тебé во
+    мне живу́ща и пребывáюща, со Отцéм и Святы́м Твои́м Ду́хом. Ей, Гóсподи Иису́се Христé, Бóже мой, и да не в суд ми бу́дет
+    причáстие пречи́стых и животворя́щих Тáин Твои́х, нижé да нéмощен бу́ду душéю же и тéлом, от éже недостóйне тем причащáтися,
+    но даждь ми, дáже до конéчнаго моегó издыхáния, неосуждéнно восприимáти часть святы́нь Твои́х, в Ду́ха Святáго общéние,
+    в напу́тие животá вéчнаго, и во благоприя́тен отвéт на Стрáшнем Суди́щи Твоéм: я́ко да и аз со всéми избрáнными Твои́ми
+    óбщник бу́ду нетлéнных Твои́х благ, я́же уготóвал еси́ лю́бящим Тя, Гóсподи, в ни́хже препрослáвлен еси́ во вéки. Ами́нь.
 
     Молитва святого Иоанна Златоустого, 2-я
 
-    Гóсподи Бóже мой, вем, я́ко несмь достóин, нижé довóлен, да под кров вни́деши хрáма души́ моея́, занéже весь пуст и пáлся есть, и не и́маши во мне мéста достóйна éже главу́ подклони́ти; но я́коже с высоты́ нас рáди смири́л еси́ Себé, смири́ся и ны́не смирéнию моему́; и я́коже восприя́л еси́ в вертéпе и в я́слех безсловéсных возлещи́, си́це восприими́ и в я́слех безсловéсныя моея́ души́, и во осквернéнное моé тéло вни́ти. И я́коже не неудостóил еси́ вни́ти, и свечеря́ти со грéшники в дому́ Си́мона прокажéннаго, тáко извóли вни́ти и в дом смирéнныя моея́ души́, прокажéнныя и грéшныя; и я́коже не отри́нул еси́ подóбную мне блудни́цу и грéшную, пришéдшую и прикосну́вшуюся Тебé, си́це умилосéрдися и о мне грéшнем, приходя́щем и прикасáющем Ти ся; и я́коже не возгнушáлся еси́ сквéрных ея уст и нечи́стых, целу́ющих Тя, нижé мои́х возгнушáйся сквéрнших óныя уст и нечи́стших, нижé мéрзких мои́х и нечи́стых устéн, и сквéрнаго и нечи́стейшаго моегó язы́ка. Но да бу́дет ми угль пресвятáго Твоегó Тéла, и честны́я Твоея́ Крóве, во освящéние и просвещéние и здрáвие смирéнней моéй души́ и тéлу, во облегчéние тя́жестей мнóгих мои́х согрешéний, в соблюдéние от вся́каго диáвольскаго дéйства, во отгнáние и возбранéние злáго моегó и лукáваго обы́чая, во умерщвлéние страстéй, в снабдéние зáповедей Твои́х, в приложéние Божéственныя Твоея́ благодáти, и Твоегó Цáрствия присвоéние. Не бо я́ко презирáяй прихожду́ к Тебé, Христé Бóже, но я́ко дерзáя на неизречéнную Твою́ блáгость, и да не на мнóзе удаля́яйся общéния Твоегó, от мы́сленнаго вóлка звероуловлéн бу́ду. Тéмже молю́ся Тебé: я́ко еди́н сый Свят, Влады́ко, освяти́ мою́ ду́шу и тéло, ум и сéрдце, чревесá и утро́бы, и всего́ мя обнови́, и вкорени́ стрáх Твой во удесéх мои́х, и освящéние Твоé неотъéмлемо от менé сотвори́; и бу́ди ми помóщник и засту́пник, окормля́я в ми́ре живóт мой, сподобля́я мя и одесну́ю Тебé предстоя́ния со святы́ми Твои́ми, моли́твами и молéньми Пречи́стыя Твоея́ Мáтере, невещéственных Твои́х служи́телей и пречи́стых сил, и всех святы́х, от вéка Тебé благоугоди́вших. Ами́нь.
+    Гóсподи Бóже мой, вем, я́ко несмь достóин, нижé довóлен, да под кров вни́деши хрáма души́ моея́, занéже весь пуст и
+    пáлся есть, и не и́маши во мне мéста достóйна éже главу́ подклони́ти; но я́коже с высоты́ нас рáди смири́л еси́ Себé,
+    смири́ся и ны́не смирéнию моему́; и я́коже восприя́л еси́ в вертéпе и в я́слех безсловéсных возлещи́, си́це восприими́ и в я
+    ́слех безсловéсныя моея́ души́, и во осквернéнное моé тéло вни́ти. И я́коже не неудостóил еси́ вни́ти, и свечеря́ти со
+    грéшники в дому́ Си́мона прокажéннаго, тáко извóли вни́ти и в дом смирéнныя моея́ души́, прокажéнныя и грéшныя; и я́коже
+    не отри́нул еси́ подóбную мне блудни́цу и грéшную, пришéдшую и прикосну́вшуюся Тебé, си́це умилосéрдися и о мне грéшнем,
+    приходя́щем и прикасáющем Ти ся; и я́коже не возгнушáлся еси́ сквéрных ея уст и нечи́стых, целу́ющих Тя, нижé мои́х
+    возгнушáйся сквéрнших óныя уст и нечи́стших, нижé мéрзких мои́х и нечи́стых устéн, и сквéрнаго и нечи́стейшаго моегó
+    язы́ка. Но да бу́дет ми угль пресвятáго Твоегó Тéла, и честны́я Твоея́ Крóве, во освящéние и просвещéние и здрáвие
+    смирéнней моéй души́ и тéлу, во облегчéние тя́жестей мнóгих мои́х согрешéний, в соблюдéние от вся́каго диáвольскаго
+    дéйства, во отгнáние и возбранéние злáго моегó и лукáваго обы́чая, во умерщвлéние страстéй, в снабдéние зáповедей
+    Твои́х, в приложéние Божéственныя Твоея́ благодáти, и Твоегó Цáрствия присвоéние. Не бо я́ко презирáяй прихожду́ к Тебé,
+    Христé Бóже, но я́ко дерзáя на неизречéнную Твою́ блáгость, и да не на мнóзе удаля́яйся общéния Твоегó, от мы́сленнаго
+    вóлка звероуловлéн бу́ду. Тéмже молю́ся Тебé: я́ко еди́н сый Свят, Влады́ко, освяти́ мою́ ду́шу и тéло, ум и сéрдце, чревесá
+    и утро́бы, и всего́ мя обнови́, и вкорени́ стрáх Твой во удесéх мои́х, и освящéние Твоé неотъéмлемо от менé сотвори́; и
+    бу́ди ми помóщник и засту́пник, окормля́я в ми́ре живóт мой, сподобля́я мя и одесну́ю Тебé предстоя́ния со святы́ми Твои́ми,
+    моли́твами и молéньми Пречи́стыя Твоея́ Мáтере, невещéственных Твои́х служи́телей и пречи́стых сил, и всех святы́х, от вéка
+    Тебé благоугоди́вших. Ами́нь.
 
     Молитва Симеона Метафраста, 3-я
 
-    Еди́не чи́стый и нетлéнный Гóсподи, за неизречéнную ми́лость человеколю́бия нáше все восприéмый смешéние, от чи́стых и дéвственных кровéй пáче естествá Рóждшия Тя, Ду́ха Божéственнаго нашéствием, и благоволéнием Отцá присносу́щнаго, Христé Иису́се, прему́дросте Бóжия, и ми́ре, и си́ло; Твои́м восприя́тием животворя́щая и спаси́тельная страдáния восприéмый, крест, гвóздия, копиé, смерть, умертви́ моя́ душетлéнныя стрáсти телéсныя. Погребéнием Твои́м áдова плени́вый цáрствия, погреби́ моя́ благи́ми помы́слы лукáвая совéтования, и лукáвствия ду́хи разори́. Триднéвным Твои́м и живонóсным воскресéнием пáдшаго прáотца возстáвивый, возстáви мя грехóм попóлзшагося, óбразы мне покая́ния предлагáя. Преслáвным Твои́м вознесéнием плотскóе обожи́вый восприя́тие, и сиé десны́м Отцá седéнием почты́й, сподóби мя причáстием святы́х Твои́х Тáин десну́ю часть спасáемых получи́ти. Сни́тием Утéшителя Твоего́ Ду́ха сосу́ды чéстны свящéнныя Твоя́ ученики́ содéлавый, прия́телище и менé покажи́ Тогó пришéствия. Хотя́й пáки приити́ суди́ти вселéнней прáвдою, благоволи́ и мне усрéсти Тя на óблацех, Судию́ и Создáтеля моегó, со всéми святы́ми Твои́ми: да безконéчно славослóвлю и воспевáю Тя со безначáльным Твои́м Отцéм и Пресвяты́м и Благи́м и Животворя́щим Твои́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
+    Еди́не чи́стый и нетлéнный Гóсподи, за неизречéнную ми́лость человеколю́бия нáше все восприéмый смешéние, от чи́стых и
+    дéвственных кровéй пáче естествá Рóждшия Тя, Ду́ха Божéственнаго нашéствием, и благоволéнием Отцá присносу́щнаго, Христé
+    Иису́се, прему́дросте Бóжия, и ми́ре, и си́ло; Твои́м восприя́тием животворя́щая и спаси́тельная страдáния восприéмый, крест,
+    гвóздия, копиé, смерть, умертви́ моя́ душетлéнныя стрáсти телéсныя. Погребéнием Твои́м áдова плени́вый цáрствия, погреби́
+    моя́ благи́ми помы́слы лукáвая совéтования, и лукáвствия ду́хи разори́. Триднéвным Твои́м и живонóсным воскресéнием пáдшаго
+    прáотца возстáвивый, возстáви мя грехóм попóлзшагося, óбразы мне покая́ния предлагáя. Преслáвным Твои́м вознесéнием
+    плотскóе обожи́вый восприя́тие, и сиé десны́м Отцá седéнием почты́й, сподóби мя причáстием святы́х Твои́х Тáин десну́ю часть
+    спасáемых получи́ти. Сни́тием Утéшителя Твоего́ Ду́ха сосу́ды чéстны свящéнныя Твоя́ ученики́ содéлавый, прия́телище и менé
+    покажи́ Тогó пришéствия. Хотя́й пáки приити́ суди́ти вселéнней прáвдою, благоволи́ и мне усрéсти Тя на óблацех, Судию́ и
+    Создáтеля моегó, со всéми святы́ми Твои́ми: да безконéчно славослóвлю и воспевáю Тя со безначáльным Твои́м Отцéм и
+    Пресвяты́м и Благи́м и Животворя́щим Твои́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
 
     Молитва святого Иоанна Дамаскина, 4-я
 
-    Влады́ко Гóсподи Иису́се Христé, Бóже наш, еди́не имéяй власть человéком оставля́ти грехи́, я́ко благ и Человеколю́бец прéзри моя́ вся в вéдении и не в вéдении прегрешéния, и сподóби мя неосуждéнно причасти́тися Божéственных, и преслáвных, и пречи́стых, и животворя́щих Твои́х Тáин, не в тяжесть, ни в му́ку, ни в приложéние грехóв, но во очищéние, и освящéние, и обручéние бу́дущаго животá и Цáрствия, в стéну и пóмощь, и в возражéние сопроти́вных, во истреблéние мнóгих мои́х согрешéний. Ты бо еси́ Бог ми́лости, и щедрóт, и человеколю́бия, и Тебé слáву возсылáем со Отцéм и Святы́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
+    Влады́ко Гóсподи Иису́се Христé, Бóже наш, еди́не имéяй власть человéком оставля́ти грехи́, я́ко благ и Человеколю́бец
+    прéзри моя́ вся в вéдении и не в вéдении прегрешéния, и сподóби мя неосуждéнно причасти́тися Божéственных, и преслáвных,
+    и пречи́стых, и животворя́щих Твои́х Тáин, не в тяжесть, ни в му́ку, ни в приложéние грехóв, но во очищéние, и освящéние,
+    и обручéние бу́дущаго животá и Цáрствия, в стéну и пóмощь, и в возражéние сопроти́вных, во истреблéние мнóгих мои́х
+    согрешéний. Ты бо еси́ Бог ми́лости, и щедрóт, и человеколю́бия, и Тебé слáву возсылáем со Отцéм и Святы́м Ду́хом, ны́не
+    и при́сно и во вéки векóв. Ами́нь.
 
     Молитва святого Василия Великого, 5-я
 
-    Вем, Гóсподи, я́ко недостóйне причащáюся пречи́стаго Твоегó Тéла и честны́я Твоея́ Крóве, и пови́нен есмь, и суд себé ям и пию́, не разсуждáя Тéла и Крóве Тебé Христá и Бóга моегó, но на щедрóты Твоя́ дерзáя прихожду́ к Тебé рéкшему: яды́й Мою́ плоть, и пия́й Мою́ кровь, во Мне пребывáет, и Аз в нем. Умилосéрдися у́бо, Гóсподи, и не обличи́ мя грéшнаго, но сотвори́ со мнóю по ми́лости Твоéй; и да бу́дут ми святáя сия́ во исцелéние, и очищéние, и просвещéние, и сохранéние, и спасéние, и во освящéние души́ и тéла; во отгнáние вся́каго мечтáния, и лукáваго дея́ния, и дéйства диáвольскаго, мы́сленне во удесéх мои́х дéйствуемаго, в дерзновéние и любóвь, я́же к Тебé; во исправлéние жития́ и утверждéние, в возращéние добродéтели и совершéнства; во исполнéние зáповедей, в Ду́ха Святáго общéние, в напу́тие животá вéчнаго, во отвéт благоприя́тен на Стрáшнем Суди́щи Твоéм: не в суд или́ во осуждéние.
+    Вем, Гóсподи, я́ко недостóйне причащáюся пречи́стаго Твоегó Тéла и честны́я Твоея́ Крóве, и пови́нен есмь, и суд себé
+    ям и пию́, не разсуждáя Тéла и Крóве Тебé Христá и Бóга моегó, но на щедрóты Твоя́ дерзáя прихожду́ к Тебé рéкшему:
+    яды́й Мою́ плоть, и пия́й Мою́ кровь, во Мне пребывáет, и Аз в нем. Умилосéрдися у́бо, Гóсподи, и не обличи́ мя грéшнаго,
+    но сотвори́ со мнóю по ми́лости Твоéй; и да бу́дут ми святáя сия́ во исцелéние, и очищéние, и просвещéние, и сохранéние,
+    и спасéние, и во освящéние души́ и тéла; во отгнáние вся́каго мечтáния, и лукáваго дея́ния, и дéйства диáвольскаго,
+    мы́сленне во удесéх мои́х дéйствуемаго, в дерзновéние и любóвь, я́же к Тебé; во исправлéние жития́ и утверждéние, в
+    возращéние добродéтели и совершéнства; во исполнéние зáповедей, в Ду́ха Святáго общéние, в напу́тие животá вéчнаго,
+    во отвéт благоприя́тен на Стрáшнем Суди́щи Твоéм: не в суд или́ во осуждéние.
 
     Молитва святого Симеона Нового Богослова, 6-я
 
-    От сквéрных устéн, от мéрзкаго сéрдца, от нечи́стаго язы́ка, от души́ осквернéны, приими́ молéние, Христé мой, и не прéзри мои́х ни словéс, нижé образóв, нижé безсту́дия. Даждь ми дерзновéнно глагóлати, я́же хощу́, Христé мой, пáче же и научи́ мя, что ми подобáет твори́ти и глагóлати. Согреши́х пáче блудни́цы, я́же увéде, где обитáеши, ми́ро купи́вши, прии́де дéрзостне помáзати Твои́ нóзе, Бóга моегó, Влады́ки и Христá моегó. Якоже óну не отри́нул еси́ пришéдшую от сéрдца, нижé менé возгнушáйся, Слóве: Твои́ же ми подáждь нóзе, и держáти и целовáти, и струя́ми слéзными, я́ко многоцéнным ми́ром, сия́ дéрзостно помáзати. Омы́й мя слезáми мои́ми, очи́сти мя и́ми, Слóве. Остáви и прегрешéния моя́, и прощéние ми подáждь. Вéси зол мнóжество, вéси и стру́пы моя́, и я́звы зри́ши моя́, но и вéру вéси, и произволéние зри́ши, и воздыхáние слы́шиши. Не таи́тся Тебé, Бóже мой, Твóрче мой, Избáвителю мой, нижé кáпля слéзная, нижé кáпли часть нéкая. Несодéланное моé ви́десте óчи Твои́, в кни́зе же Твоéй и ещé несодéянная напи́сана Тебé суть. Виждь смирéние моé, виждь труд мой ели́к, и грехи́ вся остáви ми, Бóже вся́ческих: да чи́стым сéрдцем, притрéпетною мы́слию, и душéю сокрушéнною, несквéрных Твои́х причащу́ся и пресвяты́х Тáин, и́миже оживля́ется и обожáется всяк яды́й же и пия́й чи́стым сéрдцем; Ты бо рекл еси́, Влады́ко мой: всяк яды́й Мою́ Плоть, и пия́й Мою́ Кровь, во Мне у́бо сей пребывáет, в нéмже и Аз есмь. Истинно слóво вся́ко Влады́ки и Бóга моегó: Божéственных бо причащáяйся и боготворя́щих благодáтей, не у́бо есмь еди́н, но с Тобо́ю, Христé мой, Свéтом трисо́лнечным, просвещáющим мир. Да у́бо не еди́н пребу́ду кромé Тебé Живодáвца, дыхáния моегó, животá моегó, рáдования моегó, спасéния ми́ру. Сегó рáди к Тебé приступи́х, я́коже зри́ши, со слезáми, и душéю сокрушéнною, избавлéния мои́х прегрешéний прошу́ прия́ти ми, и Твои́х живодáтельных и непорóчных Тáинств причасти́тися неосуждéнно, да пребу́деши, я́коже рекл еси́, со мнóю треокая́нным: да не кромé обрéт мя Твоея́ благодáти, прелéстник восхи́тит мя льсти́вне, и прельсти́в отведéт боготворя́щих Твои́х словéс. Сегó рáди к Тебé припáдаю, и тéпле вопию́ Ти: я́коже блу́днаго прия́л еси́, и блудни́цу пришéдшую, тáко приими́ мя блу́днаго и сквéрнаго, Щéдре. Душéю сокрушéнною, ны́не бо к Тебé приходя́, вем, Спáсе, я́ко ины́й, я́коже аз, не прегреши́ Тебé, нижé содéя дея́ния, я́же аз содéях. Но сиé пáки вем, я́ко не вели́чество прегрешéний, ни грехóв мнóжество превосхóдит Бóга моегó мнóгое долготерпéние и человеколю́бие крáйнее; но ми́лостию сострáстия тéпле кáющияся, и чи́стиши, и свéтлиши, и свéта твори́ши причáстники, óбщники Божествá Твоегó содéловаяй незави́стно, и стрáнное и Ангелом, и человéческим мы́слем, бесéдуеши им мнóгажды, я́коже другóм Твои́м и́стинным. Сия́ дéрзостна творя́т мя, сия́ вперя́ют мя, Христé мой. И дерзáя Твои́м богáтым к нам благодея́нием, рáдуяся вку́пе и трепещá, огнéви причащáюся травá сый, и стрáнно чу́до, орошáемь неопáльно, я́коже у́бо купинá дрéвле неопáльне горя́щи. Ны́не благодáрною мы́слию, благодáрным же сéрдцем, благодáрными удесы́ мои́ми, души́ и тéла моегó, покланя́юся и величáю, и славослóвлю Тя, Бóже мой, я́ко благословéнна су́ща, ны́не же и во вéки.
+    От сквéрных устéн, от мéрзкаго сéрдца, от нечи́стаго язы́ка, от души́ осквернéны, приими́ молéние, Христé мой, и не
+    прéзри мои́х ни словéс, нижé образóв, нижé безсту́дия. Даждь ми дерзновéнно глагóлати, я́же хощу́, Христé мой, пáче же
+    и научи́ мя, что ми подобáет твори́ти и глагóлати. Согреши́х пáче блудни́цы, я́же увéде, где обитáеши, ми́ро купи́вши,
+    прии́де дéрзостне помáзати Твои́ нóзе, Бóга моегó, Влады́ки и Христá моегó. Якоже óну не отри́нул еси́ пришéдшую от
+    сéрдца, нижé менé возгнушáйся, Слóве: Твои́ же ми подáждь нóзе, и держáти и целовáти, и струя́ми слéзными, я́ко
+    многоцéнным ми́ром, сия́ дéрзостно помáзати. Омы́й мя слезáми мои́ми, очи́сти мя и́ми, Слóве. Остáви и прегрешéния моя́,
+    и прощéние ми подáждь. Вéси зол мнóжество, вéси и стру́пы моя́, и я́звы зри́ши моя́, но и вéру вéси, и произволéние
+    зри́ши, и воздыхáние слы́шиши. Не таи́тся Тебé, Бóже мой, Твóрче мой, Избáвителю мой, нижé кáпля слéзная, нижé кáпли
+    часть нéкая. Несодéланное моé ви́десте óчи Твои́, в кни́зе же Твоéй и ещé несодéянная напи́сана Тебé суть. Виждь смирéние
+    моé, виждь труд мой ели́к, и грехи́ вся остáви ми, Бóже вся́ческих: да чи́стым сéрдцем, притрéпетною мы́слию, и душéю
+    сокрушéнною, несквéрных Твои́х причащу́ся и пресвяты́х Тáин, и́миже оживля́ется и обожáется всяк яды́й же и пия́й чи́стым
+    сéрдцем; Ты бо рекл еси́, Влады́ко мой: всяк яды́й Мою́ Плоть, и пия́й Мою́ Кровь, во Мне у́бо сей пребывáет, в нéмже
+    и Аз есмь. Истинно слóво вся́ко Влады́ки и Бóга моегó: Божéственных бо причащáяйся и боготворя́щих благодáтей, не
+    у́бо есмь еди́н, но с Тобо́ю, Христé мой, Свéтом трисо́лнечным, просвещáющим мир. Да у́бо не еди́н пребу́ду кромé Тебé
+    Живодáвца, дыхáния моегó, животá моегó, рáдования моегó, спасéния ми́ру. Сегó рáди к Тебé приступи́х, я́коже зри́ши, со
+    слезáми, и душéю сокрушéнною, избавлéния мои́х прегрешéний прошу́ прия́ти ми, и Твои́х живодáтельных и непорóчных Тáинств
+    причасти́тися неосуждéнно, да пребу́деши, я́коже рекл еси́, со мнóю треокая́нным: да не кромé обрéт мя Твоея́ благодáти,
+    прелéстник восхи́тит мя льсти́вне, и прельсти́в отведéт боготворя́щих Твои́х словéс. Сегó рáди к Тебé припáдаю, и тéпле
+    вопию́ Ти: я́коже блу́днаго прия́л еси́, и блудни́цу пришéдшую, тáко приими́ мя блу́днаго и сквéрнаго, Щéдре. Душéю сокрушéнною,
+    ны́не бо к Тебé приходя́, вем, Спáсе, я́ко ины́й, я́коже аз, не прегреши́ Тебé, нижé содéя дея́ния, я́же аз содéях. Но сиé
+    пáки вем, я́ко не вели́чество прегрешéний, ни грехóв мнóжество превосхóдит Бóга моегó мнóгое долготерпéние и
+    человеколю́бие крáйнее; но ми́лостию сострáстия тéпле кáющияся, и чи́стиши, и свéтлиши, и свéта твори́ши причáстники,
+    óбщники Божествá Твоегó содéловаяй незави́стно, и стрáнное и Ангелом, и человéческим мы́слем, бесéдуеши им мнóгажды,
+    я́коже другóм Твои́м и́стинным. Сия́ дéрзостна творя́т мя, сия́ вперя́ют мя, Христé мой. И дерзáя Твои́м богáтым к нам
+    благодея́нием, рáдуяся вку́пе и трепещá, огнéви причащáюся травá сый, и стрáнно чу́до, орошáемь неопáльно, я́коже у́бо
+    купинá дрéвле неопáльне горя́щи. Ны́не благодáрною мы́слию, благодáрным же сéрдцем, благодáрными удесы́ мои́ми, души́ и
+    тéла моегó, покланя́юся и величáю, и славослóвлю Тя, Бóже мой, я́ко благословéнна су́ща, ны́не же и во вéки.
 
     Молитва святого Иоанна Златоустого, 7-я
 
-    Бóже, ослáби, остáви, прости́ ми согрешéния моя́, ели́ка Ти согреши́х, áще слóвом, áще дéлом, áще помышлéнием, во́лею или́ нево́лею, рáзумом или́ неразу́мием, вся ми прости́ я́ко благ и Человеколю́бец, и моли́твами Пречи́стыя Твоея́ Мáтере, у́мных Твои́х служи́телей и святы́х сил, и всех святы́х, от вéка Тебé благоугоди́вших, неосуждéнно благоволи́ прия́ти ми святóе и пречи́стое Твоé Тéло и честну́ю Кровь, во исцелéние души́ же и тéла, и во очищéние лукáвых мои́х помышлéний. Яко Твоé есть Цáрство и си́ла и слáва, со Отцéм и Святы́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
+    Бóже, ослáби, остáви, прости́ ми согрешéния моя́, ели́ка Ти согреши́х, áще слóвом, áще дéлом, áще помышлéнием, во́лею или́
+    нево́лею, рáзумом или́ неразу́мием, вся ми прости́ я́ко благ и Человеколю́бец, и моли́твами Пречи́стыя Твоея́ Мáтере, у́мных
+    Твои́х служи́телей и святы́х сил, и всех святы́х, от вéка Тебé благоугоди́вших, неосуждéнно благоволи́ прия́ти ми святóе и
+    пречи́стое Твоé Тéло и честну́ю Кровь, во исцелéние души́ же и тéла, и во очищéние лукáвых мои́х помышлéний. Яко Твоé
+    есть Цáрство и си́ла и слáва, со Отцéм и Святы́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
 
     Его же, 8-я
 
-    Несмь довóлен, Влады́ко Гóсподи, да вни́деши под кров души́ моея́; но понéже хóщеши Ты, я́ко Человеколю́бец, жи́ти во мне, дерзáя приступáю; повелевáеши, да отвéрзу двéри, я́же Ты еди́н создáл еси́, и вни́деши со человеколю́бием я́коже еси́, вни́деши и просвещáеши помрачéнный мой пóмысл. Вéрую, я́ко сиé сотвори́ши: не бо блудни́цу, со слезáми пришéдшую к Тебé, отгнáл еси́; нижé мытаря́ отвéргл еси́ покáявшася; нижé разбóйника, познáвша Цáрство Твоé, отгнáл еси́; нижé гони́теля покáявшася остáвил еси́, éже бе: но от покая́ния Тебé пришéдшия вся, в лицé Твои́х другóв вчини́л еси́, Еди́н сый благословéнный всегдá, ны́не и в безконéчныя вéки. Ами́нь.
+    Несмь довóлен, Влады́ко Гóсподи, да вни́деши под кров души́ моея́; но понéже хóщеши Ты, я́ко Человеколю́бец, жи́ти во мне,
+    дерзáя приступáю; повелевáеши, да отвéрзу двéри, я́же Ты еди́н создáл еси́, и вни́деши со человеколю́бием я́коже еси́,
+    вни́деши и просвещáеши помрачéнный мой пóмысл. Вéрую, я́ко сиé сотвори́ши: не бо блудни́цу, со слезáми пришéдшую к
+    Тебé, отгнáл еси́; нижé мытаря́ отвéргл еси́ покáявшася; нижé разбóйника, познáвша Цáрство Твоé, отгнáл еси́; нижé
+    гони́теля покáявшася остáвил еси́, éже бе: но от покая́ния Тебé пришéдшия вся, в лицé Твои́х другóв вчини́л еси́, Еди́н
+    сый благословéнный всегдá, ны́не и в безконéчныя вéки. Ами́нь.
 
     Его же, 9-я
 
-    Гóсподи Иису́се Христé, Бóже мой, ослáби, остáви, очи́сти и прости́ ми грéшному, и непотрéбному, и недостóйному рабу́ Твоему́ прегрешéния, и согрешéния, и грехопадéния моя́, ели́ка Ти от ю́ности моея́, даже до настоя́щаго дне и часá согреши́х: áще в рáзуме и в неразу́мии, áще в словесéх или дéлех, или́ помышлéниих и мы́слех, и начинáниих, и всех мои́х чу́вствах. И моли́твами безсéменно рóждшия Тя, Пречи́стыя и Приснодéвы Мари́и, Мáтере Твоея́, еди́ныя непосты́дныя надéжды и предстáтельства и спасéния моегó, сподóби мя неосуждéнно причасти́тися пречи́стых, безсмéртных, животворя́щих и стрáшных Твои́х Тáинств, во оставлéние грехóв и в жизнь вéчную: во освящéние, и просвещéние, крéпость, исцелéние, и здрáвие души́ же и тéла, и в потреблéние и всесовершéнное погублéние лукáвых мои́х помыслóв, и помышлéний, и предприя́тий, и нощны́х мечтáний, тéмных и лукáвых духóв; я́ко Твоé есть Цáрство, и си́ла, и слáва, и честь, и поклонéние, со Отцéм и Святы́м Твои́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
+    Гóсподи Иису́се Христé, Бóже мой, ослáби, остáви, очи́сти и прости́ ми грéшному, и непотрéбному, и недостóйному рабу́
+    Твоему́ прегрешéния, и согрешéния, и грехопадéния моя́, ели́ка Ти от ю́ности моея́, даже до настоя́щаго дне и часá согреши́х:
+    áще в рáзуме и в неразу́мии, áще в словесéх или дéлех, или́ помышлéниих и мы́слех, и начинáниих, и всех мои́х чу́вствах.
+    И моли́твами безсéменно рóждшия Тя, Пречи́стыя и Приснодéвы Мари́и, Мáтере Твоея́, еди́ныя непосты́дныя надéжды и
+    предстáтельства и спасéния моегó, сподóби мя неосуждéнно причасти́тися пречи́стых, безсмéртных, животворя́щих и стрáшных
+    Твои́х Тáинств, во оставлéние грехóв и в жизнь вéчную: во освящéние, и просвещéние, крéпость, исцелéние, и здрáвие
+    души́ же и тéла, и в потреблéние и всесовершéнное погублéние лукáвых мои́х помыслóв, и помышлéний, и предприя́тий, и
+    нощны́х мечтáний, тéмных и лукáвых духóв; я́ко Твоé есть Цáрство, и си́ла, и слáва, и честь, и поклонéние, со Отцéм
+    и Святы́м Твои́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
 
     Молитва святого Иоанна Дамаскина, 10-я
 
-    Пред двéрьми хрáма Твоегó предстою́, и лю́тых помышлéний не отступáю; но Ты, Христé Бóже, мытаря́ оправди́вый, и хананéю поми́ловавый, и разбóйнику рая́ двéри отвéрзый, отвéрзи ми утрóбы человеколю́бия Твоегó, и приими́ мя приходя́ща и прикасáющася Тебé, я́ко блудни́цу, и кровоточи́вую: óва у́бо крáя ри́зы Твоея́ косну́вшися, удобь исцелéние прия́т, óва же пречи́стеи Твои́ нóзе удержáвши, разрешéние грехóв понесé. Аз же, окая́нный, все Твоé Тéло дерзáя восприя́ти, да не опалéн бу́ду; но приими́ мя, я́коже óныя, и просвети́ моя́ душéвныя чу́вства, попаля́я моя́ грехóвныя вины́, моли́твами безсéменно Рóждшия Тя, и Небéсных Сил; я́ко Благословéн еси́ во вéки векóв. Ами́нь.
+    Пред двéрьми хрáма Твоегó предстою́, и лю́тых помышлéний не отступáю; но Ты, Христé Бóже, мытаря́ оправди́вый, и хананéю
+    поми́ловавый, и разбóйнику рая́ двéри отвéрзый, отвéрзи ми утрóбы человеколю́бия Твоегó, и приими́ мя приходя́ща и
+    прикасáющася Тебé, я́ко блудни́цу, и кровоточи́вую: óва у́бо крáя ри́зы Твоея́ косну́вшися, удобь исцелéние прия́т,
+    óва же пречи́стеи Твои́ нóзе удержáвши, разрешéние грехóв понесé. Аз же, окая́нный, все Твоé Тéло дерзáя восприя́ти,
+    да не опалéн бу́ду; но приими́ мя, я́коже óныя, и просвети́ моя́ душéвныя чу́вства, попаля́я моя́ грехóвныя вины́, моли́твами
+    безсéменно Рóждшия Тя, и Небéсных Сил; я́ко Благословéн еси́ во вéки векóв. Ами́нь.
 
     Молитва святого Иоанна Златоустого
 
-    Вéрую, Гóсподи, и исповéдую, я́ко Ты еси́ вои́стинну Христóс, Сын Бóга живáго, пришéдый в мир грéшныя спасти́, от ни́хже пéрвый есмь аз. Ещé вéрую, я́ко сиé есть сáмое пречи́стое Тéло Твоé, и сия́ есть сáмая честнáя Кровь Твоя́. Молю́ся у́бо Тебé: поми́луй мя, и прости́ ми прегрешéния моя́, вóльная и невóльная, я́же слóвом, я́же дéлом, я́же вéдением и невéдением, и сподóби мя неосуждéнно причасти́тися пречи́стых Твои́х Тáинств, во оставлéние грехóв, и в жизнь вéчную. Ами́нь.
+    Вéрую, Гóсподи, и исповéдую, я́ко Ты еси́ вои́стинну Христóс, Сын Бóга живáго, пришéдый в мир грéшныя спасти́, от ни́хже
+    пéрвый есмь аз. Ещé вéрую, я́ко сиé есть сáмое пречи́стое Тéло Твоé, и сия́ есть сáмая честнáя Кровь Твоя́. Молю́ся у́бо
+    Тебé: поми́луй мя, и прости́ ми прегрешéния моя́, вóльная и невóльная, я́же слóвом, я́же дéлом, я́же вéдением и невéдением,
+    и сподóби мя неосуждéнно причасти́тися пречи́стых Твои́х Тáинств, во оставлéние грехóв, и в жизнь вéчную. Ами́нь.
 
     Приходя же причаститься, произноси мысленно эти стихи Метафраста:
 
@@ -988,7 +1841,8 @@
 
     Затем:
 
-    Вéчери Твоея́ тáйныя днесь, Сы́не Бóжий, причáстника мя приими́; не бо врагóм Твои́м тáйну повéм, ни лобзáния Ти дам, я́ко Иу́да, но я́ко разбóйник исповéдаю Тя: помяни́ мя, Гóсподи, во Цáрствии Твоéм.
+    Вéчери Твоея́ тáйныя днесь, Сы́не Бóжий, причáстника мя приими́; не бо врагóм Твои́м тáйну повéм, ни лобзáния Ти дам,
+    я́ко Иу́да, но я́ко разбóйник исповéдаю Тя: помяни́ мя, Гóсподи, во Цáрствии Твоéм.
 
     И стихи:
 
@@ -1002,25 +1856,44 @@
 
     Потом тропари:
 
-    Услади́л мя еси́ любóвию, Христé, и измени́л мя еси́ Божéственным Твои́м рачéнием; но попали́ огнéм невещéственным грехи́ моя́, и насы́титися éже в Тебé наслаждéния сподóби: да лику́я возвеличáю, Блáже, два пришéствия Твоя́.
+    Услади́л мя еси́ любóвию, Христé, и измени́л мя еси́ Божéственным Твои́м рачéнием; но попали́ огнéм невещéственным грехи́
+    моя́, и насы́титися éже в Тебé наслаждéния сподóби: да лику́я возвеличáю, Блáже, два пришéствия Твоя́.
 
-    Во свéтлостех святы́х Твои́х кáко вни́ду, недостóйный? Аще бо дерзну́ совни́ти в чертóг, одéжда мя обличáет, я́ко нéсть брáчна, и свя́зан извéржен бу́ду от Ангелов. Очи́сти, Гóсподи, сквéрну души́ моея́, и спаси́ мя, я́ко Человеколю́бец.
+    Во свéтлостех святы́х Твои́х кáко вни́ду, недостóйный? Аще бо дерзну́ совни́ти в чертóг, одéжда мя обличáет, я́ко нéсть
+    брáчна, и свя́зан извéржен бу́ду от Ангелов. Очи́сти, Гóсподи, сквéрну души́ моея́, и спаси́ мя, я́ко Человеколю́бец.
 
     Также молитву:
 
-    Влады́ко Человеколю́бче, Гóсподи Иису́се Христé Бóже мой, да не в суд ми бу́дут Святáя сия́, за éже недостóйну ми бы́ти: но во очищéние и освящéние души́ же и тéла, и во обручéние бу́дущия жи́зни и Цáрствия. Мне же, éже прилепля́тися Бóгу, блáго есть, полагáти во Гóсподе уповáние спасéния моегó.
+    Влады́ко Человеколю́бче, Гóсподи Иису́се Христé Бóже мой, да не в суд ми бу́дут Святáя сия́, за éже недостóйну ми бы́ти:
+    но во очищéние и освящéние души́ же и тéла, и во обручéние бу́дущия жи́зни и Цáрствия. Мне же, éже прилепля́тися Бóгу,
+    блáго есть, полагáти во Гóсподе уповáние спасéния моегó.
 
     И еще:
 
-    Вéчери Твоея́ тáйныя днесь, Сы́не Бóжий, причáстника мя приими́ не бо врагóм Твои́м тáйну повéм, ни лобзáния Ти дам, я́ко Иу́да, но я́ко разбóйник исповéдаю Тя: помяни́ мя, Гóсподи, во Цáрствии Твоéм.
+    Вéчери Твоея́ тáйныя днесь, Сы́не Бóжий, причáстника мя приими́ не бо врагóм Твои́м тáйну повéм, ни лобзáния Ти дам, я́ко
+    Иу́да, но я́ко разбóйник исповéдаю Тя: помяни́ мя, Гóсподи, во Цáрствии Твоéм.
 
     ***
 
-    Желающий причаститься должен достойно приготовиться к этому святому Таинству. Приготовление это (в церковной практике оно называется говением) продолжается несколько дней и касается как телесной, так и духовной жизни человека. Телу предписывается воздержание, т.е. телесная чистота и ограничение в пище (пост). В дни поста исключается пища животного происхождения — мясо, молоко, яйца и, при строгом посте, рыба. Хлеб, овощи, фрукты употребляются в умеренном количестве. Ум не должен рассеиваться по мелочам житейским и развлекаться.
+    Желающий причаститься должен достойно приготовиться к этому святому Таинству. Приготовление это (в церковной практике
+    оно называется говением) продолжается несколько дней и касается как телесной, так и духовной жизни человека. Телу
+    предписывается воздержание, т.е. телесная чистота и ограничение в пище (пост). В дни поста исключается пища животного
+    происхождения — мясо, молоко, яйца и, при строгом посте, рыба. Хлеб, овощи, фрукты употребляются в умеренном количестве.
+    Ум не должен рассеиваться по мелочам житейским и развлекаться.
 
-    В дни говения надлежит посещать богослужение в храме, если позволяют обстоятельства, и более прилежно выполнять домашнее молитвенное правило: кто обычно читает не все утренние и вечерние молитвы, пусть прочитает все полностью, кто не читает каноны, пусть читает в эти дни хотя бы по одному канону. Накануне причащения надо быть на вечернем богослужении и прочитать дома, кроме обычных молитв на сон грядущим, канон покаянный, канон Богородице и Ангелу Хранителю. Каноны читают или один за другим полностью, или соединяя таким образом: читается ирмос первой песни покаянного канона («Яко по суху...») и тропари, затем тропари первой песни канона Богородице («Многими содержимь...»), опуская ирмос «Воду прошед», и тропари канона Ангелу Хранителю, тоже без ирмоса «Поим Господеви...». Так же читают и следующие песни. Тропари перед каноном Богородице и Ангелу Хранителю, а также стихиры после канона Богородице в таком случае опускаются.
+    В дни говения надлежит посещать богослужение в храме, если позволяют обстоятельства, и более прилежно выполнять
+    домашнее молитвенное правило: кто обычно читает не все утренние и вечерние молитвы, пусть прочитает все полностью,
+    кто не читает каноны, пусть читает в эти дни хотя бы по одному канону. Накануне причащения надо быть на вечернем
+    богослужении и прочитать дома, кроме обычных молитв на сон грядущим, канон покаянный, канон Богородице и Ангелу
+    Хранителю. Каноны читают или один за другим полностью, или соединяя таким образом: читается ирмос первой песни
+    покаянного канона («Яко по суху...») и тропари, затем тропари первой песни канона Богородице («Многими содержимь...»),
+    опуская ирмос «Воду прошед», и тропари канона Ангелу Хранителю, тоже без ирмоса «Поим Господеви...». Так же читают и
+    следующие песни. Тропари перед каноном Богородице и Ангелу Хранителю, а также стихиры после канона Богородице в таком
+    случае опускаются.
 
-    Читается также канон ко причащению и, кто пожелает, — акафист Иисусу Сладчайшему. После полуночи уже не едят и не пьют, ибо принято приступать к Таинству Причащения натощак. Утром прочитываются утренние молитвы и все последование ко Святому Причащению, кроме канона, прочитанного накануне.
+    Читается также канон ко причащению и, кто пожелает, — акафист Иисусу Сладчайшему. После полуночи уже не едят и не
+    пьют, ибо принято приступать к Таинству Причащения натощак. Утром прочитываются утренние молитвы и все последование
+    ко Святому Причащению, кроме канона, прочитанного накануне.
 
     Перед причащением необходима исповедь — вечером или утром, перед литургией.
     Благодарственные молитвы по Святом Причащении
@@ -1028,25 +1901,55 @@
 
     Благодарственная молитва, 1-я
 
-    Благодарю́ Тя, Гóсподи Бóже мой, я́ко не отри́нул мя еси́ грéшнаго, но óбщника мя бы́ти святы́нь Твои́х сподóбил еси́. Благодарю́ Тя, я́ко менé недостóйнаго причасти́тися пречи́стых Твои́х и небéсных Даро́в сподóбил еси́. Но Влады́ко Человеколю́бче, нас рáди умéрый же и воскресы́й, и даровáвый нам стрáшная сия́ и животворя́щая Тáинства, во благодея́ние и освящéние душ и телéс нáших, даждь бы́ти сим и мне во исцелéние души́ же и тéла, во отгнáние вся́каго сопроти́внаго, в просвещéние óчию сéрдца моегó, в мир душéвных мои́х сил, в вéру непосты́дну, в любóвь нелицемéрну, во исполнéние прему́дрости, в соблюдéние зáповедей Твои́х, в приложéние Божéственныя Твоея́ благодáти, и Твоегó Цáрствия присвоéние: да во святы́ни Твоéй тéми сохраня́емь, Твою́ благодáть поминáю всегдá, и не ктому́ себé живу́, но Тебé нáшему Влады́це и благодéтелю; и тáко сегó жития́ изшéд о надéжди животá вéчнаго, в присносу́щный дости́гну покóй, идéже прáзднующих глас непрестáнный, и безконéчная слáдость, зря́щих Твоегó лицá добрóту неизречéнную. Ты бо еси́ и́стинное желáние, и неизречéнное весéлие лю́бящих Тя, Христé Бóже наш, и Тя поéт вся тварь во вéки. Ами́нь.
+    Благодарю́ Тя, Гóсподи Бóже мой, я́ко не отри́нул мя еси́ грéшнаго, но óбщника мя бы́ти святы́нь Твои́х сподóбил еси́.
+    Благодарю́ Тя, я́ко менé недостóйнаго причасти́тися пречи́стых Твои́х и небéсных Даро́в сподóбил еси́. Но Влады́ко
+    Человеколю́бче, нас рáди умéрый же и воскресы́й, и даровáвый нам стрáшная сия́ и животворя́щая Тáинства, во благодея́ние
+    и освящéние душ и телéс нáших, даждь бы́ти сим и мне во исцелéние души́ же и тéла, во отгнáние вся́каго сопроти́внаго,
+    в просвещéние óчию сéрдца моегó, в мир душéвных мои́х сил, в вéру непосты́дну, в любóвь нелицемéрну, во исполнéние
+    прему́дрости, в соблюдéние зáповедей Твои́х, в приложéние Божéственныя Твоея́ благодáти, и Твоегó Цáрствия присвоéние:
+    да во святы́ни Твоéй тéми сохраня́емь, Твою́ благодáть поминáю всегдá, и не ктому́ себé живу́, но Тебé нáшему Влады́це
+    и благодéтелю; и тáко сегó жития́ изшéд о надéжди животá вéчнаго, в присносу́щный дости́гну покóй, идéже прáзднующих
+    глас непрестáнный, и безконéчная слáдость, зря́щих Твоегó лицá добрóту неизречéнную. Ты бо еси́ и́стинное желáние,
+    и неизречéнное весéлие лю́бящих Тя, Христé Бóже наш, и Тя поéт вся тварь во вéки. Ами́нь.
 
     Молитва святого Василия Великого, 2-я
 
-    Влады́ко Христé Бóже, Царю́ векóв и Содéтелю всех, благодарю́ Тя о всех, я́же ми еси́ подáл благи́х, и о причащéнии пречи́стых и животворя́щих Твои́х Тáинств. Молю́ у́бо Тя, Блáже и Человеколю́бче: сохрани́ мя под крóвом Твои́м, и в сéни крилу́ Твоéю; и дáруй ми чи́стою сóвестию, дáже до послéдняго моегó издыхáния, достóйно причащáтися святы́нь Твои́х, во оставлéние грехóв и в жизнь вéчную. Ты бо еси́ хлеб живóтный, истóчник святы́ни, Подáтель благи́х, и Тебé слáву возсылáем со Отцéм и Святы́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
+    Влады́ко Христé Бóже, Царю́ векóв и Содéтелю всех, благодарю́ Тя о всех, я́же ми еси́ подáл благи́х, и о причащéнии
+    пречи́стых и животворя́щих Твои́х Тáинств. Молю́ у́бо Тя, Блáже и Человеколю́бче: сохрани́ мя под крóвом Твои́м, и в сéни
+    крилу́ Твоéю; и дáруй ми чи́стою сóвестию, дáже до послéдняго моегó издыхáния, достóйно причащáтися святы́нь Твои́х,
+    во оставлéние грехóв и в жизнь вéчную. Ты бо еси́ хлеб живóтный, истóчник святы́ни, Подáтель благи́х, и Тебé слáву
+    возсылáем со Отцéм и Святы́м Ду́хом, ны́не и при́сно и во вéки векóв. Ами́нь.
 
     Молитва Симеона Метафраста, 3-я
 
-    Дáвый пи́щу мне плоть Твою́ вóлею, огнь сый и опаля́яй недостóйныя, да не опали́ши менé, Содéтелю мой; пáче же пройди́ во уды моя́, во вся состáвы, во утрóбу, в сéрдце. Попали́ тéрние всех мои́х прегрешéний. Ду́шу очи́сти, освяти́ помышлéния. Состáвы утверди́ с костьми́ вку́пе. Чу́вств просвети́ просту́ю пятери́цу. Всегó мя спригвозди́ стрáху Твоему́. При́сно покры́й, соблюди́ же, и сохрани́ мя от вся́каго дéла и слóва душетлéннаго. Очи́сти, и омы́й, и украси́ мя, удобри́, вразуми́, и просвети́ мя. Покажи́ мя Твоé селéние еди́наго Ду́ха, и не ктому́ селéние грехá. Да я́ко Твоегó дóму, вхóдом причащéния, я́ко огня́ менé бежи́т всяк злодéй, вся́ка страсть. Моли́твенники Тебé приношу́ вся святы́я, чиноначáлия же безплóтных, Предтéчу Твоегó, му́дрыя апóстолы, к сим же Твою́ несквéрную чи́стую Мáтерь, и́хже мольбы́, Благоутрóбне, приими́, Христé мой, и сы́ном свéта содéлай Твоегó служи́теля. Ты бо Еди́н еси́ и освящéние нáших, Блáже, душ и свéтлость; и Тебé лепоподóбно, я́ко Бóгу и Влады́це, слáву вси возсылáем на всяк день.
+    Дáвый пи́щу мне плоть Твою́ вóлею, огнь сый и опаля́яй недостóйныя, да не опали́ши менé, Содéтелю мой; пáче же пройди́
+    во уды моя́, во вся состáвы, во утрóбу, в сéрдце. Попали́ тéрние всех мои́х прегрешéний. Ду́шу очи́сти, освяти́ помышлéния.
+    Состáвы утверди́ с костьми́ вку́пе. Чу́вств просвети́ просту́ю пятери́цу. Всегó мя спригвозди́ стрáху Твоему́. При́сно покры́й,
+    соблюди́ же, и сохрани́ мя от вся́каго дéла и слóва душетлéннаго. Очи́сти, и омы́й, и украси́ мя, удобри́, вразуми́, и просвети́
+    мя. Покажи́ мя Твоé селéние еди́наго Ду́ха, и не ктому́ селéние грехá. Да я́ко Твоегó дóму, вхóдом причащéния, я́ко огня́ менé
+    бежи́т всяк злодéй, вся́ка страсть. Моли́твенники Тебé приношу́ вся святы́я, чиноначáлия же безплóтных, Предтéчу Твоегó,
+    му́дрыя апóстолы, к сим же Твою́ несквéрную чи́стую Мáтерь, и́хже мольбы́, Благоутрóбне, приими́, Христé мой, и сы́ном свéта
+    содéлай Твоегó служи́теля. Ты бо Еди́н еси́ и освящéние нáших, Блáже, душ и свéтлость; и Тебé лепоподóбно, я́ко Бóгу и
+    Влады́це, слáву вси возсылáем на всяк день.
 
     Молитва 4-я
 
-    Тéло Твоé святóе, Гóсподи Иису́се Христé Бóже наш, да бу́дет ми в живóт вéчный, и Кровь Твоя́ честнáя во оставлéние грехóв: бу́ди же ми благодарéние сиé в рáдость, здрáвие и весéлие; в стрáшное же и Вторóе Пришéствие Твоé сподóби мя грéшнаго стáти одесну́ю слáвы Твоея́, моли́твами Пречи́стыя Твоея́ Мáтере, и всех святы́х.
+    Тéло Твоé святóе, Гóсподи Иису́се Христé Бóже наш, да бу́дет ми в живóт вéчный, и Кровь Твоя́ честнáя во оставлéние
+    грехóв: бу́ди же ми благодарéние сиé в рáдость, здрáвие и весéлие; в стрáшное же и Вторóе Пришéствие Твоé сподóби
+    мя грéшнаго стáти одесну́ю слáвы Твоея́, моли́твами Пречи́стыя Твоея́ Мáтере, и всех святы́х.
 
     Молитва 5-я, ко Пресвятой Богорóдице
 
-    Пресвятáя Влады́чице Богорóдице, свéте помрачéнныя моея́ души́, надéждо, покрóве, прибéжище, утешéние, рáдование моé, благодарю́ Тя я́ко сподóбила мя еси́, недостóйнаго, причáстника бы́ти пречи́стаго Тéла и честны́я Крóве Сы́на Твоегó. Но рóждшая и́стинный Свет, просвети́ моя́ у́мныя óчи сéрдца; Яже истóчник безсмéртия рóждшая, оживотвори́ мя умерщвлéннаго грехóм; Яже ми́лостиваго Бóга любоблагоутрóбная Мáти, поми́луй мя, и даждь ми умилéние, и сокрушéние в сéрдце моéм, и смирéние в мы́слех мои́х, и воззвáние в пленéниих помышлéний мои́х; и сподóби мя, до послéдняго издыхáния, неосуждéнно приимáти пречи́стых Тáин освящéние, во исцелéние души́ же и тéла. И подáждь ми слéзы покая́ния и исповéдания, во éже пéти и слáвити Тя во вся дни животá моегó, я́ко благословéнна и препрослáвленна еси́ во вéки. Ами́нь.
+    Пресвятáя Влады́чице Богорóдице, свéте помрачéнныя моея́ души́, надéждо, покрóве, прибéжище, утешéние, рáдование моé,
+    благодарю́ Тя я́ко сподóбила мя еси́, недостóйнаго, причáстника бы́ти пречи́стаго Тéла и честны́я Крóве Сы́на Твоегó. Но
+    рóждшая и́стинный Свет, просвети́ моя́ у́мныя óчи сéрдца; Яже истóчник безсмéртия рóждшая, оживотвори́ мя умерщвлéннаго
+    грехóм; Яже ми́лостиваго Бóга любоблагоутрóбная Мáти, поми́луй мя, и даждь ми умилéние, и сокрушéние в сéрдце моéм,
+    и смирéние в мы́слех мои́х, и воззвáние в пленéниих помышлéний мои́х; и сподóби мя, до послéдняго издыхáния, неосуждéнно
+    приимáти пречи́стых Тáин освящéние, во исцелéние души́ же и тéла. И подáждь ми слéзы покая́ния и исповéдания, во éже
+    пéти и слáвити Тя во вся дни животá моегó, я́ко благословéнна и препрослáвленна еси́ во вéки. Ами́нь.
 
-    Ны́не отпущáеши рабá Твоегó, Влады́ко, по глагóлу Твоему́ с ми́ром: я́ко ви́деста óчи мои́ спасéние Твоé, éже еси́ уготóвал пред лицéм всех людéй, свет во откровéние язы́ков и слáву людéй Твои́х Изрáиля.
+    Ны́не отпущáеши рабá Твоегó, Влады́ко, по глагóлу Твоему́ с ми́ром: я́ко ви́деста óчи мои́ спасéние Твоé, éже еси́ уготóвал
+    пред лицéм всех людéй, свет во откровéние язы́ков и слáву людéй Твои́х Изрáиля.
 
     Святы́й Бо́же, Святы́й Крéпкий, Святы́й Безсмéртный, поми́луй нас. (Трижды)
 
@@ -1058,21 +1961,27 @@
 
     Слáва, и ны́не:
 
-    Отче наш, Иже еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Цáрствие Твоé, да бу́дет во́ля Твоя, я́ко на небеси́ и на земли́. Хлеб наш насу́щный даждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм нáшим; и не введи́ нас во искушéние, но избáви нас от лукáваго.
+    Отче наш, Иже еси́ на небесéх! Да святи́тся и́мя Твоé, да прии́дет Цáрствие Твоé, да бу́дет во́ля Твоя, я́ко на небеси́ и на
+    земли́. Хлеб наш насу́щный даждь нам днесь; и остáви нам дóлги нáша, я́коже и мы оставля́ем должникóм нáшим; и не введи́
+    нас во искушéние, но избáви нас от лукáваго.
 
     Тропарь святому Иоанну Златоустому, глас 8-й:
 
-    Уст твои́х, я́коже свéтлость огня, возсия́вши благодáть, вселéнную просвети́; не сребролю́бия ми́рови сокрóвища снискá, высоту́ нам смиренному́дрия показá, но твои́ми словесы́ наказу́я, óтче Иоáнне Златоу́сте, моли́ Слóва Христá Бóга спасти́ся душáм нáшим.
+    Уст твои́х, я́коже свéтлость огня, возсия́вши благодáть, вселéнную просвети́; не сребролю́бия ми́рови сокрóвища снискá,
+    высоту́ нам смиренному́дрия показá, но твои́ми словесы́ наказу́я, óтче Иоáнне Златоу́сте, моли́ Слóва Христá Бóга спасти́ся душáм нáшим.
 
     Кондак, глас 6-й
 
-    Слава: От небéс прия́л еси́ Божéственную благодáть, и твои́ми устнáми вся учи́ши покланя́тися в Трóице Еди́ному Бóгу, Иоáнне Златоу́сте всеблажéнне, преподóбне, достóйно хвáлим тя: еси́ бо настáвник, я́ко Божéственная явля́я.
+    Слава: От небéс прия́л еси́ Божéственную благодáть, и твои́ми устнáми вся учи́ши покланя́тися в Трóице Еди́ному Бóгу,
+    Иоáнне Златоу́сте всеблажéнне, преподóбне, достóйно хвáлим тя: еси́ бо настáвник, я́ко Божéственная явля́я.
 
-    И ныне: Предстáтельство христиáн непосты́дное, ходáтайство ко Творцу́ непрелóжное, не прéзри грéшных молéний глáсы, но предвари́, я́ко Благáя, на пóмощь нас, вéрно зову́щих Ти: ускори́ на моли́тву, и потщи́ся на умолéние, предстáтельствующи при́сно, Богорóдице, чту́щих Тя.
+    И ныне: Предстáтельство христиáн непосты́дное, ходáтайство ко Творцу́ непрелóжное, не прéзри грéшных молéний глáсы, но
+    предвари́, я́ко Благáя, на пóмощь нас, вéрно зову́щих Ти: ускори́ на моли́тву, и потщи́ся на умолéние, предстáтельствующи при́сно, Богорóдице, чту́щих Тя.
 
     Если совершалась литургия святого Василия Великого, читай тропарь Василию Великому, глас 1-й:
 
-    Во всю зéмлю изы́де вещáние твоé, я́ко приéмшую слóво твоé, и́мже боголéпно научи́л еси́, естествó су́щих уясни́л еси́, человéческия обы́чаи украси́л еси́, цáрское свящéние, óтче преподóбне, моли́ Хри́ста Бóга, спасти́ся душáм нáшим.
+    Во всю зéмлю изы́де вещáние твоé, я́ко приéмшую слóво твоé, и́мже боголéпно научи́л еси́, естествó су́щих уясни́л еси́,
+    человéческия обы́чаи украси́л еси́, цáрское свящéние, óтче преподóбне, моли́ Хри́ста Бóга, спасти́ся душáм нáшим.
 
     Кондак, глас 4-й
 
@@ -1082,11 +1991,13 @@
 
     Если совершалась литургия Преждеосвященных Даров, читай тропарь святому Григорию Двоеслову, глас 4-й:
 
-    Иже от Бóга свы́ше Божéственную благодáть восприéм, слáвне Григóрие, и Тогó си́лою укрепля́емь, евáнгельски шéствовати извóлил еси́, отону́дуже у Христá возмéздие трудóв прия́л еси́, всеблажéнне: Егóже моли́, да спасéт ду́ши нáша.
+    Иже от Бóга свы́ше Божéственную благодáть восприéм, слáвне Григóрие, и Тогó си́лою укрепля́емь, евáнгельски шéствовати
+    извóлил еси́, отону́дуже у Христá возмéздие трудóв прия́л еси́, всеблажéнне: Егóже моли́, да спасéт ду́ши нáша.
 
     Кондак, глас 3-й
 
-    Слава: Подобоначáльник показáлся еси́ Начáльника пáстырем Христá, и́ноков чреды́, óтче Григóрие, ко огрáде небéсней наставля́я, и отту́ду научи́л еси́ стáдо Христóво зáповедем Егó: ны́не же с ни́ми рáдуешися, и лику́еши в небéсных крóвех.
+    Слава: Подобоначáльник показáлся еси́ Начáльника пáстырем Христá, и́ноков чреды́, óтче Григóрие, ко огрáде небéсней
+    наставля́я, и отту́ду научи́л еси́ стáдо Христóво зáповедем Егó: ны́не же с ни́ми рáдуешися, и лику́еши в небéсных крóвех.
 
     И ныне: Предстáтельство христиáн...
 

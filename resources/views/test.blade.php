@@ -35,6 +35,19 @@
         </div>
 
 
+
+        <div class="mt-4 mb-6 px-8">
+            <div class="container mx-auto shadow-xl shadow-gray-300 mt-4 mb-6 px-8 py-8 flex justify-center rounded-xl bg-blue-100">
+                <div class="py-8 flex justify-center rounded-xl bg-blue-100">
+                    <div class="my-2 grid gap-6 px-4">
+                        <h3 id="january" class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Начало</h3>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="flex-1 mt-16 ">
                 <div class="relative h-screen w-full">
