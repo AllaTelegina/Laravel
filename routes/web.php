@@ -30,6 +30,7 @@ Route::middleware('lang')->group(function(){
     Route::get('prayers', [Controllers\BaseController::class, 'getPrayers'])->name('prayers');
     Route::get('foto', [Controllers\BaseController::class, 'getFoto'])->name('foto');
     Route::get('publications', [Controllers\BaseController::class, 'getPublications'])->name('publications');
+    Route::get('sponsors', [Controllers\BaseController::class, 'getSponsors'])->name('sponsors');
     Route::get('test', [Controllers\BaseController::class, 'getTest'])->name('test');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
@@ -61,6 +62,7 @@ Route::middleware('lang')->group(function(){
         Route::get('blog_picture/{blog_text_picture}/delete', [Controllers\BlogController::class, 'deletePicture']);
     });
 
+    Route::post('mail/{user}', [Controllers\MailController::class, 'postIndex']);
     Route::get('blogs', [Controllers\BlogController::class, 'getAll']);
 Route::get('cookie/close', [Controllers\CookieController::class, 'getClose']);
 

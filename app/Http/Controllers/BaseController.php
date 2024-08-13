@@ -81,8 +81,9 @@ class BaseController extends Controller
 
     }
 
-    public function getPublications(){
-        return view('publications');
+
+    public function getSponsors(){
+        return view('sponsors');
 
     }
 

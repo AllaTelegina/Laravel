@@ -186,7 +186,7 @@
                         школа</a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="/sponsors"
                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Спонсоры</a>
                 </li>
                 <div class="relative group">
@@ -215,8 +215,8 @@
             </ul>
         </div>
     </div>
-    </div>
 </nav>
+    </div>
 </div>
 
 <!-- Page Heading -->
@@ -242,6 +242,7 @@
             <p class="lg:w-2/3 mx-auto leading-relaxed">Напишите нам, будем рады ответить Вам!</p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
+
             <div class="flex flex-wrap -m-2">
                 <div class="p-2 w-1/2">
                     <div class="relative">
@@ -258,11 +259,15 @@
                 <div class="p-2 w-full">
                     <div class="relative">
                         <label for="message" class="leading-7 text-sm text-gray-600">Сообщение</label>
-                        <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                        <textarea id="message" name="message" rows="10" class="w-full bg-gray-100 bg-opacity-50 rounded border
+                        border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2
+                        focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1
+                        px-3 resize-none leading-6 transition-colors duration-200 ease-in-out">
+                        </textarea>
                     </div>
                 </div>
                 <div class="p-2 w-full">
-                    <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-blue-950">
+                    <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">
                         <a href="#">Отправить</a>
                     </button>
                 </div>
@@ -327,8 +332,8 @@
                   d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
                   clip-rule="evenodd"/>
             </svg>
+              <a class="link link-hover href="tel:+375333297190">+375 33 329 71 90</a>
           </span>
-                + 375 33 329 71 90
             </p>
         </a>
         <a href="https://instagram.com/hram_chizhevshina?igshid=MzRlODBiNWFlZA==" class="link link-hover">

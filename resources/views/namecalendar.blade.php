@@ -34,7 +34,7 @@
                 </ol>
             </nav>
 
-            <div class="bg-blue-400  text-white text-center mt-8 header-date rounded-3xl">
+            <div class="bg-sky-600 text-white text-center mt-8 header-date rounded-3xl">
                 <div class="mt-2">
                     <span class="text-white text-4xl m-6">Выбор имени по церковному календарю</span>
                 </div>
