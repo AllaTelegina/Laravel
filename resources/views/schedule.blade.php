@@ -75,11 +75,11 @@
                 </div>
             </div>
 
-            <div class="h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-200 rounded-lg">
-                <p class="mb-2 leading-relaxed text-xl text-center">
+            <div class="pt-4 h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl shadow-gray-200 rounded-lg">
+                <p class="mb-2 leading-relaxed text-xl text-center font-semibold">
                     Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя Владимира
                 </p>
-                <p class="py-4 px-4 text-center">
+                <p class="py-4 px-4 text-center mb-2 leading-relaxed">
                 Здесь вы найдете информацию о регулярных и праздничных службах, которые проходят в нашем храме.
                 Мы рады видеть вас на наших богослужениях и мероприятиях!
                 </p>
@@ -90,7 +90,7 @@
             </div>
 
             <div class="container mx-auto space-y-10">
-                <div class="flex shadow-xl shadow-blue-200">
+                <div class="flex shadow-xl shadow-blue-200 rounded-lg">
                     <div class="bg-sky-600 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
                         <div class="text-sm">Понедельник</div>
                         <div class="text-2xl">23</div>
@@ -118,8 +118,8 @@
                 </div>
 
 
-                <div class="flex shadow-xl shadow-blue-200">
-                    <div class="bg-blue-400 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
+                <div class="flex shadow-xl shadow-blue-200 rounded-lg">
+                    <div class="bg-sky-600 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
                         <div class="text-sm">Вторник</div>
                         <div class="text-2xl">24</div>
                         <div class="text-sm">Сентября</div>
@@ -143,8 +143,8 @@
                     </div>
                 </div>
 
-                <div class="flex shadow-xl shadow-blue-200">
-                    <div class="bg-blue-400 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
+                <div class="flex shadow-xl shadow-blue-200 rounded-lg">
+                    <div class="bg-sky-600 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
                         <div class="text-sm">Среда</div>
                         <div class="text-2xl">25</div>
                         <div class="text-sm">Сентября</div>
@@ -169,8 +169,8 @@
                     </div>
                 </div>
 
-                <div class="flex shadow-xl shadow-blue-200">
-                    <div class="bg-blue-400 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
+                <div class="flex shadow-xl shadow-blue-200 rounded-lg">
+                    <div class="bg-sky-600 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
                         <div class="text-sm">Четверг</div>
                         <div class="text-2xl">26</div>
                         <div class="text-sm">Сентября</div>
@@ -194,8 +194,8 @@
                     </div>
                 </div>
 
-                <div class="flex shadow-xl shadow-blue-200">
-                    <div class="bg-blue-400 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl font-semibold">
+                <div class="flex shadow-xl shadow-blue-200 rounded-lg">
+                    <div class="bg-sky-600 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl font-semibold">
                         <div class="text-sm">Пятница</div>
                         <div class="text-2xl">27</div>
                         <div class="text-sm">Сентября</div>
@@ -219,8 +219,8 @@
                     </div>
                 </div>
 
-                <div class="flex shadow-xl shadow-blue-200">
-                    <div class="bg-blue-400 text-orange-700 p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
+                <div class="flex shadow-xl shadow-blue-200 rounded-lg">
+                    <div class="bg-orange-400 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
                         <div class="text-sm">Суббота</div>
                         <div class="text-2xl">28</div>
                         <div class="text-sm">Сентября</div>
@@ -244,8 +244,8 @@
                     </div>
                 </div>
 
-                <div class="flex shadow-xl shadow-blue-200">
-                    <div class="bg-blue-400 text-orange-700 p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl font-semibold">
+                <div class="flex shadow-xl shadow-blue-200 rounded-lg">
+                    <div class="bg-orange-400 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl font-semibold">
                         <div class="text-sm">Воскресенье</div>
                         <div class="text-2xl">29</div>
                         <div class="text-sm">Сентября</div>
@@ -272,7 +272,7 @@
 
                             <div class="container px-10 py-12 mx-auto bg-blue-100 shadow-xl shadow-blue-200 rounded-lg text-blue-950 body-font">
                                 <div class="container px-5 py-8 mx-auto justify-self-auto text-center">
-                                    <p class="text-4xl">Другие мероприяния</p>
+                                    <h2 class="text-4xl">Другие мероприяния</h2>
                                 </div>
                             <div class="flex flex-wrap -mx-4 -my-8 bg-blue-100">
 
