@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
-
-<section class="mt-28 space-y-6">
+        <div class="text-blue-950 py-4">
+<section class="pt-14 space-y-6">
 
     <div class="mt-4">
         <div class="text-3xl"><span class="text-orange-600 font-medium">О </span>Храме</div>
@@ -36,9 +36,9 @@
         </ol>
     </nav>
 
-    <section class="mt-40 container px-5 mx-auto">
+    <section class="py-4">
         <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-8">
-            <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="#" title="Логотип">
+            <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/" title="Логотип">
                 <img src="{{asset('images/logo.png')}}" class="w-20 h-20"/>
             </a>
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center m-8">
@@ -76,7 +76,9 @@
                             и вдохновения для всех, кто ищет пути к божественному.
                             Мы предлагаем разнообразные программы для детей, молодежи и взрослых,
                             направленные на укрепление веры и развитие духовности. Здесь вы найдете
-                            расписание служб, информацию о религиозных праздниках и особенностях нашего прихода.
+                            с <a href="/schedule" class="link-info link-hover">
+                                расписание служб
+                            </a>, информацию о религиозных праздниках и особенностях нашего прихода.
                             Мы всегда рады видеть вас у нас на приходе и готовы поддержать вас на вашем
                             духовном пути. Пусть ваш визит принесет вам мир, радость и благословение.
                             Добро пожаловать и благослови вас Бог!
@@ -116,8 +118,10 @@
                         <p> Сытин, настоятель Храма Святого Равноапостольного Князя Владимира в деревне Чижевщина,
                             является не только духовным лидером, но и активным участником формирования атмосферы храма.
                             Его усердие и преданность делу создания благоприятной обстановки в храме сделали его более
-                            уютным и теплым для верующих. Благодаря усилиям иерея Александра, в храме были проведены
-                            различные работы по улучшению его внутреннего убранства и комфорта. Были осуществлены работы
+                            уютным и теплым для верующих. Благодаря усилиям иерея Александра, в храме были
+                            <a href="/sponsors" class="link-info link-hover">
+                                проведены различные работы
+                            </a> по улучшению его внутреннего убранства и комфорта. Были осуществлены работы
                             по ремонту, украшению и обновлению интерьера храма. Его служение способствует укреплению духовных
                             связей  и созданию атмосферы взаимопонимания и взаимопомощи.
                         </p>
@@ -179,7 +183,10 @@
                             С уважением, Отец Александр
                         </p>
                             <div class="card-actions justify-end p-2 w-full">
-                                <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-10 rounded hover:bg-blue-950">
+                                <button type="submit" class="flex mx-auto focus:outline-none
+                                transform motion-safe:hover:scale-110 transition duration-700
+                                ease-in-out bg-orange-400 text-white font-medium h-12 w-58 py-3 px-10
+                                rounded-lg hover:bg-sky-600">
                                     <a href="#">Помочь Храму</a>
                                 </button>
                             </div>
@@ -189,28 +196,8 @@
     </div>
 
 
-   <!-- <div class="card lg:card-side text-blue-950 shadow-xl bg-blue-100">
-        <div class="">
-            <img
-                src="{{asset('images/duhovenstvo.jpg')}}"
-                alt="Temple" />
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">Настоятель</h2>
-            <p>Сытин, настоятель Храма Святого Равноапостольного Князя Владимира в деревне Чижевщина,
-                является не только духовным лидером, но и активным участником формирования атмосферы храма.
-                Его усердие и преданность делу создания благоприятной обстановки в храме сделали его более
-                уютным и теплым для верующих. Благодаря усилиям иерея Александра, в храме были проведены
-                различные работы по улучшению его внутреннего убранства и комфорта. Были осуществлены работы
-                по ремонту, украшению и обновлению интерьера храма. Его служение способствует укреплению духовных
-                связей  и созданию атмосферы взаимопонимания и взаимопомощи.
-            </p>
-        </div>
-    </div>
--->
-
 </section>
-
+        </div>
 
     </x-slot>
 </x-app-layout>

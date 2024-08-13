@@ -1,7 +1,9 @@
 <x-app-layout>
     <x-slot name="header">
 
-<div class="mt-28 space-y-6 text-blue-950">
+        <div class="text-blue-950 py-4">
+            <section class="pt-14 space-y-6">
+
         <div class="mt-4">
             <div class="text-3xl"><span class="text-orange-600 font-medium">И</span>стория Храма</div>
         </div>
@@ -9,7 +11,7 @@
         <nav class="flex" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                 <li class="inline-flex items-center">
-                    <a href="#" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+                    <a href="/" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
                         <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
                         </svg>
@@ -21,7 +23,7 @@
                         <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                         </svg>
-                        <a href="#" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Храм</a>
+                        <a href="/" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Храм</a>
                     </div>
                 </li>
                 <li aria-current="page">
@@ -38,8 +40,8 @@
 
     <section class="mt-40 container px-5 mx-auto">
         <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-8">
-            <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="#" title="Логотип">
-                <img src="{{asset('images/logo.png')}}" alt="#" class="w-20 h-20" />
+            <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/" title="Логотип">
+                <img src="{{asset('images/logo.png')}}" alt="/" class="w-20 h-20" />
             </a>
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center m-8">
                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center text-white">
@@ -437,9 +439,10 @@
             </ul>
         </div>
     </section>
+        </div>
 
     <div class="flex justify-center p-4">
-        <button type="submit" class="transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-2 px-4 rounded hover:bg-blue-950">
+        <button type="submit" class="transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-2 px-4 rounded-lg hover:bg-sky-600">
             <a href="/fullstory">Подробная история Храма</a>
         </button>
     </div>

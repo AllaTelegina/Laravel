@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
 
-        <div class="text-blue-950 py-12">
+        <div class="text-blue-950 py-4">
         <section class="pt-14 space-y-6">
 
             <div class="mt-4">
@@ -43,7 +43,6 @@
                             <div class="flex justify-center py-8">
                                 <button class="inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium rounded hover:bg-blue-950 transition duration-700 ease-in-out">Помочь Храму</button>
                             </div>
-
                         </div>
                         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 shadow-2xl hover:bg-origin-padding contrast-125 scale-100">
                             <img class="object-cover object-center rounded-2xl shadow-xl shadow-gray-400" alt="hero" src="{{asset('images/22.jpg')}}">
@@ -51,6 +50,7 @@
                     </div>
                 </div>
             </section>
+
             <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
                 <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
                     <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/temple.jpg')}}" alt="" width="384" height="512" />
@@ -107,7 +107,9 @@
                             потребностям храма и его посетителей.
                             </p>
                     </div>
-                    <button class="absolute left-1/4 bottom-4 bg-white text-black font-bold rounded-lg h-10 w-48 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out">Перейти</button>
+                    <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                 </div>
             </div>
                         <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
@@ -120,8 +122,9 @@
                                 <div class="absolute w-full flex place-content-center mt-20">
                                     <p class="font-sans text-center w-4/5 text-white mt-5">Здесь можете быть рассказано о вашей компании</p>
                                 </div>
-                                <button class="absolute left-1/4 bottom-4 focus:outline-none transform motion-safe:hover:scale-110
-                                transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">Перейти</button>
+                                <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
 
@@ -135,7 +138,9 @@
                                 <div class="absolute w-full flex place-content-center mt-20">
                                     <p class="font-sans text-center w-4/5 text-white mt-5">Здесь можете быть рассказано о вашей компании</p>
                                 </div>
-                                <button class="absolute left-1/4 bottom-4 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">Перейти</button>
+                                <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
 
@@ -149,7 +154,9 @@
                                 <div class="absolute w-full flex place-content-center mt-20">
                                     <p class="font-sans text-center w-4/5 text-white mt-5">Здесь можете быть рассказано о вашей компании</p>
                                 </div>
-                                <button class="absolute left-1/4 bottom-4 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">Перейти</button>
+                                <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
 
@@ -163,7 +170,9 @@
                                 <div class="absolute w-full flex place-content-center mt-20">
                                     <p class="font-sans text-center w-4/5 text-white mt-5">Здесь можете быть рассказано о вашей компании</p>
                                 </div>
-                                <button class="absolute left-1/4 bottom-4 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">Перейти</button>
+                                <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
 
@@ -177,7 +186,9 @@
                                 <div class="absolute w-full flex place-content-center mt-20">
                                     <p class="font-sans text-center w-4/5 text-white mt-5">Здесь можете быть рассказано о вашей компании</p>
                                 </div>
-                                <button class="absolute left-1/4 bottom-4 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">Перейти</button>
+                                <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
 
@@ -192,7 +203,9 @@
                                 <div class="absolute w-full flex place-content-center mt-20">
                                     <p class="font-sans text-center w-4/5 text-white mt-5">Здесь можете быть рассказано о вашей компании</p>
                                 </div>
-                                <button class="absolute left-1/4 bottom-4 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">Перейти</button>
+                                <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
 
@@ -206,7 +219,9 @@
                                 <div class="absolute w-full flex place-content-center mt-20">
                                     <p class="font-sans text-center w-4/5 text-white mt-5">Здесь можете быть рассказано о вашей компании</p>
                                 </div>
-                                <button class="absolute left-1/4 bottom-4 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">Перейти</button>
+                                <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
 
@@ -220,7 +235,9 @@
                                 <div class="absolute w-full flex place-content-center mt-20">
                                     <p class="font-sans text-center w-4/5 text-white mt-5">Здесь можете быть рассказано о вашей компании</p>
                                 </div>
-                                <button class="absolute left-1/4 bottom-4 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">Перейти</button>
+                                <button class="absolute left-1/4 bottom-4 rounded-lg
+                    focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
 

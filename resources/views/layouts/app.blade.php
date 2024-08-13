@@ -236,7 +236,7 @@
 
 <!-- Форма обратной связи -->
 <section class="body-font relative">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-8 mx-auto">
         <div class="flex flex-col text-center w-full mb-8  text-blue-950">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">Остались вопросы ?</h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed">Напишите нам, будем рады ответить Вам!</p>
@@ -267,7 +267,7 @@
                     </div>
                 </div>
                 <div class="p-2 w-full">
-                    <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-3 px-12 rounded hover:bg-sky-600">
+                    <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-2 px-10 rounded-lg hover:bg-sky-600">
                         <a href="#">Отправить</a>
                     </button>
                 </div>

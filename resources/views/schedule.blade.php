@@ -1,7 +1,10 @@
 <x-app-layout>
     <x-slot name="header">
 
-        <div class="mt-4 py-12">
+        <div class="text-blue-950 py-4">
+            <section class="pt-14 space-y-6">
+
+        <div class="mt-4">
             <div class="text-3xl"><span class="text-red-500 font-medium">Р</span>асписание</div>
         </div>
         <!-- панировочные сухари -->
@@ -34,9 +37,9 @@
             </ol>
         </nav>
 
-        <section class="text-blue-950  space-y-6 pt-8">
+        <section class="text-blue-950  space-y-6 pt-8 py-4">
 
-            <div class="bg-blue-400  text-blue-950 text-center py-4 header-date rounded-3xl">
+            <div class="bg-sky-600  text-blue-950 text-center py-4 header-date rounded-3xl">
                 <div class="mt-2">
                     <span class="text-white text-6xl m-6">Сентябрь</span>
                 </div>
@@ -374,7 +377,8 @@
                     </div>
         </section>
 
-
+            </section>
+        </div>
 
 
     </x-slot>
