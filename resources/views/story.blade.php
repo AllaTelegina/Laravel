@@ -2,7 +2,8 @@
     <x-slot name="header">
 
         <div class="text-blue-950 py-4">
-            <section class="pt-14 space-y-6">
+            <section class="pt-12
+             space-y-6">
 
         <div class="mt-4">
             <div class="text-3xl"><span class="text-orange-600 font-medium">И</span>стория Храма</div>
@@ -64,7 +65,7 @@
             <ul class="timeline timeline-vertical text-blue-950">
                 <li>
                     <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100 text-justify leading-relaxed">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">К</span>рупчицкий монастырь</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">К</span>рупчицкий монастырь</div>
                         <p class="text-justify">Во второй половине 17 века на землях бывшего имения
                         Нееловичи был основан Кармелитский католический монастырь. Первые пожертвования на монастырь
                         были выданы 24 мая 1674 года помещиком А.К.Асовским. В 1702 году завершено строительство всех
@@ -92,7 +93,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">Ц</span>ерковь Александра Невского</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">Ц</span>ерковь Александра Невского</div>
                         <p class="text-justify">После подавления мятежа в 1831 году, на Полоцком соборе, состоявшемся в 1839 году, была расторгнута Уния.
                         Вспыхнувший мятеж в 1861-1863гг., во время которого имело место убиения некоторых православных священников,
                         подтолкнул российское правительство и начальника Западного Края Михаила Николаевича Муравьева (1796-1866) к
@@ -112,7 +113,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">С</span>троительство новой Церкви</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">С</span>троительство новой Церкви</div>
                         <p class="text-justify">В Литовской Православной Консистории было принято решение строить новую церковь.
                         В октябре 1882года разработку проектно-сметной документации церкви на 375 человек поручили младшему инженеру А.Рэмеру.
                         В ноябре того же года он с настоятелем прихода Евстафием Маркевичем провели изыскательские работы по выбору участка под церковь,
@@ -134,7 +135,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">П</span>ервые святыни в Крупчицах</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">П</span>ервые святыни в Крупчицах</div>
                         <p class="text-justify">Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря, здесь находились православные
                         культовые сооружения. В 1888 году при разборке монастырского фундамента были извлечены камни с высеченными на них православными крестами.
@@ -150,7 +151,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">О</span>свещение вновь построенной церкви</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">О</span>свещение вновь построенной церкви</div>
                         <p class="text-justify">Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря, здесь находились православные
                         культовые сооружения. В 1888 году при разборке монастырского фундамента были извлечены камни с высеченными на них православными
@@ -173,7 +174,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">I-я </span>Мировая война</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">I-я </span>Мировая война</div>
                         <p class="text-justify">Летом 1915 года нависла угроза оккупации края немецкими войсками. По приказу Верховного командования российской армии церковное
                         имущество вывозилось в Россию. Выполняя этот приказ о.Никанор с прихожанами собрали наиболее ценные церковные предметы. Уложили
                         их в сундук и 4 деревянные ящики и тремя подводами доставили на ст.Кобрин. Груз был адресован на ст. Снитово Полесской железной
@@ -194,7 +195,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-start timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">П</span>амятное событие</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">П</span>амятное событие</div>
                         <p class="text-justify">Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря,
                         здесь находились православные культовые сооружения. В 1888 году при разборЭта памятная доска была
@@ -218,7 +219,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">В</span>осстановление Православия в Западном крае</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">В</span>осстановление Православия в Западном крае</div>
                         <p class="text-justify">В июне 1918 года о.Никанор с матушкой Олимпиадой возвращается из Речицы, в теперь родные, Крупчицы.
                         Здесь он увидел удручающую картину. Св.Владимировская церковь, некогда одна из лучших церквей
                         благочиния оказалась в запустении: замки с дверей сорваны, на колокольне окна выбиты, (во время
@@ -242,7 +243,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-start timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">В </span>составе Полесской Епархии</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">В </span>составе Полесской Епархии</div>
                         <p class="text-justify">Противника Автокефалии Архиепископа Пинского и Новогрудского Пантелеимона (в миру Павел Степанович
                         Рожновский 1867-1950гг) польские власти лишили кафедры, отправили на покой и заточили в Жировичский монастырь.
                         12 июня 1922 года на освободившуюся кафедру назначили епископа Александра (в миру Николай Иванович Иноземцев
@@ -262,7 +263,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">С</span>в.Владимировская церковь 1938–1943гг</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">С</span>в.Владимировская церковь 1938–1943гг</div>
                         <p class="text-justify">9 апреля 1939 года во время пасхального Богослужения в Крупчцкой церкви произошло такое событие. В церковь пришла
                         молодежь, находясь в притворе они курили, громко разговаривали, смеялись. Настоятель прихода Владимир Антипорович,
                         прервав Богослужение, с помощью прихожан удалил их из храма. После смены власти в сентябре того же года эта молодежь,
@@ -283,7 +284,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-start timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">К</span>рупчицкая церковь при Петре Калишевиче</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">К</span>рупчицкая церковь при Петре Калишевиче</div>
                         <p class="text-justify">После войны прихожане Св. Владимировской церкви с ее настоятелем о.Петром Калишевичем, несмотря на материальные
                         трудности, приобретали церковные предметы: в1949году приобрели иконы Святой Троицы, Рождества Христова, Успения
                         Пр. Богородицы, Крещения Господня каждая по 240 рублей. В1948-1950гг приобретены 4 ризы с подризниками, приобретен
@@ -305,7 +306,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">Т</span>яжелые времена для православных церквей</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">Т</span>яжелые времена для православных церквей</div>
                         <p class="text-justify">В СССР и в восточных областях БССР гонения на церковь начались с установлением Советской власти. В западных областях
                         закрытие церквей и гонения на священнослужителей начались после Великой Отечественной войны. Пик закрытий
                         пришелся на шестидесятые годы 20-го столетия. За период с 1945 года по 1965 год в Брестской области было закрыто
@@ -327,7 +328,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-start timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">З</span>акрытие Крупчицкой Св.Владимировской церкви</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">З</span>акрытие Крупчицкой Св.Владимировской церкви</div>
                         <p class="text-justify">По воспоминаниям прихожан о. Петр говорил: «Я помру, и церковь закроют». Так и случилось: Петр Калишевич 6
                         мая 1969 года помирает от воспаления легких, а через несколько месяцев Жабинковский райисполком принимает
                         решение о закрытии Крупчицкой церкви, несмотря на то, что договором от 8 мая 1945 года тот же райисполком
@@ -350,7 +351,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">В</span>озрождение Святыни</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">В</span>озрождение Святыни</div>
                         <p class="text-justify">Перестройка в СССР разрушила экономику, но для церквей наступило благоприятное время. На бывшем Крупчицком приходе
                         остались люди не равнодушные к своей церкви. Одним с таковых являлся Ярошук Владимир Евфимович. Еще в 1988году он
                         обращался в различные инстанции о передаче здания Крупчицкой церкви верующим.
@@ -372,7 +373,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-start timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">В</span>осстановление Крупчицкой Св.Владимировской церкви</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">В</span>осстановление Крупчицкой Св.Владимировской церкви</div>
                         <p class="text-justify"> Первоочередной задачей было сбор средств на реставрацию. Необходимо было выполнить: 1.Замену негодной кровли.
                         2. Изготовление и покрытие куполов с установкой крестов. 3.Устройство полов. 4.Ремонт штукатурки внутри и снаружи.
                         5.Покрасочные работы. 6. Приобретение икон, церковной утвари и колоколов. Местные жители, бывшие прихожане, чьи души,
@@ -393,7 +394,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">П</span>од звон колоколов</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">П</span>од звон колоколов</div>
                         <p class="text-justify">В 2002 году настоятелем Св.Владимировской церкви назначен священник Анатолий Пучинский. Не все было выполнено во время
                         реставрации храма. Не было колоколов, недостаточно было церковной утвари. Отопление храма осуществлялось «печкой–буржуйкой»
                         с выведенной в окно трубой. Прилегающая территория не была благоустроена. Дорога к храму оставалась без какого-либо покрытия,
@@ -413,7 +414,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
                     <div class="timeline-start timeline-box bg-blue-100">
-                        <div class="text-3xl"><span class="text-red-700 font-medium">А</span>рхитектура церкви</div>
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">А</span>рхитектура церкви</div>
                         <p class="text-justify">В настоящее время Храм реставрируется и он становится еще лучше для своих прихожан.
                         Храм по плановому решению и объемно-пространственной композиции относится к типу кресто-купольных храмов с башней-колокольней
                         на главном фасаде. Основной храмовый объем имеет в плане форму креста. По продольной оси к нему пристроены:

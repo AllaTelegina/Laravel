@@ -87,6 +87,10 @@ class BaseController extends Controller
 
     }
 
+    public function getHealer(){
+        return view('healer');
+
+    }
 
 }
 

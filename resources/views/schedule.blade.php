@@ -37,7 +37,7 @@
             </ol>
         </nav>
 
-        <section class="text-blue-950  space-y-6 pt-8 py-4">
+        <section class="text-blue-950  space-y-6 pt-2 py-4">
 
             <div class="bg-sky-600  text-blue-950 text-center py-4 header-date rounded-3xl">
                 <div class="mt-2">
@@ -75,18 +75,16 @@
                 </div>
             </div>
 
-            <div class="pt-4 h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl shadow-gray-200 rounded-lg">
-                <p class="mb-2 leading-relaxed text-xl text-center font-semibold">
-                    Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя Владимира
-                </p>
-                <p class="py-4 px-4 text-center mb-2 leading-relaxed">
-                Здесь вы найдете информацию о регулярных и праздничных службах, которые проходят в нашем храме.
-                Мы рады видеть вас на наших богослужениях и мероприятиях!
+            <div class="py-4 h-min-24 mx-auto w-3/4  bg-blue-100 shadow-2xl shadow-gray-200 rounded-lg">
+                <p class="leading-relaxed text-xl text-center p-8">
+                    Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя Владимира.</br>
+                    Здесь вы найдете информацию о регулярных и праздничных службах, которые проходят в нашем храме.
+                    Мы рады видеть вас на наших богослужениях и мероприятиях!
                 </p>
             </div>
 
-            <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-blue-100 shadow-2xl shadow-gray-300 rounded-lg">
-                <span class="text-blue-950 text-2xl ">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
+            <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-sky-600 shadow-2xl shadow-gray-300 rounded-lg">
+                <span class="text-white text-2xl ">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
             </div>
 
             <div class="container mx-auto space-y-10">

@@ -36,9 +36,11 @@
                     </a>
                     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center m-8">
                         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-white">
-                            <h1 class="mb-2 leading-relaxed text-2xl text-center">Стань спонсором уже сейчас</h1>
+                            <h1 class="mb-2 leading-relaxed text-2xl text-center flex flex-col items-center skeleton bg-sky-600 place-content-center">Поддержите храм и внесите свой вклад в сохранение духовного наследия — станьте нашим спонсором сегодня!</h1>
                             <p class="mb-2 leading-relaxed text-xl text-justify">
-                                Поддержите храм и внесите свой вклад в сохранение духовного наследия — станьте нашим спонсором сегодня!
+                                Помогите сохранить духовные традиции для будущих поколений. Ваш вклад станет основой
+                                для развития и процветания нашего храма, а также позволит реализовать важные проекты.
+                                Внесите свою лепту сегодня и оставьте след в истории нашего прихода!
                             </p>
                             <div class="flex justify-center py-8">
                                 <button class="inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium rounded hover:bg-blue-950 transition duration-700 ease-in-out">Помочь Храму</button>
@@ -83,8 +85,8 @@
                 </figure>
             </div>
 
-            <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-blue-100 shadow-2xl shadow-gray-300 rounded-lg">
-                <span class="text-blue-950 text-3xl ">Наши спонсоры</span>
+            <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-sky-600 shadow-2xl shadow-gray-300 rounded-lg">
+                <span class="text-white text-3xl font-semibold">Наши спонсоры</span>
             </div>
 
 

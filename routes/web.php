@@ -31,6 +31,7 @@ Route::middleware('lang')->group(function(){
     Route::get('foto', [Controllers\BaseController::class, 'getFoto'])->name('foto');
     Route::get('publications', [Controllers\BaseController::class, 'getPublications'])->name('publications');
     Route::get('sponsors', [Controllers\BaseController::class, 'getSponsors'])->name('sponsors');
+    Route::get('healer', [Controllers\BaseController::class, 'getHealer'])->name('healer');
     Route::get('test', [Controllers\BaseController::class, 'getTest'])->name('test');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
