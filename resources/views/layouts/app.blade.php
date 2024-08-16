@@ -91,7 +91,7 @@
                          class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                         <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                             <li>
-                                <a href="#"
+                                <a href="/publications"
                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Публикации</a>
                             </li>
                             <li>
@@ -275,6 +275,10 @@
         </div>
     </div>
 </section>
+
+
+
+
 <footer class="footer bg-blue-200 text-base-content p-10">
     <nav>
         <h6 class="footer-title">Контакты</h6>
@@ -372,7 +376,7 @@
                     class="input input-bordered join-item"/>
                 <!--<button class="btn btn-primary join-item">Subscribe</button>-->
                 <button
-                    class="transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium py-2 px-4 rounded hover:bg-blue-950 transition duration-700 ease-in-out">
+                    class="transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium py-2 px-4 rounded hover:bg-sky-600 transition duration-700 ease-in-out">
                     Подписаться
                 </button>
             </div>

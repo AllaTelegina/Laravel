@@ -2,7 +2,809 @@
 
     <x-slot name="header">
 
-        <div class="hero min-h-screen relative mt-12">
+
+
+
+
+        <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative">
+            <div class="grid grid-cols-1 sm:grid-cols-12 gap-10">
+
+                <div class="sm:col-span-6 lg:col-span-5">
+                    <a href="#">
+                        <div class="h-56 bg-cover text-center overflow-hidden"
+                             style="background-image: url('https://tailwindcss.com/img/card-left.jpg')"
+                             title="Woman holding a mug">
+                        </div>
+                    </a>
+                    <div
+                        class="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+                        <div class="lg:pl-16">
+                            <a href="#"
+                               class="text-xs text-indigo-600 uppercase font-medium mb-3 flex items-center hover:text-gray-900 transition duration-500 ease-in-out">
+                                Fashion
+                            </a>
+                            <a href="#"
+                               class="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 transition duration-500 ease-in-out">The
+                                perfect summer sweater that you can wear! </a>
+                            <p class="text-gray-700 text-xs mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sm:col-span-6 lg:col-span-4">
+                    <div class="flex items-start mb-3 pb-3">
+                        <a href="#" class="inline-block mr-3">
+                            <div class="w-20 h-20 bg-cover bg-center"
+                                 style="background-image:url(https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-fc-looks-dejected-during-the-uefa-of-picture-id1227967060?k=6&amp;m=1227967060&amp;s=612x612&amp;w=0&amp;h=cMSMlRyI6YAzcE_C2KgHGRLeVojHYoUhIvhwPBYv8f4=);">
+                            </div>
+                        </a>
+                        <div class="text-sm">
+                            <p class="text-gray-600 text-xs">Aug 18</p>
+                            <a href="#" class="text-gray-900 font-medium hover:text-indigo-600 leading-none">Cristiano Ronaldo
+                                of Juventus FC looks dejected during the...</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start mb-3 pb-3">
+                        <a href="#" class="inline-block mr-3">
+                            <div class="w-20 h-20 bg-cover bg-center"
+                                 style="background-image:url(https://media.gettyimages.com/photos/lionel-messi-and-marcandre-ter-stegen-of-fc-barcelona-waits-in-the-picture-id1266763488?k=6&amp;m=1266763488&amp;s=612x612&amp;w=0&amp;h=8vxz9HfQVfrff5N7d1lBVxtLamRQGK3J3lyHkUuuIiw=);">
+                            </div>
+                        </a>
+                        <div class="text-sm w-2/3">
+                            <p class="text-gray-600 text-xs">Jan 18</p>
+                            <a href="#" class="text-gray-900 font-medium hover:text-indigo-600 leading-none">Barcelona v Bayern
+                                Munich </a>
+                        </div>
+                    </div>
+                    <div class="flex items-start mb-3 pb-3">
+                        <a href="#" class="inline-block mr-3">
+                            <div class="w-20 h-20 bg-cover bg-center"
+                                 style="background-image:url(https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-fc-looks-dejected-during-the-uefa-of-picture-id1227967060?k=6&amp;m=1227967060&amp;s=612x612&amp;w=0&amp;h=cMSMlRyI6YAzcE_C2KgHGRLeVojHYoUhIvhwPBYv8f4=);">
+                            </div>
+                        </a>
+                        <div class="text-sm">
+                            <p class="text-gray-600 text-xs">Aug 18</p>
+                            <a href="#" class="text-gray-900 font-medium hover:text-indigo-600 leading-none">Cristiano Ronaldo
+                                of Juventus FC looks dejected during the...</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <a href="#" class="inline-block mr-3">
+                            <div class="w-20 h-20 bg-cover bg-center"
+                                 style="background-image:url(https://media.gettyimages.com/photos/lionel-messi-of-fc-barcelona-looks-dejected-following-his-teams-in-picture-id1266341828?k=6&amp;m=1266341828&amp;s=612x612&amp;w=0&amp;h=FZi-bSrIlOEE01780h79GsbBYPqZo2l3aaCxoktWADY=);">
+                            </div>
+                        </a>
+                        <div class="text-sm w-2/3">
+                            <p class="text-gray-600 text-xs">July 23</p>
+                            <a href="#" class="text-gray-900 font-medium hover:text-indigo-600 leading-none">Barcelona v Bayern
+                                Munich - UEFA Champions League </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sm:col-span-12 lg:col-span-3">
+                    <a href="#">
+                        <div class="h-56 bg-cover text-center overflow-hidden"
+                             style="background-image: url('https://tailwindcss.com/img/card-left.jpg')"
+                             title="Woman holding a mug">
+                        </div>
+                    </a>
+                    <div
+                        class="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+                        <div class="">
+                            <a href="#"
+                               class="text-xs text-indigo-600 uppercase font-medium flex items-center hover:text-gray-900 transition duration-500 ease-in-out">
+                                Fashion
+                            </a>
+                            <a href="#"
+                               class="text-gray-900 font-bold text-lg mb-2 hover:text-indigo-600 transition duration-500 ease-in-out">The
+                                perfect summer sweater that you can wear! </a>
+                            <p class="text-gray-700 text-xs mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 lg:w-1/3">
+                        <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Raclette Blueberry Nextious Level</h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            <a class="text-indigo-500 inline-flex items-center">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>1.2K
+            </span>
+                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>6
+            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/3">
+                        <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ennui Snackwave Thundercats</h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            <a class="text-indigo-500 inline-flex items-center">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>1.2K
+            </span>
+                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>6
+            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/3">
+                        <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Selvage Poke Waistcoat Godard</h1>
+                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                            <a class="text-indigo-500 inline-flex items-center">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span class="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>1.2K
+            </span>
+                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>6
+            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-12">
+                    <div class="p-12 md:w-1/2 flex flex-col items-start">
+                        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
+                        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
+                        <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+                        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                            <a class="text-indigo-500 inline-flex items-center">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>1.2K
+          </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+            </svg>6
+          </span>
+                        </div>
+                        <a class="inline-flex items-center">
+                            <img alt="blog" src="https://dummyimage.com/104x104" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                            <span class="flex-grow flex flex-col pl-4">
+            <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+            <span class="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
+          </span>
+                        </a>
+                    </div>
+                    <div class="p-12 md:w-1/2 flex flex-col items-start">
+                        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">CATEGORY</span>
+                        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
+                        <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+                        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                            <a class="text-indigo-500 inline-flex items-center">Learn More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>1.2K
+          </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+            </svg>6
+          </span>
+                        </div>
+                        <a class="inline-flex items-center">
+                            <img alt="blog" src="https://dummyimage.com/103x103" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                            <span class="flex-grow flex flex-col pl-4">
+            <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+            <span class="text-gray-400 text-xs tracking-widest mt-0.5">DESIGNER</span>
+          </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -mx-4 -my-8">
+                    <div class="py-8 px-4 lg:w-1/3">
+                        <div class="h-full flex items-start">
+                            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                                <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Jul</span>
+                                <span class="font-medium text-lg text-gray-800 title-font leading-none">18</span>
+                            </div>
+                            <div class="flex-grow pl-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                <h1 class="title-font text-xl font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                                <p class="leading-relaxed mb-5">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <a class="inline-flex items-center">
+                                    <img alt="blog" src="https://dummyimage.com/103x103" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+                                    <span class="flex-grow flex flex-col pl-3">
+                <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+              </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-8 px-4 lg:w-1/3">
+                        <div class="h-full flex items-start">
+                            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                                <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Jul</span>
+                                <span class="font-medium text-lg text-gray-800 title-font leading-none">18</span>
+                            </div>
+                            <div class="flex-grow pl-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                <h1 class="title-font text-xl font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                                <p class="leading-relaxed mb-5">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <a class="inline-flex items-center">
+                                    <img alt="blog" src="https://dummyimage.com/102x102" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+                                    <span class="flex-grow flex flex-col pl-3">
+                <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+              </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-8 px-4 lg:w-1/3">
+                        <div class="h-full flex items-start">
+                            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                                <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Jul</span>
+                                <span class="font-medium text-lg text-gray-800 title-font leading-none">18</span>
+                            </div>
+                            <div class="flex-grow pl-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                <h1 class="title-font text-xl font-medium text-gray-900 mb-3">Neptune</h1>
+                                <p class="leading-relaxed mb-5">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <a class="inline-flex items-center">
+                                    <img alt="blog" src="https://dummyimage.com/101x101" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+                                    <span class="flex-grow flex flex-col pl-3">
+                <span class="title-font font-medium text-gray-900">Henry Letham</span>
+              </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- component -->
+        <div class="h-screen w-screen flex justify-center items-center bg-slate-900 ">
+            <div class="bg-slate-800 text-white rounded-lg w-full mx-5 md:w-[40rem]  space-y-6 p-10">
+                <!-- header -->
+                <div class="flex space-x-4 items-center ">
+                    <div class="w-12 h-12"
+                    >
+                        <img
+                            alt="avatar"
+                            src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                            class="rounded-full w-full h-full object-cover ">
+                        <div>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex space-x-2 items-center">
+                            <h2 class="text-base"> John Doe</h2>
+                            <svg class="h-4 w-4 text-blue-500" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <div class="  text-xs text-slate-400">posted an update</div>
+                        </div>
+                        <p class=" text-xs text-slate-400">10 Monthes Ago</p>
+                    </div>
+
+                </div>
+                <!--content-->
+                <div>
+                    <p class="text-sm leading-6 text-slate-300">
+                        Hypnosis at the parallel universe was the advice of alarm, commanded to a conscious ship.
+                        Processors experiment with paralysis!
+                    </p>
+                </div>
+
+
+                <!-- image grid-->
+
+
+                <div class="grid grid-cols-6 col-span-2   gap-2  ">
+                    <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
+                        <img class="h-full w-full object-cover "
+                             src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                             alt="">
+                    </div>
+                    <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
+                        <img class="h-full w-full object-cover  "
+                             src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1399&q=80"
+                             alt="">
+                    </div>
+                    <div class=" overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
+                        <img class="h-full w-full object-cover "
+                             src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                             alt="">
+                    </div>
+                    <div class=" overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
+                        <img class="h-full w-full object-cover "
+                             src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                             alt="">
+                    </div>
+                    <div class="relative overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
+                        <div
+                            class="text-white text-xl absolute inset-0  bg-slate-900/80 flex justify-center items-center">
+                            + 23
+                        </div>
+                        <img class="h-full w-full object-cover "
+                             src="https://images.unsplash.com/photo-1560393464-5c69a73c5770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+                             alt="">
+                    </div>
+                </div>
+
+                <!--        comments-->
+
+                <div class="flex justify-between pt-5">
+
+                    <svg class="h-4 w-4 text-red-500" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                    </svg>
+
+                    <div class="text-slate-400 text-sm"><p>23 Comments</p></div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="#">
+            <div class="py-4">
+                <h1 class="font-semibold text-xl text-blue-950 dark:text-gray-200 leading-tight">
+                    Публикации
+                </h1>
+            </div>
+            <!-- панировочные сухари -->
+            <nav class="flex" aria-label="Breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+                    <li class="inline-flex items-center">
+                        <a href="#" class="inline-flex items-center text-sm font-medium text-blue-950 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
+                            <svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+                            </svg>
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <div class="flex items-center">
+                            <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                            </svg>
+                            <a href="#" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Новости</a>
+                        </div>
+                    </li>
+                    <li aria-current="page">
+                        <div class="flex items-center">
+                            <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                            </svg>
+                            <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Публикации</span>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+            <div class="relative pt-2 lg:pt-2 min-h-screen">
+
+                <div class="bg-cover w-full flex justify-center items-center"
+                     style="background-image: url('/images/mybackground.jpeg');">
+                    <div class="w-full bg-white p-5  bg-opacity-40 backdrop-filter backdrop-blur-lg">
+                        <div class="w-12/12 mx-auto rounded-2xl bg-white p-5 bg-opacity-40 backdrop-filter backdrop-blur-lg">
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-center px-2 mx-auto">
+
+                                <article
+                                    class="bg-white  p-6 mb-6 shadow transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer border">
+                                    <a target="_self" href="/blog/slug"
+                                       class="absolute opacity-0 top-0 right-0 left-0 bottom-0"></a>
+                                    <div class="relative mb-4 rounded-2xl">
+                                        <img class="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                                             src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                                        <div
+                                            class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                                 stroke-width="1.5" stroke="currentColor" class="h-5 w-5 text-red-700">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                                            </svg>
+                                            <span class="ml-1 text-sm text-slate-400">2</span>
+
+                                        </div>
+
+                                        <a class="flex justify-center items-center bg-red-700 bg-opacity-80 z-10 absolute top-0 left-0 w-full h-full text-white rounded-2xl opacity-0 transition-all duration-300 transform group-hover:scale-105 text-xl group-hover:opacity-100"
+                                           href="/blog/slug" target="_self" rel="noopener noreferrer">
+                                            Read article
+                                            <svg class="ml-2 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-between items-center w-full pb-4 mb-auto">
+                                        <div class="flex items-center">
+                                            <div class="pr-3">
+                                                <img class="h-12 w-12 rounded-full object-cover" src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                                     alt="">
+                                            </div>
+                                            <div class="flex flex-1">
+                                                <div class="">
+                                                    <p class="text-sm font-semibold ">Morris Muthigani</p>
+                                                    <p class="text-sm text-gray-500">Published on 19/03/2024</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex justify-end">
+                                            <div class="text-sm flex items-center text-gray-500 ">
+                                                2 Days ago
+                                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 class="font-medium text-xl leading-8">
+                                        <a href="/blog/slug"
+                                           class="block relative group-hover:text-red-700 transition-colors duration-200 ">
+                                            Instant Help at Your Fingertips
+                                        </a>
+                                    </h3>
+                                    <div>
+                                    </div>
+                                </article>
+
+                                <article
+                                    class="bg-white  p-6 mb-6 shadow transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer border">
+                                    <a target="_self" href="/blog/slug"
+                                       class="absolute opacity-0 top-0 right-0 left-0 bottom-0"></a>
+                                    <div class="relative mb-4 rounded-2xl">
+                                        <img class="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                                             src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                                        <div
+                                            class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                                 stroke-width="1.5" stroke="currentColor" class="h-5 w-5 text-red-700">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                                            </svg>
+                                            <span class="ml-1 text-sm text-slate-400">2</span>
+
+                                        </div>
+
+                                        <a class="flex justify-center items-center bg-red-700 bg-opacity-80 z-10 absolute top-0 left-0 w-full h-full text-white rounded-2xl opacity-0 transition-all duration-300 transform group-hover:scale-105 text-xl group-hover:opacity-100"
+                                           href="/blog/slug" target="_self" rel="noopener noreferrer">
+                                            Read article
+                                            <svg class="ml-2 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-between items-center w-full pb-4 mb-auto">
+                                        <div class="flex items-center">
+                                            <div class="pr-3">
+                                                <img class="h-12 w-12 rounded-full object-cover" src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                                     alt="">
+                                            </div>
+                                            <div class="flex flex-1">
+                                                <div class="">
+                                                    <p class="text-sm font-semibold ">Morris Muthigani</p>
+                                                    <p class="text-sm text-gray-500">Published on 19/03/2024</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex justify-end">
+                                            <div class="text-sm flex items-center text-gray-500 ">
+                                                2 Days ago
+                                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 class="font-medium text-xl leading-8">
+                                        <a href="/blog/slug"
+                                           class="block relative group-hover:text-red-700 transition-colors duration-200 ">
+                                            Instant Help at Your Fingertips
+                                        </a>
+                                    </h3>
+                                    <div>
+                                    </div>
+                                </article>
+
+
+                                <article
+                                    class="bg-white  p-6 mb-6 shadow transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer border">
+                                    <a target="_self" href="/blog/slug"
+                                       class="absolute opacity-0 top-0 right-0 left-0 bottom-0"></a>
+                                    <div class="relative mb-4 rounded-2xl">
+                                        <img class="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
+                                             src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                                        <div
+                                            class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                                 stroke-width="1.5" stroke="currentColor" class="h-5 w-5 text-red-700">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                                            </svg>
+                                            <span class="ml-1 text-sm text-slate-400">2</span>
+
+                                        </div>
+
+                                        <a class="flex justify-center items-center bg-red-700 bg-opacity-80 z-10 absolute top-0 left-0 w-full h-full text-white rounded-2xl opacity-0 transition-all duration-300 transform group-hover:scale-105 text-xl group-hover:opacity-100"
+                                           href="/blog/slug" target="_self" rel="noopener noreferrer">
+                                            Read article
+                                            <svg class="ml-2 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="flex justify-between items-center w-full pb-4 mb-auto">
+                                        <div class="flex items-center">
+                                            <div class="pr-3">
+                                                <img class="h-12 w-12 rounded-full object-cover" src="https://images.pexels.com/photos/163097/twitter-social-media-communication-internet-network-163097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                                     alt="">
+                                            </div>
+                                            <div class="flex flex-1">
+                                                <div class="">
+                                                    <p class="text-sm font-semibold ">Morris Muthigani</p>
+                                                    <p class="text-sm text-gray-500">Published on 19/03/2024</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex justify-end">
+                                            <div class="text-sm flex items-center text-gray-500 ">
+                                                2 Days ago
+                                                <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 class="font-medium text-xl leading-8">
+                                        <a href="/blog/slug"
+                                           class="block relative group-hover:text-red-700 transition-colors duration-200 ">
+                                            Instant Help at Your Fingertips
+                                        </a>
+                                    </h3>
+                                    <div>
+                                    </div>
+                                </article>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <section>
+            <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+                <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
+                    <div class="p-6">
+                        <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://via.placeholder.com/150" alt="blog">
+
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Short headline.</h1>
+                        <p class="mx-auto text-base leading-relaxed text-gray-500">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>                <div class="mt-4">
+                            <a href="#" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://via.placeholder.com/150" alt="blog">
+
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Short headline.</h1>
+                        <p class="mx-auto text-base leading-relaxed text-gray-500">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>                <div class="mt-4">
+                            <a href="#" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://via.placeholder.com/150" alt="blog">
+
+                        <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Short headline.</h1>
+                        <p class="mx-auto text-base leading-relaxed text-gray-500">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>                <div class="mt-4">
+                            <a href="#" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 md:px-20">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/600x360">
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">New
+                    </div>
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-2">Title</div>
+                    <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, mi sed
+                        egestas tincidunt, libero dolor bibendum nisl, non aliquam quam massa id lacus.</p>
+                </div>
+            </div>
+
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/600x360">
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-2">Title</div>
+                    <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, mi sed
+                        egestas tincidunt, libero dolor bibendum nisl, non aliquam quam massa id lacus.</p>
+                </div>
+            </div>
+
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/600x360">
+                    <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">New</div>
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-2">Title</div>
+                    <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, mi sed
+                        egestas tincidunt, libero dolor bibendum nisl, non aliquam quam massa id lacus.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/600x360">
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-2">Title</div>
+                    <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, mi sed
+                        egestas tincidunt, libero dolor bibendum nisl, non aliquam quam massa id lacus.</p>
+                </div>
+            </div>
+
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/600x360">
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-2">Title</div>
+                    <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, mi sed
+                        egestas tincidunt, libero dolor bibendum nisl, non aliquam quam massa id lacus.</p>
+                </div>
+            </div>
+
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="relative">
+                    <img class="w-full h-48 object-cover" src="https://via.placeholder.com/600x360">
+                    <div class="absolute bottom-0 right-0 bg-gray-800 text-white px-2 py-1 m-2 rounded-md text-xs">3 min read
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="text-lg font-medium text-gray-800 mb-2">Title</div>
+                    <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, mi sed
+                        egestas tincidunt, libero dolor bibendum nisl, non aliquam quam massa id lacus.</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="hero min-h-screen relative mt-12">
             <a class="absolute m-4 mt-16 transform translate-x-4 translate-y-4 p-4 bg-white rounded-full sm:top-6 sm:left-6 md:top-8 md:left-8 lg:top-10 lg:left-10 p-2 sm:p-4" href="#" title="Логотип">
                 <img src="{{ asset('images/logo.png') }}" class="w-16 h-16" />
             </a>
@@ -1143,6 +1945,573 @@
                     </div>
 
 
+
+                    <div class="max-w-7xl mx-auto my-8 px-2">
+
+                        <div class="flex justify-center text-2xl md:text-3xl font-bold">
+                            Related Tools
+                        </div>
+
+                        <ul class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 p-2 xl:p-5">
+
+                            <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a class="relative" href="/tool/writey-ai">
+                                    <img class="rounded relative w-full object-cover aspect-video"
+                                         src="https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Writey A.I" loading="lazy">
+                                </a>
+
+
+                                <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/writey-ai"
+                                       class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Writey A.I</span>
+                                        <small class="font-medium text-sm">- Most advanced language A.I</small>
+                                    </a>
+
+                                    <p class="text-gray-600 two-lines">
+                                        Writey A.I is an AI tool that generates original, researched blog posts in minutes, provides content
+                                        optimization advice, and works with a plagiarism-free rule.
+                                    </p>
+
+                                    <ul class="flex flex-wrap items-center justify-start text-sm gap-2">
+                                        <li title="Pricing type"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M13 3.5C13 2.94772 12.5523 2.5 12 2.5C11.4477 2.5 11 2.94772 11 3.5V4.0592C9.82995 4.19942 8.75336 4.58509 7.89614 5.1772C6.79552 5.93745 6 7.09027 6 8.5C6 9.77399 6.49167 10.9571 7.5778 11.7926C8.43438 12.4515 9.58764 12.8385 11 12.959V17.9219C10.2161 17.7963 9.54046 17.5279 9.03281 17.1772C8.32378 16.6874 8 16.0903 8 15.5C8 14.9477 7.55228 14.5 7 14.5C6.44772 14.5 6 14.9477 6 15.5C6 16.9097 6.79552 18.0626 7.89614 18.8228C8.75336 19.4149 9.82995 19.8006 11 19.9408V20.5C11 21.0523 11.4477 21.5 12 21.5C12.5523 21.5 13 21.0523 13 20.5V19.9435C14.1622 19.8101 15.2376 19.4425 16.0974 18.8585C17.2122 18.1013 18 16.9436 18 15.5C18 14.1934 17.5144 13.0022 16.4158 12.1712C15.557 11.5216 14.4039 11.1534 13 11.039V6.07813C13.7839 6.20366 14.4596 6.47214 14.9672 6.82279C15.6762 7.31255 16 7.90973 16 8.5C16 9.05228 16.4477 9.5 17 9.5C17.5523 9.5 18 9.05228 18 8.5C18 7.09027 17.2045 5.93745 16.1039 5.17721C15.2467 4.58508 14.1701 4.19941 13 4.0592V3.5ZM11 6.07814C10.2161 6.20367 9.54046 6.47215 9.03281 6.8228C8.32378 7.31255 8 7.90973 8 8.5C8 9.22601 8.25834 9.79286 8.79722 10.2074C9.24297 10.5503 9.94692 10.8384 11 10.9502V6.07814ZM13 13.047V17.9263C13.7911 17.8064 14.4682 17.5474 14.9737 17.204C15.6685 16.7321 16 16.1398 16 15.5C16 14.7232 15.7356 14.1644 15.2093 13.7663C14.7658 13.4309 14.0616 13.1537 13 13.047Z"
+                                                      fill="currentColor"></path>
+                                            </svg>
+                                            <span>Freemium</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <ul class="flex flex-wrap text-sm gap-2 my-1">
+                                        <li class="flex items-center gap-2">
+                                            <span>Content Generation,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Marketing,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>SEO,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Writing</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a class="relative" href="/tool/writemeai">
+                                    <img class="rounded relative w-full object-cover aspect-video"
+                                         src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="WriteMe.ai" loading="lazy">
+                                </a>
+
+
+                                <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/writemeai"
+                                       class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>WriteMe.ai</span>
+
+                                        <small class="font-medium text-sm">- AI Writer - Content Writing Assistant &amp; Creator</small>
+                                    </a>
+
+                                    <p class="text-gray-600 two-lines">
+                                        WriteMe.ai is your #1 AI-powered content writing assistant that crafts high-quality content at a
+                                        fraction of the cost. This advanced solution eliminates the need for manual writing and allows users
+                                        to effortlessly generate content in a few clicks.
+                                    </p>
+
+                                    <ul class="flex flex-wrap items-center justify-start text-sm gap-2">
+                                        <li title="Pricing type"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M13 3.5C13 2.94772 12.5523 2.5 12 2.5C11.4477 2.5 11 2.94772 11 3.5V4.0592C9.82995 4.19942 8.75336 4.58509 7.89614 5.1772C6.79552 5.93745 6 7.09027 6 8.5C6 9.77399 6.49167 10.9571 7.5778 11.7926C8.43438 12.4515 9.58764 12.8385 11 12.959V17.9219C10.2161 17.7963 9.54046 17.5279 9.03281 17.1772C8.32378 16.6874 8 16.0903 8 15.5C8 14.9477 7.55228 14.5 7 14.5C6.44772 14.5 6 14.9477 6 15.5C6 16.9097 6.79552 18.0626 7.89614 18.8228C8.75336 19.4149 9.82995 19.8006 11 19.9408V20.5C11 21.0523 11.4477 21.5 12 21.5C12.5523 21.5 13 21.0523 13 20.5V19.9435C14.1622 19.8101 15.2376 19.4425 16.0974 18.8585C17.2122 18.1013 18 16.9436 18 15.5C18 14.1934 17.5144 13.0022 16.4158 12.1712C15.557 11.5216 14.4039 11.1534 13 11.039V6.07813C13.7839 6.20366 14.4596 6.47214 14.9672 6.82279C15.6762 7.31255 16 7.90973 16 8.5C16 9.05228 16.4477 9.5 17 9.5C17.5523 9.5 18 9.05228 18 8.5C18 7.09027 17.2045 5.93745 16.1039 5.17721C15.2467 4.58508 14.1701 4.19941 13 4.0592V3.5ZM11 6.07814C10.2161 6.20367 9.54046 6.47215 9.03281 6.8228C8.32378 7.31255 8 7.90973 8 8.5C8 9.22601 8.25834 9.79286 8.79722 10.2074C9.24297 10.5503 9.94692 10.8384 11 10.9502V6.07814ZM13 13.047V17.9263C13.7911 17.8064 14.4682 17.5474 14.9737 17.204C15.6685 16.7321 16 16.1398 16 15.5C16 14.7232 15.7356 14.1644 15.2093 13.7663C14.7658 13.4309 14.0616 13.1537 13 13.047Z"
+                                                      fill="currentColor"></path>
+                                            </svg>
+                                            <span>Freemium</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <ul class="flex flex-wrap text-sm gap-2 my-1">
+                                        <li class="flex items-center gap-2">
+                                            <span>Chatbot,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Content Generation,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>General Writing,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Social Media Assistant,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Writing</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a class="relative" href="/tool/publer">
+                                    <img class="rounded relative w-full object-cover aspect-video"
+                                         src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw3fHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Publer" loading="lazy">
+                                </a>
+
+
+                                <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/publer"
+                                       class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Publer</span>
+
+                                        <small class="font-medium text-sm">- Your Social Media Superhero</small>
+                                    </a>
+
+                                    <p class="text-gray-600 two-lines">
+                                        Publer is a robust social media management platform offering a range of features including post
+                                        scheduling, collaboration tools, analytics, and AI assistance to supercharge your social media
+                                        strategy across multiple platforms.
+                                    </p>
+
+                                    <ul class="flex flex-wrap items-center justify-start text-sm gap-2">
+                                        <li title="Pricing type"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M13 3.5C13 2.94772 12.5523 2.5 12 2.5C11.4477 2.5 11 2.94772 11 3.5V4.0592C9.82995 4.19942 8.75336 4.58509 7.89614 5.1772C6.79552 5.93745 6 7.09027 6 8.5C6 9.77399 6.49167 10.9571 7.5778 11.7926C8.43438 12.4515 9.58764 12.8385 11 12.959V17.9219C10.2161 17.7963 9.54046 17.5279 9.03281 17.1772C8.32378 16.6874 8 16.0903 8 15.5C8 14.9477 7.55228 14.5 7 14.5C6.44772 14.5 6 14.9477 6 15.5C6 16.9097 6.79552 18.0626 7.89614 18.8228C8.75336 19.4149 9.82995 19.8006 11 19.9408V20.5C11 21.0523 11.4477 21.5 12 21.5C12.5523 21.5 13 21.0523 13 20.5V19.9435C14.1622 19.8101 15.2376 19.4425 16.0974 18.8585C17.2122 18.1013 18 16.9436 18 15.5C18 14.1934 17.5144 13.0022 16.4158 12.1712C15.557 11.5216 14.4039 11.1534 13 11.039V6.07813C13.7839 6.20366 14.4596 6.47214 14.9672 6.82279C15.6762 7.31255 16 7.90973 16 8.5C16 9.05228 16.4477 9.5 17 9.5C17.5523 9.5 18 9.05228 18 8.5C18 7.09027 17.2045 5.93745 16.1039 5.17721C15.2467 4.58508 14.1701 4.19941 13 4.0592V3.5ZM11 6.07814C10.2161 6.20367 9.54046 6.47215 9.03281 6.8228C8.32378 7.31255 8 7.90973 8 8.5C8 9.22601 8.25834 9.79286 8.79722 10.2074C9.24297 10.5503 9.94692 10.8384 11 10.9502V6.07814ZM13 13.047V17.9263C13.7911 17.8064 14.4682 17.5474 14.9737 17.204C15.6685 16.7321 16 16.1398 16 15.5C16 14.7232 15.7356 14.1644 15.2093 13.7663C14.7658 13.4309 14.0616 13.1537 13 13.047Z"
+                                                      fill="currentColor"></path>
+                                            </svg>
+                                            <span>Freemium</span>
+                                        </li>
+
+                                        <li title="Support for API"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M17 9V12C17 14.7614 14.7614 17 12 17M7 9V12C7 14.7614 9.23858 17 12 17M12 17V21M8 3V6M16 3V6M5 9H19"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </path>
+                                            </svg>
+                                            <span>API</span>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="flex flex-wrap text-sm gap-2 my-1">
+                                        <li class="flex items-center gap-2">
+                                            <span>Marketing,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Productivity,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Social Media</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a class="relative" href="/tool/anyword">
+                                    <img class="rounded relative w-full object-cover aspect-video"
+                                         src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw3fHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Anyword" loading="lazy">
+                                </a>
+
+
+                                <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/anyword"
+                                       class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Anyword</span>
+
+                                        <small class="font-medium text-sm">- Advanced AI Writing Built for Marketing Results</small>
+                                    </a>
+
+                                    <p class="text-gray-600 two-lines">
+                                        Anyword is an AI-powered platform trusted by marketing teams across the globe to generate, score,
+                                        and rank content based on predicted performance. With features like Custom Scoring AI models, Brand
+                                        Messaging Management, and a Performance Boost Chrome Extension, Anyword provides highly personalized
+                                        and effective content for every channel.
+                                    </p>
+
+                                    <ul class="flex flex-wrap items-center justify-start text-sm gap-2">
+                                        <li title="Pricing type"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M13 3.5C13 2.94772 12.5523 2.5 12 2.5C11.4477 2.5 11 2.94772 11 3.5V4.0592C9.82995 4.19942 8.75336 4.58509 7.89614 5.1772C6.79552 5.93745 6 7.09027 6 8.5C6 9.77399 6.49167 10.9571 7.5778 11.7926C8.43438 12.4515 9.58764 12.8385 11 12.959V17.9219C10.2161 17.7963 9.54046 17.5279 9.03281 17.1772C8.32378 16.6874 8 16.0903 8 15.5C8 14.9477 7.55228 14.5 7 14.5C6.44772 14.5 6 14.9477 6 15.5C6 16.9097 6.79552 18.0626 7.89614 18.8228C8.75336 19.4149 9.82995 19.8006 11 19.9408V20.5C11 21.0523 11.4477 21.5 12 21.5C12.5523 21.5 13 21.0523 13 20.5V19.9435C14.1622 19.8101 15.2376 19.4425 16.0974 18.8585C17.2122 18.1013 18 16.9436 18 15.5C18 14.1934 17.5144 13.0022 16.4158 12.1712C15.557 11.5216 14.4039 11.1534 13 11.039V6.07813C13.7839 6.20366 14.4596 6.47214 14.9672 6.82279C15.6762 7.31255 16 7.90973 16 8.5C16 9.05228 16.4477 9.5 17 9.5C17.5523 9.5 18 9.05228 18 8.5C18 7.09027 17.2045 5.93745 16.1039 5.17721C15.2467 4.58508 14.1701 4.19941 13 4.0592V3.5ZM11 6.07814C10.2161 6.20367 9.54046 6.47215 9.03281 6.8228C8.32378 7.31255 8 7.90973 8 8.5C8 9.22601 8.25834 9.79286 8.79722 10.2074C9.24297 10.5503 9.94692 10.8384 11 10.9502V6.07814ZM13 13.047V17.9263C13.7911 17.8064 14.4682 17.5474 14.9737 17.204C15.6685 16.7321 16 16.1398 16 15.5C16 14.7232 15.7356 14.1644 15.2093 13.7663C14.7658 13.4309 14.0616 13.1537 13 13.047Z"
+                                                      fill="currentColor"></path>
+                                            </svg>
+                                            <span>Free Trial</span>
+                                        </li>
+
+                                        <li title="Support for API"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M17 9V12C17 14.7614 14.7614 17 12 17M7 9V12C7 14.7614 9.23858 17 12 17M12 17V21M8 3V6M16 3V6M5 9H19"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </path>
+                                            </svg>
+                                            <span>API</span>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="flex flex-wrap text-sm gap-2 my-1">
+                                        <li class="flex items-center gap-2">
+                                            <span>Copywriting,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Marketing</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a class="relative" href="/tool/blogseo-ai">
+                                    <img class="rounded relative w-full object-cover aspect-video"
+                                         src="https://images.unsplash.com/photo-1555532538-dcdbd01d373d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw0fHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080" alt="BlogSEO AI" loading="lazy">
+                                </a>
+
+
+                                <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/blogseo-ai"
+                                       class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>BlogSEO AI</span>
+
+                                        <small class="font-medium text-sm">- AI Writer for SEO&zwj; That Follows Best Practices</small>
+                                    </a>
+
+                                    <p class="text-gray-600 two-lines">
+                                        BlogSEO AI revolutionizes SEO writing. Stay at the top of your SEO game with this automated writing
+                                        tool that generates high-performing blog content. It also offers keyword research, internal linking
+                                        strategy, schema generation, and more.
+                                    </p>
+
+                                    <ul class="flex flex-wrap items-center justify-start text-sm gap-2">
+                                        <li title="Pricing type"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M13 3.5C13 2.94772 12.5523 2.5 12 2.5C11.4477 2.5 11 2.94772 11 3.5V4.0592C9.82995 4.19942 8.75336 4.58509 7.89614 5.1772C6.79552 5.93745 6 7.09027 6 8.5C6 9.77399 6.49167 10.9571 7.5778 11.7926C8.43438 12.4515 9.58764 12.8385 11 12.959V17.9219C10.2161 17.7963 9.54046 17.5279 9.03281 17.1772C8.32378 16.6874 8 16.0903 8 15.5C8 14.9477 7.55228 14.5 7 14.5C6.44772 14.5 6 14.9477 6 15.5C6 16.9097 6.79552 18.0626 7.89614 18.8228C8.75336 19.4149 9.82995 19.8006 11 19.9408V20.5C11 21.0523 11.4477 21.5 12 21.5C12.5523 21.5 13 21.0523 13 20.5V19.9435C14.1622 19.8101 15.2376 19.4425 16.0974 18.8585C17.2122 18.1013 18 16.9436 18 15.5C18 14.1934 17.5144 13.0022 16.4158 12.1712C15.557 11.5216 14.4039 11.1534 13 11.039V6.07813C13.7839 6.20366 14.4596 6.47214 14.9672 6.82279C15.6762 7.31255 16 7.90973 16 8.5C16 9.05228 16.4477 9.5 17 9.5C17.5523 9.5 18 9.05228 18 8.5C18 7.09027 17.2045 5.93745 16.1039 5.17721C15.2467 4.58508 14.1701 4.19941 13 4.0592V3.5ZM11 6.07814C10.2161 6.20367 9.54046 6.47215 9.03281 6.8228C8.32378 7.31255 8 7.90973 8 8.5C8 9.22601 8.25834 9.79286 8.79722 10.2074C9.24297 10.5503 9.94692 10.8384 11 10.9502V6.07814ZM13 13.047V17.9263C13.7911 17.8064 14.4682 17.5474 14.9737 17.204C15.6685 16.7321 16 16.1398 16 15.5C16 14.7232 15.7356 14.1644 15.2093 13.7663C14.7658 13.4309 14.0616 13.1537 13 13.047Z"
+                                                      fill="currentColor"></path>
+                                            </svg>
+                                            <span>Free Trial</span>
+                                        </li>
+
+                                        <li title="Support for API"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M17 9V12C17 14.7614 14.7614 17 12 17M7 9V12C7 14.7614 9.23858 17 12 17M12 17V21M8 3V6M16 3V6M5 9H19"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </path>
+                                            </svg>
+                                            <span>API</span>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="flex flex-wrap text-sm gap-2 my-1">
+                                        <li class="flex items-center gap-2">
+                                            <span>Marketing,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>SEO,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Content Generation</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                            <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a class="relative" href="/tool/typewise">
+                                    <img class="rounded relative w-full object-cover aspect-video"
+                                         src="https://images.unsplash.com/photo-1574192324001-ee41e18ed679?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxNXx8a2V5Ym9hcmR8ZW58MHwwfHx8MTY5OTUyNTAwM3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Typewise" loading="lazy">
+                                </a>
+
+                                <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/typewise"
+                                       class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Typewise</span>
+
+                                        <small class="font-medium text-sm">- AI Communication Assistant</small>
+                                    </a>
+
+                                    <p class="text-gray-600 two-lines">
+                                        Typewise is an AI Communication Assistant that helps customer service and sales teams communicate
+                                        faster and more effectively.
+                                    </p>
+
+                                    <ul class="flex flex-wrap items-center justify-start text-sm gap-2">
+                                        <li title="Pricing type"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                      d="M13 3.5C13 2.94772 12.5523 2.5 12 2.5C11.4477 2.5 11 2.94772 11 3.5V4.0592C9.82995 4.19942 8.75336 4.58509 7.89614 5.1772C6.79552 5.93745 6 7.09027 6 8.5C6 9.77399 6.49167 10.9571 7.5778 11.7926C8.43438 12.4515 9.58764 12.8385 11 12.959V17.9219C10.2161 17.7963 9.54046 17.5279 9.03281 17.1772C8.32378 16.6874 8 16.0903 8 15.5C8 14.9477 7.55228 14.5 7 14.5C6.44772 14.5 6 14.9477 6 15.5C6 16.9097 6.79552 18.0626 7.89614 18.8228C8.75336 19.4149 9.82995 19.8006 11 19.9408V20.5C11 21.0523 11.4477 21.5 12 21.5C12.5523 21.5 13 21.0523 13 20.5V19.9435C14.1622 19.8101 15.2376 19.4425 16.0974 18.8585C17.2122 18.1013 18 16.9436 18 15.5C18 14.1934 17.5144 13.0022 16.4158 12.1712C15.557 11.5216 14.4039 11.1534 13 11.039V6.07813C13.7839 6.20366 14.4596 6.47214 14.9672 6.82279C15.6762 7.31255 16 7.90973 16 8.5C16 9.05228 16.4477 9.5 17 9.5C17.5523 9.5 18 9.05228 18 8.5C18 7.09027 17.2045 5.93745 16.1039 5.17721C15.2467 4.58508 14.1701 4.19941 13 4.0592V3.5ZM11 6.07814C10.2161 6.20367 9.54046 6.47215 9.03281 6.8228C8.32378 7.31255 8 7.90973 8 8.5C8 9.22601 8.25834 9.79286 8.79722 10.2074C9.24297 10.5503 9.94692 10.8384 11 10.9502V6.07814ZM13 13.047V17.9263C13.7911 17.8064 14.4682 17.5474 14.9737 17.204C15.6685 16.7321 16 16.1398 16 15.5C16 14.7232 15.7356 14.1644 15.2093 13.7663C14.7658 13.4309 14.0616 13.1537 13 13.047Z"
+                                                      fill="currentColor"></path>
+                                            </svg>
+                                            <span>Contact for Pricing</span>
+                                        </li>
+
+                                        <li title="Support for API"
+                                            class="flex items-center cursor-pointer gap-0.5 bg-gray-100 text-black px-2 py-0.5 rounded-full">
+                                            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M17 9V12C17 14.7614 14.7614 17 12 17M7 9V12C7 14.7614 9.23858 17 12 17M12 17V21M8 3V6M16 3V6M5 9H19"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                </path>
+                                            </svg>
+                                            <span>API</span>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="flex flex-wrap text-sm gap-2 my-1">
+                                        <li class="flex items-center gap-2">
+                                            <span>Business,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Communication,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Customer Support,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Email,</span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span>Sales</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <style>
+                        .tab-button.active {
+                            background-color: #fff;
+                            border-color: #4299e1;
+                            color: #4299e1;
+                        }
+                    </style>
+
+                    <script>
+                        function showTab(tabId) {
+                            // Hide all tab content
+                            const tabContents = document.querySelectorAll('.tab-content');
+                            tabContents.forEach((content) => {
+                                content.classList.add('hidden');
+                            });
+
+                            // Show the selected tab content
+                            const selectedTab = document.getElementById(tabId);
+                            if (selectedTab) {
+                                selectedTab.classList.remove('hidden');
+                            }
+
+                            // Remove the 'active' class from all tab buttons
+                            const tabButtons = document.querySelectorAll('.tab-button');
+                            tabButtons.forEach((button) => {
+                                button.classList.remove('active');
+                            });
+
+                            // Add the 'active' class to the clicked tab button
+                            const clickedButton = document.querySelector(`[onclick="showTab('${tabId}')"]`);
+                            if (clickedButton) {
+                                clickedButton.classList.add('active');
+                            }
+                        }
+
+                        // Initialize the first tab
+                        showTab('tab1');
+                    </script>
+
+                    <script src="//unpkg.com/alpinejs"></script>
+                    <div x-data="{
+            openTab: 1,
+            activeClasses: 'border-l border-t border-r rounded-t text-blue-700',
+            inactiveClasses: 'text-blue-500 hover:text-blue-700'
+        }" class="p-6">
+                        <ul class="flex border-b">
+                            <li @click="openTab = 1" :class="{ '-mb-px': openTab === 1 }" class="-mb-px mr-1">
+                                <a href="#" :class="openTab === 1 ? activeClasses : inactiveClasses"
+                                   class="bg-white inline-block py-2 px-4 font-semibold">
+                                    Active
+                                </a>
+                            </li>
+                            <li @click="openTab = 2" :class="{ '-mb-px': openTab === 2 }" class="mr-1">
+                                <!-- Set active class by using :class provided by Alpine -->
+                                <a href="#" :class="openTab === 2 ? activeClasses : inactiveClasses"
+                                   class="bg-white inline-block py-2 px-4 font-semibold">
+                                    Tab
+                                </a>
+                            </li>
+                            <li @click="openTab = 3" :class="{ '-mb-px': openTab === 3 }" class="mr-1">
+                                <a href="#" :class="openTab === 3 ? activeClasses : inactiveClasses"
+                                   class="bg-white inline-block py-2 px-4 font-semibold">
+                                    Tab
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="w-full">
+                            <div x-show="openTab === 1">Tab #1</div>
+                            <div x-show="openTab === 2">Tab #2</div>
+                            <div x-show="openTab === 3">Tab #3</div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="w-full mt-20 max-w-xl mx-auto">
+                        <!-- Tab Buttons -->
+                        <div class="bg-blue-500 p-2 rounded-t-lg">
+                            <div class="flex justify-center space-x-4">
+                                <button class="px-4 py-2 text-white font-semibold border-b-4 border-blue-700 hover:bg-blue-700 focus:outline-none tab-button" onclick="showTab('tab1')">Tab 1</button>
+                                <button class="px-4 py-2 text-white font-semibold border-b-4 border-blue-700 hover:bg-blue-700 focus:outline-none tab-button" onclick="showTab('tab2')">Tab 2</button>
+                                <button class="px-4 py-2 text-white font-semibold border-b-4 border-blue-700 hover:bg-blue-700 focus:outline-none tab-button" onclick="showTab('tab3')">Tab 3</button>
+                            </div>
+                        </div>
+
+                        <!-- Tab Content -->
+                        <div id="tab1" class="p-4 tab-content bg-white shadow-md rounded-lg">
+                            <h2 class="text-2xl font-semibold mb-2 text-blue-700">Tab 1 Content</h2>
+                            <p>
+                                Vestibulum condimentum imperdiet velit nec ornare. Nullam lobortis urna posuere quam porta consequat. Donec
+                                commodo diam lectus, sit amet tempor dolor scelerisque eget. Vestibulum at lectus dui. Maecenas consectetur tempor
+                                ipsum non porttitor. Cras accumsan mattis aliquam. Fusce eleifend maximus elit facilisis condimentum. Mauris non
+                                risus sed ligula convallis fermentum.
+                                <br>
+                                Quisque eu purus nunc. Ut eget ligula ac lorem laoreet scelerisque in ut
+                                nulla. Quisque volutpat elit eget tellus pharetra, vel sollicitudin velit scelerisque. Vivamus ac libero eu nunc
+                                congue malesuada eu vitae est.
+                            </p>
+                        </div>
+                        <div id="tab2" class="p-4 tab-content bg-white shadow-md rounded-lg hidden">
+                            <h2 class="text-2xl font-semibold mb-2 text-blue-700">Tab 2 Content</h2>
+                            <p>Phasellus eget euismod libero, nec ullamcorper justo. Phasellus eget euismod libero, nec ullamcorper justo.
+                                Phasellus eget euismod libero, nec ullamcorper justo. Etiam eget augue in ante gravida facilisis.</p>
+                        </div>
+                        <div id="tab3" class="p-4 tab-content bg-white shadow-md rounded-lg hidden">
+                            <h2 class="text-2xl font-semibold mb-2 text-blue-700">Tab 3 Content</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Sed ut
+                                perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Sed ut perspiciatis
+                                unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        </div>
+
+                    </div>
+
+                    <style>
+                        .tab-button.active {
+                            background-color: #fff;
+                            border-color: #4299e1;
+                            color: #4299e1;
+                        }
+                    </style>
+
+                    <script>
+                        function showTab(tabId) {
+                            // Hide all tab content
+                            const tabContents = document.querySelectorAll('.tab-content');
+                            tabContents.forEach((content) => {
+                                content.classList.add('hidden');
+                            });
+
+                            // Show the selected tab content
+                            const selectedTab = document.getElementById(tabId);
+                            if (selectedTab) {
+                                selectedTab.classList.remove('hidden');
+                            }
+
+                            // Remove the 'active' class from all tab buttons
+                            const tabButtons = document.querySelectorAll('.tab-button');
+                            tabButtons.forEach((button) => {
+                                button.classList.remove('active');
+                            });
+
+                            // Add the 'active' class to the clicked tab button
+                            const clickedButton = document.querySelector(`[onclick="showTab('${tabId}')"]`);
+                            if (clickedButton) {
+                                clickedButton.classList.add('active');
+                            }
+                        }
+
+                        // Initialize the first tab
+                        showTab('tab1');
+                    </script>
+
+
+
+                    <main class="relative min-h-screen flex flex-col justify-center bg-white overflow-hidden">
+                        <div class="w-full max-w-7xl mx-auto px-4 md:px-6 py-24">
+
+                            <!-- Image accordion component -->
+                            <div class="group flex max-md:flex-col justify-center gap-2">
+                                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                                    <a class="absolute inset-0 text-white z-10" href="#0">
+                                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Innovate relentlessly. Stagnation is the enemy of progress."</span>
+                                    </a>
+                                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/1.jpg" width="960" height="480" alt="Image 01">
+                                </article>
+                                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                                    <a class="absolute inset-0 text-white z-10" href="#0">
+                                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
+                                    </a>
+                                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/2.jpg" width="960" height="480" alt="Image 02">
+                                </article>
+                                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                                    <a class="absolute inset-0 text-white z-10" href="#0">
+                                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Dream big, start small, but most importantly, start."</span>
+                                    </a>
+                                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/3.jpg" width="960" height="480" alt="Image 03">
+                                </article>
+                                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                                    <a class="absolute inset-0 text-white z-10" href="#0">
+                                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
+                                    </a>
+                                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/4.jpg" width="960" height="480" alt="Image 02">
+                                </article>
+                                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                                    <a class="absolute inset-0 text-white z-10" href="#0">
+                                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
+                                    </a>
+                                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/5.jpg" width="960" height="480" alt="Image 02">
+                                </article>
+                                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                                    <a class="absolute inset-0 text-white z-10" href="#0">
+                                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
+                                    </a>
+                                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/6.jpg" width="960" height="480" alt="Image 02">
+                                </article>
+                            </div>
+                            <!-- End: Image accordion component -->
+                        </div>
+
+                    </main>
 
     </x-slot>
 

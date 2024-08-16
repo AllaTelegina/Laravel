@@ -87,6 +87,10 @@
                 <span class="text-white text-2xl ">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
             </div>
 
+
+
+
+
             <div class="container mx-auto space-y-10">
                 <div class="flex shadow-xl shadow-blue-200 rounded-lg">
                     <div class="bg-sky-600 text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">

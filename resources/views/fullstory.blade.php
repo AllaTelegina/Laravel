@@ -1,5 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
+
     <div class="flex-1 mt-16 text-blue-950 text-justify">
 <h1 class="space-y-4 text-4xl">СВЯТО – ВЛАДИМИРОВСКАЯ ЦЕРКОВЬ В д.ЧИЖЕВЩИНА</h1>
         <div class="flex-1 mt-16">
@@ -7,7 +8,6 @@
                 <img src="{{asset('images/history.jpg')}}" alt="Background Image" class="absolute inset-0 w-full h-full object-cover" />
             </div>
         </div>
-
         <div class="space-y-4">
             <h3 class="text-2xl">1.Первые святыни в Крупчицах</h3>
             <p>
@@ -69,14 +69,13 @@
                 Управлением с купцом Моисеем Тимофеевичем Пимоновым.
         </p>
 
-
         </div>
+
     </div>
-        <button class="mt-8 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+        <button class="mt-8 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-blue-950 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
             <a href="/story" class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                 Вернуться
             </a>
         </button>
-
     </x-slot>
 </x-app-layout>

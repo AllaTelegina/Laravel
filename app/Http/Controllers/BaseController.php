@@ -81,6 +81,10 @@ class BaseController extends Controller
 
     }
 
+    public function getPublications(){
+        return view('publications');
+
+    }
 
     public function getSponsors(){
         return view('sponsors');
@@ -89,6 +93,11 @@ class BaseController extends Controller
 
     public function getHealer(){
         return view('healer');
+
+    }
+
+    public function getSchool(){
+        return view('school');
 
     }
 
