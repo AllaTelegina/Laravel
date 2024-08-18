@@ -37,14 +37,16 @@
                         </a>
                         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center m-8">
                             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-white">
-                                <h1 class="mb-2 leading-relaxed text-2xl text-center">О воскресной школе</h1>
-                                <p class="mb-2 leading-relaxed text-xl text-justify">
-                                    Добро пожаловать на страницу школы!
-                                    Здесь вы можете ознакомиться с новостями и событиями нашего храма, а также узнать о предстоящих мероприятиях и важных обновлениях
+                                <h1 class="mb-2 leading-relaxed text-2xl">О воскресной школе</h1>
+                                <p class="mb-2 leading-relaxed text-xl text-justify indent-8">
+                                    Воскресная школа при храме Покрова Пресвятой Богородицы в Жабинке работает с 2003 года.
+                                    Сейчас в ней обучается около 200 детей. Цель школы - приобщение детей к литургической
+                                    жизни Церкви и формирование навыков православно-христианского образа жизни через
+                                    участие в богослужениях и Таинствах.
                                 </p>
                             </div>
                             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 shadow-2xl hover:bg-origin-padding contrast-125 scale-100">
-                                <img class="object-cover object-center rounded-2xl shadow-xl shadow-gray-400" alt="hero" src="{{asset('images/ысрщщд.jpg')}}">
+                                <img class="object-cover object-center rounded-3xl shadow-xl shadow-gray-400" alt="hero" src="{{asset('images/school.jpg')}}">
                             </div>
                         </div>
                     </div>
@@ -53,10 +55,13 @@
 
                 <div class="py-4 h-min-24 mx-auto w-3/4  bg-blue-100 shadow-2xl shadow-gray-300 rounded-lg">
                     <p class="leading-relaxed text-xl text-center p-4">
-                        На этой странице вы найдете актуальное расписание богослужений,
-                        информацию о нашем местоположении, а также сможете ознакомиться с фотогалереей,
-                        передающей атмосферу этого уникального места. Мы приглашаем вас присоединиться к нашей службе
-                        и ощутить благодать молитвами под покровом Божией Матери.
+                        В воскресную школу принимаются все желающие без экзаменов в возрасте от 6 до 12 лет.
+                        Для приёма в школу родителям желающих учиться детей необходимо написать заявление
+                        (прошение на имя настоятеля) в течение августа месяца. Дети шестилетнего возраста
+                        зачисляются в подготовительный класс.
+                        Срок обучения с учётом подготовительного класса – 7 лет. Учебный год начинается
+                        в первое воскресенье сентября и продолжается до конца мая. Занятия проходят по
+                        воскресным дням, согласно установленному расписанию.
                     </p>
                 </div>
 
@@ -64,73 +69,146 @@
                 <section class="text-blue-950  space-y-6 pt-2 py-4">
                     <section>
                         <div class="my-8">
-                            <div class="text-3xl"><span class="text-orange-600 font-medium">P</span>асписание</div>
+                            <div class="text-3xl"><span class="text-orange-600 font-medium">П</span>рограмма обучения</div>
                         </div>
-                        <section>
-                            <div class="mt-2 h-min-24 my-8 py-2 px-4 mx-auto w-3/4 text-center bg-blue-100 shadow-2xl shadow-gray-300 rounded-lg">
-                                <span class="text-2xl ">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
+                        </section>
+                            <div class="mt-2 h-min-24 my-8 py-4 px-4 mx-auto bg-blue-100 text-justify shadow-2xl shadow-gray-300 rounded-lg">
+                                <p class="text-lg indent-8">Программа обучения длится 7 лет и включает изучение Ветхого и Нового Завета, истории Церкви,
+                                    православных богослужений, храмоведения, церковных праздников, житий святых и молитв. Обязательная часть
+                                    уроков - посещение богослужений (Божественной Литургии). Подготовительный класс помогает детям подготовиться к
+                                    первой исповеди, познакомиться с основными церковными понятиями и начать самостоятельную церковную жизнь."</p>
+                                <p class="text-lg py-4 indent-8">Программа первого класса включает в себя основные понятия о храмоведении, о правилах поведения в храме.
+                                    Программа второго класса базируется на изучении иконописи и иконостаса Православной Церкви.
+                                    Программа третьего класса основное значение уделяет изучению истории Ветхого Завета.
+                                    Программа четвёртого класса строится на изучении истории Нового Завета.
+                                    Программа пятого класса рассчитана на изучение Богослужений Православной Церкви, а также церковнославянского языка.
+                                    Божественной Литургии, повторение, а также углубление знаний всего учебного материала, на подготовку к выпускному экзамену.
+                                    Программа шестого класса продолжает изучение Богослужений, а также включает знание основ православной нравственности,
+                                    житий белорусских святых. Также уделяется внимание повторению и углублению знаний всего ученого материала в связи
+                                    с подготовкой к выпускному экзамену."</p>
+                                <p class="text-lg py-4 indent-8">По окончанию воскресной школы и успешной сдачи выпускных экзаменов учащимся выдаются свидетельства
+                                    об окончании воскресной школы.
+                                Деятельность воскресной школы не ограничивается только уроками один раз в неделю. Традицией стали рождественские
+                                    и пасхальные постановки для учреждений образования города и района, а также проведение различных выставок,
+                                    конкурсов и т.п. детей и их родителей в течение всего учебного года. Традиционным стал и летний поход учителей
+                                    и семей детей, обучающихся в воскресной школе. Также в течение учебного года совершаются паломнические
+                                    поездки по святым местам Беларуси.</p>
                             </div>
-                            <div class="container mx-auto space-y-6 p-6 bg-blue-100 shadow-lg rounded-lg">
-                                <div class="overflow-x-auto">
-                                    <table class="min-w-full bg-blue-100">
-                                        <thead class="bg-sky-600 text-white text-xl">
-                                        <tr>
-                                            <th class="w-1/4 py-2 px-4 text-left">Дата</th>
-                                            <th class="w-1/4 py-2 px-4 text-left">День недели</th>
-                                            <th class="w-1/4 py-2 px-4 text-left">Время</th>
-                                            <th class="w-1/2 py-2 px-4 text-left">Служба</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody class="text-xl">
-                                        <tr>
-                                            <td class="border-b py-2 px-4">14 августа</td>
-                                            <td class="border-b py-2 px-4">Понедельник</td>
-                                            <td class="border-b py-2 px-4">08:00</td>
-                                            <td class="border-b py-2 px-4">Утренняя Литургия</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-b py-2 px-4">15 августа</td>
-                                            <td class="border-b py-2 px-4">Вторник</td>
-                                            <td class="border-b py-2 px-4">10:00</td>
-                                            <td class="border-b py-2 px-4">Молебен с акафистом</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-b py-2 px-4">16 августа</td>
-                                            <td class="border-b py-2 px-4">Среда</td>
-                                            <td class="border-b py-2 px-4">18:00</td>
-                                            <td class="border-b py-2 px-4">Вечерня с Утренью</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-b py-2 px-4">16 августа</td>
-                                            <td class="border-b py-2 px-4">Четверг</td>
-                                            <td class="border-b py-2 px-4">18:00</td>
-                                            <td class="border-b py-2 px-4">Вечерня с Утренью</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-b py-2 px-4">15 августа</td>
-                                            <td class="border-b py-2 px-4">Пятница</td>
-                                            <td class="border-b py-2 px-4">10:00</td>
-                                            <td class="border-b py-2 px-4">Молебен с акафистом</td>
-                                        </tr>
-                                        <tr class="text-orange-600">
-                                            <td class="border-b py-2 px-4">16 августа</td>
-                                            <td class="border-b py-2 px-4">Суббота</td>
-                                            <td class="border-b py-2 px-4">18:00</td>
-                                            <td class="border-b py-2 px-4">Вечерня с Утренью</td>
-                                        </tr>
-                                        <tr class="text-orange-600">
-                                            <td class="border-b py-2 px-4">16 августа</td>
-                                            <td class="border-b py-2 px-4">Воскресенье</td>
-                                            <td class="border-b py-2 px-4">18:00</td>
-                                            <td class="border-b py-2 px-4">Вечерня с Утренью</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+
+
+
+                    <div class="my-2 pt-8">
+                        <div class="text-3xl"><span class="text-orange-600 font-medium">Н</span>овости школы</div>
+                    </div>
+                    <section class="text-blue-950 body-font">
+                        <div class="container px-5 py-4 mx-auto">
+                            <div class="flex flex-wrap -m-4">
+
+
+                                <div class="p-4 md:w-1/3">
+                                    <div class="h-full border-2 border-gray-200 border-opacity-60 border-rounder-lg rounded-lg overflow-hidden">
+                                        <div class="relative">
+                                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="images/school.jpg" alt="blog">
+                                            <div class="absolute top-0 right-0 bg-sky-600 text-white font-bold px-2 py-1 m-2 rounded-md skeleton">New
+                                            </div>
+                                        </div>
+                                        <div class="p-6">
+                                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">12.09.2024</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Посещение воскресной школы</h1>
+                                            <p class="leading-relaxed mb-3">Посещение воскресной школы
+                                                Посещение воскресной школы
+                                                Посещение воскресной школы
+                                            </p>
+                                            <div class="flex items-center flex-wrap ">
+                                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Подробнее
+                                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M5 12h14"></path>
+                                                        <path d="M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+</span>
+                                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="p-4 md:w-1/3">
+                                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">
+                                        <div class="p-6">
+                                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                            <div class="flex items-center flex-wrap">
+                                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Подробнее
+                                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M5 12h14"></path>
+                                                        <path d="M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+</span>
+                                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 md:w-1/3">
+                                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
+                                        <div class="p-6">
+                                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                            <div class="flex items-center flex-wrap ">
+                                                <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Подробнее
+                                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="M5 12h14"></path>
+                                                        <path d="M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>1.2K
+</span>
+                                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>6
+              </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                    </section>
 
 
-                            <section>
+
+
+                    <section>
                                 <div class="my-8">
                                     <div class="text-3xl"><span class="text-orange-600 font-medium">Г</span>алерея</div>
                                 </div>
@@ -176,24 +254,14 @@
 
                                         <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
                                             <div class="mt-2 h-min-24 my-8 py-4 px-4 mx-auto w-3/4 text-center shadow-2xl shadow-gray-100 rounded-lg">
-                                                <span class="text-blue-950 text-2xl ">Служение от 12.10.2024</span>
+                                                <span class="text-blue-950 text-2xl ">Экскурсия от 12.10.2024</span>
                                             </div>
                                             <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
-                                                <li><img x-on:click="imageGalleryOpen" src="images/1.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 01"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/2.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 07"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/3.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 08"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/4.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 09"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/5.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 10"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/6.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 06"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/7.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 07"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/9.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 08"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/10.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 09"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/12.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 10"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/6.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 06"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/7.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 07"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/9.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 08"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/10.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 09"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/12.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 10"></li>
+                                                <li><img x-on:click="imageGalleryOpen" src="images/1s.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 01"></li>
+                                                <li><img x-on:click="imageGalleryOpen" src="images/2s.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 07"></li>
+                                                <li><img x-on:click="imageGalleryOpen" src="images/3s.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 08"></li>
+                                                <li><img x-on:click="imageGalleryOpen" src="images/6s.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 06"></li>
+                                                <li><img x-on:click="imageGalleryOpen" src="images/7s.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 07"></li>
                                             </ul>
                                         </div>
 
@@ -216,110 +284,38 @@
                                         </template>
                                     </div>
 
-                                    <div x-data="{
-        imageGalleryOpened: false,
-        imageGalleryActiveUrl: null,
-        imageGalleryImageIndex: null,
-        imageGalleryOpen(event) {
-            this.imageGalleryImageIndex = event.target.dataset.index;
-            this.imageGalleryActiveUrl = event.target.src;
-            this.imageGalleryOpened = true;
-        },
-        imageGalleryClose() {
-            this.imageGalleryOpened = false;
-            setTimeout(() => this.imageGalleryActiveUrl = null, 300);
-        },
-        imageGalleryNext(){
-            if(this.imageGalleryImageIndex == this.$refs.gallery.childElementCount){
-                this.imageGalleryImageIndex = 1;
-            } else {
-                this.imageGalleryImageIndex = parseInt(this.imageGalleryImageIndex) + 1;
-            }
-            this.imageGalleryActiveUrl = this.$refs.gallery.querySelector('[data-index=\'' + this.imageGalleryImageIndex + '\']').src;
-        },
-        imageGalleryPrev() {
-            if(this.imageGalleryImageIndex == 1){
-                this.imageGalleryImageIndex = this.$refs.gallery.childElementCount;
-            } else {
-                this.imageGalleryImageIndex = parseInt(this.imageGalleryImageIndex) - 1;
-            }
-
-            this.imageGalleryActiveUrl = this.$refs.gallery.querySelector('[data-index=\'' + this.imageGalleryImageIndex + '\']').src;
-
-        }
-    }" @image-gallery-next.window="imageGalleryNext()" @image-gallery-prev.window="imageGalleryPrev()" @keyup.right.window="imageGalleryNext();" @keyup.left.window="imageGalleryPrev();" x-init="
-        imageGalleryPhotos = $refs.gallery.querySelectorAll('img');
-        for(let i=0; i<imageGalleryPhotos.length; i++){
-            imageGalleryPhotos[i].setAttribute('data-index', i+1);
-        }
-    " class="w-full h-full select-none">
-
-                                        <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
-                                            <div class="mt-2 h-min-24 my-8 py-4 px-4 mx-auto w-3/4 text-center shadow-2xl shadow-gray-100 rounded-lg">
-                                                <span class="text-blue-950 text-2xl ">Служение от 12.10.2024</span>
-                                            </div>
-                                            <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
-                                                <li><img x-on:click="imageGalleryOpen" src="images/1.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 01"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/2.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 07"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/3.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 08"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/4.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 09"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/5.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 10"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/6.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 06"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/7.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 07"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/9.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 08"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/10.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 09"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/12.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 10"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/6.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 06"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/7.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 07"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/9.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 08"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/10.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 09"></li>
-                                                <li><img x-on:click="imageGalleryOpen" src="images/12.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 10"></li>
-                                            </ul>
-                                        </div>
-
-                                        <template x-teleport="body">
-                                            <div x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300" x-transition:enter-start="opacity-0" x-transition:leave="transition ease-in-in duration-300" x-transition:leave-end="opacity-0" @click="imageGalleryClose" @keydown.window.escape="imageGalleryClose" x-trap.inert.noscroll="imageGalleryOpened" class="fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 select-none cursor-zoom-out" x-cloak>
-                                                <div class="relative flex items-center justify-center w-11/12 xl:w-4/5 h-11/12">
-                                                    <div @click="$event.stopPropagation(); $dispatch('image-gallery-prev')" class="absolute left-0 flex items-center justify-center text-white translate-x-10 rounded-full cursor-pointer xl:-translate-x-24 2xl:-translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
-                                                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                                                        </svg>
-                                                    </div>
-                                                    <img x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300" x-transition:enter-start="opacity-0 transform scale-50" x-transition:leave="transition ease-in-in duration-300" x-transition:leave-end="opacity-0 transform scale-50" class="object-contain object-center w-full h-full select-none cursor-zoom-out" :src="imageGalleryActiveUrl" alt="" style="display: none;">
-                                                    <div @click="$event.stopPropagation(); $dispatch('image-gallery-next');" class="absolute right-0 flex items-center justify-center text-white -translate-x-10 rounded-full cursor-pointer xl:translate-x-24 2xl:translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
-                                                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </template>
-                                    </div>
 
                                 </section>
 
                                 </main>
                             </section>
+                        </section>
+                    </section>
+                </section>
+
 
                             <section>
                                 <div class="my-8">
-                                    <div class="text-3xl"><span class="text-orange-600 font-medium">А</span>дрес</div>
+                                    <div class="text-3xl"><span class="text-orange-600 font-medium">К</span>онтакты</div>
                                 </div>
                                 <section>
                                     <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
                                         <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-                                            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/14.jpg')}}" alt="" width="384" height="512" />
+                                            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/maps.png')}}" alt="" width="384" height="512" />
                                             <div class="card lg:card-side bg-blue-100">
                                                 <div class="card-body">
                                                     <h2 class="card-title">Как к нам приехать</h2>
-                                                    <p> Брестская область, Жабинковский район,
-                                                        1,6 км севернее д. Чижевщина, на территории санатория "Надзея” расположен храм часовня Целительница.
+                                                    <p>Брестская обл., г. Жабинка, ул. Комсомольская, 82</p>
+                                                    <p> Директор воскресной школы - Быкова Ольга Георгиевна
+                                                        <a class="link link-hover href="tel:+375297984533">+375 29 798 45 33</a>
+                                                    </p>
+                                                        <p>Заместитель директора по учебной части - Орехова Светлана Владимировна
+                                                            <a class="link link-hover href="tel:+375292238136">+375 29 223 81 36</a>
                                                     </p>
                                                 </div>
                                             </div>
                                         </figure>
                                     </div>
-
 
                                     <!-- вращающийся слайдер
                                                             <div class="h-screen w-full flex items-center justify-center overflow-hidden mt-4">

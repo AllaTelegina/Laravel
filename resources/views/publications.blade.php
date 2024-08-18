@@ -56,10 +56,12 @@
                 </section>
 
 <section class="text-blue-950 body-font">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 py-8 mx-auto">
     <div class="flex flex-wrap -m-4">
-      <div class="p-4 md:w-1/3">
-        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+
+        <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 border-rounder-lg rounded-lg overflow-hidden">
            <div class="relative">
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="images/school.jpg" alt="blog">
             <div class="absolute top-0 right-0 bg-sky-600 text-white font-bold px-2 py-1 m-2 rounded-md skeleton">New
@@ -94,6 +96,8 @@
           </div>
         </div>
       </div>
+
+
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">

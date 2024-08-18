@@ -149,7 +149,7 @@
     </div>
     <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
         <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/21.png')}}" alt="" width="384" height="512" />
+            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/17.jpg')}}" alt="" width="384" height="512" />
                 <div class="card lg:card-side bg-blue-100">
                     <div class="card-body">
                         <h2 class="card-title">Библиотека в Храме</h2>
