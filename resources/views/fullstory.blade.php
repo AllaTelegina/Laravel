@@ -993,29 +993,576 @@
                 </tr>
                 <tr class="bg-white dark:bg-gray-800 font-semibold">
                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        Доходы
+                        4
                     </th>
                     <td class="px-6 py-4">
-                        1720р.
+                        Феофан Иванович Павлович протоиерей
                     </td>
                     <td class="px-6 py-4">
-                        1964р.
+                        Степанки
                     </td>
                     <td class="px-6 py-4">
-                        1956р.
+                        1837- ?
+                    </td>
+                    <td class="px-6 py-4">
+                        1873-1883
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        5
+                    </th>
+                    <td class="px-6 py-4">
+                        Павел Иванович Михаловский прот покоит.,на приходс.,погосте
+                    </td>
+                    <td class="px-6 py-4">
+                        Черевачицы
+                    </td>
+                    <td class="px-6 py-4">
+                        1838-1915
+                    </td>
+                    <td class="px-6 py-4">
+                        1883-1911
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        6
+                    </th>
+                    <td class="px-6 py-4">
+                        Иоанн Павлович Михаловский прот покоит., на прихд погосте
+                    </td>
+                    <td class="px-6 py-4">
+                        Черевачицы
+                    </td>
+                    <td class="px-6 py-4">
+                        1873-1956
+                    </td>
+                    <td class="px-6 py-4">
+                        1911-1915 1925-1931
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        7
+                    </th>
+                    <td class="px-6 py-4">
+                        Владимир Самойлович  протоиерей
+                    </td>
+                    <td class="px-6 py-4">
+                        Кобрин
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                    <td class="px-6 py-4">
+                        Февр.1931
+                        Март 1932
+
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        8
+                    </th>
+                    <td class="px-6 py-4">
+                        Александр Владимирович Самойлович протоиерей
+                    </td>
+                    <td class="px-6 py-4">
+                        Кобрин
+                    </td>
+                    <td class="px-6 py-4">
+                        30.8.1894-
+                        -?
+                    </td>
+                    <td class="px-6 py-4">
+                        Апрель1932-1936
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        9
+                    </th>
+                    <td class="px-6 py-4">
+                        Владимир Антонович Забельский протоиерей
+                    </td>
+                    <td class="px-6 py-4">
+                        Буховичи
+                    </td>
+                    <td class="px-6 py-4">
+                        25.5.1872-
+                        -1955
+                    </td>
+                    <td class="px-6 py-4">
+                        1937-1938
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                       10
+                    </th>
+                    <td class="px-6 py-4">
+                        Феодор Данилович Ивацевич митрофорный протоиерей покоится на церковном погосте Петопавлоской церкви г.Кобрин
+                    </td>
+                    <td class="px-6 py-4">
+                        Кобрин
+                    </td>
+                    <td class="px-6 py-4">
+                        15.8.1879-
+                        -16.6.1944
+
+                    </td>
+                    <td class="px-6 py-4">
+                        1938 - 1942
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        11
+                    </th>
+                    <td class="px-6 py-4">
+                        Петр Трофимович Котар митрофорный протоиерей покоится на церк.,погосте Свято-
+                        Покровской церкви г.Жабинка
+
+                    </td>
+                    <td class="px-6 py-4">
+                        Жабинка
+                    </td>
+                    <td class="px-6 py-4">
+                        4.10.1880-19.4.1948
+                    </td>
+                    <td class="px-6 py-4">
+                        1943-1048
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        12
+                    </th>
+                    <td class="px-6 py-4">
+                        Владимир Александрович Рункевич протоиерей покоится на городком погосте «Тришин»
+                    </td>
+                    <td class="px-6 py-4">
+                        Сехнови
+                        Сехновичи
+
+                    </td>
+                    <td class="px-6 py-4">
+                        31.1.1902
+                        4.3.1969
+
+                    </td>
+                    <td class="px-6 py-4">
+                        23.4.1948-июль 1955
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        13
+                    </th>
+                    <td class="px-6 py-4">
+                        Владимир Петрович Котар иерей
+                        Покоится на городском погосте г.Кобрина
+                    </td>
+                    <td class="px-6 py-4">
+                        Жабинка
+                    </td>
+                    <td class="px-6 py-4">
+                        22.3.1914-5.2.2002
+                    </td>
+                    <td class="px-6 py-4">
+                        1955-1957
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        14
+                    </th>
+                    <td class="px-6 py-4">
+                        Михаил Дюков протоиерей
+                    </td>
+                    <td class="px-6 py-4">
+                        Каменец
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                    <td class="px-6 py-4">
+                        1958-1961
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        15
+                    </th>
+                    <td class="px-6 py-4">
+                        Евгений Степанович Парфенюк протоиерей покоится на погосте
+                        «Плоска» г.Бреста
+                    </td>
+                    <td class="px-6 py-4">
+                        Кобрин
+                    </td>
+                    <td class="px-6 py-4">
+                        11.8.1921
+                        10.3.2008
+                    </td>
+                    <td class="px-6 py-4">
+                        1961-1965
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        16
+                    </th>
+                    <td class="px-6 py-4">
+                        Николай Александрович Черкасевич Митрофорный протои. , покоится на церковном погосте Св.Покровской церкви.
+                    </td>
+                    <td class="px-6 py-4">
+                        Жабинка
+                    </td>
+                    <td class="px-6 py-4">
+                        7.10.1924-
+                        15.12.1995.
+                    </td>
+                    <td class="px-6 py-4">
+                        1965-1995
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        17
+                    </th>
+                    <td class="px-6 py-4">
+                        Стефан Иванович Гапанюк протои.
+                    </td>
+                    <td class="px-6 py-4">
+                        Жабинка
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                    <td class="px-6 py-4">
+                        1996-2006
+                    </td>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        18
+                    </th>
+                    <td class="px-6 py-4">
+                        Владимир Корнелюк   протоиерей
+                    </td>
+                    <td class="px-6 py-4">
+                        Кобрин
+                        Брест
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                    <td class="px-6 py-4">
+                        2006-2012
+                    </td>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        19
+                    </th>
+                    <td class="px-6 py-4">
+                        Сергий Алексеевич Петрусевич протоиерей
+                    </td>
+                    <td class="px-6 py-4">
+                        Жабинка
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                    <td class="px-6 py-4">
+                        с 2012
                     </td>
                 </tr>
                 </tbody>
             </table>
         </div>
 
-        <p class="indent-8 py-2">      Примечание: Духовный сан благочинных указан на период  служения благочинным данного округа.
+        <p class="indent-8 py-2">Примечание: Духовный сан благочинных указан на период  служения благочинным данного округа.
             В 1959 году Постановлением Правительства Жабинковский район был сокращен. Ликвидировано Жабинковское благочиние. Церкви бывшего благочиния вошли в Каменецкое и Кобринское благочиния. Восстановлен район в 1966году в нынешних границах. Тогда же было вновь образовано Жабинковское благочиние.
         </p>
         <h3 class="text-2xl py-2 font-semibold text-center">Священники служившие в Крупчицкой Св.Владимировской церкви</h3>
+        <div class="relative overflow-x-auto ml-16 mr-16 italic">
+            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3 text-xl">
+                        №
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Ф.и.о. священников, духовный сан, где похоронен
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Годы жизни
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Годы службы
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        1
+                    </th>
+                    <td class="px-6 py-4">
+                        Евстафий Маркевич иерей
+                    </td>
+                    <td class="px-6 py-4">
+                        - 1883
+                    </td>
+                    <td class="px-6 py-4">
+                        1857-1883
+                    </td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        2
+                    </th>
+                    <td class="px-6 py-4">
+                        Никанор Антонович Котович протоиерей покоится на церковном погосте Чижевщина
+                    </td>
+                    <td class="px-6 py-4">
+                        28.08.1845-1.04. 1938
+                    </td>
+                    <td class="px-6 py-4">
+                        1883-1915 1918-1936
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        3
+                    </th>
+                    <td class="px-6 py-4">
+                        Николай Иванович Михаловский иерей покоится на приходском погосте Черевачицы
+                    </td>
+                    <td class="px-6 py-4">
+                        10.4.1901-27.9.1943
+                    </td>
+                    <td class="px-6 py-4">
+                        1937-1938
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        4
+                    </th>
+                    <td class="px-6 py-4">
+                        Иерофей Дядио
+                    </td>
+                    <td class="px-6 py-4">
 
-        ТАБЛИЦА
+                    </td>
+                    <td class="px-6 py-4">
+                        1938
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        5
+                    </th>
+                    <td class="px-6 py-4">
+                        Даниил Кунцевич
+                    </td>
+                    <td class="px-6 py-4">
+                        1880-
+                    </td>
+                    <td class="px-6 py-4">
+                        -15.11.1939
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        6
+                    </th>
+                    <td class="px-6 py-4">
+                        Владимир Иванович Антипорович
+                    </td>
+                    <td class="px-6 py-4">
+                        9.7.1912-
+                    </td>
+                    <td class="px-6 py-4">
+                        -15.11.1939
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        7
+                    </th>
+                    <td class="px-6 py-4">
+                        Иоанн Трофимович Серветник покоится на приходском погосте в д. Черевачицы
+                    </td>
+                    <td class="px-6 py-4">
+                        1910-4.5.1943
+                    </td>
+                    <td class="px-6 py-4">
+                        декабрь1941-май 1943
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        8
+                    </th>
+                    <td class="px-6 py-4">
+                        Петр Львович Калишевич протоиерей покоится на городском погосте Кобрина
+                    </td>
+                    <td class="px-6 py-4">
+                        1903-6.05.1969
+                    </td>
+                    <td class="px-6 py-4">
+                        1903-6.05.1969
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    </th>
+                    <td class="px-6 py-4">
+                        Церковь была  ЗАКРЫТА с 1969-1989гг
+                    </td>
+                    <td class="px-6 py-4">
+                    </td>
+                    <td class="px-6 py-4">
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        9
+                    </th>
+                    <td class="px-6 py-4">
+                        Иоанн Михайлович Поддубный протоиерей покоит. на городском погосте г.Кобрина                    </td>
+                    <td class="px-6 py-4">
+                        22.091931-6.01.2016
+                    </td>
+                    <td class="px-6 py-4">
+                        1990-1996
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        10
+                    </th>
+                    <td class="px-6 py-4">
+                        Иеромонах Леонид (в миру Николай Иванович Миронюк)
+                    </td>
+                    <td class="px-6 py-4">
 
+                    </td>
+                    <td class="px-6 py-4">
+                        1997-2002
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    </th>
+                    <td class="px-6 py-4">
+                        Псаломщики:
+                    </td>
+                    <td class="px-6 py-4">
+                    </td>
+                    <td class="px-6 py-4">
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        1
+                    </th>
+                    <td class="px-6 py-4">
+                        Лев Калишевич
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                    <td class="px-6 py-4">
+                        1892
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        2
+                    </th>
+                    <td class="px-6 py-4">
+                        Федор Мартынчик
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                    <td class="px-6 py-4">
+                        1921-1934
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        3
+                    </th>
+                    <td class="px-6 py-4">
+                        Веньямин Александрович Образцов
+                    </td>
+                    <td class="px-6 py-4">
+                        1895-
+                    </td>
+                    <td class="px-6 py-4">
+                        1934-1937
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        4
+                    </th>
+                    <td class="px-6 py-4">
+                        Емельян Кайко
+                    </td>
+                    <td class="px-6 py-4">
+                        1898-
+                    </td>
+                    <td class="px-6 py-4">
+                        1937-1939
+                    </td>
+                </tr>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+
+                    </th>
+                    <td class="px-6 py-4">
+                        Старосты
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                    <td class="px-6 py-4">
+
+                    </td>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        1
+                    </th>
+                    <td class="px-6 py-4">
+                        Иван Степанович Андреюк
+                    </td>
+                    <td class="px-6 py-4">т
+                    </td>
+                    <td class="px-6 py-4">
+                        1896-1915 1926-1935
+                    </td>
+                <tr class="bg-white dark:bg-gray-800 font-semibold">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        2
+                    </th>
+                    <td class="px-6 py-4">
+                        Ярошук Владимир Евфимович
+                    </td>
+                    <td class="px-6 py-4">
+                    </td>
+                    <td class="px-6 py-4">
+                        1988-2008
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
         <h3 class="text-2xl py-2 font-semibold text-center">ПРИПИСНЫЕ К СВ.ВЛАДИМИРОВСКОМУ ХРАМУ ЦЕРКВИ
             МЫЩИЦКАЯ СВ.УСПЕНСКАЯ ЦЕРКОВЬ
         </h3>
