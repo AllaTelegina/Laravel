@@ -234,8 +234,12 @@
     {{ $slot }}
 </main>
 
+
+
+
+
 <!-- Форма обратной связи -->
-<section class="body-font relative">
+<section id="consult" class="body-font relative">
     <div class="container px-5 py-8 mx-auto">
         <div class="flex flex-col text-center w-full mb-8  text-blue-950">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4">Остались вопросы ?</h1>
@@ -277,7 +281,13 @@
 </section>
 
 
-
+<div class="fixed bottom-0 right-0 p-4">
+    <button class="bg-gray-800 text-white rounded-full w-10 h-10 flex items-center justify-center" onclick="backToTop()">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+</div>
 
 <footer class="footer bg-blue-200 text-base-content p-10">
     <nav>
@@ -455,6 +465,7 @@
             </a>
         </div>
     </nav>
+
 
     <aside class="fixed z-50 flex items-center justify-center px-5 py-3 text-white bg-sky-600 border-b-blue-900 rounded-lg bottom-4 right-4">
 

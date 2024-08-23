@@ -3,6 +3,38 @@
     <x-slot name="header">
 
 
+<!-- вращение круг-->
+        <div>
+            <div style="border-top-color:transparent"
+                 class="w-16 h-16 border-4 border-red-400 border-double rounded-full animate-spin"></div>
+        </div>
+
+
+<!-- рамка в рамке-->
+        <div class="h-screen flex items-center justify-center flex-col gap-4">
+            <div class="border border-black p-4">
+                <p class="border border-gray-400 p-4">This text has a border</p>
+            </div>
+            <div class="border border-dashed border-blue-500 p-4">
+                <p>This text has a dashed blue border</p>
+            </div>
+            <h2 class="border-b-4 border-red-600 pb-2">Section Title</h2>
+            <div class="border border-gray-300 rounded-lg p-4">
+                <img
+                    src="https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_640.png"
+                    class="w-16 h-16 rounded-full border-4 border-blue-500"
+                    alt="Profile Picture"
+                />
+                <h3 class="text-lg font-semibold mt-2">John Doe</h3>
+                <p class="text-sm text-gray-600">Software Engineer</p>
+            </div>
+            <div class="border-l-4 border-green-500 bg-green-100 text-green-800 p-4">
+                <p class="font-semibold">Success!</p>
+                <p>Your transaction has been completed.</p>
+            </div>
+            <p> <a href="https://larainfo.com/blogs/how-to-use-font-border-in-tailwind-css">Read Full blog on larainfo</a></p>
+        </div>
+
 
 
 
@@ -117,8 +149,10 @@
 
         <section class="text-gray-600 body-font">
             <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-wrap -m-4">
-                    <div class="p-4 lg:w-1/3">
+
+                <div class="flex flex-wrap -m-4 ">
+
+                    <div class="p-4 lg:w-1/3 ">
                         <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
                             <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Raclette Blueberry Nextious Level</h1>
@@ -144,6 +178,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="p-4 lg:w-1/3">
                         <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
