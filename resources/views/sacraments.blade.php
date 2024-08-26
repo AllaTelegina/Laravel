@@ -6,7 +6,7 @@
 
 
             <div class="mt-4">
-                <div class="text-3xl"><span class="text-red-600 font-medium">Т</span>аинства</div>
+                <div class="text-3xl"><span class="text-orange-600 font-medium">Т</span>аинства</div>
             </div>
             <!-- панировочные сухари -->
             <nav class="flex" aria-label="Breadcrumb">
@@ -206,38 +206,14 @@
                     <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100 shadow-md">
                             <div class="my-4 grid gap-6 px-4">
-                                <p class="text-justify indent-8">Венчание — это святое таинство, через которое мужчина и женщина получают благословение на создание семьи в
-                                    христианской традиции. Оно подчеркивает не только юридическую, но и духовную сторону брака, делая его
-                                    священным союзом перед Богом. Венчание освящает брачный союз, привлекая благодать Божью для укрепления
-                                    семьи. Супруги соединяются не только физически, но и духовно, обещая перед Богом хранить верность
-                                    и любовь друг к другу. Таинство венчания дарует супругам поддержку Святого Духа, помогая им преодолевать
-                                    жизненные трудности. Венчанный брак служит примером для окружающих, подчеркивая важность христианских
-                                    семейных ценностей. Венчание связывает супругов с многовековыми традициями Церкви, усиливая их чувство
-                                    принадлежности к духовной общине. Оно помогает супругам осознать глубину и значимость их союза, наполняет
-                                    семейную жизнь духовным смыслом и поддерживает их в стремлении строить крепкую и благочестивую семью.</p>
-                                <p class="text-justify indent-8">
-                                    Церемония венчания - это не только древняя и красивая традиция, но и важный шаг на пути к созданию прочной
-                                    и счастливой семьи. Иногда пары приходят к этому решению спустя годы, когда они окончательно убеждаются в
-                                    своих чувствах и намерении провести вместе всю жизнь.
-
-                                    Если вы посетили эту страницу, потому что уже готовы сделать этот серьезный шаг и планируете провести
-                                    венчание, первым делом вам нужно правильно выбрать дату. В этом вам поможет календарь венчаний.
-                                    Существуют определенные дни для проведения венчания в церкви. Для вашего
-                                    удобства Вы можете воспользоваться календарем венчаний. В нем вы узнаете, в какие дни согласно канонам
-                                    Православной Церкви можно проводить обряд венчания, а в какие нет.</p>
-
-                                    <h2>Таинство Брака не совершается:</h2>
-
-                                    <p class="text-justify indent-8">по вторникам, четвергам (накануне постных дней – среды и пятницы) и в субботу (накануне малой Пасхи – дня воскресного);<br>
-                                    в Пасху, накануне двунадесятых и великих праздников. Венчание в дни двунадесятых праздников не запрещено, но нежелательно. День общего церковного великого праздника мы стремимся прожить вместе с Церковью, не заслоняя церковную радость своей малой личной радостью, личными нуждами;<br>
-                                    накануне престольных храмовых праздников (в каждом храме они свои);<br>
-                                    в Сырную седмицу, в продолжение Святок и Пасхальной (Светлой) седмицы. Венчание в предуготовительные к Великому посту недели и иные сплошные седмицы не запрещены, но нежелательны.<br>
-                                    во время 4-х многодневных постов: Великого, Апостольского, Успенского и Рождественского;<br>
-                                    в дни (и накануне) строгого однодневного поста: Усекновения главы Иоанна Предтечи – 11 сентября и Воздвижения Креста Господня – 27 сентября;<br>
-                                    ночью.<br>
-                                    Один из канонов византийского сборника «Алфавитная синтагма» Матфея Властаря (XIV в.) предписывает, что траур по почившим родственникам не является причиной для переноса заключения брака.<br>
-                                    Исключения из этих правил могут быть сделаны только правящим архиереем. Если венчание уже совершено в день, когда это запрещено церковным Уставом, то это не делает таинство недействительным.
-                                    </p>
+                                <p class="text-justify indent-8">Венчание — это святое таинство, в котором мужчина и женщина
+                                    получают благословение на создание семьи в христианской традиции. Оно подчеркивает
+                                    духовную сторону брака, делая его священным союзом перед Богом. Венчание освящает
+                                    брачный союз, привлекая Божью благодать для укрепления семьи, и соединяет супругов
+                                    физически и духовно, обещая верность и любовь перед Богом. Церемония венчания связывает
+                                    супругов с традициями Церкви и усиливает их принадлежность к духовной общине, помогая
+                                    осознать значимость их союза. Если вы планируете венчание, воспользуйтесь <a href="/weddingcalendar" class="link-info link-hover">календарем венчания</a>,
+                                    чтобы выбрать подходящую дату, соответствующую канонам Православной Церкви.
 
 
                                 <div class="flex justify-end p-4 w-full">
@@ -251,53 +227,193 @@
                 </div>
             </div>
 
-            <div class="mt-2 h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-300 rounded-lg text-center">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mt-6" viewBox="0 0 975.036 975.036">
-                    <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-                </svg>
-                <p class="text-blue-950 text-2xl m-2">Таинству Брака должна предшествовать гражданская регистрация
-                    с целью юридического оформления ответственности вступающих в
-                    брак и проверки отсутствия препятствий к нему.
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
-                    <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
-                </svg>
-            </div>
 
-            <div class="mt-16 mb-8 px-8 ">
-                <div class="container mx-auto shadow-xl shadow-gray-300">
-                    <div class="py-8 flex justify-center rounded-xl bg-blue-100 shadow-md">
-                        <div class="my-4 grid gap-6 px-4">
-                            <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl text-center">Этапы подготовки к Венчанию</h3>
-                            <span class="text-center">Подготовка к венчанию включает несколько важных этапов, которые помогут вам организовать это важное событие и сделать его значимым и незабываемым.</span>
-                            <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">1. Духовная подготовка</h3>
-                            Молитва и пост: Перед венчанием рекомендуется усилить молитвенную жизнь и соблюдать пост.<br>
-                            Исповедь и причастие: Будущим супругам следует пройти исповедь и причаститься перед венчанием, чтобы приступить к таинству с чистой душой.<br>
-                            Беседы с батюшкой: Посетите несколько бесед с батюшкой, который расскажет о значении венчания и подготовит вас к этому таинству.<br>
-                            <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">2. Выбор даты</h3>
-                            Изучение церковного календаря: Убедитесь, что выбранная дата не попадает на дни постов и праздников, когда венчания не проводятся.<br>
-                            Согласование с храмом: Обсудите дату венчания с настоятелем храма и забронируйте удобное время.<br>
-                            <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">3. Оформление необходимых документов</h3>
+            <ul class=" mx-auto w-full mt-20 divide-y  shadow-xl shadow-blue-200 rounded-xl">
+                <li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 px-4 py-3 bg-blue-100 border-2 border-gray-100 font-medium marker:content-none hover:cursor-pointer
+                        focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800 rounded-t-xl">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>Это важно знать</span>
+                        </summary>
+
+                        <article class="px-4 pb-4">
+                            <p class="py-2">Таинству Брака должна предшествовать гражданская регистрация
+                                с целью юридического оформления ответственности вступающих в
+                                брак и проверки отсутствия препятствий к нему.<p>
+                        </article>
+                    </details>
+                </li>
+                <li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>Таинство Брака не совершается:</span>
+                        </summary>
+
+                        <article class="px-4 pb-4">
+                            <p class="text-justify indent-8">по вторникам, четвергам (накануне постных дней – среды и пятницы) и в субботу (накануне малой Пасхи – дня воскресного);<br>
+                                в Пасху, накануне двунадесятых и великих праздников. Венчание в дни двунадесятых праздников не запрещено, но нежелательно. День общего церковного великого праздника мы стремимся прожить вместе с Церковью, не заслоняя церковную радость своей малой личной радостью, личными нуждами;<br>
+                                накануне престольных храмовых праздников (в каждом храме они свои);<br>
+                                в Сырную седмицу, в продолжение Святок и Пасхальной (Светлой) седмицы. Венчание в предуготовительные к Великому посту недели и иные сплошные седмицы не запрещены, но нежелательны.<br>
+                                во время 4-х многодневных постов: Великого, Апостольского, Успенского и Рождественского;<br>
+                                в дни (и накануне) строгого однодневного поста: Усекновения главы Иоанна Предтечи – 11 сентября и Воздвижения Креста Господня – 27 сентября;<br>
+                                ночью.<br>
+                                Один из канонов византийского сборника «Алфавитная синтагма» Матфея Властаря (XIV в.) предписывает, что траур по почившим родственникам не является причиной для переноса заключения брака.<br>
+                                Исключения из этих правил могут быть сделаны только правящим архиереем. Если венчание уже совершено в день, когда это запрещено церковным Уставом, то это не делает таинство недействительным.
+                            </p>
+                        </article>
+                    </details>
+                </li>
+                <li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>Духовная подготовка</span>
+                        </summary>
+
+                        <article class="px-4 pb-4">
+                            <p>
+                                Молитва и пост: Перед венчанием рекомендуется усилить молитвенную жизнь и соблюдать пост.<br>
+                                Исповедь и причастие: Будущим супругам следует пройти исповедь и причаститься перед венчанием, чтобы приступить к таинству с чистой душой.<br>
+                                Беседы с батюшкой: Посетите несколько бесед с батюшкой, который расскажет о значении венчания и подготовит вас к этому таинству.
+                               </p>
+                        </article>
+                    </details>
+                </li>
+                <li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>Выбор даты</span>
+                        </summary>
+
+                        <article class="px-4 pb-4">
+                            <p>
+                                Изучение церковного календаря: Убедитесь, что выбранная дата не попадает на дни постов и праздников, когда венчания не проводятся.<br>
+                                Согласование с храмом: Обсудите дату венчания с настоятелем храма и забронируйте удобное время.<br>
+                            </p>
+                        </article>
+                    </details>
+                </li>
+                <li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>Оформление необходимых документов</span>
+                        </summary>
+
+                        <article class="px-4 pb-4">
                             Свидетельство о браке: Если вы уже зарегистрированы в ЗАГСе, вам потребуется предоставить свидетельство о браке.<br>
                             Заявление на венчание: В некоторых храмах требуется заполнить заявление на проведение венчания.<br>
-                            <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">4. Выбор нарядов и аксессуаров</h3>
+                        </article>
+                    </details>
+                </li>
+                <li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>Выбор нарядов и аксессуаров</span>
+                        </summary>
+
+                        <article class="px-4 pb-4">
                             Свадебное платье и костюм: Выберите скромные наряды, соответствующие церковным требованиям.<br>
                             Фата и венцы: Подготовьте фату и венцы для таинства.<br>
-                            Обручальные кольца: Обратите внимание на кольца, которые будут освящены во время венчания.<br>
-                            <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">5. Подготовка к таинству</h3>
-                            Приглашение свидетелей: Выберите свидетелей, которые будут присутствовать на венчании и помогать в организации.<br>
-                            Подготовка свечей: Купите специальные венчальные свечи, которые будут держать жених и невеста во время таинства.<br>
-                            <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">6. Организация торжества</h3>
+                        </article>
+                    </details>
+                </li>
+                <li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>Подготовка к таинству</span>
+                        </summary>
+
+                        <article class="px-4 pb-4">
+                            </h3>
+                            Приглашение свидетелей: Выберите свидетелей, которые будут присутствовать на венчании и помогать в организации.
+                        </article>
+                    </details>
+                </li>
+                <li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                        focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>Организация торжества</span>
+                        </summary>
+
+                        <article class="px-4 pb-4">
                             Планирование банкета: Забронируйте зал для празднования и обсудите меню.<br>
                             Приглашения для гостей: Рассылайте приглашения и уточняйте количество гостей.<br>
-                            <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">7. В день венчания</h3>
+                        </article>
+                    </details>
+                </li>
+                    <details class="group">
+                        <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800 rounded-b-xl">
+                            <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                            <span>В день венчания</span>
+                        </summary>
+                        <article class="px-4 pb-4">
                             Приезд в храм заранее: Прибудьте в храм заблаговременно, чтобы успеть подготовиться и настроиться на таинство.<br>
                             Следование указаниям батюшки: Во время венчания следуйте всем указаниям батюшки и сохраняйте благоговейное отношение к происходящему.<br>
                             Следуя этим шагам, вы сможете тщательно подготовиться к венчанию и провести его в соответствии с церковными традициями и вашими личными пожеланиями.<br>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </article>
+                    </details>
+                </li>
+            </ul>
 
 
             <div class="overflow-hidden  aspect-video bg-blue-100 cursor-pointer rounded-xl relative group relative w-full h-96">

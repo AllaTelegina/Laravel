@@ -106,13 +106,7 @@
                 </div>
             </div>
         </div>
-<!--
-        <div class="flex items-center justify-center">
-            <div class="calendar_obj w-full">
-                {!! $calendar !!}
-            </div>
-        </div>
--->
+
 
 
         <!-- календарь -->

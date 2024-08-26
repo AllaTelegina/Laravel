@@ -3,6 +3,422 @@
     <x-slot name="header">
 
 
+        <div class="bg-base-200 collapse">
+            <input type="checkbox" class="peer" />
+            <div
+                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                Click me to show/hide content
+            </div>
+            <div
+                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                <p>hello</p>
+            </div>
+        </div>   показать скрыть цветом
+
+
+
+        <div class="max-w-6xl mx-auto my-8 p-8 bg-white rounded-lg shadow-md">
+
+            <div class="grid grid-cols-9 gap-4 mb-8">
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>December 2023</option>
+                    <option>January 2024</option>
+                    <option>February 2024</option>
+                    <!-- Add more months as needed -->
+                </select>
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>Best flex</option>
+                </select>
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>Booking.com</option>
+                </select>
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>Desktop</option>
+                </select>
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>1 night</option>
+                </select>
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>2 guests</option>
+                </select>
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>Any room</option>
+                </select>
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>Any meal</option>
+                </select>
+                <select class="col-span-1 px-2 py-1 border border-gray-300 rounded">
+                    <option>Prima</option>
+                </select>
+            </div>
+            <div class="grid grid-cols-7 gap-4 text-center text-gray-700 font-bold">
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+                <div>Sun</div>
+            </div>
+
+            <div class="grid grid-cols-7 gap-4 mt-4">
+                <!-- Calendar days with pricing -->
+                <div class="p-2 bg-green-100 text-center rounded calendar-card">
+                    <div class="text-xs text-gray-500">1 Mon</div>
+                    <div>$219</div>
+                    <div class="text-sm text-gray-600">-11% vs. Comp</div>
+                </div>
+                <div class="p-2 bg-green-100 text-center rounded calendar-card">
+                    <div class="text-xs text-gray-500">2 Tue</div>
+                    <div>$219</div>
+                    <div class="text-sm text-gray-600">-21% vs. Comp</div>
+                </div>
+                <div class="p-2 bg-green-100 text-center rounded calendar-card">
+                    <div class="text-xs text-gray-500">3 Wed</div>
+                    <div>$219</div>
+                    <div class="text-sm text-gray-600">-27% vs. Comp</div>
+                </div>
+                <div class="p-2 bg-green-100 text-center rounded calendar-card">
+                    <div class="text-xs text-gray-500">4 Thu</div>
+                    <div>$219</div>
+                    <div class="text-sm text-gray-600">-6% vs. Comp</div>
+                </div>
+                <div class="p-2 bg-green-100 text-center rounded calendar-card">
+                    <div class="text-xs text-gray-500">5 Fri</div>
+                    <div>$179</div>
+                    <div class="text-sm text-gray-600">-22% vs. Comp</div>
+                </div>
+                <div class="p-2 bg-red-100 text-center rounded calendar-card">
+                    <div class="text-xs text-gray-500">6 Sat</div>
+                    <div>$259</div>
+                    <div class="text-sm text-gray-600">+13% vs. Comp</div>
+                </div>
+                <div class="p-2 bg-gray-300 text-center rounded calendar-card">
+                    <div class="text-xs text-gray-500">7 Sun</div>
+                    <div>Sold out</div>
+                </div>
+                <div class="flex justify-around mt-8">
+                    <div class="px-4 py-2 bg-green-100 rounded">Low demand</div>
+                    <div class="px-4 py-2 bg-yellow-100 rounded">Medium demand</div>
+                    <div class="px-4 py-2 bg-red-100 rounded">High demand</div>
+                </div>
+            </div>
+
+
+
+показать скрыть
+
+        <details class="collapse bg-base-200">
+            <summary class="collapse-title text-xl font-medium">Click to open/close</summary>
+            <div class="collapse-content">
+                <p>content</p>
+            </div>
+        </details>
+
+        <div class="mt-4 mb-6 px-8">
+            <div class="container mx-auto shadow-xl shadow-gray-300">
+                <div class="py-8 flex justify-center rounded-xl bg-blue-100">
+                    <div class="my-2 grid gap-6 px-4">
+                        <h3 id="january" class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Молитвы об исцелении болящих</h3>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="collapse bg-base-200"><font></font>
+            <input type="checkbox" class="peer" /> <font></font>
+            <div class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"><font></font>
+                Click me to show/hide content<font></font>
+            </div><font></font>
+            <div class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"> <font></font>
+                <p>hello</p><font></font>
+            </div><font></font>
+        </div>
+
+
+
+        <div class="max-w-lg mx-auto p-8">
+            <details class="open:bg-white dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" open>
+                <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
+                    Why do they call it Ovaltine?
+                </summary>
+                <div class="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                    <p>The mug is round. The jar is round. They should call it Roundtine.</p>
+                </div>
+            </details>
+        </div> открытое закрытое состояние
+
+
+
+
+
+        <ul class=" mx-auto w-full mt-20 divide-y  shadow-xl shadow-blue-200 rounded-xl">
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 px-4 py-3 bg-blue-100 border-2 border-gray-100 font-medium marker:content-none hover:cursor-pointer
+                        focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800 rounded-t-xl">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитвы вечерние начало</span>
+                    </summary>
+
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитва 1-я, святого Макария Великого, к Богу Отцу</span>
+                    </summary>
+
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитва 2-я, святого Антиоха, ко Господу нашему Иисусу Христу</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитва 3-я, ко Пресвятому Духу</span>
+                    </summary>
+
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитва 3-я, ко Пресвятому Духу</span>
+                    </summary>
+
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитва 4-я, святого Макария Великого</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитва 5-я 6-я</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                        focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитва 7-я, святого Иоанна Златоуста</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span> Молитва 8-я, нашему Иисусу Христу</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span> Молитва 9-я, ко Пресвятой Богородице, Петра Студийского</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Молитва 10-я, 11-я</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Кондак Богородице</span>
+                    </summary>
+
+                    <article class="px-4 pb-4">
+
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Окончание молитв</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+            <li>
+                <details class="group">
+                    <summary class="flex items-center gap-3 bg-blue-100 border-2 border-gray-100 px-4 py-3 font-medium marker:content-none hover:cursor-pointer
+                         focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-800 rounded-b-xl">
+                        <svg class="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
+                             width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                        <span>Исповедание грехов повседневное</span>
+                    </summary>
+                    <article class="px-4 pb-4">
+
+                    </article>
+                </details>
+            </li>
+        </ul>
+
+
+
+
+
+
+        <div class="mt-2 h-min-24 my-4 mx-auto w-3/4  bg-blue-100 shadow-2xl  shadow-gray-300 rounded-lg text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mt-6" viewBox="0 0 975.036 975.036">
+                <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            </svg>
+            <p class="text-blue-950 text-2xl m-2">Таинству Брака должна предшествовать гражданская регистрация
+                с целью юридического оформления ответственности вступающих в
+                брак и проверки отсутствия препятствий к нему.
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            </svg>
+        </div>
+
 <!-- вращение круг-->
         <div>
             <div style="border-top-color:transparent"

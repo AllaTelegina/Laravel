@@ -8,6 +8,11 @@ document.addEventListener('alpine:init', () => {
 
 
 
+(function(){fetch("https://azbyka.ru/days/calendar/?embed=js,styles,legend,events").then(response => response.text()).then(data => {
+    document.getElementById("az_calendar_embed").innerHTML = data;
+});
+
+(function(){fetch("https://azbyka.ru/days/calendar/?embed=js,styles,legend,events").then(response => response.text()).then(data => {document.getElementById("az_calendar_embed").innerHTML = data;});})();
 
 
 
@@ -40,6 +45,8 @@ function showTab(tabId) {
 
 // Initialize the first tab
 showTab('tab1');
+
+
 
 
 

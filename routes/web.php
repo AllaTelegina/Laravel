@@ -6,6 +6,7 @@ use App\Http\Controllers;
 use App\Models\OpenGraph;
 use Illuminate\Support\Facades\Auth;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,6 +34,7 @@ Route::middleware('lang')->group(function(){
     Route::get('sponsors', [Controllers\BaseController::class, 'getSponsors'])->name('sponsors');
     Route::get('healer', [Controllers\BaseController::class, 'getHealer'])->name('healer');
     Route::get('school', [Controllers\BaseController::class, 'getSchool'])->name('school');
+    Route::get('calendar', [Controllers\BaseController::class, 'getCalendar'])->name('calendar');
     Route::get('test', [Controllers\BaseController::class, 'getTest'])->name('test');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
@@ -44,6 +46,8 @@ Route::middleware('lang')->group(function(){
     Route::get('map', [Controllers\MapController::class,'getIndex']);
     Route::get('blogs', [Controllers\BlogController::class, 'getAll']);
     Route::get('blog/{blog}', [Controllers\BlogController::class, 'getOne']);
+
+
 
 
     Route::get('/dashboard', function () {

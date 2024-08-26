@@ -30,7 +30,7 @@
             </nav>
 
             <section class="py-4">
-                <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-8">
+                <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-300 mt-8">
                     <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/" title="Логотип">
                         <img src="{{asset('images/logo.png')}}" class="w-20 h-20"/>
                     </a>

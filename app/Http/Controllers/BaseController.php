@@ -96,10 +96,11 @@ class BaseController extends Controller
 
     }
 
-    public function getSchool(){
-        return view('school');
+    public function getCalendar(){
+        return view('calendar');
 
     }
+
 
 }
 
