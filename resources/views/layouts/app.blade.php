@@ -8,13 +8,17 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet"/>
+
+
     <link href="{{asset('css/main.css')}}" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet"/>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Scripts -->
     <script defer src="https://unpkg.com/alpinejs@3.2.1/dist/cdn.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
-    <!-- Scripts -->
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('styles')
     @stack('scripts')
@@ -22,8 +26,9 @@
 
 
 <div class="fixed z-50 top-0 w-full">
-<a href="/" class="float-left pl-36">
-    <img class="w-16 h-16 shadow-xl shadow-blue-200" src="{{asset('images/logo.png')}}"/>
+
+<a href="/" class="float-left pl-28 ">
+    <img class="w-16 h-16" src="{{asset('images/logo.png')}}"/>
     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
 </a>
 
@@ -155,7 +160,7 @@
                          class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                         <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="calendarLargeButton">
                             <li>
-                                <a href="#"
+                                <a href="/calendar"
                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Календарь
                                     на год</a>
                             </li>
@@ -475,7 +480,7 @@
            Помочь Храму
         </a>
 
-        <button onClick="return this.parentNode.remove()" class="p-1 ml-3 rounded bg-white/20 hover:bg-white/10">
+        <button onClick="return this.parentNode.remove()" class="p-1 ml-3 rounded bg-white/20 hover:bg-white/80">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd"
                       d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -524,7 +529,7 @@
                                     откуда на наш сайт приходят посетители. Более подробную информацию о файлах cookie
                                     вы
                                     можете найти в нашей
-                                    <a href="/cookies" class="link-warning link-hover">
+                                    <a href="/cookies" class="link-info link-hover">
                                         Политике
                                     </a>
                                     в области файлов cookie.
@@ -540,7 +545,7 @@
                             Нет, спасибо!
                         </a>
                         <a href="/cookie/close"
-                           class="flex-1 px-4 py-3 text-gray-500 hover:text-white hover:bg-blue-950 duration-150">
+                           class="flex-1 px-4 py-3 text-gray-500 hover:text-white hover:bg-sky-600 duration-150">
                             Конечно!
                         </a>
                     </div>

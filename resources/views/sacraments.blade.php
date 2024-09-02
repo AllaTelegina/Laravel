@@ -197,7 +197,7 @@
 
             <div id="wedding" class="pt-12">
                 <div class="relative w-full h-96">
-                    <img class="absolute h-full w-full object-cover object-center rounded-xl" src="{{asset('images/venchanie2.jpg')}}" alt="nature image" />
+                    <img class="absolute h-full w-full object-cover object-center rounded-xl" src="{{asset('images/32.jpg')}}" alt="nature image" />
                     <div class="relative pt-28 text-center">
                         <h2 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">Таинство Венчания</h2>
                     </div>
