@@ -3,7 +3,7 @@
     <x-slot name="header">
 
         <div class="text-blue-950 py-4">
-        <section class="pt-14 space-y-6"><
+        <section class="pt-14 space-y-6">
 
             <div class="mt-4">
                 <div class="text-3xl"><span class="text-orange-600 font-medium">M</span>олитвы</div>
@@ -3929,6 +3929,5 @@
 
         </section>
         </div>
-
     </x-slot>
 </x-app-layout>

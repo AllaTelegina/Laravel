@@ -2,8 +2,7 @@
     <x-slot name="header">
 
         <div class="text-blue-950 py-4">
-            <section class="pt-12
-             space-y-6">
+            <section class="pt-12 space-y-6">
 
         <div class="mt-4">
             <div class="text-3xl"><span class="text-orange-600 font-medium">И</span>стория Храма</div>
@@ -61,7 +60,7 @@
 
 
     <section class="container mx-auto p-4">
-        <div class="flex flex-col md:flex-row md:space-x-4 mt-8">
+        <div class="flex flex-col   md:space-x-4 mt-8">
             <ul class="timeline timeline-vertical text-blue-950">
                 <li>
                     <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100 text-justify leading-relaxed">

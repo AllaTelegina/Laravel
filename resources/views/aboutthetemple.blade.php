@@ -64,137 +64,194 @@
     </section>
 
 
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
-        <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/temple.jpg')}}" alt="" width="384" height="512" />
-                <div class="card lg:card-side bg-blue-100">
-                    <div class="card-body">
-                        <h2 class="card-title">О нас</h2>
-                        <p> Добро пожаловать на страницу нашего храма!
-                            Мы рады приветствовать вас и предложить подробную информацию о нашем храме,
-                            службах и мероприятиях. Наш храм – это место духовного роста, умиротворения
-                            и вдохновения для всех, кто ищет пути к божественному.
-                            Мы предлагаем разнообразные программы для детей, молодежи и взрослых,
-                            направленные на укрепление веры и развитие духовности. Здесь вы найдете
-                            с <a href="/schedule" class="link-info link-hover">
-                                расписание служб
-                            </a>, информацию о религиозных праздниках и особенностях нашего прихода.
-                            Мы всегда рады видеть вас у нас на приходе и готовы поддержать вас на вашем
-                            духовном пути. Пусть ваш визит принесет вам мир, радость и благословение.
-                            Добро пожаловать и благослови вас Бог!
-                        </p>
-                    </div>
-                </div>
-        </figure>
-    </div>
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
-        <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/story.png')}}" alt="" width="384" height="512" />
-                <div class="card lg:card-side bg-blue-100">
-                    <div class="card-body">
-                        <h2 class="card-title">История Храма</h2>
-                        <p>   Здесь вы можете ознакомиться с <a href="/story" class="link-info link-hover">
-                                историей храма
-                            </a>, его миссией и деятельностью.
-                            Кроме того, мы регулярно организуем благотворительные акции и социальные мероприятия,
-                            направленные на помощь нуждающимся и укрепление нашего сообщества. Участвуя в этих
-                            инициативах, вы можете внести свой вклад в доброе дело и помочь тем, кто нуждается в поддержке.
-                            Наш храм открыт для всех, кто ищет духовного роста и поддержки. Мы всегда рады видеть вас у нас
-                            на приходе, и надеемся, что вы найдете здесь вдохновение и умиротворение. Присоединяйтесь к нам
-                            и становитесь частью нашей духовной семьи. Сердечно приглашаем вас на службы и мероприятия,
-                            чтобы вместе с нами переживать моменты духовного подъема и радости.
-                            Добро пожаловать в наш храм!
-                        </p>
-                    </div>
-                </div>
-        </figure>
-    </div>
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
-        <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/duhovenstvo.jpg')}}" alt="" width="384" height="512" />
-                <div class="card lg:card-side bg-blue-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Настоятель</h2>
-                        <p> Сытин, настоятель Храма Святого Равноапостольного Князя Владимира в деревне Чижевщина,
-                            является не только духовным лидером, но и активным участником формирования атмосферы храма.
-                            Его усердие и преданность делу создания благоприятной обстановки в храме сделали его более
-                            уютным и теплым для верующих. Благодаря усилиям иерея Александра, в храме были
-                            <a href="/sponsors" class="link-info link-hover">
-                                проведены различные работы
-                            </a> по улучшению его внутреннего убранства и комфорта. Были осуществлены работы
-                            по ремонту, украшению и обновлению интерьера храма. Его служение способствует укреплению духовных
-                            связей  и созданию атмосферы взаимопонимания и взаимопомощи.
-                        </p>
-                    </div>
-                </div>
-        </figure>
-    </div>
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
-        <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/15.jpg')}}" alt="" width="384" height="512" />
-                <div class="card lg:card-side bg-blue-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Церковная лавка</h2>
-                        <p> Церковная лавка в Храме Князя Владимира – это особое место, где прихожане и гости могут
-                            приобрести все необходимое для духовной жизни и домашнего благочестия. В лавке можно найти
-                            иконы Господа Иисуса Христа, Богородицы и святых, освященные на святынях и чудотворные иконы.
-                            Здесь также продаются восковые свечи различной толщины и высоты, лампадки и лампадное масло
-                            для домашней молитвы.
-                            Приходите в церковную лавку Храма Князя Владимира, чтобы обогатить свою духовную жизнь
-                            и поддержать храм своими приобретениями. Мы всегда рады видеть вас!
-                        </p>
-                    </div>
-                </div>
-        </figure>
-    </div>
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
-        <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/17.jpg')}}" alt="" width="384" height="512" />
-                <div class="card lg:card-side bg-blue-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Библиотека в Храме</h2>
-                        <p> В Храме Князя Владимира действует библиотека, доступная для всех прихожан в дни службы.
-                            Здесь вы можете найти другие книги по духовной тематике, которые помогут вам глубже понять и укрепить
-                            свою веру. Библиотека предлагает широкий выбор православной литературы, начиная от духовных наставлений
-                            и заканчивая историческими трудами. Во время посещения храма вы можете воспользоваться библиотекой,
-                            найти ответы на интересующие вас вопросы и обогатить свой внутренний мир.
-                        </p>
-                    </div>
-                </div>
-        </figure>
-    </div>
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
-        <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/7.jpg')}}" alt="" width="384" height="512" />
-                <div class="card lg:card-side bg-blue-100">
-                    <div class="card-body">
-                        <h2 class="card-title">Реставрация</h2>
-                        <p>  Добро пожаловать и благослови вас Бог!Уважаемые прихожане и друзья нашего храма!
-                            Мы рады сообщить, что наш храм в настоящее время проходит этап реставрации, направленный на
-                            улучшение условий для всех посетителей и сохранение нашей духовной и культурной наследия.
-                            Для завершения всех этих работ нам требуется ваша поддержка. Мы будем рады любым пожертвованиям,
-                            которые помогут нам продолжить и завершить реставрацию нашего храма. Ваш вклад, независимо от
-                            его размера, будет неоценимым для нас и поможет сохранить это святое место для будущих поколений.
-                            Мы искренне благодарим всех, кто уже оказал поддержку, и надеемся на дальнейшую помощь от  всех
-                            неравнодушных людей. Вместе мы сможем сделать наш храм еще прекраснее и комфортным для всех,
-                            кто приходит сюда за духовной поддержкой и вдохновением.
-                            Спасибо за ваше понимание и поддержку!
 
-                            С уважением, Отец Александр
-                        </p>
-                            <div class="card-actions justify-end p-2 w-full">
-                                <button type="submit" class="flex mx-auto focus:outline-none
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+        <div class="md:flex">
+            <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/temple.jpg')}}" />
+            </div>
+            <div class="p-8">
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">О нас
+                </a>
+                <p class="mt-2">Добро пожаловать на страницу нашего храма!
+                    Мы рады приветствовать вас и предложить подробную информацию о нашем храме,
+                    службах и мероприятиях. Наш храм – это место духовного роста, умиротворения
+                    и вдохновения для всех, кто ищет пути к божественному.
+                    Мы предлагаем разнообразные программы для детей, молодежи и взрослых,
+                    направленные на укрепление веры и развитие духовности. Здесь вы найдете
+                     <a href="/schedule" class="link-info link-hover">
+                        расписание служб
+                    </a>, информацию о религиозных праздниках и особенностях нашего прихода.
+                    Мы всегда рады видеть вас у нас на приходе и готовы поддержать вас на вашем
+                    духовном пути. Пусть ваш визит принесет вам мир, радость и благословение.
+                    Благослови вас Бог!
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+        <div class="md:flex">
+            <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/story.png')}}" alt="Храм исторический" />
+            </div>
+            <div class="p-8">
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">История Храма</a>
+                <p class="mt-2">Здесь вы можете ознакомиться с <a href="/story" class="link-info link-hover">
+                        историей храма
+                    </a>, его миссией и деятельностью.
+                    Кроме того, мы регулярно организуем благотворительные акции и социальные мероприятия,
+                    направленные на помощь нуждающимся и укрепление нашего сообщества. Участвуя в этих
+                    инициативах, вы можете внести свой вклад в доброе дело и помочь тем, кто нуждается в поддержке.
+                    Наш храм открыт для всех, кто ищет духовного роста и поддержки. Мы всегда рады видеть вас у нас
+                    на приходе, и надеемся, что вы найдете здесь вдохновение и умиротворение. Присоединяйтесь к нам
+                    и становитесь частью нашей духовной семьи. Сердечно приглашаем вас на службы и мероприятия,
+                    чтобы вместе с нами переживать моменты духовного подъема и радости.
+                    Добро пожаловать в наш храм!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+        <div class="md:flex">
+            <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/duhovenstvo.jpg')}}" alt="" />
+            </div>
+            <div class="p-8">
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">Настоятель Храма</a>
+                <p class="mt-2">ЗСытин, настоятель Храма Святого Равноапостольного Князя Владимира в деревне Чижевщина,
+                    является не только духовным лидером, но и активным участником формирования атмосферы храма.
+                    Его усердие и преданность делу создания благоприятной обстановки в храме сделали его более
+                    уютным и теплым для верующих. Благодаря усилиям иерея Александра, в храме были
+                    <a href="/sponsors" class="link-info link-hover">
+                        проведены различные работы
+                    </a> по улучшению его внутреннего убранства и комфорта. Были осуществлены работы
+                    по ремонту, украшению и обновлению интерьера храма. Его служение способствует укреплению духовных
+                    связей  и созданию атмосферы взаимопонимания и взаимопомощи.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+        <div class="md:flex">
+            <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/15.jpg')}}" alt=""  />
+            </div>
+            <div class="p-8">
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">Церковная лавка</a>
+                <p class="mt-2">Церковная лавка в Храме Князя Владимира – это особое место, где прихожане и гости могут
+                    приобрести все необходимое для духовной жизни и домашнего благочестия. В лавке можно найти
+                    иконы Господа Иисуса Христа, Богородицы и святых, освященные на святынях и чудотворные иконы.
+                    Здесь также продаются восковые свечи различной толщины и высоты, лампадки и лампадное масло
+                    для домашней молитвы.
+                    Приходите в церковную лавку Храма Князя Владимира, чтобы обогатить свою духовную жизнь
+                    и поддержать храм своими приобретениями. Мы всегда рады видеть вас!
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+        <div class="md:flex">
+            <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/17.jpg')}}" alt=""  />
+            </div>
+            <div class="p-8">
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">Библиотека в Храме</a>
+                <p class="mt-2">В Храме Князя Владимира действует библиотека, доступная для всех прихожан в дни службы.
+                    Здесь вы можете найти другие книги по духовной тематике, которые помогут вам глубже понять и укрепить
+                    свою веру. Библиотека предлагает широкий выбор православной литературы, начиная от духовных наставлений
+                    и заканчивая историческими трудами. Во время посещения храма вы можете воспользоваться библиотекой,
+                    найти ответы на интересующие вас вопросы и обогатить свой внутренний мир.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+        <div class="md:flex">
+            <div class="md:shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/7.jpg')}}" alt=""  />
+            </div>
+            <div class="p-8">
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">Реставрация</a>
+                <p class="mt-2">Добро пожаловать и благослови вас Бог!Уважаемые прихожане и друзья нашего храма!
+                    Мы рады сообщить, что наш храм в настоящее время проходит этап реставрации, направленный на
+                    улучшение условий для всех посетителей и сохранение нашей духовной и культурной наследия.
+                    Для завершения всех этих работ нам требуется ваша поддержка. Мы будем рады любым пожертвованиям,
+                    которые помогут нам продолжить и завершить реставрацию нашего храма. Ваш вклад, независимо от
+                    его размера, будет неоценимым для нас и поможет сохранить это святое место для будущих поколений.
+                    Мы искренне благодарим всех, кто уже оказал поддержку, и надеемся на дальнейшую помощь от  всех
+                    неравнодушных людей. Вместе мы сможем сделать наш храм еще прекраснее и комфортным для всех,
+                    кто приходит сюда за духовной поддержкой и вдохновением.
+                    Спасибо за ваше понимание и поддержку!
+
+                    С уважением, Отец Александр
+                </p>
+                <div class="card-actions justify-end p-2 w-full">
+                    <button type="submit" class="flex mx-auto focus:outline-none
                                 transform motion-safe:hover:scale-110 transition duration-700
-                                ease-in-out bg-orange-400 text-white font-medium h-12 w-58 py-3 px-10
+                                ease-in-out bg-orange-400 text-white font-medium h-12 w-58 py-3 px-6
                                 rounded-lg hover:bg-sky-600">
-                                    <a href="#">Помочь Храму</a>
-                                </button>
-                            </div>
-                    </div>
+                        <a href="#">Помочь Храму</a>
+                    </button>
                 </div>
-        </figure>
+            </div>
+        </div>
     </div>
 
+
+    <div class="relative font-inter antialiased">
+    <main class="relative min-h-screen flex flex-col justify-center bg-white overflow-hidden">
+        <div class="w-full max-w-7xl mx-auto px-4 md:px-6 py-4">
+
+            <!-- Image accordion component -->
+            <div class="group flex max-md:flex-col justify-center gap-2">
+                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                    <a class="absolute inset-0 text-white z-10" href="#0">
+                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Innovate relentlessly. Stagnation is the enemy of progress."</span>
+                    </a>
+                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/1.jpg" width="960" height="480" alt="Image 01">
+                </article>
+                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                    <a class="absolute inset-0 text-white z-10" href="#0">
+                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
+                    </a>
+                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/2.jpg" width="960" height="480" alt="Image 02">
+                </article>
+                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                    <a class="absolute inset-0 text-white z-10" href="#0">
+                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Dream big, start small, but most importantly, start."</span>
+                    </a>
+                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/3.jpg" width="960" height="480" alt="Image 03">
+                </article>
+                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                    <a class="absolute inset-0 text-white z-10" href="#0">
+                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
+                    </a>
+                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/4.jpg" width="960" height="480" alt="Image 02">
+                </article>
+                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                    <a class="absolute inset-0 text-white z-10" href="#0">
+                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
+                    </a>
+                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/5.jpg" width="960" height="480" alt="Image 02">
+                </article>
+                <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
+                    <a class="absolute inset-0 text-white z-10" href="#0">
+                        <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
+                    </a>
+                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/6.jpg" width="960" height="480" alt="Image 02">
+                </article>
+            </div>
+            <!-- End: Image accordion component -->
+        </div>
+    </main>
+    </div>
 
 </section>
         </div>
