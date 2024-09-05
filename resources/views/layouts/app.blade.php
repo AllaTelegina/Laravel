@@ -106,7 +106,7 @@
                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Фотографии</a>
                             </li>
                             <li>
-                                <a href="#"
+                                <a href="/icons"
                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Об
                                     иконах</a>
                             </li>
@@ -177,11 +177,12 @@
                         </ul>
                     </div>
                 </li>
-                <li>
+               <!-- <li>
                     <a href="#"
                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Духовная
                         литература</a>
                 </li>
+                -->
                 <li>
                     <a href="/healer"
                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Храм-часовня
@@ -289,12 +290,13 @@
 
 
 <div class="fixed bottom-0 right-0 p-4">
-    <button class="bg-gray-800 text-white rounded-full w-10 h-10 flex items-center justify-center" onclick="backToTop()">
+    <button class="bg-blue-950 text-white rounded-full w-10 h-10 flex items-center justify-center hover:animate-tada" onclick="backToTop()">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
         </svg>
     </button>
 </div>
+
 
 <footer class="footer bg-blue-200 text-base-content p-10">
     <nav>

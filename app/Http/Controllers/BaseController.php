@@ -106,6 +106,10 @@ class BaseController extends Controller
 
     }
 
+    public function getIcons(){
+        return view('icons');
+
+    }
 
 }
 
