@@ -27,13 +27,11 @@
 
 <div class="fixed z-50 top-0 w-full">
 
-<a href="/" class="float-left pl-28 ">
-    <img class="w-16 h-16" src="{{asset('images/logo.png')}}"/>
-    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
-</a>
-
 <nav class="bg-blue-100 border-gray-200 dark:bg-gray-900 dark:border-gray-700 text-blue-950">
-
+    <a href="/" class="float-left pl-28 ">
+        <img class="w-12 h-12" src="{{asset('images/logo.png')}}"/>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+    </a>
     <div class="float-right md:float-none max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
         <button data-collapse-toggle="navbar-dropdown" type="button"

@@ -2,7 +2,7 @@
     <x-slot name="header">
 
         <div class="text-blue-950 py-4">
-            <section class="pt-12 space-y-6">
+            <section class="pt-14 space-y-6">
 
         <div class="mt-4">
             <div class="text-3xl"><span class="text-orange-600 font-medium">И</span>стория Храма</div>
@@ -38,7 +38,7 @@
         </nav>
 
 
-    <section class="mt-40 container px-5 mx-auto">
+    <section class="mt-40 container  mx-auto">
         <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-8">
             <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/" title="Логотип">
                 <img src="{{asset('images/logo.png')}}" alt="/" class="w-20 h-20" />
