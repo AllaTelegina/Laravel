@@ -7,44 +7,51 @@ document.addEventListener('alpine:init', () => {
 });
 
 
-
-(function(){fetch("https://azbyka.ru/days/calendar/?embed=js,styles,legend,events").then(response => response.text()).then(data => {
-    document.getElementById("az_calendar_embed").innerHTML = data;
-});
-
-(function(){fetch("https://azbyka.ru/days/calendar/?embed=js,styles,legend,events").then(response => response.text()).then(data => {document.getElementById("az_calendar_embed").innerHTML = data;});})();
-
-
-
-
-function showTab(tabId) {
-    // Hide all tab content
-    const tabContents = document.querySelectorAll('.tab-content');
-    tabContents.forEach((content) => {
-        content.classList.add('hidden');
+(function() {
+    fetch("https://azbyka.ru/days/calendar/?embed=js,styles,legend,events").then(response => response.text()).then(data => {
+        document.getElementById("az_calendar_embed").innerHTML = data;
     });
 
-    // Show the selected tab content
-    const selectedTab = document.getElementById(tabId);
-    if (selectedTab) {
-        selectedTab.classList.remove('hidden');
-    }
+    (function () {
+        fetch("https://azbyka.ru/days/calendar/?embed=js,styles,legend,events").then(response => response.text()).then(data => {
+            document.getElementById("az_calendar_embed").innerHTML = data;
+        });
+    })();
 
-    // Remove the 'active' class from all tab buttons
-    const tabButtons = document.querySelectorAll('.tab-button');
-    tabButtons.forEach((button) => {
-        button.classList.remove('active');
-    });
 
-    // Add the 'active' class to the clicked tab button
-    const clickedButton = document.querySelector(`[onclick="showTab('${tabId}')"]`);
-    if (clickedButton) {
-        clickedButton.classList.add('active');
+    function showTab(tabId) {
+        // Hide all tab content
+        const tabContents = document.querySelectorAll('.tab-content');
+        tabContents.forEach((content) => {
+            content.classList.add('hidden');
+        });
+
+        // Show the selected tab content
+        const selectedTab = document.getElementById(tabId);
+        if (selectedTab) {
+            selectedTab.classList.remove('hidden');
+        }
+
+        // Remove the 'active' class from all tab buttons
+        const tabButtons = document.querySelectorAll('.tab-button');
+        tabButtons.forEach((button) => {
+            button.classList.remove('active');
+        });
+
+        // Add the 'active' class to the clicked tab button
+        const clickedButton = document.querySelector(`[onclick="showTab('${tabId}')"]`);
+        if (clickedButton) {
+            clickedButton.classList.add('active');
+        }
     }
-}
 
 // Initialize the first tab
-showTab('tab1');
+    showTab('tab1');
+
+})
+
+
+
 
 
 

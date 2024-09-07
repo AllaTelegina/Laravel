@@ -37,6 +37,44 @@
                     </ol>
                 </nav>
 
+                <div class="bg-sky-600 text-white text-center mt-6 header-date rounded-3xl">
+                    <div class="mt-4">
+                        <span class="text-white text-2xl lg:text-4xl m-6">Православный календарь</span>
+                    </div>
+
+                    <div class="flex justify-center space-x-8 text-sm lg:text-2xl text-center m-8 pb-8">
+                        <p>Православный календарь на текущий год, который содержит информацию о всех основных и праздничных днях православной церкви.
+                            В календаре вы сможете узнать даты всех церковных праздников, постов, а также других значимых событий, которые помогут
+                            вам сориентироваться в духовной жизни и следовать традициям православия.
+                        </p>
+                    </div>
+                </div>
+
+                http://calendar.lenacom.spb.ru/calendar1.html
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="flex items-center justify-between px-6 py-3 bg-gray-700">
+                        <button id="prevMonth" class="text-white">Previous</button>
+                        <h2 id="currentMonth" class="text-white"></h2>
+                        <button id="nextMonth" class="text-white">Next</button>
+                    </div>
+                    <div class="p-4 calendar" id="calendar">
+                            <div id="az_calendar_embed"></div>
+                            <iframe src="https://azbyka.ru/days/calendar/?embed=legend,events" width="100%" height="580"></iframe>
+                        </div>
+                </div>
+
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="flex items-center justify-between px-6 py-3 bg-gray-700">
+                        <button id="prevMonth" class="text-white">Previous</button>
+                        <h2 id="currentMonth" class="text-white"></h2>
+                        <button id="nextMonth" class="text-white">Next</button>
+                    </div>
+                    <div class="grid grid-cols-7 gap-2 p-4" id="calendar">
+                        <!-- Calendar Days Go Here -->
+                    </div>
+
 
                 <div class="grid grid-cols-7 gap-4 text-center text-gray-700 font-bold">
                     <div>Mon</div>
@@ -230,6 +268,11 @@
                     </div>
                 </div>
 
+
+
+
+                </div>
+
                     <div class="flex justify-around mt-8">
                         <div class="px-4 py-2 bg-green-100 rounded">Low demand</div>
                         <div class="px-4 py-2 bg-yellow-100 rounded">Medium demand</div>
@@ -237,18 +280,11 @@
                     </div>
 
 
-<div class="mt-12">
-
-                <div id="az_calendar_embed"></div>
-                <iframe src="https://azbyka.ru/days/calendar/?embed=legend,events" width="100%" height="580" scrolling="auto"></iframe>
-</div>
 
 
-                <div class="mt-12">
-                    <div id="az_calendar_embed"></div>
-                    <iframe src="https://azbyka.ru/days/calendar/?embed=legend,events" width="100%" height="580" scrolling="auto"></iframe>
-                </div>
 
+
+                <div id="datepicker-inline" inline-datepicker data-date="02/25/2024"></div>
 
             </section>
         </div>

@@ -110,6 +110,10 @@ class BaseController extends Controller
         return view('icons');
 
     }
+    public function getPostcards(){
+        return view('postcards');
+
+    }
 
 }
 

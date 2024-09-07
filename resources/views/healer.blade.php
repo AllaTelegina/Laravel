@@ -68,7 +68,7 @@
                             <div class="my-8">
                                 <div class="text-3xl"><span class="text-orange-600 font-medium">P</span>асписание</div>
                             </div>
-                            <section>
+                            </section>
                                 <div class="mt-2 h-min-24 my-8 py-2 px-4 mx-auto w-3/4 text-center bg-blue-100 shadow-2xl shadow-gray-300 rounded-lg">
                                     <span class="text-2xl ">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
                                 </div>
@@ -130,13 +130,13 @@
                                 </table>
                             </div>
                         </div>
-
+                </section>
 
                         <section>
                             <div class="my-8">
                                 <div class="text-3xl"><span class="text-orange-600 font-medium">Г</span>алерея</div>
                             </div>
-                        <section>
+                        </section>
 
                             <div x-data="{
         imageGalleryOpened: false,

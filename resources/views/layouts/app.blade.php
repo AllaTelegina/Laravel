@@ -372,13 +372,13 @@
         <a class="link link-hover">Цитата дня</a>
         <a class="link link-hover">Постные блюда</a>
         <a class="link link-hover">Христианская библиотека</a>
-        <a class="link link-hover">Скачать открытку</a>
+        <a href="/postcards" class="link link-hover">Скачать открытку</a>
     </nav>
     <nav>
         <h6 class="footer-title">Информация</h6>
         <a class="link link-hover">Условия эксплуатации</a>
         <a class="link link-hover">Политика конфиденциальности</a>
-        <a class="link link-hover">Политика использования файлов cookie</a>
+        <a href="/cookies" class="link link-hover">Политика использования файлов cookie</a>
     </nav>
     <form>
         <h6 class="footer-title">Новостная рассылка</h6>
