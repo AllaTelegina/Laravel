@@ -36,6 +36,7 @@ Route::middleware('lang')->group(function(){
     Route::get('calendar', [Controllers\BaseController::class, 'getCalendar'])->name('calendar');
     Route::get('icons', [Controllers\BaseController::class, 'getIcons'])->name('icons');
     Route::get('postcards', [Controllers\BaseController::class, 'getPostcards'])->name('postcards');
+    Route::get('quotes', [Controllers\BaseController::class, 'getQuotes'])->name('quotes');
     Route::get('test', [Controllers\BaseController::class, 'getTest'])->name('test');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);

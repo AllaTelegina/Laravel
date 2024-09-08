@@ -369,7 +369,7 @@
     </nav>
     <nav>
         <h6 class="footer-title">Ссылки</h6>
-        <a class="link link-hover">Цитата дня</a>
+        <a href="/quotes" class="link link-hover">Цитата дня</a>
         <a class="link link-hover">Постные блюда</a>
         <a class="link link-hover">Христианская библиотека</a>
         <a href="/postcards" class="link link-hover">Скачать открытку</a>

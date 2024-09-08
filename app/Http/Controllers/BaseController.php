@@ -18,101 +18,85 @@ class BaseController extends Controller
 
     public function getCookies(){
         return view('cookies');
-
     }
 
     public function getStory(){
         return view('story');
-
     }
 
     public function getFullstory(){
         return view('fullstory');
-
     }
 
     public function getAboutthetemple(){
         return view('aboutthetemple');
-
     }
 
     public function getSchedule(){
         return view('schedule');
-
     }
 
     public function getNote(){
         return view('note');
-
     }
 
     public function getSacraments(){
         return view('sacraments');
-
     }
 
     public function getWeddingcalendar(){
         return view('weddingcalendar');
-
     }
 
     public function getNamecalendar(){
         return view('namecalendar');
-
     }
 
     public function getBoris(){
         return view('boris');
-
     }
 
     public function getTest(){
         return view('test');
-
     }
 
     public function getPrayers(){
         return view('prayers');
-
     }
 
     public function getFoto(){
         return view('foto');
-
     }
 
     public function getPublications(){
         return view('publications');
-
     }
 
     public function getSchool(){
         return view('school');
-
     }
 
     public function getSponsors(){
         return view('sponsors');
-
     }
 
     public function getHealer(){
         return view('healer');
-
     }
 
     public function getCalendar(){
         return view('calendar');
-
     }
 
     public function getIcons(){
         return view('icons');
-
     }
     public function getPostcards(){
         return view('postcards');
+    }
 
+    public function getQuotes(){
+        return view('quotes');
     }
 
 }
