@@ -22,6 +22,17 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('styles')
     @stack('scripts')
+
+    <script>
+        window.addEventListener('scroll', function () {
+            console.log(pageYOffset >= 900);
+            if (pageYOffset >= 900) {
+                document.getElementById('arrow').style.display = 'block';
+            } else {
+                document.getElementById('arrow').style.display = 'none';
+            }
+        });
+    </script>
 </head>
 
 
@@ -287,13 +298,16 @@
 </section>
 
 
-<div class="fixed bottom-0 right-0 p-4">
-    <button class="bg-blue-950 text-white rounded-full w-10 h-10 flex items-center justify-center hover:animate-tada" onclick="backToTop()">
+
+!-- кнопка вверх -->
+<div id="arrow" class="fixed bottom-0 right-0 p-4" style="display: none;">
+    <a href="#top" class="bg-blue-950 text-white rounded-full w-10 h-10 flex items-center justify-center hover:animate-tada">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
         </svg>
-    </button>
+    </a>
 </div>
+
 
 
 <footer class="footer bg-blue-200 text-base-content p-10">
