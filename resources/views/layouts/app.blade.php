@@ -296,7 +296,7 @@
 
 
 
-!-- кнопка вверх -->
+<!-- кнопка вверх -->
 <div id="arrow" class="fixed bottom-0 right-0 p-4" style="display: none;">
     <a href="#top" class="bg-blue-950 text-white rounded-full w-10 h-10 flex items-center justify-center hover:animate-tada">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

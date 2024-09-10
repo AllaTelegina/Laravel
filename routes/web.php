@@ -38,6 +38,7 @@ Route::middleware('lang')->group(function(){
     Route::get('postcards', [Controllers\BaseController::class, 'getPostcards'])->name('postcards');
     Route::get('aletter', [Controllers\BaseController::class, 'getAletter'])->name('aletter');
     Route::get('quotes', [Controllers\BaseController::class, 'getQuotes'])->name('quotes');
+    Route::get('letter/{letter}', [Controllers\LetterController::class, 'getIndex'])->name('letter');
     Route::get('test', [Controllers\BaseController::class, 'getTest'])->name('test');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
