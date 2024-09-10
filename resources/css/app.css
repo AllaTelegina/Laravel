@@ -21,3 +21,11 @@
 #toggle-btn::before {
     content: 'Узнать больше';
 }
+
+
+@font-face {
+    font-family: 'VictorMono';
+    src: url('/fonts_Victor_Mono/VictorMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
