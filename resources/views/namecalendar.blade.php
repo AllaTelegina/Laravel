@@ -52,27 +52,27 @@
             </div>
 
 
-            <div class="flex justify-center space-x-8 text-3xl text-center m-8">
-                <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
+            <div class="flex justify-center space-x-8 text-3xl text-center m-8 inline-grid grid-cols-2 gap-3">
+                <div class="flex flex-col items-center skeleton w-40 bg-blue-200 place-content-center">
                     <span><a href="#january">Январь</a> </span>
                 </div>
-                <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
+                <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
                     <span>Февраль</span>
                 </div>
-                <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
+                <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
                     <span>Март</span>
                 </div>
-                <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
+                <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
                     <span>Апрель</span>
                 </div>
-                <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
+                <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
                     <span>Май</span>
                 </div>
-                <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
+                <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
                     <span>Июнь</span>
                 </div>
             </div>
-            <div class="flex justify-center space-x-8 text-3xl text-center m-8">
+            <div class="flex justify-center space-x-8 text-3xl text-center m-8 inline-grid grid-cols-2 gap-3">
                 <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
                     <span>Июль</span>
                 </div>
@@ -92,7 +92,6 @@
                     <span>Декабрь</span>
                 </div>
             </div>
-
 
             <div class="bg-blue-100 p-4 text-blue-950 text-center m-8 rounded-xl shadow-xl shadow-gray-300">
                 <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl text-center">Православный календарь всех Имен</h3>
@@ -125,14 +124,13 @@
             </div>
 
 
-
             <div id="january" class="mt-12">
             <div class="mt-4 mb-6 px-8">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
                             <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Январь</h3>
-                            <p>1 января: Илья, Вонифатий, Пров, Арис, Аглаида, Полиеввкт, Тимофей, Григорий</p>
+                            <p>1 января: Илья, Вонифатий, Пров, <a href="#aris">Арис</a>, Аглаида, Полиеввкт, Тимофей, Григорий</p>
                             <p>2 января: Игнатий, Иоанн, Филогоний, Даниил, Антоний</p>
                             <p>3 января: Иулиания, Петр, Михаил, Сергий, Никита, Леонтий, Прокопий, Фемистоклей, Филарет,</p>
                             <p>4 января: Анастасия, Димитрий , Феодор, Хрисогон, Феодотия, Евода, Евтихиана, Зоил и иные</p>

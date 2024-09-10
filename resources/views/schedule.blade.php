@@ -43,32 +43,33 @@
                 <div class="mt-2">
                     <span class="text-white text-6xl m-6">Сентябрь</span>
                 </div>
-                <div class="flex justify-center space-x-8 text-3xl text-center m-8">
-                    <div class="flex flex-col items-center skeleton h-20 w w-20 bg-blue-200 place-content-center">
+                <div class="md:flex gap-2 columns-3 justify-center space-x-8 text-3xl text-center m-8 inline-grid grid-cols-3 gap-4">
+
+                    <div class="flex flex-col items-center skeleton lg: w-20 bg-blue-200 place-content-center relative absolute left-8 top-2 ">
                         <span>23</span>
                         <span>ПН</span>
                     </div>
-                    <div class="flex flex-col items-center skeleton h-20 w w-20 bg-blue-200 place-content-center">
+                    <div class="flex flex-col items-center mt-3 skeleton  w-20 bg-blue-200 place-content-center">
                         <span>24</span>
                         <span>ВТ</span>
                     </div>
-                    <div class="flex flex-col items-center skeleton h-20 w w-20 bg-blue-200 place-content-center">
+                    <div class="flex flex-col items-center mt-3 skeleton w-20 bg-blue-200 place-content-center">
                         <span>25</span>
                         <span>СР</span>
                     </div>
-                    <div class="flex flex-col items-center skeleton h-20 w w-20 bg-blue-200 place-content-center">
+                    <div class="flex flex-col items-center mt-3 skeleton  w-20 bg-blue-200 place-content-center">
                         <span>26</span>
                         <span>ЧТ</span>
                     </div>
-                    <div class="flex flex-col items-center skeleton h-20 w w-20 bg-blue-200 place-content-center">
+                    <div class="flex flex-col items-center mt-3 skeleton  w-20 bg-blue-200 place-content-center">
                         <span>27</span>
                         <span>ПТ</span>
                     </div>
-                    <div class="flex flex-col items-center text-orange-700 skeleton h-20 w w-20 bg-blue-200 place-content-center">
+                    <div class="flex flex-col items-center mt-3 text-orange-700 skeleton  w-20 bg-blue-200 place-content-center">
                         <span>28</span>
                         <span>СБ</span>
                     </div>
-                    <div class="flex flex-col items-center text-orange-700 skeleton h-20 w w-20 bg-blue-200 place-content-center">
+                    <div class="flex flex-col items-center mt-3 text-orange-700 skeleton w-20 bg-blue-200 place-content-center">
                         <span>29</span>
                         <span>ВС</span>
                     </div>

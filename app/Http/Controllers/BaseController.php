@@ -95,6 +95,10 @@ class BaseController extends Controller
         return view('postcards');
     }
 
+    public function getAletter(){
+        return view('aletter');
+    }
+
     public function getQuotes(){
         return view('quotes');
     }
