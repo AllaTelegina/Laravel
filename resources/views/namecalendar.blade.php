@@ -52,7 +52,7 @@
             </div>
 
 
-            <div class="flex justify-center space-x-8 text-3xl text-center m-8 inline-grid grid-cols-2 gap-3 lg:flex flex-nowrap lg:m-10">
+            <div class="flex justify-center space-x-8 text-3xl text-center m-8 inline-grid grid-cols-2 gap-3 lg:flex flex-nowrap">
                 <div class="flex flex-col items-center skeleton w-40 bg-blue-200 place-content-center">
                     <span><a href="#january">Январь</a> </span>
                 </div>
@@ -130,7 +130,7 @@
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
                             <h3 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-2xl lg:text-xl">Январь</h3>
-                            <p>1 января: Илья, Вонифатий, Пров, <a href="/letter/a#aris">Арис</a>, Аглаида, Полиеввкт, Тимофей, Григорий</p>
+                            <p>1 января: <a href="/letter/i#ilya">Илья</a>, Вонифатий, Пров, <a href="/letter/a#aris">Арис</a>, Аглаида, Полиеввкт, Тимофей, Григорий</p>
                             <p>2 января: Игнатий, Иоанн, Филогоний, Даниил, Антоний</p>
                             <p>3 января: Иулиания, Петр, Михаил, Сергий, Никита, Леонтий, Прокопий, Фемистоклей, Филарет,</p>
                             <p>4 января: Анастасия, Димитрий , Феодор, Хрисогон, Феодотия, Евода, Евтихиана, Зоил и иные</p>

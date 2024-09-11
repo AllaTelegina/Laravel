@@ -72,7 +72,7 @@
                     </button>
                     <!-- Dropdown menu -->
                     <div id="templateNavbar"
-                         class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                         class="z-10 hidden font-normal bg-blue-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                         <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="templateLargeButton">
                             <li>
                                 <a href="/aboutthetemple"
@@ -283,6 +283,15 @@
                         px-3 resize-none leading-6 transition-colors duration-200 ease-in-out">
                         </textarea>
                     </div>
+                </div>
+                <div class="flex items-center  my-4">
+                    <input id="checkbox-policy" type="checkbox" value="" class="w-5 h-5 appearance-none border border-gray-300  rounded-md mr-2 hover:border-indigo-500 hover:bg-indigo-100 checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100">
+                    <label for="checkbox-policy" class="text-sm font-normal text-gray-600">Отправить мне на почту</label>
+                </div>
+                <div class="flex items-center  my-4">
+                    <input id="checkbox-policy" type="checkbox" value="" class="w-5 h-5 appearance-none border border-gray-300  rounded-md mr-2 hover:border-indigo-500 hover:bg-indigo-100 checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100">
+                    <label for="checkbox-policy" class="text-sm font-normal text-gray-600">Я соглашаюсь с вашей <a href="javascript:;" class="underline underline-offset-4">политикой конфиденциальности</a>
+                    </label>
                 </div>
                 <div class="p-2 w-full">
                     <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-2 px-10 rounded-lg hover:bg-sky-600">

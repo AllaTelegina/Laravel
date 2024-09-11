@@ -3,7 +3,7 @@
     <x-slot name="header">
 
         <section class="mt-40 container px-5 mx-auto">
-            <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-8">
+            <div class="relative bg-sky-600 shadow-xl shadow-gray-300 rounded-2xl mt-8">
                 <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="#" title="Логотип">
                     <img src="{{asset('images/logo.png')}}" class="w-20 h-20" />
                 </a>
@@ -17,7 +17,7 @@
                         <p class="mb-2 leading-relaxed">Московского Патриарха</p>
                         <div class="flex justify-center py-8">
                             <button class="inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium rounded-lg hover:bg-sky-600  transition duration-700 ease-in-out">Выбрать требу</button>
-                            <button class="ml-4 inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-sky-600 text-white font-medium rounded-lg hover:bg-orange-400 transition duration-700 ease-in-out">Пожертвовать</button>
+                            <button class="ml-4 inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-sky-700 text-white font-medium rounded-lg hover:bg-orange-300 transition duration-700 ease-in-out">Пожертвовать</button>
                         </div>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 shadow-2xl hover:bg-origin-padding contrast-125 scale-100">
@@ -31,7 +31,7 @@
             <div class="container px-5 mt-8 mx-auto">
                 <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                         <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-                            <div class="skeleton w-full p-5 bg-blue-200 place-content-center text-sm rounded-2xl shadow-xl shadow-gray-400">
+                            <div class="w-full p-5 bg-blue-200 place-content-center text-sm rounded-2xl shadow-xl shadow-gray-400">
                                 <div class="text-centre">
                                     <span>23</span>
                                     <span>ПН</span>
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                         <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-                            <div class="skeleton w-full p-5 bg-blue-200 place-content-center text-sm rounded-2xl shadow-xl shadow-gray-400">
+                            <div class=" w-full p-5 bg-blue-200 place-content-center text-sm rounded-2xl shadow-xl shadow-gray-400">
                                 <div class="text-centre">
                                     <span>24</span>
                                     <span>ВТ</span>
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-                            <div class="skeleton w-full p-5 bg-blue-200 place-content-center text-sm rounded-2xl shadow-xl shadow-gray-400">
+                            <div class="w-full p-5 bg-blue-200 place-content-center text-sm rounded-2xl shadow-xl shadow-gray-400">
                                 <div class="text-centre">
                                     <span>25</span>
                                     <span>СР</span>
@@ -138,7 +138,7 @@
             <div class="container px-5 py-4 mx-auto">
                 <div class="flex flex-wrap -m-4">
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/temple.jpg')}}" alt="Храм">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">

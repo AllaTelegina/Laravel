@@ -60,7 +60,7 @@
             </div>
             <div class="-mt-16 mb-8 px-8 rounded-xl -translate-y-6">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
-                    <div class="py-8 flex justify-center rounded-xl bg-blue-100 shadow-md">
+                    <div class="py-8 flex justify-center bg-blue-100 shadow-xl shadow-gray-300 rounded-xl">
                         <div class="my-4 grid gap-6 px-4">
                             Венчание — это святое таинство, через которое мужчина и женщина получают благословение на создание семьи в
                             христианской традиции. Оно подчеркивает не только юридическую, но и духовную сторону брака, делая его
@@ -77,11 +77,11 @@
                 </div>
             </div>
 
-                <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-sky-600 shadow-2xl shadow-gray-300 rounded-lg">
+                <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-sky-600 shadow-xl shadow-gray-300 rounded-xl">
                     <span class="text-white text-3xl font-semibold">Как подготовиться к венчанию?</span>
                 </div>
 
-                <ul class=" mx-auto w-full mt-20 divide-y  shadow-xl shadow-blue-200 rounded-xl">
+                <ul class=" mx-auto w-full mt-20 divide-y  shadow-xl shadow-gray-300 rounded-xl">
                     <li>
                         <details class="group">
                             <summary class="flex items-center gap-3 px-4 py-3 bg-blue-100 border-2 border-gray-100 font-medium marker:content-none hover:cursor-pointer
@@ -205,13 +205,10 @@
                 </ul>
 
 
-
-
-
                 <div class="flex items-center justify-center h-screen">
                     <div class="lg:w-9/12 md:w-9/12 sm:w-10/12 mx-auto p-4">
                         <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                            <div class="flex items-center justify-between px-6 py-3 bg-gray-700">
+                            <div class="flex items-center justify-between px-6 py-3 bg-sky-600">
                                 <button id="prevMonth" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" class="block w-6 h-8 m-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
                                     </svg></button>
@@ -223,14 +220,14 @@
                             <div class="grid grid-cols-7 gap-2 p-4" id="calendar">
                                 <!-- Calendar Days Go Here -->
                             </div>
-                            <div id="myModal" class="modal hidden fixed inset-0 flex items-center justify-center z-50">
-                                <div class="modal-overlay absolute inset-0 bg-black opacity-50"></div>
+                            <div id="myModal" class="modal hidden fixed inset-0 flex items-center justify-center">
+                                <div class="modal-overlay absolute inset-0 bg-blue-950 opacity-50"></div>
 
                                 <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
                                     <div class="modal-content py-4 text-left px-6">
                                         <div class="flex justify-between items-center pb-3">
                                             <p class="text-2xl font-bold">Selected Date</p>
-                                            <button id="closeModal" class="modal-close px-3 py-1 rounded-full bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring">✕</button>
+                                            <button id="closeModal" class="modal-close px-3 py-1 rounded-full bg-gray-200 hover:bg-sky-600 focus:outline-none focus:ring">✕</button>
                                         </div>
                                         <div id="modalDate" class="text-xl font-semibold"></div>
                                     </div>
@@ -256,7 +253,7 @@
                         const monthNames = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
                         currentMonthElement.innerText = `${monthNames[month]} ${year}`;
 
-                        // Calculate the day of the week for the first day of the month (0 - Sunday, 1 - Monday, ..., 6 - Saturday)
+                        // Calculate the day of the week for the first day of the month (0 - Monday, 1 - Tuesday, ..., 6 - Sunday)
                         const firstDayOfWeek = firstDayOfMonth.getDay();
 
                         // Create headers for the days of the week
@@ -283,16 +280,151 @@
                             // Check if this date is the current date
                             const currentDate = new Date();
                             if (year === currentDate.getFullYear() && month === currentDate.getMonth() && day === currentDate.getDate()) {
-                                dayElement.classList.add('bg-blue-500', 'text-white'); // Add classes for the indicator
+                                dayElement.classList.add('bg-orange-400', 'text-white'); // Add classes for the indicator
                             }
                             console.log(year);
                             console.log(month);
                             console.log(day);
-                            if (year === 2024 && month === 8 && day === 12) {
-                                dayElement.classList.add('bg-green-300', 'text-white'); // Add classes for the indicator
+                            if (year === 2024 && month === 8 && day === 1) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
                             }
-                            if (year === 2024 && month === 8 && day === 17) {
-                                dayElement.classList.add('bg-green-300', 'text-white'); // Add classes for the indicator
+                            if (year === 2024 && month === 8 && day === 2) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 4) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 6) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 8) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 9) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 11) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 13) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 15) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 16) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 18) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 22) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 23) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 25) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 29) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 8 && day === 30) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 2) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 4) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 6) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 7) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 9) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 11) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 14) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 16) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 18) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 20) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 21) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 23) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 25) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 27) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 28) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 9 && day === 30) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 1) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 3) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 4) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 6) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 8) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 11) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 13) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 15) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 17) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 18) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 20) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 22) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 24) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 25) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
+                            }
+                            if (year === 2024 && month === 10 && day === 27) {
+                                dayElement.classList.add('bg-blue-300', 'text-white'); // Add classes for the indicator
                             }
 
                             calendarElement.appendChild(dayElement);
