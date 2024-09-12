@@ -14,7 +14,10 @@ class MailController extends Controller
         abort_if(!$user->email, '401', 'email is ompty');
 
         //dd($request->all(), $user);
+        //dd($request->message);
         Mail::to($user->email)->send(new MyEmail($user->name, $request->message));
         return redirect()->back();
     }
+
+
 }

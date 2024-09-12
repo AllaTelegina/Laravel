@@ -18,7 +18,7 @@ class MyEmail extends Mailable
      */
 
 
-    public function __construct(private $name = null)
+    public function __construct(private $name = null, private $message = null)
     {
 
     }
@@ -40,7 +40,7 @@ class MyEmail extends Mailable
     {
         return new Content(
             view: 'mail.myemail',
-            with: ['name' => $this->name]
+            with: ['name' => $this->name, 'message.body' => $this->message]
         );
     }
 

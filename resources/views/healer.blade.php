@@ -65,68 +65,36 @@
 
                 <section class="text-blue-950  space-y-6 pt-2 py-4">
                         <section>
-                            <div class="my-8">
+                            <div class="my-4">
                                 <div class="text-3xl"><span class="text-orange-600 font-medium">P</span>асписание</div>
                             </div>
                             </section>
                                 <div class="mt-2 h-min-24 my-8 py-2 px-4 mx-auto w-3/4 text-center bg-blue-100 shadow-2xl shadow-gray-300 rounded-lg">
-                                    <span class="text-2xl ">Неделя 4-я по Пятидесятнице Явление иконы Божией Матери "Казанская"</span>
+                                    <span class="text-2xl ">{{$week->name}}</span>
                                 </div>
-                        <div class="container mx-auto space-y-6 p-6 bg-blue-100 shadow-lg rounded-lg">
+                        <div class="container mx-auto space-y-4 p-4 bg-blue-100 shadow-lg rounded-lg">
                             <div class="overflow-x-auto">
                                 <table class="min-w-full bg-blue-100">
                                     <thead class="bg-sky-600 text-white text-xl">
                                     <tr>
+                                        <th class="w-1/4 py-2 px-4 text-left">Месяц</th>
                                         <th class="w-1/4 py-2 px-4 text-left">Дата</th>
                                         <th class="w-1/4 py-2 px-4 text-left">День недели</th>
                                         <th class="w-1/4 py-2 px-4 text-left">Время</th>
                                         <th class="w-1/2 py-2 px-4 text-left">Служба</th>
                                     </tr>
                                     </thead>
+                                    @foreach($week->days as $day)
                                     <tbody class="text-xl">
                                     <tr>
-                                        <td class="border-b py-2 px-4">14 августа</td>
-                                        <td class="border-b py-2 px-4">Понедельник</td>
-                                        <td class="border-b py-2 px-4">08:00</td>
-                                        <td class="border-b py-2 px-4">Утренняя Литургия</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border-b py-2 px-4">15 августа</td>
-                                        <td class="border-b py-2 px-4">Вторник</td>
-                                        <td class="border-b py-2 px-4">10:00</td>
-                                        <td class="border-b py-2 px-4">Молебен с акафистом</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border-b py-2 px-4">16 августа</td>
-                                        <td class="border-b py-2 px-4">Среда</td>
-                                        <td class="border-b py-2 px-4">18:00</td>
-                                        <td class="border-b py-2 px-4">Вечерня с Утренью</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border-b py-2 px-4">16 августа</td>
-                                        <td class="border-b py-2 px-4">Четверг</td>
-                                        <td class="border-b py-2 px-4">18:00</td>
-                                        <td class="border-b py-2 px-4">Вечерня с Утренью</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border-b py-2 px-4">15 августа</td>
-                                        <td class="border-b py-2 px-4">Пятница</td>
-                                        <td class="border-b py-2 px-4">10:00</td>
-                                        <td class="border-b py-2 px-4">Молебен с акафистом</td>
-                                    </tr>
-                                    <tr class="text-orange-600">
-                                        <td class="border-b py-2 px-4">16 августа</td>
-                                        <td class="border-b py-2 px-4">Суббота</td>
-                                        <td class="border-b py-2 px-4">18:00</td>
-                                        <td class="border-b py-2 px-4">Вечерня с Утренью</td>
-                                    </tr>
-                                    <tr class="text-orange-600">
-                                        <td class="border-b py-2 px-4">16 августа</td>
-                                        <td class="border-b py-2 px-4">Воскресенье</td>
-                                        <td class="border-b py-2 px-4">18:00</td>
-                                        <td class="border-b py-2 px-4">Вечерня с Утренью</td>
+                                        <td class="border-b py-2 px-4">{{$day->month}}</td>
+                                        <td class="border-b py-2 px-4">{{$day->day}}</td>
+                                        <td class="border-b py-2 px-4">{{$day->day_week}}</td>
+                                        <td class="border-b py-2 px-4">{{$day->liturgy_evening}} Литургия Вечерняя</td>
+                                        <td class="border-b py-2 px-4">{{$day->bdenie}} Всенощное бдение</td>
                                     </tr>
                                     </tbody>
+                                    @endforeach
                                 </table>
                             </div>
                         </div>

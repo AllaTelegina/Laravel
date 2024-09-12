@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Article;
 use App\Models\Blog;
 use App\Utils\Calendar;
-
+use App\Models\Week;
 
 class BaseController extends Controller
 {
@@ -32,8 +32,11 @@ class BaseController extends Controller
         return view('aboutthetemple');
     }
 
+
     public function getSchedule(){
-        return view('schedule');
+       //dd(config('month.month'));
+     $week = Week::where('week_number', date('W'))->first();
+        return view('schedule', compact('week'));
     }
 
     public function getNote(){
@@ -81,7 +84,8 @@ class BaseController extends Controller
     }
 
     public function getHealer(){
-        return view('healer');
+        $week = Week::where('week_number', date('W'))->first();
+        return view('healer', compact('week'));
     }
 
     public function getCalendar(){

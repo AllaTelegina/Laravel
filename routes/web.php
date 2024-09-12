@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Auth;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 Route::middleware('lang')->group(function(){
     Route::get('cookies', [Controllers\BaseController::class, 'getCookies'])->name('cookies');
     Route::get('story', [Controllers\BaseController::class, 'getStory'])->name('story');
