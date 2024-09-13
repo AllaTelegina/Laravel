@@ -134,60 +134,36 @@
 
                             <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
                                 <div class="mt-2 h-min-24 my-8 py-4 px-4 mx-auto w-3/4 text-center shadow-2xl shadow-gray-100 rounded-lg">
-                                    <span class="text-blue-950 text-2xl ">Служение от 12.10.2024</span>
                                 </div>
                                 <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
-                                    <li><img x-on:click="imageGalleryOpen" src="images/1.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 01"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/2.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 07"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/3.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]  rounded-lg" alt="photo gallery image 08"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/4.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]  rounded-lg" alt="photo gallery image 09"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/5.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]  rounded-lg" alt="photo gallery image 10"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/6.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 06"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/7.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 07"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/9.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 08"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/10.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 09"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/12.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 10"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/6.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 06"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/7.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 07"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/9.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 08"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/10.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 09"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/12.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 10"></li>
+                                    @foreach($all as $one)
+                                        <li><img x-on:click="imageGalleryOpen" src="{{asset('storage/'.$one->url)}}" class="object-cover select-none w-full h-auto bg-gray-200 cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="{{$one->name}}"></li>
+                                    @endforeach
                                 </ul>
-
-                                <div class="mt-2 h-min-24 my-8 py-4 px-4 mx-auto w-3/4 text-center shadow-2xl shadow-gray-100 rounded-lg">
-                                    <span class="text-blue-950 text-2xl ">Служение от 15.10.2024</span>
-                                </div>
-                                <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
-                                    <li><img x-on:click="imageGalleryOpen" src="images/1.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 01"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/2.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 07"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/3.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]  rounded-lg" alt="photo gallery image 08"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/4.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]  rounded-lg" alt="photo gallery image 09"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/5.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]  rounded-lg" alt="photo gallery image 10"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/6.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 06"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/7.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 07"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/9.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 08"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/10.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 09"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/12.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 10"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/6.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 06"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/7.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 07"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/9.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 08"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/10.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 09"></li>
-                                    <li><img x-on:click="imageGalleryOpen" src="images/12.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="photo gallery image 10"></li>
-                                </ul>
-
 
                             </div>
-
                             <template x-teleport="body">
-                                <div x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300" x-transition:enter-start="opacity-0" x-transition:leave="transition ease-in-in duration-300" x-transition:leave-end="opacity-0" @click="imageGalleryClose" @keydown.window.escape="imageGalleryClose" x-trap.inert.noscroll="imageGalleryOpened" class="fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 select-none cursor-zoom-out" x-cloak>
+                                <div x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300"
+                                     x-transition:enter-start="opacity-0" x-transition:leave="transition ease-in-in duration-300"
+                                     x-transition:leave-end="opacity-0" @click="imageGalleryClose"
+                                     @keydown.window.escape="imageGalleryClose" x-trap.inert.noscroll="imageGalleryOpened"
+                                     class="fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 select-none cursor-zoom-out" x-cloak>
                                     <div class="relative flex items-center justify-center w-11/12 xl:w-4/5 h-11/12">
-                                        <div @click="$event.stopPropagation(); $dispatch('image-gallery-prev')" class="absolute left-0 flex items-center justify-center text-white translate-x-10 rounded-full cursor-pointer xl:-translate-x-24 2xl:-translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
+                                        <div @click="$event.stopPropagation(); $dispatch('image-gallery-prev')"
+                                             class="absolute left-0 flex items-center justify-center text-white
+                                             translate-x-10 rounded-full cursor-pointer xl:-translate-x-24
+                                             2xl:-translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
                                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                                             </svg>
                                         </div>
-                                        <img x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300" x-transition:enter-start="opacity-0 transform scale-50" x-transition:leave="transition ease-in-in duration-300" x-transition:leave-end="opacity-0 transform scale-50" class="object-contain object-center w-full h-full select-none cursor-zoom-out" :src="imageGalleryActiveUrl" alt="" style="display: none;">
-                                        <div @click="$event.stopPropagation(); $dispatch('image-gallery-next');" class="absolute right-0 flex items-center justify-center text-white -translate-x-10 rounded-full cursor-pointer xl:translate-x-24 2xl:translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
+                                        <img x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300"
+                                             x-transition:enter-start="opacity-0 transform scale-50" x-transition:leave="transition ease-in-in duration-300"
+                                             x-transition:leave-end="opacity-0 transform scale-50" class="object-contain object-center w-full h-full
+                                             select-none cursor-zoom-out" :src="imageGalleryActiveUrl" alt="" style="display: none;">
+                                        <div @click="$event.stopPropagation(); $dispatch('image-gallery-next');" class="absolute right-0 flex
+                                        items-center justify-center text-white -translate-x-10 rounded-full cursor-pointer
+                                        xl:translate-x-24 2xl:translate-x-32 bg-white/10 w-14 h-14 hover:bg-white/20">
                                             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                                             </svg>
@@ -198,246 +174,20 @@
                         </div>
 
 
-
-                        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-                            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/1.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"/>
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                                        <img src="/images/2.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/3.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/4.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/5.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-                            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/6.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                                        <img src="/images/7.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/8.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/9.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/915.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-                            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/6.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                                        <img src="/images/7.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/8.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/9.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/915.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
                     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
 
-                        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-                            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/1.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"/>
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                                        <img src="/images/2.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/3.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/4.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/5.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                            </div>
+                        <div class="hidden p-4 rounded-lg" id="dashboard" role="tabpanel" aria-labelledby="settings-tab">
+                            <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
+                                @foreach($hram as $one)
+                                    <li><img x-on:click="imageGalleryOpen" src="{{asset('storage/'.$one->url)}}" class="object-cover select-none w-full h-auto bg-gray-200 cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="{{$one->name}}"></li>
+                                @endforeach
+                            </ul>
                         </div>
 
-
-                        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-                            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/6.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                                        <img src="/images/7.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/8.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/9.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/915.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-                            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/6.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-                                        <img src="/images/7.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/8.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                            <img src="/images/9.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
-                                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                        <img src="/images/915.jpg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Foto</h3>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
 
-                    <div class="hidden p-4 rounded-lg" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+                   <!-- <div class="hidden p-4 rounded-lg" id="settings" role="tabpanel" aria-labelledby="settings-tab">
 
                         <div x-data="{
          imageGalleryOpened: false,
@@ -476,8 +226,7 @@
              imageGalleryPhotos[i].setAttribute('data-index', i+1);
          }
      " class="w-full h-full select-none">
-
-                            <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+             <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
                                 <div class="mt-2 h-min-24 my-8 py-4 px-4 mx-auto w-3/4 text-center shadow-2xl shadow-gray-100 rounded-lg">
                                     <span class="text-blue-950 text-2xl ">Служение от 12.10.2024</span>
                                 </div>
@@ -523,6 +272,8 @@
 
 
                             </div>
+                    </div>
+-->
 
                             <template x-teleport="body">
                                 <div x-show="imageGalleryOpened" x-transition:enter="transition ease-in-out duration-300" x-transition:enter-start="opacity-0" x-transition:leave="transition ease-in-in duration-300" x-transition:leave-end="opacity-0" @click="imageGalleryClose" @keydown.window.escape="imageGalleryClose" x-trap.inert.noscroll="imageGalleryOpened" class="fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 select-none cursor-zoom-out" x-cloak>
@@ -541,7 +292,7 @@
                                     </div>
                                 </div>
                             </template>
-                        </div>
+
 
 
 
@@ -550,11 +301,27 @@
                 </div>
 
 
+
+
+
+                    <div class="hidden p-4 rounded-lg" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+                        <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
+                            @foreach($chasovnja as $one)
+                                <li><img x-on:click="imageGalleryOpen" src="{{asset('storage/'.$one->url)}}" class="object-cover select-none w-full h-auto bg-gray-200 cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="{{$one->name}}"></li>
+                            @endforeach
+                        </ul>
+                    </div>
+
                         <div class="hidden p-4 rounded-lg" id="school" role="tabpanel" aria-labelledby="settings-tab">
-                            <p>Здесь пока ничего нет</p>
+                            <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
+                            @foreach($school as $one)
+                                <li><img x-on:click="imageGalleryOpen" src="{{asset('storage/'.$one->url)}}" class="object-cover select-none w-full h-auto bg-gray-200 cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="{{$one->name}}"></li>
+                            @endforeach
+                            </ul>
                         </div>
 
 
+                    </div>
                     </div>
                 </section>
             </section>

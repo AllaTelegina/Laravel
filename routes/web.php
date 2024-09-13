@@ -6,6 +6,7 @@ use App\Http\Controllers;
 use App\Models\OpenGraph;
 use Illuminate\Support\Facades\Auth;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,7 +30,7 @@ Route::middleware('lang')->group(function(){
     Route::get('namecalendar', [Controllers\BaseController::class, 'getNamecalendar'])->name('namecalendar');
     Route::get('boris', [Controllers\BaseController::class, 'getBoris'])->name('boris');
     Route::get('prayers', [Controllers\BaseController::class, 'getPrayers'])->name('prayers');
-    Route::get('foto', [Controllers\BaseController::class, 'getFoto'])->name('foto');
+    Route::get('foto', [Controllers\FotoCatalogController::class, 'getIndex'])->name('foto');
     Route::get('publications', [Controllers\BaseController::class, 'getPublications'])->name('publications');
     Route::get('sponsors', [Controllers\BaseController::class, 'getSponsors'])->name('sponsors');
     Route::get('healer', [Controllers\BaseController::class, 'getHealer'])->name('healer');
@@ -53,6 +54,9 @@ Route::middleware('lang')->group(function(){
     Route::get('blog/{blog}', [Controllers\BlogController::class, 'getOne']);
 
 
+    Route::get('/photos', [Controllers\FotoController::class, 'getIndex']);
+    Route::get('/photos/{id}', [Controllers\FotoController::class, 'getShow']);
+
 
 
     Route::get('/dashboard', function () {
@@ -73,9 +77,12 @@ Route::middleware('lang')->group(function(){
         Route::get('blog_picture/{blog_text_picture}/delete', [Controllers\BlogController::class, 'deletePicture']);
     });
 
+
+    Route::post('/send',  [Controllers\MailController::class, 'submit']);
+
     Route::post('mail/{user}', [Controllers\MailController::class, 'postIndex']);
     Route::get('blogs', [Controllers\BlogController::class, 'getAll']);
-Route::get('cookie/close', [Controllers\CookieController::class, 'getClose']);
+    Route::get('cookie/close', [Controllers\CookieController::class, 'getClose']);
 
     require __DIR__.'/auth.php';
 

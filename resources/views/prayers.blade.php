@@ -3925,8 +3925,7 @@
                     </details>
                 </li>
             </ul>
-
-
+                                </ul>
         </section>
         </div>
     </x-slot>

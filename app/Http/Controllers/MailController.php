@@ -17,7 +17,30 @@ class MailController extends Controller
         //dd($request->message);
         Mail::to($user->email)->send(new MyEmail($user->name, $request->message));
         return redirect()->back();
+
     }
+
+
+    public function submit(Request $request)
+    {
+        //dd($request->all());
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+        ]);
+
+
+        $details = [
+            'name' => $request->name,
+            'message' => $request->message,
+        ];
+
+        Mail::to('temple00@bk.ru')->send(new MyEmail($details['name'], $details['message']));
+
+        return back()->with('success', 'Ваше сообщение отправлено!');
+    }
+
 
 
 }
