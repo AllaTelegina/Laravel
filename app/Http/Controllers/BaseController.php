@@ -71,10 +71,10 @@ class BaseController extends Controller
         return view('foto');
     }
 
-    public function getPublications(){
-        return view('publications');
-    }
 
+    public function getNews(){
+        return view('news');
+    }
     public function getSchool(){
         return view('school');
     }

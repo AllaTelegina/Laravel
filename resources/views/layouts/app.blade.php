@@ -39,8 +39,8 @@
 <div class="fixed z-50 top-0 w-full">
 
 <nav class="bg-blue-100 border-gray-200 dark:bg-gray-900 dark:border-gray-700 text-blue-950">
-    <a href="/" class="float-left pl-4 md:pl-28 ">
-        <img class="w-12 h-12" src="{{asset('images/logo.png')}}"/>
+    <a href="/" class="float-left pl-4 md:pl-28">
+        <img class="w-12 h-12 lg:w-16 lg:h-16" src="{{asset('images/logo.png')}}"/>
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
     </a>
     <div class="float-right md:float-none max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -73,20 +73,20 @@
                     <!-- Dropdown menu -->
                     <div id="templateNavbar"
                          class="z-10 hidden font-normal bg-blue-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="templateLargeButton">
+                        <ul class="py-2 text-sm text-blue-950 dark:text-gray-400" aria-labelledby="templateLargeButton">
                             <li>
                                 <a href="/aboutthetemple"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">О
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">О
                                     Храме</a>
                             </li>
                             <li>
                                 <a href="/story"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">История
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">История
                                     Храма</a>
                             </li>
                             <li>
                                 <a href="/schedule"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Расписание</a>
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Расписание</a>
                             </li>
                         </ul>
                     </div>
@@ -95,7 +95,7 @@
                     <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="h-5 flex items-center justify-between w-full py-2 px-3
                         rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500
                          dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
-                        Новости
+                        Публикации
                         <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -104,27 +104,26 @@
                     </button>
                     <!-- Dropdown menu -->
                     <div id="dropdownNavbar"
-                         class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                         class="z-10 hidden font-normal bg-blue-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-2 text-sm text-blue-950 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                             <li>
-                                <a href="/publications"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Публикации</a>
+                                <a href="/news"
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Новости</a>
                             </li>
                             <li>
                                 <a href="/foto"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Фотографии</a>
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Фотографии</a>
                             </li>
                             <li>
-                                <a href="/icons"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Об
-                                    иконах</a>
+                                <a href="#"
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">СМИ о нас</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li>
                     <button id="noteNavbarLink" data-dropdown-toggle="noteNavbar"
-                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100
+                            class="flex items-center justify-between w-full py-2 px-3 text-blue-950 rounded hover:bg-gray-100
                              md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white
                              md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                         Прихожанам
@@ -136,27 +135,27 @@
                     </button>
                     <!-- Dropdown menu -->
                     <div id="noteNavbar"
-                         class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="noteLargeButton">
-                            <li>
-                                <a href="/note"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Подать
-                                    записку</a>
-                            </li>
+                         class="z-10 hidden font-normal bg-blue-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-2 text-sm text-blue-950 dark:text-gray-400" aria-labelledby="noteLargeButton">
                             <li>
                                 <a href="/sacraments"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Таинства</a>
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Таинства</a>
                             </li>
                             <li>
                                 <a href="prayers"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Молитвы</a>
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Молитвы</a>
+                            </li>
+                            <li>
+                                <a href="/icons"
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Об
+                                    иконах</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li>
                     <button id="calendarNavbarLink" data-dropdown-toggle="calendarNavbar"
-                            class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
+                            class="flex items-center justify-between w-full py-2 px-3 text-blue-950 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                         Православный календарь
                         <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 10 6">
@@ -166,57 +165,59 @@
                     </button>
                     <!-- Dropdown menu -->
                     <div id="calendarNavbar"
-                         class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="calendarLargeButton">
+                         class="z-10 hidden font-normal bg-blue-50 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-2 text-sm text-blue-950 dark:text-gray-400" aria-labelledby="calendarLargeButton">
                             <li>
                                 <a href="/calendar"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Календарь
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Календарь
                                     на год</a>
                             </li>
                             <li>
                                 <a href="/weddingcalendar"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Календарь
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Календарь
                                     венчаний</a>
                             </li>
                             <li>
                                 <a href="/namecalendar"
-                                   class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Календарь
+                                   class="block px-4 py-2 hover:bg-blue-200 dark:hover:bg-gray-600 dark:hover:text-white">Календарь
                                     имени</a>
                             </li>
                         </ul>
                     </div>
                 </li>
-               <!-- <li>
-                    <a href="#"
-                       class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Духовная
-                        литература</a>
+               <li>
+                    <a href="/note"
+                       class="block py-2 px-3 text-blue-950 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white
+                       md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                        Подать записку</a>
                 </li>
-                -->
+
                 <li>
                     <a href="/healer"
-                       class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Храм-часовня
+                       class="block py-2 px-3 text-blue-950 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Храм-часовня
                         Целительница</a>
                 </li>
                 <li>
                     <a href="/school"
-                       class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Воскресная
+                       class="block py-2 px-3 text-blue-950 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Воскресная
                         школа</a>
                 </li>
                 <li>
                     <a href="/sponsors"
-                       class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Спонсоры</a>
+                       class="block py-2 px-3 text-blue-950 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Спонсоры</a>
                 </li>
                 <div class="relative group">
                     <a class="false py-[29px] text-sm" href="#">RU</a>
-                    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg">
-                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">EN</a>
-                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">PL</a>
-                        <a class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">DE</a>
+                    <div class="absolute hidden group-hover:block bg-blue-50 shadow-lg mt-2 rounded-lg">
+                        <a class="block px-4 py-2 text-sm text-blue-950 hover:bg-blue-200" href="#">EN</a>
+                        <a class="block px-4 py-2 text-sm text-blue-950 hover:bg-blue-200" href="#">PL</a>
+                        <a class="block px-4 py-2 text-sm text-blue-950 hover:bg-blue-200" href="#">DE</a>
                     </div>
                 </div>
                 <div class="hidden items-center lg:flex">
                     @guest
-                        <a class="" href="/login">Логин</a>
+                        <a class="block py-2 px-3 text-blue-950 rounded hover:bg-blue-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white
+                       md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" href="/login">Логин</a>
                     @else
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf

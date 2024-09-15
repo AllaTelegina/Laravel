@@ -173,7 +173,6 @@
                             </template>
                         </div>
 
-
                     <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
 
                         <div class="hidden p-4 rounded-lg" id="dashboard" role="tabpanel" aria-labelledby="settings-tab">

@@ -31,7 +31,7 @@ Route::middleware('lang')->group(function(){
     Route::get('boris', [Controllers\BaseController::class, 'getBoris'])->name('boris');
     Route::get('prayers', [Controllers\BaseController::class, 'getPrayers'])->name('prayers');
     Route::get('foto', [Controllers\FotoCatalogController::class, 'getIndex'])->name('foto');
-    Route::get('publications', [Controllers\BaseController::class, 'getPublications'])->name('publications');
+    Route::get('news', [Controllers\BaseController::class, 'getNews'])->name('news');
     Route::get('sponsors', [Controllers\BaseController::class, 'getSponsors'])->name('sponsors');
     Route::get('healer', [Controllers\BaseController::class, 'getHealer'])->name('healer');
     Route::get('school', [Controllers\BaseController::class, 'getSchool'])->name('school');
