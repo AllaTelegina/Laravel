@@ -309,7 +309,7 @@
         </section>
 
         <div class="mt-4">
-            <a class="text-3xl"><span class="text-orange-600 font-semibold">П</span>убликации</a>
+            <a class="text-3xl"><span class="text-orange-600 font-semibold">Н</span>овости</a>
         </div>
         <section class="text-blue-950 body-font">
             <div class="container px-5 py-4 mx-auto">
@@ -321,7 +321,7 @@
                                 <h1 class="title-font text-lg font-medium text-blue-950 mb-3">
                                     <div style="vertical-align: inherit;">
                                         <p class="group relative w-max">
-                                            <span><a href="/news" class="text-2xl"><span style="vertical-align: inherit;" class="text-orange-600">Н</span>овости</a></span>
+                                            <span><a href="/publications" class="text-2xl"><span style="vertical-align: inherit;" class="text-orange-600">П</span>убликации</a></span>
                                             <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-sky-600 group-hover:w-3/6"></span>
                                             <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-sky-600 group-hover:w-3/6"></span>
                                         </p>
@@ -339,7 +339,7 @@
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/news" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/publications" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>

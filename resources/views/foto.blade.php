@@ -185,6 +185,22 @@
 
                     </div>
 
+                        <div class="hidden p-4 rounded-lg" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+                            <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
+                                @foreach($chasovnja as $one)
+                                    <li><img x-on:click="imageGalleryOpen" src="{{asset('storage/'.$one->url)}}" class="object-cover select-none w-full h-auto bg-gray-200 cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="{{$one->name}}"></li>
+                                @endforeach
+                            </ul>
+                        </div>
+
+                        <div class="hidden p-4 rounded-lg" id="school" role="tabpanel" aria-labelledby="settings-tab">
+                            <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
+                                @foreach($school as $one)
+                                    <li><img x-on:click="imageGalleryOpen" src="{{asset('storage/'.$one->url)}}" class="object-cover select-none w-full h-auto bg-gray-200 cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="{{$one->name}}"></li>
+                                @endforeach
+                            </ul>
+                        </div>
+
 
                    <!-- <div class="hidden p-4 rounded-lg" id="settings" role="tabpanel" aria-labelledby="settings-tab">
 
@@ -303,21 +319,6 @@
 
 
 
-                    <div class="hidden p-4 rounded-lg" id="settings" role="tabpanel" aria-labelledby="settings-tab">
-                        <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
-                            @foreach($chasovnja as $one)
-                                <li><img x-on:click="imageGalleryOpen" src="{{asset('storage/'.$one->url)}}" class="object-cover select-none w-full h-auto bg-gray-200 cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="{{$one->name}}"></li>
-                            @endforeach
-                        </ul>
-                    </div>
-
-                        <div class="hidden p-4 rounded-lg" id="school" role="tabpanel" aria-labelledby="settings-tab">
-                            <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
-                            @foreach($school as $one)
-                                <li><img x-on:click="imageGalleryOpen" src="{{asset('storage/'.$one->url)}}" class="object-cover select-none w-full h-auto bg-gray-200 cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4] rounded-lg" alt="{{$one->name}}"></li>
-                            @endforeach
-                            </ul>
-                        </div>
 
 
                     </div>

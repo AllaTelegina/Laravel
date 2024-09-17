@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Models\OpenGraph;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\PublicationsController;
+
 
 
 /*
@@ -40,7 +42,7 @@ Route::middleware('lang')->group(function(){
     Route::get('aletter', [Controllers\BaseController::class, 'getAletter'])->name('aletter');
     Route::get('quotes', [Controllers\BaseController::class, 'getQuotes'])->name('quotes');
     Route::get('letter/{letter}', [Controllers\LetterController::class, 'getIndex'])->name('letter');
-    Route::get('news', [Controllers\BaseController::class, 'getNews'])->name('news');
+    Route::get('publications', [Controllers\BaseController::class, 'getPublications'])->name('publications');
     Route::get('test', [Controllers\BaseController::class, 'getTest'])->name('test');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
@@ -57,7 +59,13 @@ Route::middleware('lang')->group(function(){
     Route::get('/photos', [Controllers\FotoController::class, 'getIndex']);
     Route::get('/photos/{id}', [Controllers\FotoController::class, 'getShow']);
 
-
+    Route::get('/publications', [PublicationsController::class, 'getIndex']);
+    Route::get('/publications/create', [PublicationsController::class, 'getCreate']);
+    Route::post('/publications', [PublicationsController::class, 'postStore']);
+    Route::get('/publications/{id}', [PublicationsController::class, 'getShow']);
+    Route::get('/publications/{id}/edit', [PublicationsController::class, 'getEdit']);
+    Route::put('/publications/{id}', [PublicationsController::class, 'putUpdate']);
+    Route::delete('/publications/{id}', [PublicationsController::class, 'deleteDestroy']);
 
     Route::get('/dashboard', function () {
         return view('dashboard');

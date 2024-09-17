@@ -72,8 +72,8 @@ class BaseController extends Controller
     }
 
 
-    public function getNews(){
-        return view('news');
+    public function getPublications(){
+        return view('publications');
     }
     public function getSchool(){
         return view('school');
