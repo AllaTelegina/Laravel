@@ -62,7 +62,7 @@
         <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 border-rounder-lg rounded-lg overflow-hidden">
            <div class="relative">
-               {{ $item->url }}
+               <img src="/storage/{{ $item->url }}" />
             <div class="absolute top-0 right-0 bg-sky-600 text-white font-bold px-2 py-1 m-2 rounded-md skeleton">New
             </div>
            </div>

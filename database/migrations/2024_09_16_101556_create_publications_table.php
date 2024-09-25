@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::table('publications', function (Blueprint $table) {
             $table->id();
-            $table->string('images')->default('default_image.jpg');
             $table->date('published_at');
             $table->string('title');
             $table->text('description');
@@ -28,7 +27,6 @@ return new class extends Migration
     {
         //Schema::dropIfExists('publications');
         Schema::table('publications', function (Blueprint $table) {
-            $table->dropColumn('images');
             $table->dropColumn('title');
             $table->dropColumn('description');
             $table->dropColumn('published_at');

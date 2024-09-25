@@ -81,11 +81,14 @@
             </div>
         </section>
 
+
+<form class="note" action="{{ route('note.store') }}" method="post">
+    @csrf
 <div class="place-items-center ml-36">
             <span class="grid grid-cols-2 gap-4">
-            <form class="relative max-w-sm">
+            <div class="relative max-w-sm">
                 <!--<label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select your country</label>-->
-                <select id="countries" class="bg-gray-50 border border-gray-300 text-blue-950 text-sm rounded-lg focus:ring-blue-500
+                <select id="countries" name="title" class="bg-gray-50 border border-gray-300 text-blue-950 text-sm rounded-lg focus:ring-blue-500
                 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
                 dark:focus:ring-blue-500 dark:focus:border-blue-500">
                     <option>Выбрать требу</option>
@@ -102,20 +105,20 @@
                     <option>Акафист перед иконой Божией Матери «Всецарица»</option>
                     <option>Акафист перед иконой Божией Матери «Неупиваемая Чаша»</option>
                 </select>
-            </form>
+            </div>
 
 
-            <form class="relative max-w-sm">
+            <div class="relative max-w-sm">
                 <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                     <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0
                         18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                     </svg>
                 </div>
-                <input id="datepicker-autohide" datepicker datepicker-autohide type="text" class="bg-gray-50 border border-gray-300 text-blue-950 text-sm rounded-lg
+                <input id="datepicker-autohide" name="time" datepicker datepicker-autohide type="text" class="bg-gray-50 border border-gray-300 text-blue-950 text-sm rounded-lg
                 focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
                 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Выбрать дату" />
-            </form>
+            </div>
             </span>
 </div>
 
@@ -127,7 +130,7 @@
                 focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out">
                 <label class="flex cursor-pointer gap-4">
                     <span class="label-text link-hover text-base text-blue-950">О здравии</span>
-                    <input type="checkbox" class="peer sr-only opacity-0" id="toggle" />
+                    <input type="checkbox" name="oror" class="peer sr-only opacity-0" id="toggle" />
                     <label for="toggle" class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-orange-600 px-0.5 outline-gray-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow before:transition-transform before:duration-300 peer-checked:bg-sky-600 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gray-400 peer-checked:peer-focus-visible:outline-green-500" for="toggle ">
                         <span class="sr-only">Enable</span>
                     </label>
@@ -151,63 +154,69 @@
                     </div>
 
                     <div class="py-4 border-2 border-sky-600 w-full md:w-96 rounded-lg shadow-2xl shadow-gray-300 mx-auto">
-                        <form class="max-w-sm mx-auto p-4">
+                        <div class="max-w-sm mx-auto p-4">
                             <ul class="relative w-full">
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
                             </ul>
-                        </form>
+                        </div>
+
                         <div class="flex items-start mb-5 mt-8 ml-6">
                             <div class="flex items-center h-5 ">
-                                <input id="terms" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                                <input id="terms" name="agriment" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
                             </div>
                             <label for="terms" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Я согласен с <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">политикой конфиденциальности</a></label>
                         </div>
+
                     </div>
                 </div>
 
+    <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400
+                    text-white font-medium py-2 px-10 rounded-lg hover:bg-sky-600">
+        Подать записку
+    </button>
+</form>
 
 
-
-
+<!--
                 <div class="relative text-gray-300" id="pricing">
                     <div aria-hidden="true" class="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
                         <div class="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
@@ -222,7 +231,7 @@
                                 class="flex flex-col items-center aspect-auto p-4 sm:p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-gray-600/10 shadow-none m-2 flex-1 max-w-md">
                                 <h2 class="text-lg sm:text-xl font-medium text-white mb-2">Affordable Pricing</h2>
                                 <p class="text-lg sm:text-xl text-center mb-6 mt-4">
-                                    <span class="text-3xl sm:text-4xl font-bold text-white">$199</span> <!-- -->/ Month
+                                    <span class="text-3xl sm:text-4xl font-bold text-white">$199</span> / Month
                                 </p>
                                 <p class="text-center mb-6">Get access to all premium features for just $199 per month. No hidden fees or extra
                                     charges.</p>
@@ -234,8 +243,8 @@
                     </div>
                 </div>
 
-
-                <div class="max-w-md mx-auto bg-gray-100 shadow-md rounded-md overflow-hidden mt-16">
+-->
+              <!--  <div class="max-w-md mx-auto bg-gray-100 shadow-md rounded-md overflow-hidden mt-16">
                     <div class="bg-blue-600 text-white p-4 flex justify-between">
                         <div class="font-bold text-lg">Введите данные карты</div>
                         <div class="text-lg"><i class="fab fa-cc-visa"></i></div>
@@ -281,13 +290,9 @@
                         </button>
                     </div>
                 </div>
+-->
 
 
-
-                <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400
-                    text-white font-medium py-2 px-10 rounded-lg hover:bg-sky-600">
-                    Подать записку
-                </button>
 
                <!--
                 <div class="mt-4 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-blue-100 shadow-2xl shadow-gray-400 rounded-lg">

@@ -6,7 +6,7 @@ use App\Http\Controllers;
 use App\Models\OpenGraph;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\PublicationsController;
-
+use App\Http\Controllers\NoteController;
 
 
 /*
@@ -66,6 +66,8 @@ Route::middleware('lang')->group(function(){
     Route::get('/publications/{id}/edit', [PublicationsController::class, 'getEdit']);
     Route::put('/publications/{id}', [PublicationsController::class, 'putUpdate']);
     Route::delete('/publications/{id}', [PublicationsController::class, 'deleteDestroy']);
+
+    Route::post('/note/store', [NoteController::class, 'postStore'])->name('note.store');
 
     Route::get('/dashboard', function () {
         return view('dashboard');
