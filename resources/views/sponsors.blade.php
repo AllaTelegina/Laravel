@@ -111,7 +111,7 @@
                     </div>
                     <button class="absolute left-1/4 bottom-4 rounded-lg
                     focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out
-                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
+                    bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600"><a href="https://www.facebook.com/profile.php?id=100007782249302&mibextid=ZbWKwL">Перейти</a></button>
                 </div>
             </div>
                         <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">

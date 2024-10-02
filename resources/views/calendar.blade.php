@@ -56,64 +56,103 @@
                         </div>
 
 
-                Главный православный праздник Светлое Христово Воскресение (Пасха), которое в 2024 году припадает на 5 мая.
+                <div class="flex min-h-screen items-center justify-center text-blue-950">
+                    <section  class="px-40">
+                        <div  class="mb-4 text-center">
+                            <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-sky-600 shadow-xl shadow-gray-300 rounded-2xl">
+                                <h1 class="text-white text-3xl font-semibold">Церковные праздники 2024 года</h1>
+                            </div>
+                            <h3  class="block antialiased font-sans font-semibold relative mb-4 mt-4 text-center text-2xl leading-tight tracking-normal text-black"> Главный православный праздник Светлое Христово Воскресение (Пасха), которое в 2024 году припадает на 5 мая.</h3>
+                        </div>
+                        <div  class="grid grid-cols-12 ">
+                            <div  class="col-span-12 lg:col-start-4 lg:col-span-6">
+                                <h5  class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mt-6 mb-1 font-semibold !text-blue-950"> Двунадесятые непереходящие праздники православного календаря на 2024 год: </h5>
+                                <div  class="block antialiased font-sans leading-relaxed mb-4 font-normal text-blue-950">
+                                    <ul>
+                                       <li> 7 января – Рождество Христово;</li>
+                                        <li>19 января – Крещение Господне (Богоявление);</li>
+                                        <li>15 февраля – Сретение Господне;</li>
+                                        <li>7 апреля – Благовещение Пресвятой Богородицы;</li>
+                                        <li>19 августа – Преображение Господне;</li>
+                                        <li>28 августа – Успение Пресвятой Богородицы;</li>
+                                        <li>21 сентября – Рождество Пресвятой Богородицы;</li>
+                                        <li>27 сентября – Воздвижение Креста Господня;</li>
+                                        <li>4 декабря – Введение во храм Пресвятой Богородицы.</li>
+                                    </ul>
+                                </div>
+                                <hr  class="my-6 border-blue-gray-50">
+                                <h5  class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mt-6 mb-1 font-semibold !text-black"> Двунадесятые переходящие праздники: </h5>
+                                <div  class="block antialiased font-sans text-base leading-relaxed mb-4 font-normal text-gray-600">
+                                    <ul>
+                                        <li> 28 апреля – Вход Господень в Иерусалим;</li>
+                                        <li>13 июня – Вознесение Господне;</li>
+                                        <li>23 июня – День Святой Троицы, Пятидесятница.</li>
+                                    </ul>
+                                </div>
+                                <hr  class="my-6 border-blue-gray-50">
+                                <hr  class="my-6 border-blue-gray-50">
+                                <h5  class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mt-6 mb-1 font-semibold !text-black">  Великие праздники: </h5>
+                                <div  class="block antialiased font-sans text-base leading-relaxed mb-4 font-normal text-gray-600">
+                                    <ul>
+                                        <li> 14 января – Обрезание Господне;</li>
+                                        <li>7 июля – Рождество Иоанна Предтечи;</li>
+                                        <li>12 июля – Святых апостолов Петра и Павла;</li>
+                                        <li> 11 сентября – Усекновение главы Иоанна Предтечи;</li>
+                                        <li>14 октября – Покров Пресвятой Богородицы.</li>
+                                    </ul>
+                                </div>
+                                <hr  class="my-6 border-blue-gray-50">
+                                <h5  class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mt-6 mb-1 font-semibold !text-black"> Церковные многодневные посты 2024 года: </h5>
+                                <div  class="block antialiased font-sans text-base leading-relaxed mb-4 font-normal text-gray-600">
+                                    <ul>
+                                        <li> до 6 января – длится Рождественский пост, который начался 28 ноября 2023 года;</li>
+                                        <li>с 18 марта по 4 мая – Великий пост;</li>
+                                        <li> с 1 июля по 11 июля – Петров пост;</li>
+                                        <li>14 по 27 августа – Успенский пост;</li>
+                                        <li>с 28 ноября по 6 января 2025 года – Рождественский пост 2024-2025.</li>
+                                    </ul>
+                                </div>
+                                <hr  class="my-6 border-blue-gray-50">
+                                <h5  class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mt-6 mb-1 font-semibold !text-black"> Церковные однодневные посты: </h5>
+                                <div  class="block antialiased font-sans text-base leading-relaxed mb-4 font-normal text-gray-600">
+                                    <ul>
+                                        <li> 18 января – Крещенский сочельник (Навечерие Богоявления);</li>
+                                        <li>11 сентября – Усекновение главы Иоанна Предтечи;</li>
+                                        <li> 27 сентября – Воздвижение Креста Господня;</li>
+                                        <li>14 по 27 августа – Успенский пост;</li>
+                                        <li>Все среды и пятницы, за исключением сплошных седмиц и Святок..</li>
+                                    </ul>
+                                </div>
+                                <hr  class="my-6 border-blue-gray-50">
+                                <h5  class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mt-6 mb-1 font-semibold !text-black"> Сплошные седмицы: </h5>
+                                <div  class="block antialiased font-sans text-base leading-relaxed mb-4 font-normal text-gray-600">
+                                    <ul>
+                                        <li>7 - 17 января – Святки;</li>
+                                        <li>с 26 февраля по 3 марта – Мытаря и фарисея;</li>
+                                        <li>с 11 марта по 17 марта – Сырная (Масленица);</li>
+                                        <li>с 6 мая по 12 мая – Пасхальная (Светлая);</li>
+                                        <li>с 24 июня по 30 июня – Троицкая.</li>
+                                    </ul>
+                                </div>
+                                <hr  class="my-6 border-blue-gray-50">
+                                <h5  class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mt-6 mb-1 font-semibold !text-black">  Православный календарь 2024: дни особого поминовения усопших: </h5>
+                                <div  class="block antialiased font-sans text-base leading-relaxed mb-4 font-normal text-gray-600">
+                                    <ul>
+                                        <li>9 марта – Суббота мясопустная (Вселенская родительская суббота);</li>
+                                        <li>30 марта – Суббота 2-й седмицы Великого поста;</li>
+                                        <li>6 апреля – Суббота 3-й седмицы Великого поста;</li>
+                                        <li>13 апреля – Суббота 4-й седмицы Великого поста;</li>
+                                        <li>14 мая – Радоница;</li>
+                                        <li>9 мая – Поминовение усопших воинов;</li>
+                                        <li>22 июня – Троицкая родительская суббота;</li>
+                                        <li>2 ноября – Димитриевская родительская суббота.</li>
+                                    </ul>
+                                </div>
 
-                Двунадесятые непереходящие праздники православного календаря на 2024 год:
-
-                7 января – Рождество Христово;
-                19 января – Крещение Господне (Богоявление);
-                15 февраля – Сретение Господне;
-                7 апреля – Благовещение Пресвятой Богородицы;
-                19 августа – Преображение Господне;
-                28 августа – Успение Пресвятой Богородицы;
-                21 сентября – Рождество Пресвятой Богородицы;
-                27 сентября – Воздвижение Креста Господня;
-                4 декабря – Введение во храм Пресвятой Богородицы.
-                Двунадесятые переходящие праздники:
-
-                28 апреля – Вход Господень в Иерусалим;
-                13 июня – Вознесение Господне;
-                23 июня – День Святой Троицы, Пятидесятница.
-                Великие праздники:
-
-                14 января – Обрезание Господне;
-                7 июля – Рождество Иоанна Предтечи;
-                12 июля – Святых апостолов Петра и Павла;
-                11 сентября – Усекновение главы Иоанна Предтечи;
-                14 октября – Покров Пресвятой Богородицы.
-                Церковные многодневные посты 2024 года:
-
-                до 6 января – длится Рождественский пост, который начался 28 ноября 2023 года;
-                с 18 марта по 4 мая – Великий пост;
-                с 1 июля по 11 июля – Петров пост;
-                14 по 27 августа – Успенский пост;
-                с 28 ноября по 6 января 2025 года – Рождественский пост 2024-2025.
-                Церковные однодневные посты:
-
-                18 января – Крещенский сочельник (Навечерие Богоявления);
-                11 сентября – Усекновение главы Иоанна Предтечи;
-                27 сентября – Воздвижение Креста Господня;
-                Все среды и пятницы, за исключением сплошных седмиц и Святок.
-                Сплошные седмицы:
-
-                7 - 17 января – Святки;
-                с 26 февраля по 3 марта – Мытаря и фарисея;
-                с 11 марта по 17 марта – Сырная (Масленица);
-                с 6 мая по 12 мая – Пасхальная (Светлая);
-                с 24 июня по 30 июня – Троицкая.
-                Православный календарь 2024: дни особого поминовения усопших:
-
-                9 марта – Суббота мясопустная (Вселенская родительская суббота);
-                30 марта – Суббота 2-й седмицы Великого поста;
-                6 апреля – Суббота 3-й седмицы Великого поста;
-                13 апреля – Суббота 4-й седмицы Великого поста;
-                14 мая – Радоница;
-                9 мая – Поминовение усопших воинов;
-                22 июня – Троицкая родительская суббота;
-                2 ноября – Димитриевская родительская суббота.
-
-
-
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </section>
         </div>
     </x-slot>
