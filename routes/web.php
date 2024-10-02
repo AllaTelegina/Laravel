@@ -7,6 +7,8 @@ use App\Models\OpenGraph;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\PublicationsController;
 use App\Http\Controllers\NoteController;
+use App\Http\Controllers\MailController;
+
 
 
 /*
@@ -43,6 +45,7 @@ Route::middleware('lang')->group(function(){
     Route::get('quotes', [Controllers\BaseController::class, 'getQuotes'])->name('quotes');
     Route::get('letter/{letter}', [Controllers\LetterController::class, 'getIndex'])->name('letter');
     Route::get('publications', [Controllers\BaseController::class, 'getPublications'])->name('publications');
+    Route::get('biblio', [Controllers\BaseController::class, 'getBiblio']);
     Route::get('test', [Controllers\BaseController::class, 'getTest'])->name('test');
     Route::get('users', [Controllers\UserController::class, 'getIndex']);
     Route::get('user/{user}', [Controllers\UserController::class, 'getOne']);
@@ -59,6 +62,8 @@ Route::middleware('lang')->group(function(){
     Route::get('/photos', [Controllers\FotoController::class, 'getIndex']);
     Route::get('/photos/{id}', [Controllers\FotoController::class, 'getShow']);
 
+
+
     Route::get('/publications', [PublicationsController::class, 'getIndex']);
     Route::get('/publications/create', [PublicationsController::class, 'getCreate']);
     Route::post('/publications', [PublicationsController::class, 'postStore']);
@@ -68,6 +73,7 @@ Route::middleware('lang')->group(function(){
     Route::delete('/publications/{id}', [PublicationsController::class, 'deleteDestroy']);
 
     Route::post('/note/store', [NoteController::class, 'postStore'])->name('note.store');
+    Route::get('/donate', [DonationController::class, 'showDonationForm']);
 
     Route::get('/dashboard', function () {
         return view('dashboard');
@@ -87,6 +93,9 @@ Route::middleware('lang')->group(function(){
         Route::get('blog_picture/{blog_text_picture}/delete', [Controllers\BlogController::class, 'deletePicture']);
     });
 
+
+    Route::get('/mail', [Controllers\MailController::class, 'getIndex']);
+    Route::get('/mail/{id}', [Controllers\MailController::class, 'getShow']);
 
     Route::post('/send',  [Controllers\MailController::class, 'submit']);
 

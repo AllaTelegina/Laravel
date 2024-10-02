@@ -4,7 +4,7 @@
 <section class="pt-14 space-y-6">
 
     <div class="mt-4">
-        <div class="text-3xl"><span class="text-orange-600 font-medium">О </span>Храме</div>
+        <h1 class="text-3xl"><span class="text-orange-600 font-medium">О </span>Храме</h1>
     </div>
     <!-- панировочные сухари -->
     <nav class="flex" aria-label="Breadcrumb">
@@ -39,11 +39,11 @@
     <section class="py-4">
         <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-8">
             <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/" title="Логотип">
-                <img src="{{asset('images/logo.png')}}" class="w-20 h-20"/>
+                <img src="{{asset('images/logo.png')}}" class="w-20 h-20" alt="Логотип храма" />
             </a>
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center m-8">
                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-8 md:mb-0 items-center text-center text-white">
-                    <p class="mb-2 leading-relaxed text-2xl text-center">Добро пожаловать на страницу нашего Храма!</p>
+                    <p class="mb-2 leading-relaxed text-2xl text-center skeleton bg-sky-600">Добро пожаловать на страницу нашего Храма!</p>
                     <p class="mb-2 leading-relaxed text-xl">
                         Мы рады приветствовать вас в нашем храме.
                     Здесь вы узнаете больше о нашей истории, миссии и основных ценностях.
@@ -57,7 +57,7 @@
                     -->
                 </div>
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 shadow-2xl hover:bg-origin-padding contrast-125 scale-100">
-                    <img class="object-cover object-center rounded-2xl shadow-xl shadow-gray-400" alt="hero" src="{{asset('images/day.jpg')}}">
+                    <img class="object-cover object-center rounded-2xl shadow-xl shadow-gray-400" src="{{asset('images/day.jpg')}}" alt="Изображение Храма" />
                 </div>
             </div>
         </div>
@@ -65,10 +65,10 @@
 
 
 
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl shadow-gray-300 rounded-2xl bg-blue-100 ">
         <div class="md:flex">
             <div class="md:shrink-0">
-                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/temple.jpg')}}" />
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/temple.jpg')}}" alt="Храм Князя Владимира" />
             </div>
             <div class="p-8">
                 <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">О нас
@@ -91,7 +91,7 @@
     </div>
 
 
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl shadow-gray-300 rounded-2xl bg-blue-100 ">
         <div class="md:flex">
             <div class="md:shrink-0">
                 <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/story.png')}}" alt="Храм исторический" />
@@ -114,10 +114,10 @@
         </div>
     </div>
 
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl shadow-gray-300 rounded-2xl bg-blue-100 ">
         <div class="md:flex">
             <div class="md:shrink-0">
-                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/duhovenstvo.jpg')}}" alt="" />
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/duhovenstvo.jpg')}}" alt="Отец Александр" />
             </div>
             <div class="p-8">
                 <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">Настоятель Храма</a>
@@ -136,10 +136,10 @@
     </div>
 
 
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl shadow-gray-300 rounded-2xl bg-blue-100 ">
         <div class="md:flex">
             <div class="md:shrink-0">
-                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/15.jpg')}}" alt=""  />
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/15.jpg')}}" alt="Свечи"  />
             </div>
             <div class="p-8">
                 <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">Церковная лавка</a>
@@ -156,10 +156,10 @@
     </div>
 
 
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl shadow-gray-300 rounded-2xl bg-blue-100 ">
         <div class="md:flex">
             <div class="md:shrink-0">
-                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/17.jpg')}}" alt=""  />
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/17.jpg')}}" alt="Книги в храме"  />
             </div>
             <div class="p-8">
                 <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">Библиотека в Храме</a>
@@ -172,10 +172,10 @@
             </div>
         </div>
     </div>
-    <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100 ">
+    <div class="p-4 card lg:card-side text-blue-950 shadow-xl shadow-gray-300 rounded-2xl bg-blue-100 ">
         <div class="md:flex">
             <div class="md:shrink-0">
-                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/7.jpg')}}" alt=""  />
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="{{asset('images/7.jpg')}}" alt="Изображение Храма"  />
             </div>
             <div class="p-8">
                 <a href="#" class="block mt-1 text-lg leading-tight font-medium text-blue-950 hover:underline">Реставрация</a>
@@ -206,61 +206,54 @@
 
 
     <section>
-        <div class="my-8">
+        <div class="№">
             <div class="text-3xl"><span class="text-orange-600 font-medium">Г</span>алерея</div>
         </div>
         </section>
 
-    <div class="relative font-inter antialiased">
-    <main class="relative min-h-screen flex flex-col justify-center bg-white overflow-hidden">
-        <div class="w-full max-w-7xl mx-auto px-4 md:px-6 py-4">
 
-            <!-- Image accordion component -->
             <div class="group flex max-md:flex-col justify-center gap-2">
                 <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
-                    <a class="absolute inset-0 text-white z-10" href="#0">
+                    <a class="absolute inset-0 text-white z-10" href="#">
                         <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-2 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Innovate relentlessly. Stagnation is the enemy of progress."</span>
                     </a>
                     <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/1.jpg" width="960" height="480" alt="Image 01">
                 </article>
                 <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
-                    <a class="absolute inset-0 text-white z-10" href="#0">
+                    <a class="absolute inset-0 text-white z-10" href="#">
                         <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
                     </a>
-                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/2.jpg" width="960" height="480" alt="Image 02">
+                    <img class="object-cover h-72 md:h-[480px] md:w-auto" src="/images/2.jpg" width="960" height="480" alt="Image 02">
                 </article>
                 <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
-                    <a class="absolute inset-0 text-white z-10" href="#0">
+                    <a class="absolute inset-0 text-white z-10" href="#">
                         <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Dream big, start small, but most importantly, start."</span>
                     </a>
                     <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/3.jpg" width="960" height="480" alt="Image 03">
                 </article>
                 <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
-                    <a class="absolute inset-0 text-white z-10" href="#0">
+                    <a class="absolute inset-0 text-white z-10" href="#">
                         <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
                     </a>
                     <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/4.jpg" width="960" height="480" alt="Image 02">
                 </article>
                 <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
-                    <a class="absolute inset-0 text-white z-10" href="#0">
+                    <a class="absolute inset-0 text-white z-10" href="#">
                         <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
                     </a>
                     <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/5.jpg" width="960" height="480" alt="Image 02">
                 </article>
                 <article class="group/article relative w-full rounded-xl overflow-hidden md:group-hover:[&:not(:hover)]:w-[20%] md:group-focus-within:[&:not(:focus-within):not(:hover)]:w-[20%] transition-all duration-300 ease-[cubic-bezier(.5,.85,.25,1.15)] before:absolute before:inset-x-0 before:bottom-0 before:h-1/3 before:bg-gradient-to-t before:from-black/50 before:transition-opacity md:before:opacity-0 md:hover:before:opacity-100 focus-within:before:opacity-100 after:opacity-0 md:group-hover:[&:not(:hover)]:after:opacity-100 md:group-focus-within:[&:not(:focus-within):not(:hover)]:after:opacity-100 after:absolute after:inset-0 after:bg-white/30 after:backdrop-blur after:transition-all focus-within:ring focus-within:ring-indigo-300">
-                    <a class="absolute inset-0 text-white z-10" href="#0">
+                    <a class="absolute inset-0 text-white z-10" href="#">
                         <span class="absolute inset-x-0 bottom-0 text-lg font-medium p-6 md:px-12 md:py-8 md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">"Embrace failure as a stepping stone to success."</span>
                     </a>
                     <img class="object-cover h-72 md:h-[480px] md:w-auto" src="images/6.jpg" width="960" height="480" alt="Image 02">
                 </article>
             </div>
-            <!-- End: Image accordion component -->
-        </div>
-    </main>
-    </div>
 
-</section>
-        </div>
 
+
+          </section>
+        </div>
     </x-slot>
 </x-app-layout>

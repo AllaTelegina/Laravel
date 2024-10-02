@@ -10,22 +10,27 @@
     }
 }
 /** открыть-свернуть контент**/
-#toggle-description:checked~#c_description {
+#toggle-description:checked~#c_description,
+#toggle-description-2:checked~#c_description-2,
+#toggle-description-3:checked~#c_description-3,
+#toggle-description-33:checked~#c_description-33{
     -webkit-line-clamp: unset;
 }
 
-#toggle-description:checked~#toggle-btn::before {
+#toggle-description:checked~#toggle-btn::before,
+#toggle-description-2:checked~#c_description-2,
+#toggle-description-3:checked~#c_description-3,
+#toggle-description-33:checked~#c_description-33{
     content: 'Свернуть';
 }
 
-#toggle-btn::before {
+#toggle-btn::before,
+#toggle-btn-2::before,
+#toggle-btn-3::before,
+#toggle-btn-33::before{
     content: 'Узнать больше';
 }
 
 
-@font-face {
-    font-family: 'VictorMono';
-    src: url('/fonts_Victor_Mono/VictorMono-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
+

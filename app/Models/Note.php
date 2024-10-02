@@ -13,7 +13,8 @@ class Note extends Model
         'time',
         'oror',
         'names',
-        'agriment'
+        'agriment',
+        'content'
     ];
 }
 

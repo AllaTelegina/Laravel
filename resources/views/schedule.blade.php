@@ -45,53 +45,51 @@
                     </ol>
                 </nav>
 
-                <section class="text-blue-950  space-y-6 pt-2 py-4">
-
+                <section class="text-blue-950 space-y-6 pt-2 py-4">
                     <div class="bg-sky-600  text-blue-950 text-center py-4 header-date rounded-3xl">
                         <div class="mt-2">
-                            <span class="text-white text-6xl m-6">Сентябрь</span>
+                            <span class="text-white text-6xl m-6">Октябрь</span>
                         </div>
                         <div
                             class="md:flex gap-2 columns-3 justify-center space-x-8 text-3xl text-center m-8 inline-grid grid-cols-3 gap-4">
-
                             <div
                                 class="flex flex-col items-center skeleton lg: w-20 bg-blue-200 place-content-center relative absolute left-8 top-2 ">
-                                <span>23</span>
+                                <span>30</span>
                                 <span>ПН</span>
                             </div>
                             <div
                                 class="flex flex-col items-center mt-3 skeleton  w-20 bg-blue-200 place-content-center">
-                                <span>24</span>
+                                <span>1</span>
                                 <span>ВТ</span>
                             </div>
                             <div class="flex flex-col items-center mt-3 skeleton w-20 bg-blue-200 place-content-center">
-                                <span>25</span>
+                                <span>2</span>
                                 <span>СР</span>
                             </div>
                             <div
                                 class="flex flex-col items-center mt-3 skeleton  w-20 bg-blue-200 place-content-center">
-                                <span>26</span>
+                                <span>3</span>
                                 <span>ЧТ</span>
                             </div>
                             <div
                                 class="flex flex-col items-center mt-3 skeleton  w-20 bg-blue-200 place-content-center">
-                                <span>27</span>
+                                <span>4</span>
                                 <span>ПТ</span>
                             </div>
                             <div
                                 class="flex flex-col items-center mt-3 text-orange-700 skeleton  w-20 bg-blue-200 place-content-center">
-                                <span>28</span>
+                                <span>5</span>
                                 <span>СБ</span>
                             </div>
                             <div
                                 class="flex flex-col items-center mt-3 text-orange-700 skeleton w-20 bg-blue-200 place-content-center">
-                                <span>29</span>
+                                <span>6</span>
                                 <span>ВС</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="py-4 h-min-24 mx-auto w-3/4  bg-blue-100 shadow-2xl shadow-gray-200 rounded-lg">
+                    <div class="py-4 h-min-24 mx-auto w-3/4  bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <p class="leading-relaxed text-xl text-center p-8">
                             Добро пожаловать на страницу расписания богослужений Храма равноапостольного князя
                             Владимира.</br>
@@ -107,9 +105,9 @@
                     </div>
 
 
-                    <div class="container mx-auto space-y-10">
+                    <div class="container mx-auto space-y-10 shadow-xl shadow-gray-300 rounded-2xl">
                         @foreach($week->days as $day)
-                        <div class="flex shadow-xl shadow-blue-200 rounded-lg">
+                        <div class="flex shadow-xl shadow-gray-300 rounded-2xl">
                             <div class="bg-{{($day->bg_color)?$day->bg_color:'sky-600'}} text-white p-2 w-24 flex-shrink-0 text-center rounded-tl rounded-bl">
                                 <div class="text-sm">{{$day->day_week}}</div>
                                 <div class="text-2xl">{{$day->day}}</div>
@@ -137,12 +135,11 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         @endforeach
 
                         <div
-                            class="container px-10 py-12 mx-auto bg-blue-100 shadow-xl shadow-blue-200 rounded-lg text-blue-950 body-font">
+                            class="container px-10 py-12 mx-auto bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl text-blue-950 body-font">
                             <div class="container px-5 py-8 mx-auto justify-self-auto text-center">
                                 <h2 class="text-4xl">Другие мероприяния</h2>
                             </div>

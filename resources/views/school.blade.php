@@ -254,7 +254,7 @@
 
                                         <div class="max-w-6xl mx-auto duration-1000 delay-300 opacity-0 select-none ease animate-fade-in-view" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
                                             <div class="mt-2 h-min-24 my-8 py-4 px-4 mx-auto w-3/4 text-center shadow-2xl shadow-gray-100 rounded-lg">
-                                                <span class="text-blue-950 text-2xl ">Экскурсия от 12.10.2024</span>
+                                                <span class="text-blue-950 text-2xl ">Экскурсия от 28.09.2024</span>
                                             </div>
                                             <ul x-ref="gallery" id="gallery" class="grid grid-cols-2 gap-5 lg:grid-cols-5">
                                                 <li><img x-on:click="imageGalleryOpen" src="images/1s.jpg" class="object-cover select-none w-full h-auto bg-gray-200 rounded cursor-zoom-in aspect-[5/6] lg:aspect-[2/3] xl:aspect-[3/4]" alt="photo gallery image 01"></li>
@@ -301,8 +301,7 @@
                                 <section>
                                     <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
                                         <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-                                            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/maps.png')}}" alt="" width="384" height="512" />
-                                            <div class="card lg:card-side bg-blue-100">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1028.274110900201!2d23.99296579535357!3d52.19502032699223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47211b147a1ef3e3%3A0x1493e0af0f0e1258!2z0YPQu9C40YbQsCDQmtC-0LzRgdC-0LzQvtC70YzRgdC60LDRjyA4Miwg0JbQsNCx0LjQvdC60LAsINCR0YDQtdGB0YLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sru!4v1727854978941!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                                            <div class="card lg:card-side bg-blue-100">
                                                 <div class="card-body">
                                                     <h2 class="card-title">Как к нам приехать</h2>
                                                     <p>Брестская обл., г. Жабинка, ул. Комсомольская, 82</p>

@@ -107,5 +107,8 @@ class BaseController extends Controller
         return view('quotes');
     }
 
+    public function getBiblio(){
+        return view('biblio');
+    }
 }
 

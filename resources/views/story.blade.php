@@ -39,7 +39,7 @@
 
 
     <section class="mt-40 container mx-auto">
-        <div class="relative bg-sky-600 rounded-2xl shadow-xl shadow-gray-400 mt-8">
+        <div class="relative bg-sky-600 shadow-xl shadow-gray-400 rounded-2xl mt-8">
             <a class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 bg-white rounded-full" href="/" title="Логотип">
                 <img src="{{asset('images/logo.png')}}" alt="/" class="w-20 h-20" />
             </a>
@@ -60,11 +60,11 @@
 
 
     <section class="container mx-auto p-4">
-        <div class="flex flex-col  md:space-x-4 mt-8">
+        <div class="flex flex-col md:flex-row md:space-x-4 mt-8">
             <ul class="timeline timeline-vertical text-blue-950 ">
                 <li>
-                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100 text-justify leading-relaxed">
-                        <div class="text-3xl"><span class="text-orange-600 font-medium">К</span>рупчицкий монастырь</div>
+                    <div class="timeline-start mb-10 timeline-box bg-blue-100 text-justify leading-relaxed shadow-xl shadow-gray-300 rounded-2xl">
+                        <div class="text-3xl "><span class="text-orange-600 font-medium">К</span>рупчицкий монастырь</div>
                         <p class="text-justify">Во второй половине 17 века на землях бывшего имения
                         Нееловичи был основан Кармелитский католический монастырь. Первые пожертвования на монастырь
                         были выданы 24 мая 1674 года помещиком А.К.Асовским. В 1702 году завершено строительство всех
@@ -74,16 +74,28 @@
                         полководца А.В.Суворова (1730-1800) с повстанческой армией генерала Кароля Сераковского (1752-1820).
                         Во время сражения монастырь был сильно поврежден. В 1797году Указом Императора Павла 1-го монастырь
                         передали из Луцко–Брестской в Виленскую диоцезию. В 1800 году Виленский епископ Я.Н.Калаковский п
-                        реобразовал монастырский костел в приходский.</p>
+                        реобразовал монастырский костел в приходский.
+                        </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                    <div class="timeline-middle hidden md:block">
+                    <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                              class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000
                              16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                                    clip-rule="evenodd"/></svg>
                     </div>
-                    <div class="timeline-end text-xl hidden md:block md:text-9xl">1674</div>
-                    <hr class="hidden md:block" />
+                    <div class="timeline-end text-9xl">1674</div>
+                    <hr class="#" />
                 </li>
                 <li>
                     <hr/>
@@ -91,7 +103,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box bg-blue-100">
+                    <div class="timeline-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">Ц</span>ерковь Александра Невского</div>
                         <p class="text-justify">После подавления мятежа в 1831 году, на Полоцком соборе, состоявшемся в 1839 году, была расторгнута Уния.
                         Вспыхнувший мятеж в 1861-1863гг., во время которого имело место убиения некоторых православных священников,
@@ -102,6 +114,17 @@
                         не долго. В 6 часов вечера 9 сентября 1882г загорелся сарай (возможно поджог) пламя от которого перекинулось
                         на церковные постройки и церковь. За считанные минуты огнем были уничтожены все церковные постройки и церковь.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -111,7 +134,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100">
+                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">С</span>троительство новой Церкви</div>
                         <p class="text-justify">В Литовской Православной Консистории было принято решение строить новую церковь.
                         В октябре 1882года разработку проектно-сметной документации церкви на 375 человек поручили младшему инженеру А.Рэмеру.
@@ -124,6 +147,17 @@
                         На плите имеется надпись: «В лето от воплощения Бога Слова 1891 месяца Июня 6 дня, в честь и славу Святыя Троицы Отца и Сына и
                         Святаго Духа положено основание сему Святому Храму во имя Св.Равноапостольного и великого князя Владимира.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -133,13 +167,24 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box bg-blue-100">
+                    <div class="timeline-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">П</span>ервые святыни в Крупчицах</div>
                         <p class="text-justify">Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря, здесь находились православные
                         культовые сооружения. В 1888 году при разборке монастырского фундамента были извлечены камни с высеченными на них православными крестами.
                         Эти камни уложены в фундамент строящейся церкви, за исключением одного, оставленного как памятник.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -149,7 +194,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100">
+                    <div class="timeline-start mb-10 md:text-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">О</span>свещение вновь построенной церкви</div>
                         <p class="text-justify">Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря, здесь находились православные
@@ -163,6 +208,17 @@
                         10 июля 1894 года Виленским Кафедральным протоиереем Иоанном Котовичем при участии 16 священников и двух дьяконов при стечении
                         большого количества местного населения.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -172,7 +228,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end timeline-box bg-blue-100">
+                    <div class="timeline-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">I-я </span>Мировая война</div>
                         <p class="text-justify">Летом 1915 года нависла угроза оккупации края немецкими войсками. По приказу Верховного командования российской армии церковное
                         имущество вывозилось в Россию. Выполняя этот приказ о.Никанор с прихожанами собрали наиболее ценные церковные предметы. Уложили
@@ -184,6 +240,17 @@
                         1915года за ними приехал младший сын Зиновий и перевез их в Петроград, где они жили у своих детей. В мае 1918 года о. Никанор с
                         матушкой переехали в уездной город Речица Минской губернии.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -193,7 +260,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-start timeline-box bg-blue-100">
+                    <div class="timeline-start timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">П</span>амятное событие</div>
                         <p class="text-justify">Бытует легенда, что некогда в этих краях была церковь и якобы она полностью ушла под землю.
                         Место это находится в пойме реки Тростяница. Есть предположение, что до строительства монастыря,
@@ -203,6 +270,17 @@
                         православными крестами. Эти камни уложены в фундамент строящейся церкви, за исключением одного,
                         оставленного как памятник.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                         <!--<div class="flex-1 mt-16 ">
                             <div class="relative h-screen w-full">
                                 <img src="images//Suvorov.png" alt="Background Image" class="absolute inset-0 w-100 h-100 object-cover relative h-screen w-full">
@@ -217,7 +295,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">В</span>осстановление Православия в Западном крае</div>
                         <p class="text-justify">В июне 1918 года о.Никанор с матушкой Олимпиадой возвращается из Речицы, в теперь родные, Крупчицы.
                         Здесь он увидел удручающую картину. Св.Владимировская церковь, некогда одна из лучших церквей
@@ -232,6 +310,17 @@
                         в крае свирепствовал тиф. Являясь ревнителем Церкви Христовой, о.Никанор, с присущей ему энергией,
                         стал разыскивать отправленные в Россию церковные вещи.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -241,7 +330,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-start timeline-box bg-blue-100">
+                    <div class="timeline-start timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">В </span>составе Полесской Епархии</div>
                         <p class="text-justify">Противника Автокефалии Архиепископа Пинского и Новогрудского Пантелеимона (в миру Павел Степанович
                         Рожновский 1867-1950гг) польские власти лишили кафедры, отправили на покой и заточили в Жировичский монастырь.
@@ -252,6 +341,17 @@
                         Церкви Черевачицкого благочиния, куда входила Крупчицкая Св.Владимировская церковь, входили во 2-й благочинный
                         округ Кобринского уезда. Кобринские благочиния входили в состав Полесско-Пинской епархии.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -261,7 +361,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">С</span>в.Владимировская церковь 1938–1943гг</div>
                         <p class="text-justify">9 апреля 1939 года во время пасхального Богослужения в Крупчцкой церкви произошло такое событие. В церковь пришла
                         молодежь, находясь в притворе они курили, громко разговаривали, смеялись. Настоятель прихода Владимир Антипорович,
@@ -273,6 +373,17 @@
                         благочинному 1-го Кобринского округа о невозможности дальнейшего пребывания его на Крупчицком приходе о.Владимир передал
                         церковь настоятелю Рогознянской церкви Николаю Михаловскому.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -282,7 +393,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-start timeline-box bg-blue-100">
+                    <div class="timeline-start timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">К</span>рупчицкая церковь при Петре Калишевиче</div>
                         <p class="text-justify">После войны прихожане Св. Владимировской церкви с ее настоятелем о.Петром Калишевичем, несмотря на материальные
                         трудности, приобретали церковные предметы: в1949году приобрели иконы Святой Троицы, Рождества Христова, Успения
@@ -295,6 +406,17 @@
                         Голгофа с предстоящими Пресвятой Богородицы и Св.Апостола Иоанна Богослова, а также за 1 тыс. рублей приобретены
                         4 иконы Страдание Господа нашего Иисуса Христа. Крупчицкая церковь 1943- 1969гг
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -304,7 +426,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">Т</span>яжелые времена для православных церквей</div>
                         <p class="text-justify">В СССР и в восточных областях БССР гонения на церковь начались с установлением Советской власти. В западных областях
                         закрытие церквей и гонения на священнослужителей начались после Великой Отечественной войны. Пик закрытий
@@ -317,6 +439,17 @@
                         стороны партийных и советских органов, они в семинарию не были допущены, и в настоящее время принимаются все
                         необходимые меры к их трудоустройству с тем, чтобы не допустить вновь их поступления в духовную семинарию.»
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -326,7 +459,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-start timeline-box bg-blue-100">
+                    <div class="timeline-start timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">З</span>акрытие Крупчицкой Св.Владимировской церкви</div>
                         <p class="text-justify">По воспоминаниям прихожан о. Петр говорил: «Я помру, и церковь закроют». Так и случилось: Петр Калишевич 6
                         мая 1969 года помирает от воспаления легких, а через несколько месяцев Жабинковский райисполком принимает
@@ -340,6 +473,17 @@
                         камнем преткновения. Житель д. Крупчицы, проходя мимо опустошенной церкви заметил дым, выходящий из окон церкви.
                         По телефону он вызвал пожарных.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -349,7 +493,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">В</span>озрождение Святыни</div>
                         <p class="text-justify">Перестройка в СССР разрушила экономику, но для церквей наступило благоприятное время. На бывшем Крупчицком приходе
                         остались люди не равнодушные к своей церкви. Одним с таковых являлся Ярошук Владимир Евфимович. Еще в 1988году он
@@ -362,6 +506,17 @@
                         Г.Куличика, Ф.Андреюка и других под руководством настоятеля прихода Иоанна Поддубного,
                         (на приходе с 1990 года) который сам покрывал купола, ремонтные работы были завершены в 1992 году.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -371,7 +526,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-start timeline-box bg-blue-100">
+                    <div class="timeline-start timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">В</span>осстановление Крупчицкой Св.Владимировской церкви</div>
                         <p class="text-justify"> Первоочередной задачей было сбор средств на реставрацию. Необходимо было выполнить: 1.Замену негодной кровли.
                         2. Изготовление и покрытие куполов с установкой крестов. 3.Устройство полов. 4.Ремонт штукатурки внутри и снаружи.
@@ -383,6 +538,17 @@
                         проблемы с приобретением материалов. Часть оцинкованной жести выделил райисполком, остальную жесть о. Иоанн
                         скал в разных местах. О. Иоанн не только руководил строителями, но сам покрывал купола оцинкованной жестью.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -392,7 +558,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100">
+                    <div class="timeline-end mb-10 md:text-end timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">П</span>од звон колоколов</div>
                         <p class="text-justify">В 2002 году настоятелем Св.Владимировской церкви назначен священник Анатолий Пучинский. Не все было выполнено во время
                         реставрации храма. Не было колоколов, недостаточно было церковной утвари. Отопление храма осуществлялось «печкой–буржуйкой»
@@ -403,6 +569,17 @@
                         В настоящее время выполнено благоустройство церковной территории. Для отопления храма подведен природный газ. Много делается
                         по благолепию храма.
                         </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
+                                <div style="vertical-align: inherit;">
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
+                                </div>
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                     <hr/>
                 </li>
@@ -412,7 +589,7 @@
                     <div class="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
                     </div>
-                    <div class="timeline-start timeline-box bg-blue-100">
+                    <div class="timeline-start timeline-box bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="text-3xl"><span class="text-orange-600 font-medium">А</span>рхитектура церкви</div>
                         <p class="text-justify">В настоящее время Храм реставрируется и он становится еще лучше для своих прихожан.
                         Храм по плановому решению и объемно-пространственной композиции относится к типу кресто-купольных храмов с башней-колокольней
@@ -424,9 +601,9 @@
                         подпружных арок, поддерживающих купол на парусах.
                         </p>
                         <div class="flex items-center flex-wrap ">
-                            <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                            <a href="/fullstory" class="link-info link-hover text-blue-700 inline-flex items-center md:mb-2 lg:mb-0">
                                 <div style="vertical-align: inherit;">
-                                    <div style="vertical-align: inherit;">Узнать больше</div>
+                                    <p  style="vertical-align: inherit;">Узнать больше</p>
                                 </div>
                                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>

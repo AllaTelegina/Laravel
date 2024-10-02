@@ -1,3 +1,6 @@
+.body {
+    font-family: 'Victor Mono', sans-serif;
+}
 
 .header-date {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
@@ -11,3 +14,53 @@
 }
 
 
+.hidden {
+    display: none;
+}
+
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.description.expanded {
+    -webkit-line-clamp: unset;
+}
+
+.toggle-btn::before {
+    content: 'Узнать больше';
+}
+
+.toggle-btn.expanded::before {
+    content: 'Свернуть';
+}
+
+
+input:checked + p {
+    -webkit-line-clamp: unset;
+}
+
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('/public/fonts/fonts_Victor_Mono/static/VictorMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('/public/fonts/fonts_Victor_Mono/static/VictorMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('/public/fonts/fonts_Victor_Mono/static/VictorMono-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

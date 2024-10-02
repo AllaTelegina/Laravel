@@ -43,7 +43,7 @@
                                 Внесите свою лепту сегодня и оставьте след в истории нашего прихода!
                             </p>
                             <div class="flex justify-center py-8">
-                                <button class="inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium rounded hover:bg-blue-950 transition duration-700 ease-in-out">Помочь Храму</button>
+                                <button class="inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium rounded-lg hover:bg-blue-950 transition duration-700 ease-in-out">Помочь Храму</button>
                             </div>
                         </div>
                         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 shadow-2xl hover:bg-origin-padding contrast-125 scale-100">
@@ -53,7 +53,7 @@
                 </div>
             </section>
 
-            <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
+            <div class="p-4 card lg:card-side text-blue-950 shadow-xl shadow-gray-300 rounded-2xl bg-blue-100">
                 <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
                     <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/temple.jpg')}}" alt="" width="384" height="512" />
                     <div class="card lg:card-side bg-blue-100">
@@ -85,7 +85,7 @@
                 </figure>
             </div>
 
-            <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-sky-600 shadow-2xl shadow-gray-300 rounded-lg">
+            <div class="mt-2 h-min-24 my-4 py-4 px-4 mx-auto w-3/4 text-center bg-sky-600 shadow-xl shadow-gray-300 rounded-2xl">
                 <span class="text-white text-3xl font-semibold">Наши спонсоры</span>
             </div>
 
@@ -94,7 +94,7 @@
                 <div class="container px-5 py-4 mx-auto">
                     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
 
-            <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+            <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                 <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/sponsor1.jpg" />
                 <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                 <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -114,7 +114,7 @@
                     bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                 </div>
             </div>
-                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                             <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/fon.jpg" />
                             <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                             <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -130,7 +130,7 @@
                             </div>
                         </div>
 
-                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                             <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/fon.jpg" />
                             <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                             <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -146,7 +146,7 @@
                             </div>
                         </div>
 
-                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                             <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/fon.jpg" />
                             <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                             <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -162,7 +162,7 @@
                             </div>
                         </div>
 
-                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                             <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/fon.jpg" />
                             <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                             <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -178,7 +178,7 @@
                             </div>
                         </div>
 
-                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                             <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/fon.jpg" />
                             <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                             <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -195,7 +195,7 @@
                         </div>
 
 
-                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                             <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/fon.jpg" />
                             <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                             <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -211,7 +211,7 @@
                             </div>
                         </div>
 
-                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                             <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/fon.jpg" />
                             <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                             <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -227,7 +227,7 @@
                             </div>
                         </div>
 
-                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-2xl shadow-gray-300 rounded-lg">
+                        <div class="relative group w-96 h-96 overflow-hidden bg-black m-auto mt-8 shadow-xl shadow-gray-300 rounded-2xl">
                             <img class="object-cover w-full h-full transform duration-700 backdrop-opacity-100" src="images/fon.jpg" />
                             <div class="absolute w-full h-full shadow-2xl opacity-20 transform duration-500 inset-y-full group-hover:-inset-y-0"></div>
                             <div class="absolute bg-gradient-to-t from-black w-full h-full transform duration-500 inset-y-3/4 group-hover:-inset-y-0">
@@ -242,7 +242,6 @@
                     bg-orange-400 text-white font-medium h-10 w-48 rounded hover:bg-sky-600">Перейти</button>
                             </div>
                         </div>
-
 
                     </div>
                 </div>

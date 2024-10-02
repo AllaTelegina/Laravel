@@ -16,8 +16,10 @@
                         <p class="mb-2 leading-relaxed">Белорусского Экзархата</p>
                         <p class="mb-2 leading-relaxed">Московского Патриарха</p>
                         <div class="flex justify-center py-8">
-                            <button class="inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium rounded-lg hover:bg-sky-600  transition duration-700 ease-in-out">Выбрать требу</button>
-                            <button class="ml-4 inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-sky-700 text-white font-medium rounded-lg hover:bg-orange-300 transition duration-700 ease-in-out">Пожертвовать</button>
+                            <button class="inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium rounded-lg
+                            hover:bg-sky-950  transition duration-700 ease-in-out"><a href="/note">Выбрать требу</a></button>
+                            <button class="ml-4 inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-sky-700 text-white font-medium rounded-lg
+                            hover:bg-sky-950 transition duration-700 ease-in-out">Пожертвовать</button>
                         </div>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 shadow-2xl hover:bg-origin-padding contrast-125 scale-100">
@@ -79,6 +81,7 @@
             </div>
         </section>
 
+     <!--
         <section class="text-blue-950 body-font">
             <div class="container px-5 py-12 mx-auto">
                 <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
@@ -127,9 +130,7 @@
                 </div>
             </div>
         </section>
-
-
-        ВАРИАНТ 2
+-->
 
         <div class="mt-4">
             <a class="text-3xl"><span class="text-orange-600 font-medium">Х</span>рам</a>
@@ -150,19 +151,23 @@
                                         </p>
                                     </div>
                                 </h1>
-                                <p class="leading-relaxed mb-3">
+                                <div class="leading-relaxed mb-3">
                                     <div style="vertical-align: inherit;">
-                                        <p style="vertical-align: inherit;">Добро пожаловать в приход Храма Святого Равноапостольного Князя Владимира,
+                                    <input type="checkbox" id="toggle-description-3" class="hidden">
+                                    <p id="c_description_3" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
+                                            Добро пожаловать в приход Храма Святого Равноапостольного Князя Владимира,
                                             расположенного в деревне Чижевщина, входит в состав Брестской епархии Белорусского Экзархата Московского Патриархата.
                                             Его история пронизана духовным наследием и традициями, охватывающими многие десятилетия. Приглашаем  провести время в молитве,
                                             смирении и восприятии святости, которая наполняет пространство храма.
                                             </p>
+                                    <label for="toggle-description-3" id="toggle-btn-3" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                     </div>
-                                </p>
+                                </div>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/aboutthetemple" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/aboutthetemple" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -191,7 +196,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/history.jpg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -206,23 +211,21 @@
                                 <p class="leading-relaxed mb-3">
                                     <div style="vertical-align: inherit;">
                                     <input type="checkbox" id="toggle-description" class="hidden">
-                                    <p id="c_description"
-                                       class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
+                                    <p id="c_description" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
                                         История прихода богата событиями, такими как строительство и реконструкции храма, особые
                                         богослужебные праздники, деятельность священнослужителей и активное участие верующих в жизни церкви. В течение многих лет
                                         приход служил местом для молитвы, общения и духовного роста верующих, а также оказывал помощь и поддержку нуждающимся в
                                         обществе. Первый камень в основание храма святого равноапостольного князя Владимира деревни Чижевщина был заложен 6 августа
                                         1891 года во время служения здесь священника Никанора Котовича.
                                     </p>
-                                    <label for="toggle-description" id="toggle-btn" class="mt-2 text-blue-600 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    <label for="toggle-description" id="toggle-btn" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
                                     </label>
-
                                     </div>
                                 </p>
                                 <div class="flex items-center flex-wrap">
-                                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                                    <a class="text-blue-950 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/story" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/story" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -251,7 +254,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/3.jpg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -264,19 +267,24 @@
                                     </div>
                                 </h1>
                                 <p class="leading-relaxed mb-3">
-                                    <font style="vertical-align: inherit;">
-                                        <p style="vertical-align: inherit;">Посещение богослужений является важной частью духовной жизни каждого верующего.
+                                    <div style="vertical-align: inherit;">
+                                    <input type="checkbox" id="toggle-description-2" class="hidden">
+                                        <p id="c_description-2" class="description mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
+                                            Посещение богослужений является важной частью духовной жизни каждого верующего.
                                             На нашей странице вы всегда найдёте актуальную информацию, чтобы не пропустить важные события и вовремя прийти на службу.
                                             Мы стремимся сделать ваш визит в храм максимально комфортным и информативным. Мы рады приветствовать вас в нашем храме и
                                             надеемся, что информация на этой странице поможет вам в планировании ваших посещений. Если у вас возникнут вопросы
                                             , не стесняйтесь обращаться к нам через указанные контактные данные. Спасибо за ваше внимание, и до встречи
                                             на богослужениях!</p>
-                                    </font>
+                                    <label for="toggle-description-2" id="toggle-btn-2" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
+                                    </div>
+
                                 </p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/schedule" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/schedule" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -315,7 +323,7 @@
             <div class="container px-5 py-4 mx-auto">
                 <div class="flex flex-wrap -m-4">
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/8.jpg')}}" alt="Храм">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-medium text-blue-950 mb-3">
@@ -339,7 +347,7 @@
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/publications" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/publications" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -368,7 +376,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/33.jpg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -392,7 +400,7 @@
                                 <div class="flex items-center flex-wrap">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/foto" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/foto" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -421,7 +429,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/34.jpg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -445,7 +453,7 @@
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/icons" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/icons" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -486,7 +494,7 @@
             <div class="container px-5 py-4 mx-auto">
                 <div class="flex flex-wrap -m-4">
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/note.jpg')}}" alt="Храм">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -510,7 +518,7 @@
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/note" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/note" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -539,7 +547,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/tainstva.jpg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -565,7 +573,7 @@
                                 <div class="flex items-center flex-wrap">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/sacraments" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/sacraments" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -594,7 +602,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/molitvy.jpg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -619,7 +627,7 @@
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/prayers" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/prayers" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -660,7 +668,7 @@
             <div class="container px-5 py-4 mx-auto">
                 <div class="flex flex-wrap -m-4">
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/35.png')}}" alt="Календарь">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -684,7 +692,7 @@
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/calendar" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/calendar" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -713,7 +721,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/venchanie.jpeg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -738,7 +746,7 @@
                                 <div class="flex items-center flex-wrap">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/weddingcalendar" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/weddingcalendar" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -767,7 +775,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/names.jpg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -791,7 +799,7 @@
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                                         <div style="vertical-align: inherit;">
-                                            <a href="/namecalendar" class="link-info link-hover" style="vertical-align: inherit;">Узнать больше</a>
+                                            <a href="/namecalendar" class="link-info link-hover" style="vertical-align: inherit;">Перейти на страницу</a>
                                         </div>
                                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M5 12h14"></path>
@@ -828,7 +836,7 @@
             <div class="container px-5 py-4 mx-auto">
                 <div class="flex flex-wrap -m-4">
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/healer.jpg')}}" alt="Календарь">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -880,7 +888,7 @@
                         </div>
                     </div>
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/school.jpg')}}" alt="Воскресная школа">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -934,7 +942,7 @@
                     </div>
 
                     <div class="p-4 md:w-1/3">
-                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 shadow-xl shadow-gray-300 rounded-2xl overflow-hidden">
                             <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{asset('images/names.jpg')}}" alt="блог">
                             <div class="p-6">
                                 <h1 class="title-font text-lg font-semibold text-blue-950 mb-3">
@@ -990,7 +998,7 @@
             </div>
         </section>
 
-
+<!-- панель достижений>
         <section class="text-gray-700 body-font">
             <div class="container px-5 py-24 mx-auto">
 
@@ -1038,7 +1046,7 @@
                 </div>
             </div>
         </section>
-
+-->
 
     </x-slot>
 </x-app-layout>

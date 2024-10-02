@@ -45,6 +45,8 @@ class PublicationsResource extends Resource
                 ImageColumn::make('url'),
                 TextColumn::make('published_at'),
             ])
+            ->defaultSort('published_at', 'desc')
+
             ->filters([
                 //
             ])

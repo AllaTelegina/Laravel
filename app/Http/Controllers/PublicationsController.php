@@ -10,7 +10,7 @@ class PublicationsController extends Controller
     // Метод для отображения всех новостей
     public function getIndex()
     {
-        $news = Publications::all();
+        $news = Publications::orderBy('published_at', 'desc')->paginate(9);
         return view('publications', compact('news'));
     }
 

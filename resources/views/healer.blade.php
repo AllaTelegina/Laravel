@@ -53,7 +53,7 @@
                 </section>
 
 
-                <div class="py-4 h-min-24 mx-auto w-3/4  bg-blue-100 shadow-2xl shadow-gray-300 rounded-lg">
+                <div class="py-4 h-min-24 mx-auto w-3/4  bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl">
                     <p class="leading-relaxed text-xl text-center p-4">
                         На этой странице вы найдете актуальное расписание богослужений,
                         информацию о нашем местоположении, а также сможете ознакомиться с фотогалереей,
@@ -276,9 +276,10 @@
                                         <div class="text-3xl"><span class="text-orange-600 font-medium">А</span>дрес</div>
                                     </div>
                                     <section>
-                                <div class="p-4 card lg:card-side text-blue-950 shadow-xl bg-blue-100">
+                                <div class="p-4 card lg:card-side text-blue-950 shadow-xl shadow-gray-300 rounded-2xl bg-blue-100">
                                     <figure class="md:flex max-w-5xl bg-blue-100 rounded-lg  md:p-0">
-                                        <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover"  src="{{asset('images/14.jpg')}}" alt="" width="384" height="512" />
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1729.5213195353103!2d24.139037078161664!3d52.19046306394302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47211eccc1c3521b%3A0x5f8a14fd7fe00324!2z0KbQtdGA0LrQvtCy0Ywg0LjQutC-0L3RiyDQn9GA0LXRgdCy0Y_RgtC-0Lkg0JHQvtCz0L7RgNC-0LTQuNGG0Ysg0KbQtdC70LjRgtC10LvRjNC90LjRhtGLLCDRgSDQutC-0LvQvtC60L7Qu9GM0L3QtdC5!5e0!3m2!1sru!2sru!4v1727851784191!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                                         <div class="card lg:card-side bg-blue-100">
                                             <div class="card-body">
                                                 <h2 class="card-title">Как к нам приехать</h2>
@@ -291,20 +292,19 @@
                                 </div>
 
 
-                                <!-- вращающийся слайдер
-                                                        <div class="h-screen w-full flex items-center justify-center overflow-hidden mt-4">
+                                                        <div class="h-screen w-full flex items-center justify-center overflow-hidden mt-8 mb-0 bg-blue-100 shadow-xl shadow-gray-300 rounded-2xl sm:h-120 md:h-120 ">
                                                             <div class="relative lg:w-[290px] lg:h-[290px] md:w-[220px] md:h-[220px] sm:w-[180px] sm:h-[180px] w-[100px] h-[100px] [transform-style:preserve-3d] animate-[rotate_30s_linear_infinite]">
-                                                                <span style="--i:1" class="span-style"><img src="images/9.jpg" alt="img - 1"  class="img-style"/></span>
-                                                                <span style="--i:2" class="span-style"><img src="images/14.jpg" alt="img - 2"  class="img-style"/></span>
-                                                                <span style="--i:3" class="span-style"><img src="images/12.jpg" alt="img - 3"  class="img-style"/></span>
-                                                                <span style="--i:4" class="span-style"><img src="images/13.jpg" alt="img - 4"  class="img-style"/></span>
-                                                                <span style="--i:5" class="span-style"><img src="images/16.jpg" alt="img - 5"  class="img-style"/></span>
-                                                                <span style="--i:6" class="span-style"><img src="images/6.jpg" alt="img - 6"  class="img-style"/></span>
-                                                                <span style="--i:7" class="span-style"><img src="images/5.jpg" alt="img - 7"  class="img-style"/></span>
-                                                                <span style="--i:8" class="span-style"><img src="images/ob_iconah.jpg" alt="img - 8"  class="img-style"/></span>
+                                                                <span style="--i:1" class="span-style rounded-2xl"><img src="images/9.jpg" alt="img - 1"  class="img-style"/></span>
+                                                                <span style="--i:2" class="span-style rounded-2xl"><img src="images/14.jpg" alt="img - 2"  class="img-style"/></span>
+                                                                <span style="--i:3" class="span-style rounded-2xl"><img src="images/12.jpg" alt="img - 3"  class="img-style"/></span>
+                                                                <span style="--i:4" class="span-style rounded-2xl"><img src="images/13.jpg" alt="img - 4"  class="img-style"/></span>
+                                                                <span style="--i:5" class="span-style rounded-2xl"><img src="images/16.jpg" alt="img - 5"  class="img-style"/></span>
+                                                                <span style="--i:6" class="span-style rounded-2xl"><img src="images/6.jpg" alt="img - 6"  class="img-style"/></span>
+                                                                <span style="--i:7" class="span-style rounded-2xl"><img src="images/5.jpg" alt="img - 7"  class="img-style"/></span>
+                                                                <span style="--i:8" class="span-style rounded-2xl"><img src="images/9.jpg" alt="img - 8" class="img-style"/></span>
                                                             </div>
                                                         </div>
-                                -->
+
                 </section>
         </div>
     </x-slot>

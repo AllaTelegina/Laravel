@@ -82,29 +82,34 @@
         </section>
 
 
-<form class="note" action="{{ route('note.store') }}" method="post">
+<form id="noteForm" class="note" action="{{ asset('note/store') }}" method="post">
     @csrf
 <div class="place-items-center ml-36">
             <span class="grid grid-cols-2 gap-4">
             <div class="relative max-w-sm">
+                @error('title')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                 <!--<label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select your country</label>-->
                 <select id="countries" name="title" class="bg-gray-50 border border-gray-300 text-blue-950 text-sm rounded-lg focus:ring-blue-500
                 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
                 dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                    <option>Выбрать требу</option>
-                    <option>Обедня</option>
-                    <option>Молебен</option>
-                    <option>Панихида</option>
-                    <option>Сорокоуст 40 дней</option>
-                    <option>Сорокоуст пол года</option>
-                    <option>Сорокоуст на год</option>
-                    <option>Акафист святому равноапостольному князю Владимиру</option>
-                    <option>Акафист святому благоверному великому князю Александру Невскому</option>
-                    <option>Аквфист перед иконой Божией Матери «Целительница»</option>
-                    <option>Акафист святителю Николаю Чудотворцу</option>
-                    <option>Акафист перед иконой Божией Матери «Всецарица»</option>
-                    <option>Акафист перед иконой Божией Матери «Неупиваемая Чаша»</option>
-                </select>
+            <option>Выбрать требу</option>
+            <option value="obednya">Обедня</option>
+            <option value="moleben">Молебен</option>
+            <option value="panihida">Панихида</option>
+            <option value="sorokoust40">Сорокоуст 40 дней</option>
+            <option value="sorokoust180">Сорокоуст пол года</option>
+            <option value="sorokoust365">Сорокоуст на год</option>
+            <option value="acafistvladimiru">Акафист святому равноапостольному князю Владимиру</option>
+            <option value="acafistnevscomu">Акафист святому благоверному великому князю Александру Невскому</option>
+            <option value="acafistcelitelnice">Аквфист перед иконой Божией Матери «Целительница»</option>
+            <option value="acafistnchudotvorcu">Акафист святителю Николаю Чудотворцу</option>
+            <option value="acafistvsecarica">Акафист перед иконой Божией Матери «Всецарица»</option>
+            <option value="acafistneupivaemayachasha">Акафист перед иконой Божией Матери «Неупиваемая Чаша»</option>
+        </select>
             </div>
 
 
@@ -115,6 +120,11 @@
                         18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
                     </svg>
                 </div>
+                @error('time')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                 <input id="datepicker-autohide" name="time" datepicker datepicker-autohide type="text" class="bg-gray-50 border border-gray-300 text-blue-950 text-sm rounded-lg
                 focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
                 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Выбрать дату" />
@@ -126,17 +136,26 @@
                     <span class="text-blue-950 text-xl ">Если вы хотите добавить больше имен, пожалуйста создайте несколько записок</span>
                 </div>
 
-                <button class="flex mx-auto p-4 rounded-lg bg-blue-100 border-2 border-blue-400 shadow-2xl shadow-gray-300 text-blue-950
-                focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out">
-                <label class="flex cursor-pointer gap-4">
-                    <span class="label-text link-hover text-base text-blue-950">О здравии</span>
-                    <input type="checkbox" name="oror" class="peer sr-only opacity-0" id="toggle" />
-                    <label for="toggle" class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-orange-600 px-0.5 outline-gray-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow before:transition-transform before:duration-300 peer-checked:bg-sky-600 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gray-400 peer-checked:peer-focus-visible:outline-green-500" for="toggle ">
-                        <span class="sr-only">Enable</span>
-                    </label>
-                    <span class="label-text link-hover text-base text-blue-950">Об упокоении</span>
-                </label>
-                </button>
+
+
+   <button type="button" class="flex mx-auto p-4 rounded-lg bg-blue-100 border-2 border-blue-400 shadow-2xl shadow-gray-300 text-blue-950
+                        focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out">
+        <label class="flex cursor-pointer gap-4">
+            <span class="label-text link-hover text-base text-blue-950">О здравии</span>
+            @error('oror')
+            <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+            @enderror
+            <input type="checkbox" name="oror" class="peer sr-only opacity-0" id="toggle" value="some_value" />
+            <label for="toggle" class="relative flex h-6 w-11 cursor-pointer items-center rounded-full bg-orange-600 px-0.5 outline-gray-400 transition-colors before:h-5 before:w-5 before:rounded-full before:bg-white before:shadow before:transition-transform before:duration-300 peer-checked:bg-sky-600 peer-checked:before:translate-x-full peer-focus-visible:outline peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gray-400 peer-checked:peer-focus-visible:outline-green-500">
+                <span class="sr-only">Enable</span>
+            </label>
+            <span class="label-text link-hover text-base text-blue-950">Об упокоении</span>
+        </label>
+    </button>
+
+
 
 
                 <div class="border-2 border-orange-600 rounded-lg shadow-2xl shadow-gray-300 p-4 bg-blue-50 mx-auto w-full md:w-3/4 lg:w-1/2 text-center">
@@ -156,64 +175,53 @@
                     <div class="py-4 border-2 border-sky-600 w-full md:w-96 rounded-lg shadow-2xl shadow-gray-300 mx-auto">
                         <div class="max-w-sm mx-auto p-4">
                             <ul class="relative w-full">
+                                @for ($i = 1; $i <= 10; $i++)
                                 <li>
                                     <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    @error('names')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
+                                    <input type="text" id="small-input-{{ $i }}" name="names[{{ $i }}]" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
-                                <li>
-                                    <label for="small-input" class="block mb-2 text-sm font-normal italic text-gray-900 dark:text-white">Напишите имя</label>
-                                    <input type="text" id="small-input" name="names" class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                </li>
+                                @endfor
                             </ul>
                         </div>
 
-                        <div class="flex items-start mb-5 mt-8 ml-6">
+                       <!-- <div class="flex items-start mb-5 mt-8 ml-6">
                             <div class="flex items-center h-5 ">
+
                                 <input id="terms" name="agriment" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
                             </div>
                             <label for="terms" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Я согласен с <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">политикой конфиденциальности</a></label>
                         </div>
-
+-->
                     </div>
                 </div>
 
-    <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400
+    <button id="submitNote" type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400
                     text-white font-medium py-2 px-10 rounded-lg hover:bg-sky-600">
         Подать записку
     </button>
+
+    <div id="donationModal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-5 rounded-lg">
+            <p id="modalText">Ваш текст здесь</p>
+            <p id="donationAmount">Сумма пожертвования: 0</p>
+            <button id="closeModal" class="mt-3 bg-orange-400 text-white py-2 px-4 rounded-lg">Закрыть</button>
+            @livewire('note-component')
+        </div>
+    </div>
+    <script>
+        document.addEventListener('show-dialog', function () {
+            // Логика отображения диалогового окна
+            alert('Форма успешно отправлена!');
+        });
+    </script>
 </form>
+                <script src="{{ asset('main.js') }}"></script>
+
 
 
 <!--
