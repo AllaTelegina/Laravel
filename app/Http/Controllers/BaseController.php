@@ -34,7 +34,7 @@ class BaseController extends Controller
 
 
     public function getSchedule(){
-       //dd(config('month.month'));
+       //dd(config('month.month'), date('W'));
      $week = Week::where('week_number', date('W'))->first();
         return view('schedule', compact('week'));
     }

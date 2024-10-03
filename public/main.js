@@ -132,13 +132,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             clickedButton.classList.add('active');
         }
     }
-// показать, скрыть контент
-      document.querySelectorAll('.toggle-btn').forEach(btn => {
-          btn.addEventListener('click', function() {
-              const checkbox = this.previousElementSibling.previousElementSibling;
-              checkbox.checked = !checkbox.checked;
-          });
-      });
+
 
 
 

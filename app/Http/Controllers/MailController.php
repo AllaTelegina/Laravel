@@ -23,8 +23,6 @@ class MailController extends Controller
 
     }
 
-
-
     public function send(Request $request)
     {
         $request->validate([
@@ -33,7 +31,6 @@ class MailController extends Controller
             'message' => 'required|string',
         ]);
     }
-
 
     public function submit(Request $request)
     {
@@ -44,17 +41,13 @@ class MailController extends Controller
             'message' => 'required',
         ]);
 
-
         $details = [
             'name' => $request->name,
             'message' => $request->message,
         ];
+ Message::create($request->all());
+        Mail::to($request->email)->send(new MyEmail($details['name'], $details['message']));
 
-        Mail::to('temple00@bk.ru')->send(new MyEmail($details['name'], $details['message']));
-
-        return back()->with('success', 'Ваше сообщение отправлено!');
+        return redirect()->back()->with('status', 'Ваше сообщение успешно отправлено.');
     }
-
-
-
 }

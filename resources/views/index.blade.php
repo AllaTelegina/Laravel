@@ -337,11 +337,15 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Приглашаем вас посетить страницу нашего сайта, посвященную публикациям.
+                                    <input type="checkbox" id="toggle-description-4" class="hidden">
+                                    <p id="c_description-4" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
+                                        Приглашаем вас посетить страницу нашего сайта, посвященную публикациям.
                                         Здесь вы найдете увлекательные события, интересные рассказы, важные объявления и многое другое, что делает
                                         жизнь нашего прихода насыщенной и разнообразной. Погрузитесь в атмосферу духовной жизни, узнавайте о
                                         последних новостях и событиях, происходящих у нас. Добро пожаловать на страницу публикаций!
                                     </p>
+                                    <label for="toggle-description-4" id="toggle-btn-4" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap ">
@@ -390,11 +394,14 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Hасладитесь красотой нашего прихода через объектив камеры. Здесь представлены увлекательные
+                                    <input type="checkbox" id="toggle-description-5" class="hidden">
+                                    <p id="c_description-5" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">                                        Hасладитесь красотой нашего прихода через объектив камеры. Здесь представлены увлекательные
                                         фотографии различных мероприятий, богослужений, общинных событий и других важных моментов из жизни нашего храма. Погрузитесь
                                         в атмосферу духовного общения и единения, ощутите красоту и величие нашей веры через великолепные изображения, запечатленные
                                         наших талантливых фотографов. Добро пожаловать на страницу фотографий, где каждый кадр расскажет вам свою историю!
                                     </p>
+                                    <label for="toggle-description-5" id="toggle-btn-5" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap">
@@ -443,11 +450,15 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                     <div style="vertical-align: inherit;">
-                                        <p style="vertical-align: inherit;">Познакомитесь с великим миром православных икон, где каждый образ несет в себе
+                                    <input type="checkbox" id="toggle-description-6" class="hidden">
+                                    <p id="c_description-6" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
+                                            Познакомитесь с великим миром православных икон, где каждый образ несет в себе
                                             глубокий духовный смысл и историю. Здесь вы узнаете о происхождении значимых икон, их историческом и духовном
                                             значении, а также о том, каким образом молиться перед ними. Получите ценные советы о том, как находить вдохновение
                                             и духовную силу через общение с иконами, какие молитвы произносить и как углубить свою веру, обращаясь к святым образам.
                                         </p>
+                                    <label for="toggle-description-6" id="toggle-btn-6" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                     </div>
                                 </p>
                                 <div class="flex items-center flex-wrap ">
@@ -508,11 +519,15 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Чтобы подать записку в православном храме, вы можете воспользоваться онлайн-формой на нашем сайте.
+                                    <input type="checkbox" id="toggle-description-7" class="hidden">
+                                    <p id="c_description-7" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
+                                        Чтобы подать записку в православном храме, вы можете воспользоваться онлайн-формой на нашем сайте.
                                         Просто перейдите на страницу "Подать записку" и заполните необходимую информацию, включая ваше имя, электронную почту (если требуется),
                                         и текст вашей записки или молитвенного запроса. После отправки формы ваша записка будет передана каноническому лицу храма для
                                         рассмотрения и включения в молитвенное упоминание. Мы ценим вашу заботу и доверие и гарантируем конфиденциальность ваших запросов.
                                     </p>
+                                    <label for="toggle-description-7" id="toggle-btn-7" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap ">
@@ -561,13 +576,16 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Таинства, важное событие в вашей жизни. Здесь вы сможете найти информацию о различных
+                                    <input type="checkbox" id="toggle-description-8" class="hidden">
+                                    <p id="c_description-8" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">                                        Таинства, важное событие в вашей жизни. Здесь вы сможете найти информацию о различных
                                         таинствах и требах, совершаемых в православной церкви. В этом разделе вы сможете познакомиться с основными таинствами,
                                         такими как крещение, венчание, исповедь, соборование, а также узнать о других важных аспектах духовной практики.
                                         Каждое таинство описывается с точки зрения его значения, символики и основных этапов совершения. Мы стремимся
                                         предоставить вам полную и точную информацию о священных обрядах церкви, чтобы вы могли лучше понять их духовное
                                         значение и значение для вашей веры.
                                     </p>
+                                    <label for="toggle-description-8" id="toggle-btn-8" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap">
@@ -616,12 +634,15 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">На странице "Молитвы" нашего сайта вы найдете обширную коллекцию молитв, позволяющих вам обогатить
+                                    <input type="checkbox" id="toggle-description-9" class="hidden">
+                                    <p id="c_description-9" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">                                        На странице "Молитвы" нашего сайта вы найдете обширную коллекцию молитв, позволяющих вам обогатить
                                         вашу духовную практику и укрепить вашу веру. Этот раздел посвящен молитвенной практике и предоставляет доступ к различным молитвам
                                         для различных ситуаций и потребностей. Вы сможете найти утренние и вечерние молитвы, молитвы перед едой, молитвы за здоровье, за
                                         мир в мире, а также молитвы для защиты и благословения. Кроме того, мы также предоставляем молитвенные тексты для различных церковных
                                         праздников и событий.
                                     </p>
+                                    <label for="toggle-description-9" id="toggle-btn-9" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap ">
@@ -682,11 +703,14 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Здесь вы найдете православный календарь на текущий год, который содержит информацию о всех основных и
+                                    <input type="checkbox" id="toggle-description-10" class="hidden">
+                                    <p id="c_description-10" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">                                        Здесь вы найдете православный календарь на текущий год, который содержит информацию о всех основных и
                                         праздничных днях православной церкви. В календаре вы сможете узнать даты всех церковных праздников, постов, а также других значимых
                                         событий, которые помогут вам сориентироваться в духовной жизни и следовать традициям православия. Наш календарь обновляется регулярно
                                         и содержит точные и достоверные данные, чтобы вы всегда могли быть в курсе богослужебного года.
                                     </p>
+                                    <label for="toggle-description-10" id="toggle-btn-10" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap ">
@@ -735,12 +759,16 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Православный венчальный календарь - это специальный календарь, в котором отмечены даты,
+                                    <input type="checkbox" id="toggle-description-11" class="hidden">
+                                    <p id="c_description-11" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
+                                        Православный венчальный календарь - это специальный календарь, в котором отмечены даты,
                                         на которые приходятся свадебные обряды в православной церкви. В нем указаны даты, на которые приходятся свадебные венчания,
                                         а также другие важные события, связанные с брачными обрядами, например, крестный ход или обряд заручин. Православный
                                         венчальный календарь помогает будущим молодоженам выбрать наиболее подходящую дату для своей свадьбы с учетом церковных
                                         традиций и обычаев.
                                     </p>
+                                    <label for="toggle-description-11" id="toggle-btn-11" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap">
@@ -789,11 +817,14 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Православный календарь имени - это календарь, в котором отмечены дни празднования именин святых православной церкви.
+                                    <input type="checkbox" id="toggle-description-12" class="hidden">
+                                    <p id="c_description-12" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">                                        Православный календарь имени - это календарь, в котором отмечены дни празднования именин святых православной церкви.
                                         В нем указаны имена святых, чьи памятные дни отмечаются в определенные даты года. Такие календари позволяют людям, чьи имена связаны с именами святых,
                                         знать, когда именно им отмечать свои именные дни. Кроме того, православный календарь имени помогает верующим вспомнить и праздновать память своего
                                         святого покровителя.
                                     </p>
+                                    <label for="toggle-description-12" id="toggle-btn-12" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap ">
@@ -850,10 +881,13 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Храм-часовня в честь иконы Божией Матери «Целительница» в Санатории «Надзея».
+                                    <input type="checkbox" id="toggle-description-13" class="hidden">
+                                    <p id="c_description-13" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">                                        Храм-часовня в честь иконы Божией Матери «Целительница» в Санатории «Надзея».
                                         Первый камень в строительство часовни был заложен епископом Брестским и Кобринским Иоанном 28 сентября 2004 года.
                                         Строительство длилось в течение года, и 1 октября 2005 года храм-часовня был освящен.
                                     </p>
+                                    <label for="toggle-description-13" id="toggle-btn-13" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap ">
@@ -902,11 +936,14 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Воскресная школа храма Покрова Пресвятой Богородицы в городе Жабинка - это место, где дети и подростки могут
+                                    <input type="checkbox" id="toggle-description-14" class="hidden">
+                                    <p id="c_description-14" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">                                        Воскресная школа храма Покрова Пресвятой Богородицы в городе Жабинка - это место, где дети и подростки могут
                                         учиться основам православной веры, углублять свои знания о Библии, истории церкви, святых и богослужебных обрядах. В школе проводятся занятия,
                                         на которых дети знакомятся с основными понятиями и традициями православия, учатся молиться, петь церковные песнопения, а также участвовать
                                         в различных благотворительных и общественных мероприятиях.
                                     </p>
+                                    <label for="toggle-description-14" id="toggle-btn-14" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap">
@@ -956,11 +993,15 @@
                                 </h1>
                                 <p class="leading-relaxed mb-3">
                                 <div style="vertical-align: inherit;">
-                                    <p style="vertical-align: inherit;">Православный календарь имени - это календарь, в котором отмечены дни празднования именин святых православной церкви.
+                                    <input type="checkbox" id="toggle-description-15" class="hidden">
+                                    <p id="c_description-15" class="mt-2 text-lg text-gray-800 break-words text-medium line-clamp-4 transition-all duration-300 ease-in-out">
+                                        Православный календарь имени - это календарь, в котором отмечены дни празднования именин святых православной церкви.
                                         В нем указаны имена святых, чьи памятные дни отмечаются в определенные даты года. Такие календари позволяют людям, чьи имена связаны с именами святых,
                                         знать, когда именно им отмечать свои именные дни. Кроме того, православный календарь имени помогает верующим вспомнить и праздновать память своего
                                         святого покровителя.
                                     </p>
+                                    <label for="toggle-description-15" id="toggle-btn-15" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                                    </label>
                                 </div>
                                 </p>
                                 <div class="flex items-center flex-wrap ">

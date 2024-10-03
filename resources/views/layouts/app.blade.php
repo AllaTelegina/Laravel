@@ -36,9 +36,14 @@
     </script>
 </head>
 
-
+<body>
 <div class="fixed z-50 top-0 w-full">
 
+    @if (session('status'))
+        <div class="bg-sky-600 text-white font-medium py-2 px-10 rounded-lg text-center text-2xl min-w-80 min-h-24">
+            <p>{{ session('status') }}</p>
+        </div>
+    @endif
 <nav class="bg-blue-100 border-gray-200 dark:bg-gray-900 dark:border-gray-700 text-blue-950">
     <a href="/" class="float-left pl-4 md:pl-28">
         <img class="w-12 h-12 lg:w-16 lg:h-16" src="{{asset('images/logo.png')}}"/>
@@ -238,6 +243,9 @@
     </div>
 </div>
 
+
+
+
 <!-- Page Heading -->
 @if (isset($header))
 
@@ -247,6 +255,8 @@
         </div>
     </header>
 @endif
+
+
 
 <!-- Page Content -->
 <main>
@@ -265,7 +275,6 @@
             @csrf
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
-
                 <div class="p-2 w-1/2">
                     <div class="relative">
                         <label for="name" class="leading-7 text-sm text-gray-600">Имя</label>

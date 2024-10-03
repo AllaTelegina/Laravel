@@ -1,4 +1,4 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 @layer components {
@@ -13,13 +13,37 @@
 #toggle-description:checked~#c_description,
 #toggle-description-2:checked~#c_description-2,
 #toggle-description-3:checked~#c_description-3,
+#toggle-description-4:checked~#c_description-4,
+#toggle-description-5:checked~#c_description-5,
+#toggle-description-6:checked~#c_description-6,
+#toggle-description-6:checked~#c_description-7,
+#toggle-description-8:checked~#c_description-8,
+#toggle-description-9:checked~#c_description-9,
+#toggle-description-10:checked~#c_description-10,
+#toggle-description-11:checked~#c_description-11,
+#toggle-description-12:checked~#c_description-12,
+#toggle-description-13:checked~#c_description-13,
+#toggle-description-14:checked~#c_description-14,
+#toggle-description-15:checked~#c_description-15,
 #toggle-description-33:checked~#c_description-33{
     -webkit-line-clamp: unset;
 }
 
 #toggle-description:checked~#toggle-btn::before,
-#toggle-description-2:checked~#c_description-2,
-#toggle-description-3:checked~#c_description-3,
+#toggle-description-2:checked~#toggle-btn-2::before,
+#toggle-description-3:checked~#toggle-btn-3::before,
+#toggle-description-4:checked~#toggle-btn-4::before,
+#toggle-description-5:checked~#toggle-btn-5::before,
+#toggle-description-6:checked~#toggle-btn-6::before,
+#toggle-description-7:checked~#toggle-btn-7::before,
+#toggle-description-8:checked~#toggle-btn-8::before,
+#toggle-description-9:checked~#toggle-btn-9::before,
+#toggle-description-10:checked~#toggle-btn-10::before,
+#toggle-description-11:checked~#toggle-btn-11::before,
+#toggle-description-12:checked~#toggle-btn-12::before,
+#toggle-description-13:checked~#toggle-btn-13::before,
+#toggle-description-14:checked~#toggle-btn-14::before,
+#toggle-description-15:checked~#toggle-btn-15::before,
 #toggle-description-33:checked~#c_description-33{
     content: 'Свернуть';
 }
@@ -27,6 +51,18 @@
 #toggle-btn::before,
 #toggle-btn-2::before,
 #toggle-btn-3::before,
+#toggle-btn-4::before,
+#toggle-btn-5::before,
+#toggle-btn-6::before,
+#toggle-btn-7::before,
+#toggle-btn-8::before,
+#toggle-btn-9::before,
+#toggle-btn-10::before,
+#toggle-btn-11::before,
+#toggle-btn-12::before,
+#toggle-btn-13::before,
+#toggle-btn-14::before,
+#toggle-btn-15::before,
 #toggle-btn-33::before{
     content: 'Узнать больше';
 }
