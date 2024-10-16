@@ -108,16 +108,15 @@
                                 <div class="p-4 md:w-1/3">
                                     <div class="h-full border-2 border-gray-200 border-opacity-60 border-rounder-lg rounded-lg overflow-hidden">
                                         <div class="relative">
-                                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="images/school.jpg" alt="blog">
+                                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="images/s4.jpg" alt="blog">
                                             <div class="absolute top-0 right-0 bg-sky-600 text-white font-bold px-2 py-1 m-2 rounded-md skeleton">New
                                             </div>
                                         </div>
                                         <div class="p-6">
                                             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">12.09.2024</h2>
-                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Посещение воскресной школы</h1>
-                                            <p class="leading-relaxed mb-3">Посещение воскресной школы
-                                                Посещение воскресной школы
-                                                Посещение воскресной школы
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Праздничное мероприятие выпуск учащихся</h1>
+                                            <p class="leading-relaxed mb-3">
+                                                В воскресной школе прихода храма Покрова Пресвятой Богородицы в г. Жабинка прошли праздничные мероприятия по случаю очередного выпуска учащихся. Со словами благодарности к священнослужителям, педагогам и прихожанам храма обратились также выпускники. Завершился вечер общей трапезой на территории храма в общении настоятеля храма, детей, родителей и педагогов.
                                             </p>
                                             <div class="flex items-center flex-wrap ">
                                                 <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Подробнее
@@ -145,11 +144,13 @@
 
                                 <div class="p-4 md:w-1/3">
                                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">
+                                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="images/s5.jpg" alt="blog">
                                         <div class="p-6">
-                                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
-                                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">15.06.2024</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Поломническая поездка на родину святой праведной Софии Слуцкой</h1>
+                                            <p class="leading-relaxed mb-3">Выпускники воскресной школы прихода храма Покрова Пресвятой Богородицы г. Жабинка вместе с родителями и педагогами совершили паломническую поездку на родину святой праведной Софии Слуцкой.
+
+                                                Испросив помощи Божией на молебне в родном храме, ранним утром паломники отправились в дорогу.</p>
                                             <div class="flex items-center flex-wrap">
                                                 <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Подробнее
                                                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -174,11 +175,11 @@
                                 </div>
                                 <div class="p-4 md:w-1/3">
                                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
+                                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="images/s6.jpg" alt="blog">
                                         <div class="p-6">
-                                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-                                            <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">18.05.2024</h2>
+                                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Выпускной экзамен для учащихся 7 класса</h1>
+                                            <p class="leading-relaxed mb-3"> В воскресной школе храма Покрова Пресвятой Богородицы в г. Жабинка прошел выпускной экзамен для учащихся 7 класса. В состав экзаменационной комиссии вошли: директор воскресной школы Быкова О.Г., классный наставник Полещук И.В. и педагог Захарчук И.М. Перед началом экзамена с приветственным словом к учащимся обратился настоятель храма протоиерей Сергий Петрусевич. Экзамен успешно сдали 27 учащихся. После подведения итогов классный наставник Полещук И.И. обратилась со словами благодарности к экзаменационной комиссии за помощь в аттестации учащихся, а выпускников поздравила с успешным завершением обучения..</p>
                                             <div class="flex items-center flex-wrap ">
                                                 <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Подробнее
                                                     <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">

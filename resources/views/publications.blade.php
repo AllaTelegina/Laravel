@@ -45,7 +45,7 @@
                             <button
                                 class="transform motion-safe:hover:scale-70 bg-orange-400 text-white font-medium
                                     py-2 px-2 hover:bg-blue-950 transition duration-700 ease-in-out shadow-xl rounded-lg">
-                                <a href="#subscribe">Подпишись</a>
+                                <a href="#distribution">Подпишись</a>
                             </button>
                         </div>
                         <div class="flex justify-center space-x-8 text-xl text-center m-4">
@@ -65,19 +65,21 @@
         <div class="p-4 md:w-1/3 ">
         <div class="h-full bg-blue-100 text-blue-950 border-2 border-gray-200 border-opacity-60 border-rounder-lg  overflow-hidden shadow-xl shadow-gray-300 rounded-2xl">
            <div class="relative">
-               <img src="/storage/{{ $item->url }}" />
-            <div class="absolute top-0 right-0 bg-sky-600 text-white font-bold px-2 py-1 m-2 rounded-md skeleton">New
-            </div>
+               <img src="/storage/{{ $item->url }}" alt="{{ $item->title }}" />
+               @if(\Carbon\Carbon::parse($item->published_at)->diffInDays(\Carbon\Carbon::now()) <= 7)
+                   <div class="absolute top-0 right-0 bg-sky-600 text-white font-bold px-2 py-1 m-2 rounded-md skeleton">New
+                   </div>
+               @endif
            </div>
-          <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{{ $item->published_at }}</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ $item->title }}</h1>
-              <div id="toggle-description">
-            <p id="c_description" class="leading-relaxed mb-3">{{ $item->description }}
-            </p>
-              <label for="toggle-description" id="toggle-btn" class="mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
-              </label>
-              </div>
+            <div class="p-6">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{{ $item->published_at }}</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ $item->title }}</h1>
+                <input type="checkbox" id="toggle-description-{{ $loop->index }}" class="hidden-checkbox toggle-description">
+                <div id="c_description-{{ $loop->index }}" class="description leading-relaxed mb-3">
+                    {{ $item->description }}
+                </div>
+                <label for="toggle-description-{{ $loop->index }}" id="toggle-btn-{{ $loop->index }}" class="toggle-btn mt-2 text-gray-400 rounded-lg hover:text-blue-700 focus:outline-none cursor-pointer">
+                </label>
             <div class="flex items-center flex-wrap ">
               <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Подробнее
 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">

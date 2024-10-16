@@ -18,6 +18,10 @@
     display: none;
 }
 
+.hidden-checkbox {
+    display: none;
+}
+
 .description {
     display: -webkit-box;
     -webkit-line-clamp: 4;

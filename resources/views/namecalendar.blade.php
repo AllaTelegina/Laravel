@@ -57,39 +57,39 @@
                     <span><a href="#january">Январь</a> </span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
-                    <span>Февраль</span>
+                    <span><a href="#february">Февраль</a></span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
-                    <span>Март</span>
+                    <span><a href="#mart">Март</a> </span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
-                    <span>Апрель</span>
+                    <span><a href="#april">Апрель</a></span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
-                    <span>Май</span>
+                    <span><a href="#may">Май</a> </span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w-40 bg-blue-200 place-content-center">
-                    <span>Июнь</span>
+                    <span><a href="#jun">Июнь</a></span>
                 </div>
             </div>
             <div class="flex justify-center space-x-8 text-3xl text-center m-8 inline-grid grid-cols-2 gap-3 lg:flex flex-nowrap">
                 <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
-                    <span>Июль</span>
+                    <span><a href="#jul">Июль</a> </span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
-                    <span>Август</span>
+                    <span><a href="#august">Август</a></span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
-                    <span>Сентябрь</span>
+                    <span><a href="#september">Сентябрь</a></span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
-                    <span>Октябрь</span>
+                    <span><a href="#october">Октябрь</a></span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
-                    <span>Ноябрь</span>
+                    <span><a href="#november">Ноябрь</a></span>
                 </div>
                 <div class="flex flex-col items-center skeleton h-20 w w-40 bg-blue-200 place-content-center">
-                    <span>Декабрь</span>
+                    <span><a href="#december">Декабрь</a></span>
                 </div>
             </div>
 
@@ -102,7 +102,7 @@
 
 
 
-            <p class="text-gray-500 dark:text-gray-400"><a href="#" class="font-medium text-blue-600
+            <!-- <p class="text-gray-500 dark:text-gray-400"><a href="#" class="font-medium text-blue-600
             underline dark:text-blue-500 hover:no-underline" data-popover-target="popover-image">Илья</a></p>
             <div id="popover-image" role="tooltip" class="absolute z-10 invisible inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-96 dark:text-gray-400 dark:bg-gray-800 dark:border-gray-600">
                 <div class="grid grid-cols-5">
@@ -122,7 +122,7 @@
                 </div>
                 <div data-popper-arrow></div>
             </div>
-
+-->
 
             <div id="january" class="mt-12">
             <div class="mt-4 mb-6 px-8">
@@ -167,7 +167,7 @@
             </div>
             </div>
 
-            <div class="mt-4 mb-6 px-8 ">
+            <div id="february" class="mt-4 mb-6 px-8 ">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
@@ -207,7 +207,7 @@
             </div>
 
 
-            <div class="mt-4 mb-6 px-8">
+            <div id="mart" class="mt-4 mb-6 px-8">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
@@ -248,7 +248,7 @@
                 </div>
             </div>
 
-            <div class="mt-4 mb-6 px-8">
+            <div id="april" class="mt-4 mb-6 px-8">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
@@ -288,7 +288,7 @@
                 </div>
             </div>
 
-            <div class="mt-4 mb-6 px-8">
+            <div id="may" class="mt-4 mb-6 px-8">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
@@ -332,8 +332,7 @@
             </div>
 
 
-
-            <div class="mt-4 mb-6 px-8">
+            <div id="jun" class="mt-4 mb-6 px-8">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
@@ -374,7 +373,7 @@
             </div>
 
 
-            <div class="mt-4 mb-6 px-8">
+            <div id="jul" class="mt-4 mb-6 px-8">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
@@ -416,7 +415,7 @@
             </div>
 
 
-            <div class="mt-4 mb-6 px-8">
+            <div id="august" class="mt-4 mb-6 px-8">
                 <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                     <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                         <div class="my-2 grid gap-6 px-4">
@@ -458,7 +457,7 @@
             </div>
 
 
-                <div class="mt-4 mb-6 px-8">
+                <div id="september" class="mt-4 mb-6 px-8">
                     <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                             <div class="my-2 grid gap-6 px-4">
@@ -499,7 +498,7 @@
                 </div>
 
 
-                <div class="mt-4 mb-6 px-8">
+                <div id="october" class="mt-4 mb-6 px-8">
                     <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                             <div class="my-2 grid gap-6 px-4">
@@ -542,7 +541,7 @@
 
 
 
-                <div class="mt-4 mb-6 px-8">
+                <div id="november" class="mt-4 mb-6 px-8">
                     <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                             <div class="my-2 grid gap-6 px-4">
@@ -599,7 +598,7 @@
                 </div>
 
 
-                <div class="mt-4 mb-6 px-8">
+                <div id="december" class="mt-4 mb-6 px-8">
                     <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                             <div class="my-2 grid gap-6 px-4">

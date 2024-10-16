@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\PublicationsController;
 use App\Http\Controllers\NoteController;
 use App\Http\Controllers\MailController;
-
+use App\Http\Controllers\NewsletterController;
 
 
 /*
@@ -98,6 +98,12 @@ Route::middleware('lang')->group(function(){
     Route::get('/mail/{id}', [Controllers\MailController::class, 'getShow']);
 
     Route::post('/send',  [Controllers\MailController::class, 'submit']);
+
+    Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('subscribe');
+    Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('subscribe');
+    Route::get('/unsubscribe/{email}', [NewsletterController::class, 'unsubscribe'])->name('unsubscribe');
+
+
 
     Route::post('mail/{user}', [Controllers\MailController::class, 'postIndex']);
     Route::get('blogs', [Controllers\BlogController::class, 'getAll']);

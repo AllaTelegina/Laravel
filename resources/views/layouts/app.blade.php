@@ -44,6 +44,21 @@
             <p>{{ session('status') }}</p>
         </div>
     @endif
+        @if (session('success'))
+            <div class="alert alert-success bg-sky-600 text-white font-medium py-2 px-10 rounded-lg text-center text-2xl min-w-80 min-h-24">
+                {{ session('success') }}
+            </div>
+        @endif
+
+        @if ($errors->any())
+            <div class="alert alert-danger bg-sky-600 text-white font-medium py-2 px-10 rounded-lg text-center text-2xl min-w-80 min-h-24">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
 <nav class="bg-blue-100 border-gray-200 dark:bg-gray-900 dark:border-gray-700 text-blue-950">
     <a href="/" class="float-left pl-4 md:pl-28">
         <img class="w-12 h-12 lg:w-16 lg:h-16" src="{{asset('images/logo.png')}}"/>
@@ -236,6 +251,17 @@
                         </form>
                     @endguest
                 </div>
+                <li class="block md:hidden">
+                    @guest
+                        <a href="/login" class="block py-2 px-3 text-blue-950 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Логин</a>
+                    @else
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+                            <a href="{{ route('logout') }}" class="block py-2 px-3 text-blue-950 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                               onclick="event.preventDefault(); this.closest('form').submit();">Выйти</a>
+                        </form>
+                    @endguest
+                </li>
             </ul>
         </div>
     </div>
@@ -371,7 +397,7 @@
                   d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/>
             </svg>
           </span>
-                teleginaallaa@gmail.com
+                <a href="mailto:temple00@bk.ru?subject=Вопрос к Отцу Александру&body=Здравствуйте," class="ml-4 flex items-center justify-center mb-4">temple00@bk.ru</a>
             </p>
         </a>
         <a class="link link-hover">
@@ -386,7 +412,7 @@
                   d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
                   clip-rule="evenodd"/>
             </svg>
-              <a class="link link-hover" href="tel:+375333297190"> +375 33 329 71 90 </a>
+              <a class="link link-hover ml-4 flex items-center justify-center mb-4" href="tel:+375333297190"> +375 33 329 71 90 </a>
           </span>
             </p>
         </a>
@@ -401,7 +427,7 @@
         </a>
         <a href="https://invite.viber.com/?g2=AQBsWOthaEOJ4VCVoiuy2HAHVuLlbY79vl7JjY0RsYUXAV%2BKsVe9zlNRzPvmK%2B8H" class="link link-hover">
             <p class="flex items-center justify-center md:justify-start">
-          <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
+          <span class="me-3 [&>svg]:h-8 [&>svg]:w-8">
                 <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><linearGradient id="kVR4WAMiBT-ffYOHy6lJja" x1="14.111"
                                                                                                                         x2="34.153" y1="-5.971" y2="51.731"
                                                                                                                         gradientUnits="userSpaceOnUse">
@@ -444,7 +470,10 @@
         <a class="link link-hover">Политика конфиденциальности</a>
         <a href="/cookies" class="link link-hover">Политика использования файлов cookie</a>
     </nav>
-    <form>
+
+
+    <form id="distribution" action="{{ route('subscribe') }}" method="post">
+        @csrf
         <h6 class="footer-title">Новостная рассылка</h6>
         <fieldset class="form-control w-80">
             <label class="label">
@@ -452,17 +481,16 @@
             </label>
             <div class="join">
                 <input
-                    type="text"
+                    type="email"
+                    name="email"
                     placeholder="username@gmail.com"
                     class="input input-bordered join-item"/>
-                <!--<button class="btn btn-primary join-item">Subscribe</button>-->
-                <button id="subscribe"
-                    class="transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium py-2 px-4 rounded-lg hover:bg-sky-600 transition duration-700 ease-in-out">
+                <button  type="submit"
+                        class="transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium py-2 px-4 rounded-lg hover:bg-sky-600 transition duration-700 ease-in-out">
                     Подписаться
                 </button>
             </div>
         </fieldset>
-
     </form>
 </footer>
 
@@ -487,7 +515,7 @@
         </svg>
         <p>
             Web Desinger Alla Telegina
-            teleginaallaa@gmail.com
+            <a href="mailto:teleginaallaa@gmail.com?subject=Вопрос по проекту&body=Здравствуйте,">teleginaallaa@gmail.com</a>
         </p>
     </aside>
     <nav class="md:place-self-center md:justify-self-end">
