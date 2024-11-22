@@ -18,4 +18,11 @@ public function getOne(User $user){
 return new UserResource($user);
 }
 
+    public function showForm()
+    {
+        $name = 'Ваше Имя'; // Здесь можно указать значение по умолчанию или взять из сессии/БД и т.д.
+        $email = 'example@example.com'; // Аналогично для email
+
+        return view('api', compact('name', 'email'));
+    }
 }

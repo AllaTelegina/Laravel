@@ -134,9 +134,33 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
 
+      document.addEventListener('DOMContentLoaded', function() {
+          var user = @json($user);
 
+          if (user) {
+              var nameInput = document.getElementById('name');
+              var emailInput = document.getElementById('email');
 
+              nameInput.addEventListener('click', function() {
+                  nameInput.value = user.name;
+              });
 
+              emailInput.addEventListener('click', function() {
+                  emailInput.value = user.email;
+              });
+          } else {
+              var nameInput = document.getElementById('name');
+              var emailInput = document.getElementById('email');
+
+              nameInput.addEventListener('click', function() {
+                  window.location.href = '/login';
+              });
+
+              emailInput.addEventListener('click', function() {
+                  window.location.href = '/login';
+              });
+          }
+      });
 
 
 // Initialize the first tab

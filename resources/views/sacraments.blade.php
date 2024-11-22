@@ -174,7 +174,7 @@
             </div>
         </div>
 
-            <div class="overflow-hidden  aspect-video bg-blue-100 cursor-pointer rounded-xl relative group relative w-full h-96">
+            <div class="overflow-hidden  aspect-video bg-blue-100 cursor-pointer group relative w-full h-96 shadow-xl shadow-gray-300 rounded-2xl">
                 <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
                     <div>
                         <div class="transform-gpu  p-4 space-y-3 text-2xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
@@ -196,14 +196,14 @@
             </div>
 
             <div id="wedding" class="pt-12">
-                <div class="relative w-full h-96">
+                <div class="relative w-full h-96 shadow-xl shadow-gray-300 rounded-2xl">
                     <img class="absolute h-full w-full object-cover object-center rounded-xl" src="{{asset('images/32.jpg')}}" alt="nature image" />
                     <div class="relative pt-28 text-center">
                         <h2 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">Таинство Венчания</h2>
                     </div>
                 </div>
                 <div class="-mt-16 mb-8 px-8 rounded-xl -translate-y-6">
-                    <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
+                    <div class="container mx-auto shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100 shadow-md">
                             <div class="my-4 grid gap-6 px-4">
                                 <p class="text-justify indent-8">Венчание — это святое таинство, в котором мужчина и женщина
@@ -228,7 +228,7 @@
             </div>
 
 
-            <ul class=" mx-auto w-full mt-20 divide-y  shadow-xl shadow-blue-200 rounded-xl">
+            <ul class=" mx-auto w-full mt-20 divide-y  shadow-xl shadow-gray-300 rounded-2xl">
                 <li>
                     <details class="group">
                         <summary class="flex items-center gap-3 px-4 py-3 bg-blue-100 border-2 border-gray-100 font-medium marker:content-none hover:cursor-pointer
@@ -416,10 +416,10 @@
             </ul>
 
 
-            <div class="overflow-hidden  aspect-video bg-blue-100 cursor-pointer rounded-xl relative group relative w-full h-96">
+            <div class="overflow-hidden  aspect-video bg-blue-100 cursor-pointer group relative w-full h-96 mt-4 shadow-xl shadow-gray-300 rounded-2xl">
                 <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
                     <div>
-                        <div class="transform-gpu  p-4 space-y-3 text-2xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
+                        <div class="transform-gpu  p-4 space-y-3 text-2xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transition duration-300 ease-in-out">
                             <div class="font-bold text-center">
                                 <a href="/weddingcalendar" class="font-bold text-center link link-hover">Календарь Венчания</a>
                             </div>
@@ -440,14 +440,14 @@
 
             <div id="confession" class="pt-12">
 
-                <div  class="relative w-full h-96">
+                <div  class="relative w-full h-96 shadow-xl shadow-gray-300 rounded-2xl">
                     <img class="absolute h-full w-full object-cover object-center rounded-xl" src="{{asset('images/26.jpg')}}" alt="nature image" />
                     <div class="relative pt-28 text-center">
                         <h2 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">Таинство Исповеди</h2>
                     </div>
                 </div>
                 <div class="-mt-16 mb-8 px-8 rounded-xl -translate-y-6">
-                    <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
+                    <div class="container mx-auto shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100 ">
                             <div class="my-8 grid gap-6 px-4 text-justify indent-8">
                                 Исповедь – это Таинство, в котором верующий человек, искренно раскаиваясь в своих грехах, исповедует их перед священником,
@@ -468,14 +468,14 @@
 
             <div id="communion" class="pt-12">
 
-                <div  class="relative w-full h-96">
+                <div  class="relative w-full h-96 shadow-xl shadow-gray-300 rounded-2xl">
                     <img class="absolute h-full w-full object-cover object-center rounded-xl" src="{{asset('images/28.jpg')}}" alt="nature image" />
                     <div class="relative pt-28 text-center">
                         <h2 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">Таинство Причащения</h2>
                     </div>
                 </div>
                 <div class="-mt-16 mb-8 px-8 rounded-xl -translate-y-6">
-                    <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
+                    <div class="container mx-auto shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                             <div class="my-8 grid gap-6 px-4 text-justify indent-8">
                                 Причащение — это священное таинство, в котором верующий принимает тело и кровь Христа под видом хлеба и вина.
@@ -507,14 +507,14 @@
 
             <div id="unction" class="pt-12">
 
-                <div  class="relative w-full h-96">
+                <div  class="relative w-full h-96 shadow-xl shadow-gray-300 rounded-2xl">
                     <img class="absolute h-full w-full object-cover object-center rounded-xl" src="{{asset('images/29.jpg')}}" alt="nature image" />
                     <div class="relative pt-28 text-center">
                         <h2 class="block antialiased tracking-normal font-sans font-semibold leading-[1.3] text-white mb-4 text-3xl lg:text-4xl">Таинство Соборования</h2>
                     </div>
                 </div>
                 <div class="-mt-16 mb-8 px-8 rounded-xl -translate-y-6">
-                    <div class="container mx-auto shadow-xl shadow-gray-300 rounded-xl">
+                    <div class="container mx-auto shadow-xl shadow-gray-300 rounded-2xl">
                         <div class="py-8 flex justify-center rounded-xl bg-blue-100">
                             <div class="my-8 grid gap-6 px-4 text-justify indent-8">
                                 Таинство Соборования, также известное как Елеосвящение, является одним из семи святых

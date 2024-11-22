@@ -39,7 +39,7 @@
 <body>
 <div class="fixed z-50 top-0 w-full">
 
-    @if (session('status'))
+     @if (session('status'))
         <div class="bg-sky-600 text-white font-medium py-2 px-10 rounded-lg text-center text-2xl min-w-80 min-h-24">
             <p>{{ session('status') }}</p>
         </div>
@@ -304,13 +304,14 @@
                 <div class="p-2 w-1/2">
                     <div class="relative">
                         <label for="name" class="leading-7 text-sm text-gray-600">Имя</label>
-                        <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        <input type="text" id="name" name="name" value="{{ old('name', session('name')) }}" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+
                     </div>
                 </div>
                 <div class="p-2 w-1/2">
                     <div class="relative">
                         <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-                        <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        <input type="email" id="email" name="email" value="{{ old('email', session('email')) }}" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out required">
                     </div>
                 </div>
                 <div class="p-2 w-full">
@@ -319,18 +320,17 @@
                         <textarea id="message" name="message" rows="10" class="w-full bg-gray-100 bg-opacity-50 rounded border
                         border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2
                         focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1
-                        px-3 resize-none leading-6 transition-colors duration-200 ease-in-out">
+                        px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" required>
                         </textarea>
                     </div>
                 </div>
                 <div class="flex items-center  my-4">
-                    <input id="checkbox-policy" type="checkbox" value="" class="w-5 h-5 appearance-none border border-gray-300  rounded-md mr-2 hover:border-indigo-500 hover:bg-indigo-100 checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100">
+                    <input id="checkbox-policy" type="checkbox" value="" class="w-5 h-5 appearance-none border border-gray-300 rounded-md mr-2 hover:border-indigo-500 hover:bg-orange-400 checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-sky-600">
                     <label for="checkbox-policy" class="text-sm font-normal text-gray-600">Отправить мне на почту</label>
                 </div>
-                <div class="flex items-center  my-4">
-                    <input id="checkbox-policy" type="checkbox" value="" class="w-5 h-5 appearance-none border border-gray-300  rounded-md mr-2 hover:border-indigo-500 hover:bg-indigo-100 checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100">
-                    <label for="checkbox-policy" class="text-sm font-normal text-gray-600">Я соглашаюсь с вашей <a href="javascript:;" class="underline underline-offset-4">политикой конфиденциальности</a>
-                    </label>
+                <div class="flex items-center my-4">
+                    <input id="checkbox-policy-accept" type="checkbox" value="" class="w-5 h-5 appearance-none border border-gray-300 rounded-md mr-2 hover:border-indigo-500 hover:bg-orange-400 checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-sky-600" required>
+                    <label for="checkbox-policy-accept" class="text-sm font-normal text-gray-600">Я соглашаюсь с вашей <a href="javascript:;" class="underline underline-offset-4">политикой конфиденциальности</a></label>
                 </div>
                 <div class="p-2 w-full">
                     <button type="submit" class="flex mx-auto focus:outline-none transform motion-safe:hover:scale-110 transition duration-700 ease-in-out bg-orange-400 text-white font-medium py-2 px-10 rounded-lg hover:bg-sky-600">
@@ -466,7 +466,7 @@
     </nav>
     <nav>
         <h6 class="footer-title">Информация</h6>
-        <a class="link link-hover">Условия эксплуатации</a>
+        <a class="link link-hover">Помочь Храму</a>
         <a class="link link-hover">Политика конфиденциальности</a>
         <a href="/cookies" class="link link-hover">Политика использования файлов cookie</a>
     </nav>

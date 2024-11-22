@@ -45,9 +45,17 @@ class MailController extends Controller
             'name' => $request->name,
             'message' => $request->message,
         ];
- Message::create($request->all());
+        Message::create($request->all());
         Mail::to($request->email)->send(new MyEmail($details['name'], $details['message']));
 
-        return redirect()->back()->with('status', 'Ваше сообщение успешно отправлено.');
+        return redirect()->back()->with('status', 'Ваше сообщение успешно отправлено.'
+        );
     }
+
+        public function showForm()
+    {
+        $user = auth()->user();
+        return view('api', compact('user'));
+    }
+
 }

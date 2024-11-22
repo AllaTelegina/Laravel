@@ -65,10 +65,7 @@
     Информация, сохраненная посредством файлов cookie на нашем сайте, используется исключительно в указанных нами целях.
     </div>
 
-    <div class="flex justify-center py-8">
-        <button class="inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-orange-400 text-white font-medium rounded-lg hover:bg-sky-600  transition duration-700 ease-in-out">Нет, спасибо!</button>
-        <button class="ml-4 inline-flex border-b py-2 px-6 focus:outline-none text-lg transform motion-safe:hover:scale-110 bg-sky-600 text-white font-medium rounded-lg hover:bg-orange-400 transition duration-700 ease-in-out">Конечно</button>
-    </div>
+
 
 </div>
 
